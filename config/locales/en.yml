@@ -788,10 +788,6 @@ en:
           family: Click here to get to clarat family. In clarat family, you can search for help and support services for children, teenagers and families.
           refugees: Click here to get to clarat refugees. In clarat refugees, you can search for help and support services for refugees.
   simple_form:
-    hints:
-      contact:
-        show:
-          email: 
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"

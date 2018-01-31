@@ -11,9 +11,3 @@ noscript.NoScript
 #filters(
   data={structure: render('offers/index/filters.json')}
 )
-
-
-/ prepare modal
-= modal_for 'unavailable_location_overlay', autoopen: false do
-  p= t '.unavailable_location_modal'
-  = render '/update_requests/new', update_request: @update_request

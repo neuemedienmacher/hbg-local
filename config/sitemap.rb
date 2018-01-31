@@ -11,11 +11,6 @@ sitemap :site do
   I18n.available_locales.each do |locale|
     url send(:"offers_#{locale}_url", section: :refugees), priority: 0.6
     url send(:"offers_#{locale}_url", section: :family), priority: 0.6
-
-    url send(:"about_#{locale}_url", section: :refugees), priority: 0.5
-    url send(:"faq_#{locale}_url", section: :refugees), priority: 0.5
-
-    url send(:"new_contact_#{locale}_url", section: :refugees), priority: 0.4
   end
 
   url impressum_url(section: :refugees), priority: 0.1
