@@ -1,29 +1,4 @@
 de:
-  activerecord:
-    attributes:
-      contact:
-        email: NOTRANSLATE
-        message: NOTRANSLATE
-        name: NOTRANSLATE
-      offer:
-        organizations: Organizations
-      search_location:
-        latitude: Latitude
-        longitude: Longitude
-        query: Query
-      subscription:
-        email: NOTRANSLATE
-      update_request:
-        email: NOTRANSLATE
-        search_location: NOTRANSLATE
-    models:
-      contact: NOTRANSLATE
-      search_location: Search location
-      subscription: NOTRANSLATE
-      trait_filter:
-        identifier:
-          anonymous: anonym
-      update_request: NOTRANSLATE
   cells:
     contact_people:
       dr: Dr.
@@ -107,231 +82,6 @@ de:
       success_html: |
         Du hast dich erfolgreich von weiteren Benachrichtigungen abgemeldet.
         (<a href="%{subscribe_href}">wieder anmelden</a>)
-  enumerize:
-    search_form:
-      age:
-        '0': 0
-        '1': 1
-        '10': 10
-        '11': 11
-        '12': 12
-        '13': 13
-        '14': 14
-        '15': 15
-        '16': 16
-        '17': 17
-        '18': 18
-        '19': 19
-        '2': 2
-        '20': 20
-        '21': 21
-        '22': 22
-        '23': 23
-        '24': 24
-        '25': 25
-        '26': 26
-        '27': 27
-        '28': 28
-        '29': 29
-        '3': 3
-        '30': 30
-        '31': 31
-        '32': 32
-        '33': 33
-        '34': 34
-        '35': 35
-        '36': 36
-        '37': 37
-        '38': 38
-        '39': 39
-        '4': 4
-        '40': 40
-        '41': 41
-        '42': 42
-        '43': 43
-        '44': 44
-        '45': 45
-        '46': 46
-        '47': 47
-        '48': 48
-        '49': 49
-        '5': 5
-        '50': 50
-        '51': 51
-        '52': 52
-        '53': 53
-        '54': 54
-        '55': 55
-        '56': 56
-        '57': 57
-        '58': 58
-        '59': 59
-        '6': 6
-        '60': 60
-        '61': 61
-        '62': 62
-        '63': 63
-        '64': 64
-        '65': 65
-        '66': 66
-        '67': 67
-        '68': 68
-        '69': 69
-        '7': 7
-        '70': 70
-        '71': 71
-        '72': 72
-        '73': 73
-        '74': 74
-        '75': 75
-        '76': 76
-        '77': 77
-        '78': 78
-        '79': 79
-        '8': 8
-        '80': 80
-        '81': 81
-        '82': 82
-        '83': 83
-        '84': 84
-        '85': 85
-        '86': 86
-        '87': 87
-        '88': 88
-        '89': 89
-        '9': 9
-        '90': 90
-        '91': 91
-        '92': 92
-        '93': 93
-        '94': 94
-        '95': 95
-        '96': 96
-        '97': 97
-        '98': 98
-        '99': 99
-      contact_type:
-        personal: Personal
-        remote: Remote
-      language:
-        '150': 150
-        '326': 326
-        '568': 568
-        '639': 639
-        aar: Aar
-        abk: Abk
-        amh: Amh
-        ara: Ara
-        arc: Arc
-        arm: Arm
-        aze: Aze
-        bam: Bam
-        ban: Ban
-        bel: Bel
-        ben: Ben
-        ber: Ber
-        bos: Bos
-        bul: Bul
-        bur: Bur
-        cau: Cau
-        che: Che
-        ckb: Ckb
-        cpe: Cpe
-        cus: Cus
-        cze: Cze
-        dan: Dan
-        deu: Deu
-        dje: Dje
-        dyu: Dyu
-        ell: Ell
-        eng: Eng
-        est: Est
-        ewe: Ewe
-        ewo: Ewo
-        fas: Fas
-        fil: Fil
-        fin: Fin
-        fra: Fra
-        fuf: Fuf
-        ful: Ful
-        gej: Gej
-        geo: Geo
-        hau: Hau
-        hbs: Hbs
-        heb: Heb
-        hin: Hin
-        hrv: Hrv
-        hun: Hun
-        ita: Ita
-        jpn: Jpn
-        kik: Kik
-        kin: Kin
-        kor: Kor
-        kur: Kur
-        lav: Lav
-        lin: Lin
-        lit: Lit
-        ltz: Ltz
-        luo: Luo
-        man: Man
-        mkd: Mkd
-        mos: Mos
-        msa: Msa
-        mul: Mul
-        nor: Nor
-        pan: Pan
-        pol: Pol
-        por: Por
-        pus: Pus
-        rom: Rom
-        ron: Ron
-        run: Run
-        rus: Rus
-        sdh: Sdh
-        skr: Skr
-        slo: Slo
-        slv: Slv
-        snk: Snk
-        som: Som
-        spa: Spa
-        sqi: Sqi
-        srp: Srp
-        sus: Sus
-        swa: Swa
-        swe: Swe
-        tam: Tam
-        tel: Tel
-        tgk: Tgk
-        tgl: Tgl
-        tha: Tha
-        tig: Tig
-        tir: Tir
-        tuk: Tuk
-        tur: Tur
-        twi: Twi
-        urd: Urd
-        uzb: Uzb
-        vie: Vie
-        wol: Wol
-        xxx: Xxx
-        zho: Zho
-        zza: Zza
-      residency_status:
-        before_the_asylum_decision: Before the asylum decision
-        with_a_residence_permit: With a residence permit
-        with_deportation_decision: With deportation decision
-        with_temporary_suspension_of_deportation: With temporary suspension of deportation
-      section:
-        family: Family
-        refugees: Refugees
-      sort:
-        nearby: Nearby
-        relevance: Relevance
-      sort_order:
-        nearby: Nearby
-        relevance: Relevance
-  formtastic:
-    required: required
   js:
     ajax_error:
       error: Suchfehler
@@ -437,8 +187,6 @@ de:
       off_canvas:
         result_text: "%{result_count} Suchergebnisse anzeigen"
       personal_anchor:
-        content_item: '{"description"=>"Vor Ort (%{count})"}'
-      personal_offers:
         one: Ein Angebot vor Ort
         other: "%{count} Angebote vor Ort"
         zero: Leider keine Angebote vor Ort
@@ -460,8 +208,6 @@ de:
           other: "%{count} Angebote vor Ort (%{location}) gefunden"
           zero: Leider keine Angebote vor Ort (%{location}) gefunden
       remote_anchor:
-        content_item: '{"description"=>"Online und Telefon (%{count})"}'
-      remote_offers:
         one: Eine Telefonberatung oder ein Onlineangebot
         other: "%{count} Telefonberatungen und Onlineangebote"
         zero: Keine Telefonberatungen und Onlineangebote
@@ -930,8 +676,6 @@ de:
         der Bundesrepublik Deutschland.
         </p>
       title: Rechtliche Hinweise
-    faq:
-      title: Häufige Fragen
     home:
       explaination:
         headline: clarat.org in 2 Minuten erklärt
@@ -1050,19 +794,6 @@ de:
       intro_first_part: Wir freuen uns über Ihr Interesse an unserer Webseite www.clarat.org und an der clarat gGmbH. Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Selbstverständlich werden wir personenbezogene Daten ausschließlich im Rahmen der geltenden Bestimmungen des deutschen Datenschutzrechts erheben und verwenden.
       intro_second_part: Im Folgenden möchten wir Sie über Art, Umfang und Zweck der Erhebung und Verwendung personenbezogener Daten unterrichten. Sie können diese Unterrichtung jederzeit auf unserer Webseite abrufen. Die clarat gGmbH behält sich Änderungen dieser Datenschutzhinweise vor. Es empfiehlt sich daher, die Datenschutzweise erneut aufzurufen, wenn Sie unsere Webseite nach längerer Zeit wieder besuchen.
       title: Datenschutz
-    section_choice:
-      cta:
-        button: Jetzt Hilfe suchen
-        family:
-          text: 'Bei clarat family finden Familien in Deutschland Infos zu Hilfen in ihrer Nähe. Bei Problemen aus folgenden Bereichen: Familie, Gesundheit, Lernen & Arbeiten und Gewalt & Kriminalität.'
-        refugees:
-          text: 'Bei clarat refugees finden Menschen, die nach Deutschland geflüchtet sind, Hilfe. Bei Problemen aus folgenden Bereichen: Asyl & Recht, Familie, Gesundheit, Lernen & Arbeiten und Gewalt & Kriminalität.'
-      meta_description: clarat.org zeigt, welche Hilfen es in Deutschland gibt. Für Kinder, Jugendliche & Familien. Und für Flüchtlinge. Online. Einfach. In deiner Nähe.
-      meta_title: clarat klärt auf | clarat
-      mission:
-        headline: 'Unser Auftrag:'
-        text: Hilfe, die es in Deutschland gibt, sichtbar machen und einfach erklären.
-      title: Bitte wähle deine clarat-Welt
     shared:
       address:
         email: "%{mailto}\n"
@@ -1078,7 +809,6 @@ de:
     definitions: definitions
     emails: emails
     faq: haeufige-fragen
-    fr: fr
     haeufige-fragen: haeufige-fragen
     home: home
     impressum: impressum
@@ -1120,6 +850,10 @@ de:
           family: Wenn du hier klickst, kommst du zu clarat Family. In clarat Family kannst du nach Hilfe für Kinder, Jugendliche und Familien suchen.
           refugees: Wenn du hier klickst, kommst du zu clarat Refugees. In clarat-refugees kannst du nach Hilfe für Flüchtlinge suchen.
   simple_form:
+    hints:
+      contact:
+        show:
+          email: 
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"

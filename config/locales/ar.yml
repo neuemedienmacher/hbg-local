@@ -1,29 +1,4 @@
 ar:
-  activerecord:
-    attributes:
-      contact:
-        email: NOTRANSLATE
-        message: NOTRANSLATE
-        name: NOTRANSLATE
-      offer:
-        organizations: منظمات
-      search_location:
-        latitude: NOTRANSLATE
-        longitude: NOTRANSLATE
-        query: NOTRANSLATE
-      subscription:
-        email: NOTRANSLATE
-      update_request:
-        email: NOTRANSLATE
-        search_location: NOTRANSLATE
-    models:
-      contact: NOTRANSLATE
-      search_location: NOTRANSLATE
-      subscription: NOTRANSLATE
-      trait_filter:
-        identifier:
-          anonymous: مجهول
-      update_request: NOTRANSLATE
   cells:
     contact_people:
       dr: ".د"
@@ -97,231 +72,6 @@ ar:
       success_html: |
         لقد قمت بنجاح بإلغاء تسجيلك من الحصول على إشعارات أخرى
         (<a href="%{subscribe_href}">إعادة التسجيل</a>)
-  enumerize:
-    search_form:
-      age:
-        '0': 0
-        '1': 1
-        '10': 10
-        '11': 11
-        '12': 12
-        '13': 13
-        '14': 14
-        '15': 15
-        '16': 16
-        '17': 17
-        '18': 18
-        '19': 19
-        '2': 2
-        '20': 20
-        '21': 21
-        '22': 22
-        '23': 23
-        '24': 24
-        '25': 25
-        '26': 26
-        '27': 27
-        '28': 28
-        '29': 29
-        '3': 3
-        '30': 30
-        '31': 31
-        '32': 32
-        '33': 33
-        '34': 34
-        '35': 35
-        '36': 36
-        '37': 37
-        '38': 38
-        '39': 39
-        '4': 4
-        '40': 40
-        '41': 41
-        '42': 42
-        '43': 43
-        '44': 44
-        '45': 45
-        '46': 46
-        '47': 47
-        '48': 48
-        '49': 49
-        '5': 5
-        '50': 50
-        '51': 51
-        '52': 52
-        '53': 53
-        '54': 54
-        '55': 55
-        '56': 56
-        '57': 57
-        '58': 58
-        '59': 59
-        '6': 6
-        '60': 60
-        '61': 61
-        '62': 62
-        '63': 63
-        '64': 64
-        '65': 65
-        '66': 66
-        '67': 67
-        '68': 68
-        '69': 69
-        '7': 7
-        '70': 70
-        '71': 71
-        '72': 72
-        '73': 73
-        '74': 74
-        '75': 75
-        '76': 76
-        '77': 77
-        '78': 78
-        '79': 79
-        '8': 8
-        '80': 80
-        '81': 81
-        '82': 82
-        '83': 83
-        '84': 84
-        '85': 85
-        '86': 86
-        '87': 87
-        '88': 88
-        '89': 89
-        '9': 9
-        '90': 90
-        '91': 91
-        '92': 92
-        '93': 93
-        '94': 94
-        '95': 95
-        '96': 96
-        '97': 97
-        '98': 98
-        '99': 99
-      contact_type:
-        personal: Personal
-        remote: Remote
-      language:
-        '150': 150
-        '326': 326
-        '568': 568
-        '639': 639
-        aar: Aar
-        abk: Abk
-        amh: Amh
-        ara: Ara
-        arc: Arc
-        arm: Arm
-        aze: Aze
-        bam: Bam
-        ban: Ban
-        bel: Bel
-        ben: Ben
-        ber: Ber
-        bos: Bos
-        bul: Bul
-        bur: Bur
-        cau: Cau
-        che: Che
-        ckb: Ckb
-        cpe: Cpe
-        cus: Cus
-        cze: Cze
-        dan: Dan
-        deu: Deu
-        dje: 
-        dyu: Dyu
-        ell: Ell
-        eng: Eng
-        est: Est
-        ewe: 
-        ewo: Ewo
-        fas: Fas
-        fil: Fil
-        fin: Fin
-        fra: Fra
-        fuf: Fuf
-        ful: Ful
-        gej: 
-        geo: Geo
-        hau: Hau
-        hbs: Hbs
-        heb: Heb
-        hin: Hin
-        hrv: Hrv
-        hun: Hun
-        ita: Ita
-        jpn: Jpn
-        kik: Kik
-        kin: Kin
-        kor: Kor
-        kur: Kur
-        lav: Lav
-        lin: Lin
-        lit: Lit
-        ltz: Ltz
-        luo: Luo
-        man: Man
-        mkd: Mkd
-        mos: Mos
-        msa: Msa
-        mul: Mul
-        nor: Nor
-        pan: Pan
-        pol: Pol
-        por: Por
-        pus: Pus
-        rom: Rom
-        ron: Ron
-        run: 
-        rus: Rus
-        sdh: Sdh
-        skr: Skr
-        slo: Slo
-        slv: Slv
-        snk: Snk
-        som: Som
-        spa: Spa
-        sqi: Sqi
-        srp: Srp
-        sus: Sus
-        swa: Swa
-        swe: Swe
-        tam: Tam
-        tel: Tel
-        tgk: Tgk
-        tgl: Tgl
-        tha: Tha
-        tig: Tig
-        tir: Tir
-        tuk: Tuk
-        tur: Tur
-        twi: Twi
-        urd: Urd
-        uzb: Uzb
-        vie: Vie
-        wol: Wol
-        xxx: 
-        zho: Zho
-        zza: Zza
-      residency_status:
-        before_the_asylum_decision: 
-        with_a_residence_permit: 
-        with_deportation_decision: 
-        with_temporary_suspension_of_deportation: 
-      section:
-        family: Family
-        refugees: Refugees
-      sort:
-        nearby: على مقربة
-        relevance: الأهمية
-      sort_order:
-        nearby: على مقربة
-        relevance: الأهمية
-  formtastic:
-    required: required
   js:
     ajax_error:
       error: خطأ في البحث
@@ -424,8 +174,6 @@ ar:
       off_canvas:
         result_text: عرض النتائج %{result_count}
       personal_anchor:
-        content_item: 
-      personal_offers:
         one: عرض محلي
         other: "%{count} عروض محلية"
         zero: 'للأسف لا توجد عروض  '
@@ -435,8 +183,6 @@ ar:
         category_query: 
         default: 
       remote_anchor:
-        content_item: 
-      remote_offers:
         one: " استشارة  هاتفية أو عرض مساعدة عن طريق الإنترنت"
         other: "%{count} استشارات  هاتفية و عروض مساعدة عن طريق الإنترنت"
         zero: لا توجد استشارات  هاتفية أو عروض مساعدة عن طريق الإنترنت
@@ -895,8 +641,6 @@ ar:
         der Bundesrepublik Deutschland.
         </p>
       title: Rechtliche Hinweise
-    faq:
-      title: أسئلة شائعة
     home:
       explaination:
         headline: 
@@ -997,19 +741,6 @@ ar:
       intro_first_part: Wir freuen uns über Ihr Interesse an unserer Webseite www.clarat.org und an der clarat gGmbH. Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Selbstverständlich werden wir personenbezogene Daten ausschließlich im Rahmen der geltenden Bestimmungen des deutschen Datenschutzrechts erheben und verwenden.
       intro_second_part: Im Folgenden möchten wir Sie über Art, Umfang und Zweck der Erhebung und Verwendung personenbezogener Daten unterrichten. Sie können diese Unterrichtung jederzeit auf unserer Webseite abrufen. Die clarat gGmbH behält sich Änderungen dieser Datenschutzhinweise vor. Es empfiehlt sich daher, die Datenschutzweise erneut aufzurufen, wenn Sie unsere Webseite nach längerer Zeit wieder besuchen.
       title: Datenschutz
-    section_choice:
-      cta:
-        button: ابحث عن مساعدة الآن
-        family:
-          text: 'في clarat family يمكن للأسر في ألمانيا أن تجد معلومات عن المساعدات المتوفرة بالقرب منهم. عند وجود مشاكل تتعلق بالموضوعات التالية: الأسرة؛ الصحة؛ التعليم والعمل؛ العنف والجريمة '
-        refugees:
-          text: 'في clarat refugees يمكن اللاجئين في ألمانيا العثور على عروض مساعدات. عند وجود مشاكل تتعلق بالموضوعات التالية: اللجوء والقانون؛ الأسرة؛ الصحة؛ التعليم والعمل؛ العنف والجريمة.'
-      meta_description: clarat.org تعرض لك ما هي المساعدات المتاحة في ألمانيا للاطفال والمراهقين والأسر واللاجئين. عبر الانترنت. بالقرب منك.
-      meta_title: كلارات توضح | كلارات
-      mission:
-        headline: مهمتنا
-        text: عرض المساعدات المتاحة في ألمانيا وشرحها بشكل مبسط
-      title: إختر قسم كلارات الذي يخصك
     shared:
       address:
         email: "%{mailto}\n"
@@ -1025,7 +756,6 @@ ar:
     definitions: تعريف
     emails: رسائل بريد إليكتروني
     faq: أسئلة-شائعة
-    fr: 
     haeufige-fragen: أسئلة-شائعة
     home: الصفحة الرئيسية
     impressum: هيئة التحرير
@@ -1065,6 +795,10 @@ ar:
           family: عندما تقوم بالنقر هنا؛ تصل إلى كلارات الأسرة. وفي كلارات الأسرة يمكنك البحث عن مساعدة للأطفال والشبان والأسر.
           refugees: عندما تقوم بالنقر هنا؛ تصل إلى كلارات اللاجئين. وفي كلارات-اللاجئين يمكنك البحث عن مساعدة للاجئين
   simple_form:
+    hints:
+      contact:
+        show:
+          email: 
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"
