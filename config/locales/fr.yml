@@ -771,10 +771,6 @@ fr:
           family: En cliquant ici, tu te retrouves sur clarat family. Sur clarat family, tu peux faire recherche pour de l'aide pour des enfants, des ados et des familles.
           refugees: en cliquant ici, tu te retrouves sur clarat Refugees. Sur clarat Refugees, tu peux faire une recherche d'aide pour les réfugiés.
   simple_form:
-    hints:
-      contact:
-        show:
-          email: 
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"

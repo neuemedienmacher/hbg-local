@@ -789,10 +789,6 @@ tr:
           family: Buraya tıkladığında clarat Family erişebilirsin. clarat Family'de çocuklar, gençler ve aileler için destek arayabilirsin.
           refugees: Buraya tıkladığında clarat Refugees'e erişebilirsin. clarat Refugees'de mülteciler için destek arayabilirsin.
   simple_form:
-    hints:
-      contact:
-        show:
-          email: 
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"

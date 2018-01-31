@@ -1,32 +1,32 @@
 .Hero {
-  background: image_url('hero--1.jpg') no-repeat center center;
+  // background: image_url('hero--1.jpg') no-repeat center center;
   background-size: cover;
-  height: 525px;
+  // height: 525px;
   max-width: 1600px;
   margin: auto;
   display: flex;
   flex-direction: column;
 
-  [data-section="family"] & {
-    background: image_url('hero_family--1.jpg') no-repeat center center;
-    background-size: cover;
-  }
-
-  [data-section="refugees"] & {
-    background: image_url('hero_refugees--1.jpg') no-repeat center center;
-    background-size: cover;
-  }
+  // [data-section="family"] & {
+  //   background: image_url('hero_family--1.jpg') no-repeat center center;
+  //   background-size: cover;
+  // }
+  //
+  // [data-section="refugees"] & {
+  //   background: image_url('hero_refugees--1.jpg') no-repeat center center;
+  //   background-size: cover;
+  // }
 }
 
-.Hero__shopping-window {
-  flex: 1;
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  justify-content: flex-start;
-}
+// .Hero__shopping-window {
+//   flex: 1;
+//   position: relative;
+//   margin: 0 auto;
+//   width: 100%;
+//   max-width: 1200px;
+//   display: flex;
+//   justify-content: flex-start;
+// }
 
 .Hero__search-form {
 }
