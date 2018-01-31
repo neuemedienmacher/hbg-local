@@ -327,9 +327,9 @@
     font-size: 22px;
   }
 
-  .Hero {
-    height: 323px;
-  }
+  // .Hero {
+  //   height: 323px;
+  // }
 
   .Hero__logline {
     font-size: 16px;
@@ -537,7 +537,7 @@
     height: 35px;
     text-align: center;
     font-size: 13px;
-    color: $brand_brown;
+    color: $brand_white;
     font-weight: 700;
     cursor: pointer;
     line-height: 35px;
@@ -796,15 +796,15 @@
     }
   }
 
-  .Hero {
-    [data-section="family"] & {
-      background-image: image_url('hero_family--1--medium.jpg')
-    }
-
-    [data-section="refugees"] & {
-      background-image: image_url('hero_refugees--1--medium.jpg')
-    }
-  }
+  // .Hero {
+  //   [data-section="family"] & {
+  //     background-image: image_url('hero_family--1--medium.jpg')
+  //   }
+  //
+  //   [data-section="refugees"] & {
+  //     background-image: image_url('hero_refugees--1--medium.jpg')
+  //   }
+  // }
 
   .Mission__statement,
   .Mission__stage {

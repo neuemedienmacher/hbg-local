@@ -10,10 +10,8 @@ header.header-main
           </svg> -->
 
     .Logo itemscope="" itemtype="http://schema.org/Organization"
-      - href = current_section ? home_path(current_section) : '/'
-      a href=href itemprop="url"
-        = image_tag "logo--#{current_section || 'worldless'}.svg",
-                    {itemprop: 'logo', alt: 'Logo clarat.org'}
+      a href='http://www.handbookgermany.de' itemprop="url"
+        = image_tag 'logo-hbg.svg', itemprop: 'logo', alt: 'Logo clarat.org'
 
     nav.nav-lang
       - if I18n.locale == :de
