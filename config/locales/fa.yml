@@ -1,29 +1,4 @@
 fa:
-  activerecord:
-    attributes:
-      contact:
-        email: NOTRANSLATE
-        message: NOTRANSLATE
-        name: NOTRANSLATE
-      offer:
-        organizations: سازمانها
-      search_location:
-        latitude: NOTRANSLATE
-        longitude: NOTRANSLATE
-        query: NOTRANSLATE
-      subscription:
-        email: NOTRANSLATE
-      update_request:
-        email: NOTRANSLATE
-        search_location: NOTRANSLATE
-    models:
-      contact: NOTRANSLATE
-      search_location: محل جستجو
-      subscription: NOTRANSLATE
-      trait_filter:
-        identifier:
-          anonymous: گمنام
-      update_request: NOTRANSLATE
   cells:
     contact_people:
       dr: 'دکتر:'
@@ -82,231 +57,6 @@ fa:
         (<a href="%{unsubscribe_href}">wieder abmelden</a>)
     unsubscribe:
       success_html: تو با موفقیت از بخش پیغام ها بعدی خارج شدی(<a href="%{subscribe_href}">wieder anmelden</a>)
-  enumerize:
-    search_form:
-      age:
-        '0': ۰
-        '1': ۱
-        '10': ۱۰
-        '11': ۱۱
-        '12': ۱۲
-        '13': ۱۳
-        '14': ۱۴
-        '15': ۱۵
-        '16': ۱۶
-        '17': ۱۷
-        '18': ۱۸
-        '19': ۱۹
-        '2': ۲
-        '20': ۲۰
-        '21': ۲۱
-        '22': ۲۲
-        '23': ۲۳
-        '24': ۲۴
-        '25': ۲۵
-        '26': ۲۶
-        '27': ۲۷
-        '28': ۲۸
-        '29': ۲۹
-        '3': ۳
-        '30': ۳۰
-        '31': ۳۱
-        '32': ۳۲
-        '33': ۳۳
-        '34': ۳۴
-        '35': ۳۵
-        '36': ۳۶
-        '37': ۳۷
-        '38': ۳۸
-        '39': ۳۹
-        '4': ۴
-        '40': ۴۰
-        '41': ۴۱
-        '42': ۴۲
-        '43': ۴۳
-        '44': ۴۴
-        '45': ۴۵
-        '46': ۴۶
-        '47': ۴۷
-        '48': ۴۸
-        '49': ۴۹
-        '5': ۵
-        '50': ۵۰
-        '51': ۵۱
-        '52': ۵۲
-        '53': ۵۳
-        '54': ۵۴
-        '55': ۵۵
-        '56': ۵۶
-        '57': ۵۷
-        '58': ۵۸
-        '59': ۵۹
-        '6': ۶
-        '60': ۶۰
-        '61': ۶۱
-        '62': ۶۲
-        '63': ۶۳
-        '64': ۶۴
-        '65': ۶۵
-        '66': ۶۶
-        '67': ۶۷
-        '68': ۶۸
-        '69': ۶۹
-        '7': ۷
-        '70': ۷۰
-        '71': ۷۱
-        '72': ۷۲
-        '73': ۷۳
-        '74': ۷۴
-        '75': ۷۵
-        '76': ۷۶
-        '77': ۷۷
-        '78': ۷۸
-        '79': ۷۹
-        '8': ۸
-        '80': ۸۰
-        '81': ۸۱
-        '82': ۸۲
-        '83': ۸۳
-        '84': ۸۴
-        '85': ۸۵
-        '86': ۸۶
-        '87': ۸۷
-        '88': ۸۸
-        '89': ۸۹
-        '9': ۹
-        '90': ۹۰
-        '91': ۹۱
-        '92': ۹۲
-        '93': ۹۳
-        '94': ۹۴
-        '95': ۹۵
-        '96': ۹۶
-        '97': ۹۷
-        '98': ۹۸
-        '99': ۹۹
-      contact_type:
-        personal: کادر
-        remote: Remote
-      language:
-        '150': ۱۵۰
-        '326': ۳۲۶
-        '568': ۵۲۸
-        '639': ۶۳۹
-        aar: Aar
-        abk: Abk
-        amh: Amh
-        ara: Ara
-        arc: Arc
-        arm: Arm
-        aze: Aze
-        bam: Bam
-        ban: Ban
-        bel: Bel
-        ben: Ben
-        ber: Ber
-        bos: Bos
-        bul: Bul
-        bur: Bur
-        cau: Cau
-        che: Che
-        ckb: Ckb
-        cpe: Cpe
-        cus: Cus
-        cze: Cze
-        dan: Dan
-        deu: Deu
-        dje: 
-        dyu: Dyu
-        ell: Ell
-        eng: Eng
-        est: Est
-        ewe: 
-        ewo: Ewo
-        fas: Fas
-        fil: Fil
-        fin: Fin
-        fra: Fra
-        fuf: Fuf
-        ful: Ful
-        gej: 
-        geo: Geo
-        hau: Hau
-        hbs: Hbs
-        heb: Heb
-        hin: Hin
-        hrv: Hrv
-        hun: Hun
-        ita: Ita
-        jpn: Jpn
-        kik: Kik
-        kin: Kin
-        kor: Kor
-        kur: Kur
-        lav: Lav
-        lin: Lin
-        lit: Lit
-        ltz: Ltz
-        luo: Luo
-        man: Man
-        mkd: Mkd
-        mos: Mos
-        msa: Msa
-        mul: Mul
-        nor: Nor
-        pan: Pan
-        pol: Pol
-        por: Por
-        pus: Pus
-        rom: Rom
-        ron: Ron
-        run: 
-        rus: Rus
-        sdh: Sdh
-        skr: Skr
-        slo: Slo
-        slv: Slv
-        snk: Snk
-        som: Som
-        spa: Spa
-        sqi: Sqi
-        srp: Srp
-        sus: Sus
-        swa: Swa
-        swe: Swe
-        tam: Tam
-        tel: Tel
-        tgk: Tgk
-        tgl: Tgl
-        tha: Tha
-        tig: Tig
-        tir: Tir
-        tuk: Tuk
-        tur: Tur
-        twi: Twi
-        urd: Urd
-        uzb: Uzb
-        vie: Vie
-        wol: Wol
-        xxx: Xxx
-        zho: Zho
-        zza: Zza
-      residency_status:
-        before_the_asylum_decision: قبل از جواب درخواست پناهندگی
-        with_a_residence_permit: با اجازه اقامت
-        with_deportation_decision: با جواب دیپورت
-        with_temporary_suspension_of_deportation: با تعلیق موقت دیپورت
-      section:
-        family: خانواده
-        refugees: پناهندگان
-      sort:
-        nearby: Nearby
-        relevance: Relevance
-      sort_order:
-        nearby: Nearby
-        relevance: Relevance
-  formtastic:
-    required: required
   js:
     ajax_error:
       error: اشتباه در جستجو
@@ -406,9 +156,7 @@ fa:
       more: پیشنهاد های دیگر تلفنی و آنلاین
       off_canvas:
         result_text: "%{result_count} نشان دادن نتایج جستجو"
-      personal_anchor:
-        content_item: 
-      personal_offers: |-
+      personal_anchor: |-
         یک پیشنهاد در محل
         %{count} پیشنهاد های در محل
         متاسفانه هیچ پیشنهاد هایی در محل
@@ -429,9 +177,7 @@ fa:
           یک پیشنهاد در محل (%{location}) یافت شد
           %{count} پیشنهاد های در محل  (%{location}) یافت شد
           متاسفانه هیچ پیشنهادی در محل (%{location}) یافت نشد
-      remote_anchor:
-        content_item: 
-      remote_offers: |-
+      remote_anchor: |-
         یک مشاوره تلفنی یا پیشنهاد آنلاین
         %{count} مشاوره های تلفنی و پیشنهاد های آنلاین
         بدون مشاوره های تلفنی و پیشنهاد های آنلاین
@@ -883,8 +629,6 @@ fa:
         der Bundesrepublik Deutschland.
         </p>
       title: Rechtliche Hinweise
-    faq:
-      title: سوالات رایج
     home:
       explaination:
         headline: صفحه clarat.org در دو دقیقه توضیح داده می شود.
@@ -974,19 +718,6 @@ fa:
       intro_first_part: Wir freuen uns über Ihr Interesse an unserer Webseite www.clarat.org und an der clarat gGmbH. Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Selbstverständlich werden wir personenbezogene Daten ausschließlich im Rahmen der geltenden Bestimmungen des deutschen Datenschutzrechts erheben und verwenden.
       intro_second_part: Im Folgenden möchten wir Sie über Art, Umfang und Zweck der Erhebung und Verwendung personenbezogener Daten unterrichten. Sie können diese Unterrichtung jederzeit auf unserer Webseite abrufen. Die clarat gGmbH behält sich Änderungen dieser Datenschutzhinweise vor. Es empfiehlt sich daher, die Datenschutzweise erneut aufzurufen, wenn Sie unsere Webseite nach längerer Zeit wieder besuchen.
       title: Datenschutz
-    section_choice:
-      cta:
-        button: جستجوی کمک در حال حاضر
-        family:
-          text: در صفحه clarat family خانواده‌ها در آلمان اطلاعات کمکی در نزدیکی خود پیدا می کنند.در زمینه مشکلاتی مانند:خانواده،بهداشت،آموزش و مشاغل و خشونت و جرایم
-        refugees:
-          text: در صفحه clarat refugees پناهجویانی که به آلمان فرار کرده‌اند، کمک پیدا می کنند.در زمینه مشکلاتی مانند:پناهندگی و حقوق آن،خانواده،بهداشت،آموزش و مشاغل و خشونت و جرایم
-      meta_description: clarat.org نشان می دهد که چه کمکهایی در آلمان وجود دارد.برای کودکان٬ جوانان و خانواده‌ها و پناهندگان. بصورت آنلاین٬ آسان و در نزدیکی آنها.
-      meta_title: clarat شفاف سازی می کند | clarat
-      mission:
-        headline: وظیفه ما
-        text: 'نشان دادن کمکهایی را که در آلمان وجود دارند و توضیح ساده آنها.   '
-      title: لطفا موضوع خود را از دنیای clarat انتخاب کنید
     shared:
       address:
         email: "%{mailto}"
@@ -1002,7 +733,6 @@ fa:
     definitions: توضیحات
     emails: ایمیل ها
     faq: سوالات رایج
-    fr: 
     haeufige-fragen: سوالات رایج
     home: خانه
     impressum: 'اطلاعات کلی '
@@ -1040,6 +770,10 @@ fa:
           family: اگر اینجا را کلیک کنید٬به clarat Family وارد می شوی.در clarat Family می توانی بدنبال کمک برای کودکان٬جوانان و خانواده ها باشی.
           refugees: اگر اینجا را کلیک کنید٬به clarat Refugees وارد می شوید.در clarat Refugees می توانی بدنبال کمک برای پناهندگان باشی.
   simple_form:
+    hints:
+      contact:
+        show:
+          email: 
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"
