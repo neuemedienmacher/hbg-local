@@ -8,7 +8,7 @@
   padding: 20px 0;
   position: relative;
   margin-top: 2em;
-  background-color: $brand_yellow;
+  background-color: $brand-yellow;
 }
 
 .footer-main__wrapper {
@@ -38,7 +38,7 @@
 }
 
 .footer-main__facebook-item {
-  background: image-url('ico_facebook.svg') no-repeat left center;
+  background: image-url('ico_facebook_inverted.svg') no-repeat left center;
   background-size: 30px 30px;
   min-height: 40px;
   line-height: 40px;
@@ -50,7 +50,7 @@
   a {
     @include roboto_bold;
     text-decoration: none;
-    color: $brand_brown;
+    color: $brand_white;
   }
 }
 

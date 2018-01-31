@@ -446,15 +446,15 @@
     background-position: -12% center;
   }
 
-  .Hero {
-    [data-section="family"] & {
-      background-image: image_url('hero_family--1--small.jpg')
-    }
-
-    [data-section="refugees"] & {
-      background-image: image_url('hero_refugees--1--small.jpg')
-    }
-  }
+  // .Hero {
+  //   [data-section="family"] & {
+  //     background-image: image_url('hero_family--1--small.jpg')
+  //   }
+  //
+  //   [data-section="refugees"] & {
+  //     background-image: image_url('hero_refugees--1--small.jpg')
+  //   }
+  // }
 
   // Twitter Typeahead ###########################
 

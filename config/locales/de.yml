@@ -850,10 +850,6 @@ de:
           family: Wenn du hier klickst, kommst du zu clarat Family. In clarat Family kannst du nach Hilfe für Kinder, Jugendliche und Familien suchen.
           refugees: Wenn du hier klickst, kommst du zu clarat Refugees. In clarat-refugees kannst du nach Hilfe für Flüchtlinge suchen.
   simple_form:
-    hints:
-      contact:
-        show:
-          email: 
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"

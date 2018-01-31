@@ -770,10 +770,6 @@ fa:
           family: اگر اینجا را کلیک کنید٬به clarat Family وارد می شوی.در clarat Family می توانی بدنبال کمک برای کودکان٬جوانان و خانواده ها باشی.
           refugees: اگر اینجا را کلیک کنید٬به clarat Refugees وارد می شوید.در clarat Refugees می توانی بدنبال کمک برای پناهندگان باشی.
   simple_form:
-    hints:
-      contact:
-        show:
-          email: 
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"

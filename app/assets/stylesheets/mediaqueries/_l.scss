@@ -196,7 +196,7 @@
   }
 
   .Callout__headline {
-    @include roboto_slabregular;
+    @include roboto_regular;
     font-size: 20px;
   }
 
@@ -204,19 +204,19 @@
     font-size: 30px;
   }
 
-  .Hero {
-    [data-section="family"] & {
-      background-image: image_url('hero_family--1--medium.jpg')
-    }
+  // .Hero {
+  //   [data-section="family"] & {
+  //     background-image: image_url('hero_family--1--medium.jpg')
+  //   }
+  //
+  //   [data-section="refugees"] & {
+  //     background-image: image_url('hero_refugees--1--medium.jpg')
+  //   }
+  // }
 
-    [data-section="refugees"] & {
-      background-image: image_url('hero_refugees--1--medium.jpg')
-    }
-  }
-
-  .Hero {
-    height: 425px;
-  }
+  // .Hero {
+  //   height: 425px;
+  // }
 
   .Hero__logline {
     font-size: 25px;

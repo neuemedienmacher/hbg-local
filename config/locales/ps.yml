@@ -665,10 +665,6 @@ ps:
           family: 
           refugees: 
   simple_form:
-    hints:
-      contact:
-        show:
-          email: 
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"

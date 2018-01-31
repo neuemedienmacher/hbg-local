@@ -41,7 +41,7 @@
 
 .Listing-results__offer {
   &.Listing-results__offer--highlighted {
-    background: $brand_orange;
+    background: $brand_yellow;
   }
 }
 
@@ -128,7 +128,7 @@
 .Listing-results__offer {
   @include roboto_bold;
   @include clarat_rounding_start;
-  background: $brand_yellow;
+  background: $brand_orange;
   min-height: 28px;
   font-size: 18px;
 
@@ -139,7 +139,7 @@
   }
 
   .Listing-results__listitem--highlighted & {
-    background: $brand_orange;
+    background: $brand_yellow;
   }
 }
 
