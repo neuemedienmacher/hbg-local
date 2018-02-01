@@ -22,10 +22,8 @@ class ApplicationController < ActionController::Base
   end
 
   before_action :note_current_section
-
   def note_current_section
-    return if params['action'] == 'section_choice'
-    @current_section = params[:section] || 'refugees'
+    @current_section = 'refugees'
   end
 
   ### Standard 404 Error ###

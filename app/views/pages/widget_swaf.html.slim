@@ -1,6 +1,7 @@
 .wrapper-inner
   .Logo itemscope="" itemtype="http://schema.org/Organization"
-    = image_tag "logo--refugees.svg", {itemprop: 'logo', alt: 'Logo clarat.org'}
+    = image_tag "logo-hbg.svg",
+                {itemprop: 'logo', alt: 'Logo Handbook Germany local'}
   br
   .widget-swaf
     - search_form = @search_form || SearchForm.new(cookies)
