@@ -33,55 +33,6 @@ de:
         name_placeholder: Name (Pflicht)
         send: Abschicken
         send_us_a_message: Schreibe uns eine Nachricht
-  emails:
-    offers_index:
-      family:
-        heading: 'Deine clarat family-Angebote für <span id="secure-email-0">%{email}</span>
-
-'
-        no_results: |
-          Es gibt derzeit keine veröffentlichten clarat family-Angebote für
-          <span id="secure-email-0">%{email}</span>
-        toggle_section_html:
-          one: Dein <strong>clarat refugees</strong>-Angebot
-          other: Deine <strong>%{count} clarat refugees</strong>-Angebote
-      last_update: Zuletzt geändert
-      obfuscated_email: deine E-Mail-Adresse
-      refugees:
-        heading: 'Deine clarat refugees-Angebote für <span id="secure-email-0">%{email}</span>
-
-'
-        no_results: |
-          Es gibt derzeit keine veröffentlichten clarat refugees-Angebote für
-          <span id="secure-email-0">%{email}</span>
-        toggle_section_html:
-          one: Dein <strong>clarat family</strong>-Angebot
-          other: Deine <strong>%{count} clarat family</strong>-Angebote
-      shared:
-        explanation_1: |
-          Hier siehst du auf einen Blick alle deine Angebote bei clarat. Das sind
-          Angebote, bei denen wir deine E-Mail-Adresse als Kontaktadresse gefunden
-          haben.
-        explanation_2: |
-          Wenn wir in Zukunft neue Angebote von dir finden, siehst du die Links zu
-          diesen neuen Angeboten auch hier.
-        explanation_3: |
-          Du kannst dazu diese Seite in deinen Favoriten speichern und so schnell
-          auf einen Blick sehen, was es von dir bei clarat gibt.
-        explanation_4: |
-          Möchtest du per E-Mail informiert werden, wenn neue Angebote von dir bei
-          clarat online sind? Dann nutze den Link am Ende der E-Mail, die du von
-          uns bekommen hast.
-        info: Info
-    subscribe:
-      success_html: |
-        Du hast dich erfolgreich für Benachrichtigungen zu Angeboten mit deiner
-        E-mail-Adresse angemeldet.
-        (<a href="%{unsubscribe_href}">wieder abmelden</a>)
-    unsubscribe:
-      success_html: |
-        Du hast dich erfolgreich von weiteren Benachrichtigungen abgemeldet.
-        (<a href="%{subscribe_href}">wieder anmelden</a>)
   js:
     ajax_error:
       error: Suchfehler
@@ -424,8 +375,8 @@ de:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
           tr: Türkçe
+          ps: پښتو
       hero:
         claim:
           family: Hilfe für Kinder, Jugendliche und Familien
@@ -462,7 +413,7 @@ de:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
+          ps: پښتو
           tr: Türkçe
         section_link:
           desktop:
@@ -724,11 +675,10 @@ de:
         HRB 174379 B
       title: Impressum
     not_found:
-      description: |
+      description: |-
         Schreibe einfach in das Finde-Feld, welche Hilfe du suchst. Oder was
-        dein Problem ist. clarat zeigt dir dann weitere Angebote in deiner Nähe.
-        Oder gehe %{start_page} auf die Startseite. Dort kannst du über die runden
-        Bilder nach passender Hilfe suchen.
+        dein Problem ist. Handbook Germany zeigt dir dann weitere Angebote in deiner Nähe.
+        Oder gehe %{start_page} zurück auf die Suche-Startseite.
       heading: Leider konnten wir diese Seite nicht finden.
       link_text: hier
       title: 404

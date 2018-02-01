@@ -33,34 +33,6 @@ tr:
         name_placeholder: İsim (zorunlu)
         send: gönder
         send_us_a_message: Bize mesaj gönder
-  emails:
-    offers_index:
-      family:
-        heading: "<span id=''secure-email-0>%{email}</span> için clarat family tekliflerin"
-        no_results: Şuan <span id=''secure-email-0>%{email}</span> için yayınlanmış clarat family teklifleri bulunmamaktadır.
-        toggle_section_html: "<strong>%{count} clarat refugees</strong> tekliflerin"
-      last_update: Last update
-      obfuscated_email: e-mail adresin
-      refugees:
-        heading: "<span id=''secure-email-0>%{email}</span> için clarat refugees tekliflerin"
-        no_results: Şuan <span id=''secure-email-0>%{email}</span> için yayınlanmış clarat refugees tekliflerin bulunmamaktadır.
-        toggle_section_html: "<strong>%{count} clarat family</strong>-tekliflerin"
-      shared:
-        explanation_1: "Burada clarat'taki tüm tekliflerini bir arada görebilirsin. \nBunlar, e-mail adresini bulduğumuz teklifler olmaktadır."
-        explanation_2: Gelecekte yeni tekliflerini bulursak, bunların bağlantılarını burada da bulabileceksin.
-        explanation_3: Bunun için bu sayfayı yer işareti olarak kayderek clarat'ta senin ile ilgili neler olduğunu hızlıca görebilirsin.
-        explanation_4: |-
-          Yeni teklfilerin clarat'ta yayınlandığında e-mail yolu ile haberdar olmak ister misin?
-          O halde sana yolladığımız e-mailin sonundaki bağlantıyı kullan.
-        info: Bilgi
-    subscribe:
-      success_html: |
-        E-bülten aboneliğine başarıyla kayıt oldun.
-        (<a href="%{unsubscribe_href}">abonelikten çık</a>)
-    unsubscribe:
-      success_html: |
-        E-bülten aboneliğinden başarıyla çıktın.
-        (<a href="%{subscribe_href}">tekrar abone ol</a>)
   js:
     ajax_error:
       error: Arama hatası
@@ -379,8 +351,8 @@ tr:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
           tr: Türkçe
+          ps: پښتو
       hero:
         claim:
           family: Çocuklar, gençler ve aileler için yardıum çeşitleri
@@ -418,7 +390,7 @@ tr:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
+          ps: پښتو
           tr: Türkçe
         section_link:
           desktop:

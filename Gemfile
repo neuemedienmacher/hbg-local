@@ -10,7 +10,7 @@ gem 'nokogumbo', '1.4.11' # 1.4.12 causes problems on heroku (see https://github
 # General #
 ###########
 
-gem 'clarat_base', github: 'clarat-org/clarat_base'
+gem 'clarat_base', github: 'handbook-germany/hbg-base'
 
 gem 'bundler', '>= 1.8.4'
 

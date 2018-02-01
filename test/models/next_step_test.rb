@@ -11,10 +11,10 @@ describe NextStep do
     describe 'in_current_locale' do
       it 'should find all that are translated to the current locale' do
         former_locales = I18n.available_locales
-        I18n.available_locales = %i[de en fr pl]
+        I18n.available_locales = %i[de en fr ps]
 
         NextStep.create text_de: 'foo', text_fr: nil,
-                        text_en: 'bar', text_pl: ''
+                        text_en: 'bar', text_ps: ''
 
         I18n.with_locale(:de) do
           NextStep.in_current_locale.count.must_equal 2
@@ -25,7 +25,7 @@ describe NextStep do
         I18n.with_locale(:fr) do
           NextStep.in_current_locale.count.must_equal 0
         end
-        I18n.with_locale(:pl) do
+        I18n.with_locale(:ps) do
           NextStep.in_current_locale.count.must_equal 0
         end
 

@@ -31,36 +31,6 @@ fr:
         name_placeholder: Nom (obligatoire)
         send: Envoyer
         send_us_a_message: Écris-nous un message
-  emails:
-    offers_index:
-      family:
-        heading: Tes services de clarat family pour <span id="secure-email-0">%{email}</span>
-        no_results: Pour le moment, il n'y a pas de services édités sur clarat family pour<span id="secure-email-0">%{email}</span>
-        toggle_section_html:
-          one: Ton <strong>clarat refugees</strong>-Service
-          other: Tes <strong>%{count} clarat refugees</strong>-Services
-      last_update: Dernière mise à jour
-      obfuscated_email: Ton adresse électronique
-      refugees:
-        heading: Tes services sur clarat refugees pour <span id="secure-email-0">%{email}</span>
-        no_results: |-
-          Pour le moment, il n'y a pas de services édités sur clarat refugees pour
-          <span id="secure-email-0">%{email}</span>
-        toggle_section_html:
-          one: ton <strong>clarat family</strong>-Service
-          other: Tes <strong>%{count} clarat family</strong>-Services
-      shared:
-        explanation_1: Ici, tu vois du premier coup d'œil  tous tes services sur clarat. Ce sont les services où nous avons trouvé ton adresse électronique.
-        explanation_2: Si à l'avenir, nous trouvons de tes nouveaux services, alors tu trouveras aussi les liens vers ces nouveaux services ici.
-        explanation_3: 'Tu peux marquer ces pages et ainsi voir d''un coup d''œil ce qu''il y a de toi sur clarat '
-        explanation_4: Tu souhaites être informé par e-mail lorsque de tes  nouveaux services sont en ligne sur clarat? Alors utilise le lien qui se trouve à la fin du courrier électronique que nous t'avons envoyé.
-        info: Information
-    subscribe:
-      success_html: |-
-        Tu t'es inscrit avec succès avec ton adresse électronique pour les notifications de services .
-        (<a href="%{unsubscribe_href}">réinscription</a>)
-    unsubscribe:
-      success_html: "Tu t'es désinscrit avec succès pour les notifications \n(<a href=\"%{subscribe_href}\">réinscription</a>)"
   js:
     ajax_error:
       error: erreur de recherche
@@ -380,8 +350,8 @@ fr:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
           tr: Türkçe
+          ps: پښتو
       hero:
         claim:
           family: Offres d'aide pour les enfants, les ados et les familles
@@ -408,7 +378,7 @@ fr:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
+          ps: پښتو
           tr: Türkçe
         section_link:
           desktop:

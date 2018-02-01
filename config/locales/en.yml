@@ -34,36 +34,6 @@ en:
         name_placeholder: Name (obligatory)
         send: Send
         send_us_a_message: Write us a message
-  emails:
-    offers_index:
-      family:
-        heading: Your support services and programmes in clarat family for <span id="secure-email-0">%{email}</span>
-        no_results: There are no public support services or programmes listed in clarat family for <span id="secure-email-0">%{email}</span>
-        toggle_section_html:
-          one: Your <strong>clarat refugees</strong> support service
-          other: Your <strong>%{count} clarat refugees</strong> support services
-      last_update: Last update
-      obfuscated_email: your e-mail address
-      refugees:
-        heading: Your clarat refugees support services for <span id="secure-email-0">%{email}</span>
-        no_results: There are no public support services or programmes in clarat refugees for <span id="secure-email-0">%{email}</span>
-        toggle_section_html:
-          one: Your <strong>clarat family</strong> support service
-          other: Your <strong>%{count} clarat family</strong> support services
-      shared:
-        explanation_1: Here you can see all of your support services which are listed at clarat. These are the support services we found using your e-mail address as our contact address.
-        explanation_2: If we find new support services you offer in the future, we will list the links to these new support services here, too.
-        explanation_3: If you save this page as one of your favourites, you will be able to see which of your services are listed here at clarat.
-        explanation_4: Would you like to be informed by e-mail when new support services you offer go online at clarat? Then use the link at the end of the e-mail you received from us.
-        info: Info
-    subscribe:
-      success_html: |-
-        You have successfully subscribed for e-mail notifications about offers.
-        (<a href="%{unsubscribe_href}">cancel subscription</a>)
-    unsubscribe:
-      success_html: |-
-        You have successfully unsubscribed from further e-mail notifications.
-        (<a href="%{subscribe_href}">subscribe again</a>)
   js:
     ajax_error:
       error: Search error
@@ -383,8 +353,8 @@ en:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
           tr: Türkçe
+          ps: پښتو
       hero:
         claim:
           family: Support services for children, teenagers and families
@@ -415,7 +385,7 @@ en:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
+          ps: پښتو
           tr: Türkçe
         section_link:
           desktop:
