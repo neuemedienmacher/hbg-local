@@ -9,18 +9,8 @@ class OrganizationsController < ApplicationController
       slug: params[:id]
     )
     raise ActiveRecord::RecordNotFound unless @organization
-    unless @organization.in_section? @current_section
-      return redirect_to section: @organization.canonical_section
-    end
     prepare_gmaps_variable @organization
     @contact = Contact.new url: request.url, reporting: true
     respond_with @organization
-  end
-
-  def section_forward
-    orga = Organization.visible_in_frontend.friendly.find(params[:id])
-    orga_section = orga.canonical_section
-    raise ActiveRecord::RecordNotFound unless orga_section
-    redirect_to organization_path(section: orga_section, id: orga.slug)
   end
 end

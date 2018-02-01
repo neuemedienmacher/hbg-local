@@ -31,7 +31,7 @@ feature 'Search Form' do
   end
 
   scenario 'Show widget' do
-    visit 'refugees/widget-handbook-germany-berlin'
+    visit 'widget-handbook-germany-berlin'
     page.must_have_field('search_form_query')
     find('.main-search__submit').click
     page.must_have_field('search_form_search_location', with: 'Berlin')

@@ -26,14 +26,6 @@ Clarat::Application.routes.draw do
     get 'widget-start-with-a-friend' => 'pages#widget_swaf', as: 'home'
     get 'widget-handbook-germany-:city' => 'pages#widget_hg', as: 'home'
 
-    # unscoped to scoped forwards
-    get 'offers/:id' => 'offers#section_forward', as: :unscoped_offer
-    get 'organizations/:id' => 'organizations#section_forward',
-        as: :unscoped_orga
-    get 'impressum' => 'pages#section_forward'
-    get 'rechtliche-hinweise' => 'pages#section_forward'
-    get 'datenschutzhinweise' => 'pages#section_forward'
-
     # unscoped RESTful resources (only POST and non-HTML GET)
     resources :search_locations, only: [:show]
     resources :definitions, only: [:show]

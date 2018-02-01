@@ -8,7 +8,7 @@ basic:
   aasm_state: approved
   created_by: 1
   approved_by: 2
-  section_id: 1
+  section_id: 2
   location_id: 1
   area_id: 1
   solution_category_id: 1
