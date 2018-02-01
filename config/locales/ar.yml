@@ -33,45 +33,6 @@ ar:
         name_placeholder: الإسم (فرض)
         send: ارسال
         send_us_a_message: اكتب لنا رسالة
-  emails:
-    offers_index:
-      family:
-        heading: لك كلارات الأسرة-عرض ل <span id="secure-email-0">%{email}</span>
-        no_results: "في الوقت الحاضر لا توجد عروض منشورة في كلارات الأسرة من أجل \n<span id=\"secure-email-0\">%{email}</span>"
-        toggle_section_html:
-          few: لك <strong>%{count} كلارات اللاجئين</strong>-عروض
-          many: لك <strong>%{count} كلارات اللاجئين</strong>-عروض
-          one: لك <strong>كلارات اللاجئين</strong>-عرض
-          other: لك <strong>%{count} كلارات اللاجئين</strong>-عروض
-          two: لك <strong>%{count} كلارات اللاجئين</strong>-عرض
-          zero: NOTRANSLATE
-      last_update: تم التغيير مؤخرا
-      obfuscated_email: عنوان البريد الإليكتروني الخاض بك
-      refugees:
-        heading: عروض كلارات اللاجئين الخاصة بك بالنسبة ل  <span id="secure-email-0">%{email}</span>
-        no_results: "في الوقت الحالي لا توجد عروض منشورة في كلارات اللاجئين بالنسبة ل  \n<span id=\"secure-email-0\">%{email}</span>"
-        toggle_section_html:
-          few: لك <strong>%{count} كلارات اللاجئين</strong>-عروض
-          many: لك <strong>%{count} كلارات اللاجئين</strong>-عروض
-          one: لك <strong>كلارات الأسرة</strong>-عرض
-          other: لك <strong>%{count} كلارات اللاجئين</strong>-عروض
-          two: لك <strong>%{count} كلارات اللاجئين</strong>-عروض
-          zero: NOTRANSLATE
-      shared:
-        explanation_1: هنا سترى كل العروض الخاصة بك بشكل مُجَمع. هذه العروض هي التي وجدنا عندها عنوان البريد الإليكتروني الخاص بك كعنوان للتواصل.
-        explanation_2: لذا  وجدنا في المستقبل عروضا خاصة بك فسوف تتمكن من روية الروابط لهذه العروض أيضا.
-        explanation_3: يمكنك أيضا إضافة هذه الصفحة إلى مفضلاتك وبذلك ترى بشكل مُجَمع ماذا يوجد في كلارات من طرفك.
-        explanation_4: 'هل تريد أن يتم إبلاغك عن طريق الإيميل؛ عندما توجد عروضا جديدة من طرفك أون لاين في كلارات؟ إذا استخدم الرابط في نهاية الإيميل الذي وصلك منا.  '
-        info: معلومات
-    subscribe:
-      success_html: |
-        لقد قمت بتسجيل نفسك بنجاح للحصول على إشعارات عن عروض
-         على  الإيميل الخاص بك
-        (<a href="%{unsubscribe_href}">إلغاء التسجيل</a>)
-    unsubscribe:
-      success_html: |
-        لقد قمت بنجاح بإلغاء تسجيلك من الحصول على إشعارات أخرى
-        (<a href="%{subscribe_href}">إعادة التسجيل</a>)
   js:
     ajax_error:
       error: خطأ في البحث
@@ -381,14 +342,14 @@ ar:
         contact: الإتصال
         faq: الأسئلة الشائعة
         languages:
-          ar: 
-          de: 
-          en: 
-          fa: 
-          fr: 
-          pl: 
-          ru: 
-          tr: 
+          ar: عربي
+          de: Deutsch
+          en: English
+          fa: فارسی
+          fr: Français
+          pl: Polski
+          tr: Türkçe
+          ps: پښتو
       hero:
         claim:
           family: مساعدة للأطفال والمراهقين و الأسرة
@@ -425,7 +386,7 @@ ar:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
+          ps: پښتو
           tr: Türkçe
         section_link:
           desktop:

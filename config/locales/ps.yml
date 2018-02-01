@@ -31,28 +31,6 @@ ps:
         name_placeholder: 
         send: 
         send_us_a_message: 
-  emails:
-    offers_index:
-      family:
-        heading: 
-        no_results: 
-        toggle_section_html: 
-      last_update: 
-      obfuscated_email: 
-      refugees:
-        heading: 
-        no_results: 
-        toggle_section_html: 
-      shared:
-        explanation_1: 
-        explanation_2: 
-        explanation_3: 
-        explanation_4: 
-        info: 
-    subscribe:
-      success_html: 
-    unsubscribe:
-      success_html: 
   js:
     ajax_error:
       error: 
@@ -331,14 +309,14 @@ ps:
         contact: 
         faq: 
         languages:
-          ar: 
-          de: 
-          en: 
-          fa: 
-          fr: 
-          pl: 
-          ru: 
-          tr: 
+          ar: عربي
+          de: Deutsch
+          en: English
+          fa: فارسی
+          fr: Français
+          pl: Polski
+          tr: Türkçe
+          ps: پښتو
       hero:
         claim:
           family: 
@@ -359,14 +337,14 @@ ps:
       top_bar:
         german_content_warning: 
         languages:
-          ar: 
-          de: 
-          en: 
-          fa: 
-          fr: 
-          pl: 
-          ru: 
-          tr: 
+          ar: عربي
+          de: Deutsch
+          en: English
+          fa: فارسی
+          fr: Français
+          pl: Polski
+          ps: پښتو
+          tr: Türkçe
         section_link:
           desktop:
             family: 

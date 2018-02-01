@@ -31,32 +31,6 @@ fa:
         name_placeholder: نام(اجباری)
         send: فرستادن
         send_us_a_message: برای ما پیغام بفرست
-  emails:
-    offers_index:
-      family:
-        heading: پیشنهاد های clarat family تو در <span id="secure-email-0">%{email}</span>
-        no_results: در حال حاضر پیشنهادی در مورد span id="secure-email-0">%{email}</span> در clarat family منتشر نشده است.
-        toggle_section_html: "<strong>clarat refugees</strong>Deine <strong>%{count} clarat refugees</strong>-Angebote پیشنهاد تو"
-      last_update: آخرین تغییرات
-      obfuscated_email: آدرس ایمیل تو
-      refugees:
-        heading: پیشنهاد های clarat refugees تو برای <span id="secure-email-0">%{email}</span>
-        no_results: در حال حاضر پیشنهادهای منتشر شده clarat refugees برای <span id="secure-email-0">%{email}</span> موجود نمی باشد.
-        toggle_section_html: "<strong>%{count} clarat family</strong>-Angebote پیشنهاد تو\n"
-      shared:
-        explanation_1: در اینجا بطور کلی همه پیشنهادهای clarat را در یک نگاه می بینی.اینها پیش نهادهایی هستند که ما آدرس ایمیل تو را در آنها جهت برقراری ارتباط پیدا کردیم.
-        explanation_2: اگر در آینده ما پیشنهاد های جدیدی برای تو پیدا کردیم٬لینک های مربوط را در اینجا نیز می بینی.
-        explanation_3: تو می توانی این صفحه ما را در قسمت صفحات مورد علاقه خود ذخیره کنی و در یک نگاه و به سرعت بتونی ببینی که چه چیزهایی مربوط به تو در clarat وجود دارد.
-        explanation_4: |-
-          اگر پیشنهادات جدید مربوط به تو در clarat آنلاین شدند٬ می خواهی از طریق ایمیل آگاه شوی؟
-          در این صورت از لینک انتهایی که توسط ایمیل از ما دریافتی را استفاده کن.
-        info: اطلاعات
-    subscribe:
-      success_html: |-
-        تو با موفقیت از پیغامهای پیشنهادی از طریق آدرس ایمیل خود خارج شدی
-        (<a href="%{unsubscribe_href}">wieder abmelden</a>)
-    unsubscribe:
-      success_html: تو با موفقیت از بخش پیغام ها بعدی خارج شدی(<a href="%{subscribe_href}">wieder anmelden</a>)
   js:
     ajax_error:
       error: اشتباه در جستجو
@@ -389,13 +363,13 @@ fa:
         faq: سوالات رایج
         languages:
           ar: عربی
-          de: 
-          en: 
+          de: Deutsch
+          en: English
           fa: فارسی
-          fr: 
-          pl: 
-          ru: 
-          tr: 
+          fr: Français
+          pl: Polski
+          tr: Türkçe
+          ps: پښتو
       hero:
         claim:
           family: کمک برای کودکان،جوانان و خانواده ها
@@ -422,7 +396,7 @@ fa:
           fa: فارسی
           fr: Français
           pl: Polski
-          ru: Русский
+          ps: پښتو
           tr: Türkçe
         section_link:
           desktop:
