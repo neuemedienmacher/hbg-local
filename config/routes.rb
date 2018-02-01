@@ -9,31 +9,22 @@ Clarat::Application.routes.draw do
     # root to: 'pages#section_forward'
     get '/404' => 'pages#not_found'
 
-    root to: 'pages#section_choice', as: 'section_choice'
+    # scoped static pages
+    get '/' => 'pages#home', as: 'home'
+    get 'impressum' => 'pages#impressum', as: 'impressum'
+    get 'rechtliche-hinweise' => 'pages#agb', as: 'agb'
+    get 'datenschutzhinweise' => 'pages#privacy', as: 'privacy'
 
-    scope ':section', section: /family|refugees/ do
-      # scoped static pages
-      get '/' => 'pages#home', as: 'home'
-      get 'impressum' => 'pages#impressum', as: 'impressum'
-      get 'rechtliche-hinweise' => 'pages#agb', as: 'agb'
-      get 'datenschutzhinweise' => 'pages#privacy', as: 'privacy'
+    # RESTful resources
+    resources :offers, only: %i[index show]
+    resources :organizations, only: [:show]
 
-      # RESTful resources
-      resources :offers, only: %i[index show]
-      resources :organizations, only: [:show]
+    # Previews
+    get 'preview/offers/:id' => 'previews#show_offer'
+    get 'preview/organizations/:id' => 'previews#show_organization'
 
-      # Previews
-      get 'preview/offers/:id' => 'previews#show_offer'
-      get 'preview/organizations/:id' => 'previews#show_organization'
-
-      # Email overviews
-      get 'emails/:id/offers' => 'emails#offers_index', as: 'emails_offers'
-    end
-
-    scope 'refugees' do
-      get 'widget-start-with-a-friend' => 'pages#widget_swaf', as: 'home'
-      get 'widget-handbook-germany-:city' => 'pages#widget_hg', as: 'home'
-    end
+    get 'widget-start-with-a-friend' => 'pages#widget_swaf', as: 'home'
+    get 'widget-handbook-germany-:city' => 'pages#widget_hg', as: 'home'
 
     # unscoped to scoped forwards
     get 'offers/:id' => 'offers#section_forward', as: :unscoped_offer
@@ -44,7 +35,6 @@ Clarat::Application.routes.draw do
     get 'datenschutzhinweise' => 'pages#section_forward'
 
     # unscoped RESTful resources (only POST and non-HTML GET)
-    resources :update_requests, only: %i[new create]
     resources :search_locations, only: [:show]
     resources :definitions, only: [:show]
 
