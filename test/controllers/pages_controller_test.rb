@@ -15,20 +15,6 @@ describe PagesController do
     end
   end
 
-  describe "GET 'about'" do
-    it 'should work' do
-      get :about, params: { locale: 'de', section: 'refugees' }
-      assert_response :success
-    end
-  end
-
-  describe "GET 'faq'" do
-    it 'should work' do
-      get :faq, params: { locale: 'de', section: 'family' }
-      assert_response :success
-    end
-  end
-
   describe "GET 'impressum'" do
     it 'should work' do
       get :impressum, params: { locale: 'de', section: 'refugees' }

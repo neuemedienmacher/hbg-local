@@ -84,7 +84,7 @@
     height: 50px;
     width: 100px;
     min-height: 0;
-    margin-left: 0;
+    margin-left: 20px;
 
     &,
     body.refugees &, // Specifity
@@ -96,7 +96,7 @@
 
     [dir="rtl"] & {
       margin-left: 0;
-      margin-right: 0;
+      margin-right: 20px;
     }
 
   }
@@ -180,18 +180,18 @@
     }
   }
 
-  .nav-main__list {
-    flex-direction: column;
-    padding: 10px 0;
-  }
-
-  .nav-main__listitem {
-    margin-left: 20px;
-
-    [dir="rtl"] & {
-      margin-right: 20px;
-    }
-  }
+  // .nav-main__list {
+  //   flex-direction: column;
+  //   padding: 10px 0;
+  // }
+  //
+  // .nav-main__listitem {
+  //   margin-left: 20px;
+  //
+  //   [dir="rtl"] & {
+  //     margin-right: 20px;
+  //   }
+  // }
 
   .nav-main__link {
     font-size: 14px;

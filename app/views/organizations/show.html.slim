@@ -90,14 +90,5 @@
                   #big-map
                     button.big-map_close X
 
-
-      = link_to new_contact_path,
-                class: 'offer-contribute js-report-overlay_open' do
-        i.fa.fa-exclamation-triangle
-        = t 'shareds.show.cta_report_errors'
-
-      = modal_for 'js-report-overlay' do
-        = render '/contacts/shared/new', contact: @contact, reporting: true
-
 / - content_for :view_specific_scripts do
 /   = javascript_include_tag "gmaps_search_results.js"

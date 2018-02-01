@@ -36,14 +36,6 @@ module ApplicationHelper
   #   end
   # end
 
-  # Modal with content block
-  def modal_for selector, options = {}, &block
-    render(
-      partial: '/layouts/partials/modal',
-      locals: { selector: selector, options: options, block: block }
-    )
-  end
-
   def default_canonical_url
     section_regex = Regexp.new(Section::IDENTIFIER.join('|'))
     request.url.sub section_regex, Section::DEFAULT

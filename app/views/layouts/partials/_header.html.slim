@@ -1,13 +1,13 @@
 header.header-main
   .header-main__wrapper.wrapper-inner
-    button.header-main__nav-main-trigger#header-main__nav-main-trigger[aria-label="Navigation" aria-controls="nav-main"]
+    <!-- button.header-main__nav-main-trigger#header-main__nav-main-trigger[aria-label="Navigation" aria-controls="nav-main"]
       | <svg class="icon icon-menu-toggle" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100">
             <g class="svg-menu-toggle">
               <path class="line line-1" d="M5 13h90v14H5z"/>
               <path class="line line-2" d="M5 43h90v14H5z"/>
               <path class="line line-3" d="M5 73h90v14H5z"/>
             </g>
-          </svg>
+          </svg> -->
 
     .Logo itemscope="" itemtype="http://schema.org/Organization"
       a href='http://www.handbookgermany.de' itemprop="url"
@@ -27,13 +27,3 @@ header.header-main
           class: 'nav-lang__google' do
           = image_tag 'banner--translated-by-google.svg',
             alt: 'Translated by Google'
-    nav.nav-main#nav-main
-      ul.nav-main__list
-        li.nav-main__listitem
-          = link_to t('.blog'),  'https://plus.clarat.org/', class: "nav-main__link"
-        li.nav-main__listitem
-          = link_to t('.about'), about_path(section: current_section || 'refugees'), class: "nav-main__link"
-        li.nav-main__listitem
-          = link_to t('.faq'), faq_path(section: current_section || 'refugees'), class: "nav-main__link"
-        li.nav-main__listitem
-          = link_to t('.contact'), impressum_path(section: current_section || 'refugees'), class: "nav-main__link"
