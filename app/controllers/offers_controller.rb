@@ -25,12 +25,6 @@ class OffersController < ApplicationController
     respond_with @offer
   end
 
-  def section_forward
-    offer = Offer.visible_in_frontend.friendly.find(params[:id])
-    offer_section = offer.canonical_section
-    redirect_to offer_path(section: offer_section, id: offer.slug)
-  end
-
   private
 
   ### INDEX ###

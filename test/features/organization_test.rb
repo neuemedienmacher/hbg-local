@@ -8,7 +8,7 @@ feature 'Organization display' do
     orga = offer.organizations.first
     orga.update_columns aasm_state: 'approved'
     orga.update_columns website_id: FactoryGirl.create(:website, :own, url: 'http://a.t.com/').id
-    visit unscoped_orga_path orga
+    visit organization_path orga
     page.must_have_content orga.name
     page.must_have_content orga.locations.first.street
     page.body.must_match(
@@ -21,7 +21,7 @@ feature 'Organization display' do
     orga = offer.organizations.first
     orga.update_columns aasm_state: 'all_done'
     orga.update_columns website_id: FactoryGirl.create(:website, :own, url: 'http://a.t.com/').id
-    visit unscoped_orga_path orga
+    visit organization_path orga
     page.must_have_content orga.name
     page.must_have_content orga.locations.first.street
     page.body.must_match(
@@ -36,7 +36,7 @@ feature 'Organization display' do
     orga.update_columns aasm_state: 'approved'
     orga.locations.first.update_columns visible: false
     orga.update_columns website_id: FactoryGirl.create(:website, :own, url: 'http://a.t.com/').id
-    visit unscoped_orga_path orga
+    visit organization_path orga
     page.must_have_content orga.name
     page.must_have_content orga.website.shorten_url
     page.must_have_content I18n.t 'organizations.show.where'
@@ -50,7 +50,7 @@ feature 'Organization display' do
     orga.update_columns aasm_state: 'approved'
     orga.locations.first.update_columns visible: false
     orga.update_columns website_id: nil
-    visit unscoped_orga_path orga
+    visit organization_path orga
     page.must_have_content orga.name
     page.wont_have_content orga.locations.first.street
     page.wont_have_content I18n.t 'organizations.show.where'

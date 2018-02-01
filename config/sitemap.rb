@@ -5,7 +5,7 @@ host 'www.clarat.org'
 protocol 'https'
 
 sitemap :site do
-  url section_choice_url,
+  url home_url,
       last_mod: Time.zone.now, change_freq: 'daily', priority: 1.0
 
   I18n.available_locales.each do |locale|

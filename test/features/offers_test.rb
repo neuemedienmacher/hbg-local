@@ -5,7 +5,7 @@ require_relative '../test_helper'
 feature 'Offer display' do
   scenario 'Approved offer gets shown' do
     offer = offers(:basic)
-    visit unscoped_offer_path offer
+    visit offer_path offer
     page.must_have_content offer.name_de
     click_link offer.organizations.first.name
     page.must_have_content offer.name_de
@@ -14,7 +14,7 @@ feature 'Offer display' do
   scenario 'Expired offer gets shown' do
     offer = offers(:basic)
     offer.update_columns aasm_state: 'expired'
-    visit unscoped_offer_path offer
+    visit offer_path offer
     page.must_have_content offer.name_de
     click_link offer.organizations.first.name
     page.must_have_content offer.name_de
@@ -44,18 +44,18 @@ feature 'Offer display' do
                                description: 'A [link](http://www.example.org)',
                                old_next_steps: "A\n\n- list"
 
-    visit unscoped_offer_path offer
+    visit offer_path offer
     page.must_have_link 'link'
     page.body.must_match %r{\<ul\>\n\<li\>list\</li\>\n\</ul\>}
   end
 
   scenario 'Offer view displays new next steps instead of old if they exist' do
     offer = FactoryGirl.create :offer, :approved, old_next_steps: 'Step one.'
-    visit unscoped_offer_path offer
+    visit offer_path offer
     page.must_have_content 'Step one.'
     page.wont_have_content 'basicNextStep'
     offer.next_steps << next_steps(:basic)
-    visit unscoped_offer_path offer
+    visit offer_path offer
     page.wont_have_content 'Step one.'
     page.must_have_content 'basicNextStep'
   end
@@ -87,7 +87,7 @@ feature 'Offer display' do
       :contact_person, :all_fields, :with_telephone,
       organization: offer.organizations.first
     )
-    visit unscoped_offer_path offer
+    visit offer_path offer
     page.body.must_match(
       '030  12 34 56'
     )
@@ -98,7 +98,7 @@ feature 'Offer display' do
     offer.websites = []
     offer.websites << FactoryGirl.create(:website, :pdf)
     offer.websites << FactoryGirl.create(:website, :own)
-    visit unscoped_offer_path offer
+    visit offer_path offer
     page.body.must_match(
       '<a target="_blank" href="http://www.example.com/">www.example.com</a>'\
         ' | <a target="_blank" href="http://www.t.com/t.pdf">Weitere Infos'\
@@ -111,7 +111,7 @@ feature 'Offer display' do
     offer.websites = []
     offer.websites << FactoryGirl.create(:website, :pdf, host: 'own')
     offer.websites << FactoryGirl.create(:website, :own)
-    visit unscoped_offer_path offer
+    visit offer_path offer
     page.body.must_match(
       '<a target="_blank" href="http://www.example.com/">www.example.com</a>'\
         ' | <a target="_blank" href="http://www.t.com/t.pdf">www.t.com (PDF)</a>'
@@ -126,7 +126,7 @@ feature 'Offer display' do
     offer.websites << FactoryGirl.create(:website,
                                          host: 'own',
                                          url: 'http://www.example2.com/')
-    visit unscoped_offer_path offer
+    visit offer_path offer
     page.body.must_match(
       '<a target="_blank" href="http://www.example.com/">www.example.com</a>'\
         ' | <a target="_blank" href="http://www.example2.com/">www.example2.com'\
