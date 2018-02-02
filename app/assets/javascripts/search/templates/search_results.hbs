@@ -29,12 +29,6 @@
         <img alt='Algolia Logo' class='Breadcrumbs__sponsor' src='{{algolia_logo_path}}' />
       </a>
     </div>
-    {{#unless personal_focus_with_remote}}<h2 class='Listing-results__headline'>
-      {{faq_text}}
-      <a href='{{faq_href}}'>
-        {{faq_anchor}}
-      </a>
-    </h2>{{/unless}}
     <ul class='Listing-results__list'>
       {{#each main_offers}}{{> _single_search_result}}{{/each}}
     </ul>
