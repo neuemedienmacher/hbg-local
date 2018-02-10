@@ -21,4 +21,9 @@ class PagesController < ApplicationController
   def widget_hg
     render layout: 'widget'
   end
+
+  # Let'sEncrypt SSL proof
+  def letsencrypt
+    render plain: 'FqBLJjfCsodOPbKO1-imj268kqP_NXzPYu4vuUOasJA.WsiQAYWdBiKPD4ybEZzBUj_kEqZC0_qJuAoSfbbiL9Y'
+  end
 end

@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 Clarat::Application.routes.draw do
+  get '/.well-known/acme-challenge/FqBLJjfCsodOPbKO1-imj268kqP_NXzPYu4vuUOasJA' => 'pages#letsencrypt'
+
   # Sitemap path
   mount DynamicSitemaps::Engine => '/sitemaps/'
 
