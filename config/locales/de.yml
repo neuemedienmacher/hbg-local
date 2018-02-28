@@ -313,23 +313,14 @@ de:
       callout:
         callout:
           how:
-            family:
-              heading: Wie funktioniert clarat?
-              text: 'Gib dein Problem in das Suchfeld ein und den Ort, an dem du suchst. Klicke auf die Lupe. Du bekommst die Hilfen in deiner Nähe auf einen Blick angezeigt. '
             refugees:
               heading: Wie funktioniert clarat?
               text: Gib dein Problem in das Suchfeld ein und den Ort, an dem du suchst. Klicke auf die Lupe. Du bekommst die Hilfen in deiner Nähe auf einen Blick angezeigt.
           what:
-            family:
-              heading: Was findest du hier?
-              text: 'Alle Infos zu Hilfen in deiner Nähe. Bei Problemen aus folgenden Bereichen: Familie, Gesundheit, Lernen & Arbeiten und Gewalt & Kriminalität.'
             refugees:
               heading: Was findest du hier?
               text: 'Alle Infos zu Hilfen in deiner Nähe. Bei Problemen aus folgenden Bereichen: Asyl & Recht, Familie, Gesundheit, Lernen & Arbeiten und Gewalt & Kriminalität.'
           who:
-            family:
-              heading: Wer findet hier Hilfe?
-              text: Alle Familien in Deutschland. Eltern, ihre Kinder und Schwangere finden hier Hilfe. Und auch Freunde und Verwandte.
             refugees:
               heading: Wer findet hier Hilfe?
               text: Alle Menschen, die nach Deutschland geflüchtet sind. Auch geflüchtete Kinder und Jugendliche. Und Menschen, die Hilfe für Flüchtlinge suchen.
@@ -347,8 +338,7 @@ de:
         about: Über uns
         blog: Blog
         contact: Kontakt
-        facebook_family: clarat family
-        facebook_refugees: clarat refugees
+        facebook_refugees: Handbook Germany
         faq: Häufige Fragen
         fb:
           anchor: Facebook
@@ -415,17 +405,6 @@ de:
           pl: Polski
           ps: پښتو
           tr: Türkçe
-        section_link:
-          desktop:
-            family: "‹ zu clarat refugees"
-            refugees: "‹ zu clarat family"
-          mobile:
-            home:
-              family: zur <span class="top-bar__emphasis">clarat family</span> Startseite
-              refugees: zur <span class="top-bar__emphasis">clarat refugees</span> Startseite
-            switch:
-              family: zu <span class="top-bar__emphasis">clarat refugees</span> wechseln
-              refugees: zu <span class="top-bar__emphasis">clarat family</span> wechseln
         title: Wähle deine Sprache
   offers:
     index:
@@ -639,11 +618,9 @@ de:
           Hilfe bekommst. Also ob du anrufen oder eine E-Mail schreiben sollst.
           Oder einfach vorbeigehen kannst.
       meta_description:
-        family: Mit clarat family findest Du einfach Hilfe für Kinder, Jugendliche und Familien. Übersichtlich. Mehrsprachig. In ganz Berlin. Und deutschlandweit.
-        refugees: 'Mit clarat refugees findest Du einfach Hilfe für Flüchtlinge. Übersichtlich. Mehrsprachig. In deiner Nähe. Und in ganz Deutschland. '
+        refugees: Mit Handbook Germany local findest Du einfach Hilfe für Flüchtlinge. Übersichtlich. Mehrsprachig. In deiner Nähe. Und in ganz Deutschland.
       meta_title:
-        family: Einfach Hilfe finden | clarat family
-        refugees: Einfach Hilfe finden | clarat refugees
+        refugees: Handbook Germany
       title:
         family: Hilfe für Kinder, Jugendliche und Familien
         refugees: Hilfe für Flüchtlinge
@@ -667,12 +644,15 @@ de:
     impressum:
       heading: Impressum
       notice: clarat ist eine Suchmaschine. clarat sagt dir, wo du Hilfe bekommst. Zum Beispiel, wo du einen Experten findest, der dir bei deinem Problem hilft. clarat selber kann dir nur beim Suchen helfen.
-      responsible_html: |-
-        Geschäftsführer<br/>
-        Anne Schulze und Mathias Barth<br/>
-        (verantwortlich für den Inhalt der Website)<br/><br/>
-        Handelsregister: AG Charlottenburg<br/>
-        HRB 174379 B
+      responsible_html: |+
+        <p>Vertreten durch die Geschäftsführerin Konstantina Vassiliou-Enz<br/></br>
+        Amtsgericht Charlottenburg</br>
+        Registernummer: VR28575</p>
+        <h3>Redaktion</h3><p>
+        Handbook Germany<br/>
+        Prinzenstr. 103, 10969 Berlin<br/><br/>
+        Tel. +49 (0)30 355 271 24</p>
+
       title: Impressum
     not_found:
       description: |-
@@ -748,10 +728,10 @@ de:
       address:
         email: "%{mailto}\n"
         fax: Fax +49 (0)30 55 57 96 09 9
-        name: clarat gGmbH
-        street: Französische Straße 47
-        telephone: Tel +49 (0)30 55 57 96 00
-        zip_city: 10117 Berlin
+        name: Neue deutsche Medienmacher e.V.
+        street: Potsdamer Str. 99
+        telephone: Tel. +49 (0)30 219 174 21
+        zip_city: 10785 Berlin
   routes:
     '404': "'404'"
     contacts: kontakt
@@ -816,7 +796,6 @@ de:
       new:
         button: Newsletter abonnieren
         placeholder: E-Mail Adresse
-  success: Vielen Dank. Bald haben wir auch Angebote in deiner Nähe. Wenn es soweit ist, bekommst du von uns eine E-Mail.
   update_requests:
     create:
       success: |

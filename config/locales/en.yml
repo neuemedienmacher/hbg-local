@@ -291,23 +291,14 @@ en:
       callout:
         callout:
           how:
-            family:
-              heading: How does clarat work?
-              text: Enter your problem into the search field and the area where you are looking. Click on the magnifying glass. The support services in your area will show up instantly.
             refugees:
               heading: How does clarat work?
               text: Enter your problem into the search field and the area where you are looking. Click on the magnifying glass. The support services in your area will show up instantly.
           what:
-            family:
-              heading: What can you find here?
-              text: 'Information about support services in your area. For problems with: family, health, learning & work and violence & crime.'
             refugees:
               heading: What can you find here?
               text: 'Information about support services in your area. For problems with: asylum & law, family, health, learning & work and violence & crime.'
           who:
-            family:
-              heading: Who can find help here?
-              text: Every family in Germany, parents, their children and pregnant women can find help here. Friends and relatives can, too.
             refugees:
               heading: Who can find help here?
               text: Everyone who has come to Germany as a refugee. Refugee children and young people, too. And people who are looking for help for refugees.
@@ -325,8 +316,7 @@ en:
         about: About us
         blog: Blog
         contact: Contact
-        facebook_family: clarat family
-        facebook_refugees: clarat refugees
+        facebook_refugees: Handbook Germany
         faq: FAQ
         fb:
           anchor: Facebook
@@ -334,10 +324,10 @@ en:
         gplus:
           anchor: Google+
           href: https://plus.google.com/110429028641743127592/about
-        impressum: impressum
+        impressum: Imprint
         plus: clarat plus
-        privacy: privacy
-        tos: legal information
+        privacy: Privacy
+        tos: Legal
         twitter:
           anchor: Twitter
           href: https://twitter.com/claratpunktorg
@@ -387,17 +377,6 @@ en:
           pl: Polski
           ps: پښتو
           tr: Türkçe
-        section_link:
-          desktop:
-            family: "‹ to clarat refugees"
-            refugees: "‹ to clarat family"
-          mobile:
-            home:
-              family: to the <span class="top-bar__emphasis">clarat family</span> homepage
-              refugees: to the <span class="top-bar__emphasis">clarat refugees</span> homepage
-            switch:
-              family: switch to <span class="top-bar__emphasis">clarat refugees</span>
-              refugees: switch to <span class="top-bar__emphasis">clarat family</span>
         title: Automated translations!
   offers:
     index:
@@ -605,11 +584,9 @@ en:
         heading: How does clarat work?
         text: "First of all, just enter the problem you need help with. Or whatever\nit is that's worrying you. Or choose from our categories. And we'll show \nyou all the relevant support services offers in your neighbourhood. \nWe'll also tell you how to get this support. For example, if you should \ncall or write an email. Or, just stop by."
       meta_description:
-        family: With clarat family, you can easily find help for children, teenagers and families. Clear and understandable. In many languages. All over Berlin. And around Germany.
-        refugees: With clarat refugees, you can easily find help for refugees. Clear and understandable. In many languages. Near you. And all over Germany.
+        refugees: With Handbook Germany local, you can easily find help for refugees. Clear and understandable. In many languages. Near you. And all over Germany.
       meta_title:
-        family: Find help easily | clarat family
-        refugees: Find help easily | clarat refugees
+        refugees: Handbook Germany
       title:
         family: Help and support services for children, teenagers and families
         refugees: Help and support services for refugees
@@ -627,11 +604,9 @@ en:
       heading: Impressum
       notice: clarat ist a search engine. clarat tells you where to get help. For example, where you can find an expert to help you with your problem. clarat can only help you to find help.
       responsible_html: |-
-        Geschäftsführer<br/>
-        Anne Schulze und Mathias Barth<br/>
-        (verantwortlich für den Inhalt der Website)<br/><br/>
-        Handelsregister: AG Charlottenburg<br/>
-        HRB 174379 B
+        Vertreten durch die Geschäftsführerin Konstantina Vassiliou-Enz<br/></br>
+        Amtsgericht Charlottenburg</br>
+        Registernummer: VR28575
       title: Impressum
     not_found:
       description: |
@@ -772,7 +747,6 @@ en:
       new:
         button: Subscribe to our newsletter
         placeholder: Email address
-  success: 'Thanks! Soon, clarat will exist in your area, too. We will inform you respectively. '
   update_requests:
     create:
       success: |-

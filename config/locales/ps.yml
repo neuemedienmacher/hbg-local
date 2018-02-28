@@ -253,23 +253,14 @@ ps:
       callout:
         callout:
           how:
-            family:
-              heading: 
-              text: 
             refugees:
               heading: 
               text: 
           what:
-            family:
-              heading: 
-              text: 
             refugees:
               heading: 
               text: 
           who:
-            family:
-              heading: 
-              text: 
             refugees:
               heading: 
               text: 
@@ -287,8 +278,7 @@ ps:
         about: 
         blog: 
         contact: 
-        facebook_family: 
-        facebook_refugees: 
+        facebook_refugees: Handbook Germany
         faq: 
         fb:
           anchor: 
@@ -345,17 +335,6 @@ ps:
           pl: Polski
           ps: پښتو
           tr: Türkçe
-        section_link:
-          desktop:
-            family: 
-            refugees: 
-          mobile:
-            home:
-              family: 
-              refugees: 
-            switch:
-              family: 
-              refugees: 
         title: 
   offers:
     index:
@@ -511,11 +490,9 @@ ps:
         heading: 
         text: 
       meta_description:
-        family: 
         refugees: 
       meta_title:
-        family: 
-        refugees: 
+        refugees: Handbook Germany
       title:
         family: 
         refugees: 
@@ -655,7 +632,6 @@ ps:
       new:
         button: 
         placeholder: 
-  success: 
   update_requests:
     create:
       success: 

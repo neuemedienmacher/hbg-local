@@ -10,7 +10,7 @@ describe OffersController do
         offer.name = 'bazfuz'
         get :show, params: { id: offer.slug, locale: 'de' }
         assert_response :success
-        assert_select 'title', 'basicOfferName | clarat'
+        assert_select 'title', 'basicOfferName | Handbook Germany'
       end
 
       # it 'should use the correct canonical URL' do
@@ -39,7 +39,7 @@ describe OffersController do
         offer.update_columns aasm_state: 'expired'
         get :show, params: { id: offer.slug, locale: 'de' }
         assert_response :success
-        assert_select 'title', 'basicOfferName | clarat'
+        assert_select 'title', 'basicOfferName | Handbook Germany'
       end
 
       # it 'should use the correct canonical URL' do

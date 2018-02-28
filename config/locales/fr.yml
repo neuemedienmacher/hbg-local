@@ -286,23 +286,14 @@ fr:
       callout:
         callout:
           how:
-            family:
-              heading: 
-              text: 
             refugees:
               heading: 
               text: 
           what:
-            family:
-              heading: 
-              text: 
             refugees:
               heading: 
               text: 
           who:
-            family:
-              heading: 
-              text: 
             refugees:
               heading: 
               text: 
@@ -320,8 +311,7 @@ fr:
         about: À propos de nous
         blog: Blog
         contact: Contact
-        facebook_family: clarat family
-        facebook_refugees: clarat refugees
+        facebook_refugees: Handbook Germany
         faq: Questions fréquentes
         fb:
           anchor: Facebook
@@ -380,17 +370,6 @@ fr:
           pl: Polski
           ps: پښتو
           tr: Türkçe
-        section_link:
-          desktop:
-            family: "‹ aller à la page clarat refugees"
-            refugees: "‹ aller à la page clarat family"
-          mobile:
-            home:
-              family: aller à la page de démarrage de <span class="top-bar__emphasis">clarat family</span>
-              refugees: aller à la page de démarrage de <span class="top-bar__emphasis">clarat refugees</span>
-            switch:
-              family: aller à la page <span class="top-bar__emphasis">clarat refugees</span>
-              refugees: aller à la page <span class="top-bar__emphasis">clarat family</span>
         title: Traductions automatiques
   offers:
     index:
@@ -594,11 +573,9 @@ fr:
 '
         text: Tape dans le champ de recherche le problème pour lequel tu as besoin d’aide. Ou ce qui t’inquiète. Ou choisis parmi nos thèmes. Tu verras toutes les offres d’aide près de chez toi. On t’explique aussi comment tu peux recevoir de l’aide. C’est-à-dire, s’il faut appeler quelqu’un ou s’il faut écrire un courriel. Ou si tu peux tout simplement passer.
       meta_description:
-        family: 
         refugees: 
       meta_title:
-        family: 
-        refugees: 
+        refugees: Handbook Germany
       title:
         family: Offres d'aide pour les enfants, les ados et les familles
         refugees: Offres d'aide pour les réfugiés
@@ -753,7 +730,6 @@ fr:
       new:
         button: s'abonner à la newsletter
         placeholder: adresse électronique
-  success: Merci beaucoup. Nous allons bientôt avoir des propositions d'aide près de chez toi. Dès que cela est le cas, tu vas recevoir un e-mail de notre part.
   update_requests:
     create:
       success: Merci beaucoup, nous avons bien reçu ton message. Dès que nous serons actifs près de chez toi, nous nous manifesterons.
