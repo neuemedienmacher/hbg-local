@@ -341,8 +341,8 @@ tr:
           fa: فارسی
           fr: Français
           pl: Polski
-          tr: Türkçe
           ps: پښتو
+          tr: Türkçe
       hero:
         claim:
           family: Çocuklar, gençler ve aileler için yardıum çeşitleri
@@ -586,7 +586,7 @@ tr:
       explaination:
         headline: 
       how:
-        heading: Clarat nasıl çalışıyor?
+        heading: Handbook germany local nasıl çalışıyor?
         text: Hangi problem için yardıma ihtiyacın olduğunu ya da hangi konunun seni rahatsız ettiğini belirle. Ayrıca menümüzdeki kategorilerden de seçebilirsin. Bu sayede sana en yakın destek önerilerini göreceksin. Sana nasıl yardım alabileceğini de anlatıyoruz. Yardım almak için telefon açabilir, mail atabilir veya şahsen ofisimize gelebilirsin.
       meta_description:
         refugees: 

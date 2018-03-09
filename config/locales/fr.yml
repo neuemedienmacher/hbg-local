@@ -340,8 +340,8 @@ fr:
           fa: فارسی
           fr: Français
           pl: Polski
-          tr: Türkçe
           ps: پښتو
+          tr: Türkçe
       hero:
         claim:
           family: Offres d'aide pour les enfants, les ados et les familles
@@ -568,9 +568,7 @@ fr:
       explaination:
         headline: 
       how:
-        heading: 'Clarat, comment ça fonctionne?
-
-'
+        heading: Handbook germany local, comment ça fonctionne?
         text: Tape dans le champ de recherche le problème pour lequel tu as besoin d’aide. Ou ce qui t’inquiète. Ou choisis parmi nos thèmes. Tu verras toutes les offres d’aide près de chez toi. On t’explique aussi comment tu peux recevoir de l’aide. C’est-à-dire, s’il faut appeler quelqu’un ou s’il faut écrire un courriel. Ou si tu peux tout simplement passer.
       meta_description:
         refugees: 

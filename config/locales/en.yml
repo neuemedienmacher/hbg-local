@@ -292,7 +292,7 @@ en:
         callout:
           how:
             refugees:
-              heading: How does clarat work?
+              heading: How does handbook germany local work?
               text: Enter your problem into the search field and the area where you are looking. Click on the magnifying glass. The support services in your area will show up instantly.
           what:
             refugees:
@@ -343,8 +343,8 @@ en:
           fa: فارسی
           fr: Français
           pl: Polski
-          tr: Türkçe
           ps: پښتو
+          tr: Türkçe
       hero:
         claim:
           family: Support services for children, teenagers and families
@@ -581,7 +581,7 @@ en:
       explaination:
         headline: clarat.org explained in 2 minutes
       how:
-        heading: How does clarat work?
+        heading: How does handbook germany local work?
         text: "First of all, just enter the problem you need help with. Or whatever\nit is that's worrying you. Or choose from our categories. And we'll show \nyou all the relevant support services offers in your neighbourhood. \nWe'll also tell you how to get this support. For example, if you should \ncall or write an email. Or, just stop by."
       meta_description:
         refugees: With Handbook Germany local, you can easily find help for refugees. Clear and understandable. In many languages. Near you. And all over Germany.

@@ -314,7 +314,7 @@ de:
         callout:
           how:
             refugees:
-              heading: Wie funktioniert clarat?
+              heading: Wie funktioniert handbook germany local?
               text: Gib dein Problem in das Suchfeld ein und den Ort, an dem du suchst. Klicke auf die Lupe. Du bekommst die Hilfen in deiner Nähe auf einen Blick angezeigt.
           what:
             refugees:
@@ -365,8 +365,8 @@ de:
           fa: فارسی
           fr: Français
           pl: Polski
-          tr: Türkçe
           ps: پښتو
+          tr: Türkçe
       hero:
         claim:
           family: Hilfe für Kinder, Jugendliche und Familien
@@ -610,7 +610,7 @@ de:
       explaination:
         headline: clarat.org in 2 Minuten erklärt
       how:
-        heading: Wie funktioniert clarat?
+        heading: Wie funktioniert handbook germany local?
         text: |
           Gib ein, bei welchem Problem du Hilfe brauchst. Oder was dich
           bedrückt. Oder wähle aus unseren Themen aus. Schon siehst du alle

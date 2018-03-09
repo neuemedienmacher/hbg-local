@@ -305,8 +305,8 @@ ps:
           fa: فارسی
           fr: Français
           pl: Polski
-          tr: Türkçe
           ps: پښتو
+          tr: Türkçe
       hero:
         claim:
           family: 
@@ -571,7 +571,7 @@ ps:
     shared:
       address:
         email: 
-        fax: 
+        fax: Fax +49 (0)30 55 57 96 09 9
         name: 
         street: 
         telephone: 
