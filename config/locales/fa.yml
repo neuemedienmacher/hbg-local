@@ -98,7 +98,7 @@ fa:
         approach: از چه راهی؟
         gender: جنسیت
         language: زبان
-        main: 
+        main:
         residency_status: وضعیت اقامت
         sort: 'فیلتر کردن با توجه '
         target_audience: کمک برای چه کسی؟
@@ -302,7 +302,7 @@ fa:
         teaser:
           link: اطلاعات بیشتر در اینجا
           refugees: به زودی پیشنهاد هایی برای پناهندگان
-          text: clarat.org در حال بازسازی است
+          text: handbook germany local در حال بازسازی است
       callout:
         callout:
           how:
@@ -323,7 +323,7 @@ fa:
             text: ما تو را در پیدا کردن کمک مناسب،یاری می کنیم.ما به تمام کمکها نظم می دهیم و از طریق یک زبان ساده آنها را قابل درک می کنیم.
           what:
             heading: هدف ما چیست؟
-            text: صفحه clarat پیشنهادهای کمکی در آلمان را به صورت شفاف نشان می دهد.ما می خواهیم هر کسی که نیاز به کمک دارد آن را پیدا کند.
+            text: صفحه handbook germany local پیشنهادهای کمکی در آلمان را به صورت شفاف نشان می دهد.ما می خواهیم هر کسی که نیاز به کمک دارد آن را پیدا کند.
           who:
             heading: ما کی هستیم؟
             text: ما یک پروژه عام‌المنفعه وابسته به بنیاد Benckiser Stiftung Zukunft هستیم.هدف این بنیاد کمک به کودکان،جوانان و خانواده های دارای شرایط سخت در زندگی است.
@@ -335,17 +335,17 @@ fa:
         faq: سوالات رایج
         fb:
           anchor: فیسبوک
-          href: https://www.facebook.com/claratpunktorg
+          href: https://www.facebook.com/HandbookGermany
         gplus:
           anchor: گوگل پلاس
           href: https://plus.google.com/110429028641743127592/about
         impressum: اطلاعات کلی شرکت
-        plus: clarat plus
+        plus: handbook germany local plus
         privacy: نکات حفاظت از اطلاعات
         tos: نکات حقوقی
         twitter:
           anchor: توییتر
-          href: https://twitter.com/claratpunktorg
+          href: https://twitter.com/handbookgermany
       header:
         about: در مورد ما
         blog: بلاگ
@@ -369,8 +369,8 @@ fa:
       modal:
         beta_modal:
           link: برای ما پیغام بنویسید
-          text: صفحه اینترنتی ما clarat.org جدید می باشد.در برلین می توانی پیشنهاد های کمکی زیادی را جستجو کنی.به زودی پیشنهاد های کمکی برای شهرهای دیگر را نیز جمع آوری می کنیم.از کمک شما استقبال می کنیم:آیا چیزی را دیدی که ما بهتر می توانیم آن را ارائه دهیم یا اینکه چیزی به درستی انجام نمی شود؟پس
-        unavailable_location_modal: در محل زندگی تو و حال حاضر در clarat فقط پیشنهادهای تلفنی یا آنلاین موجود می باشد.این بدین معنی است که به تو کمک تلفنی یا آنلاین می شود.بطور مثال از طریق ایمیل و یا در چت.به محض اینکه در در اینجا و در نزدیکی محل سکونت تو کمکی وجود داشت با کمال میل به تو اطلاع می دهیم.اطفا آدرس ایمیل خود را وارد کنید.
+          text: صفحه اینترنتی ما handbook germany local جدید می باشد.در برلین می توانی پیشنهاد های کمکی زیادی را جستجو کنی.به زودی پیشنهاد های کمکی برای شهرهای دیگر را نیز جمع آوری می کنیم.از کمک شما استقبال می کنیم:آیا چیزی را دیدی که ما بهتر می توانیم آن را ارائه دهیم یا اینکه چیزی به درستی انجام نمی شود؟پس
+        unavailable_location_modal: در محل زندگی تو و حال حاضر در handbook germany local فقط پیشنهادهای تلفنی یا آنلاین موجود می باشد.این بدین معنی است که به تو کمک تلفنی یا آنلاین می شود.بطور مثال از طریق ایمیل و یا در چت.به محض اینکه در در اینجا و در نزدیکی محل سکونت تو کمکی وجود داشت با کمال میل به تو اطلاع می دهیم.اطفا آدرس ایمیل خود را وارد کنید.
       navigation:
         category_headline: " جستجو از طریق طبقه بندی ها"
         claim:
@@ -535,56 +535,9 @@ fa:
       where: کجا سازمان مربوطه را پیدا می کنی؟
       who: این سازمان وظایفش چیست؟
   pages:
-    agb:
-      heading: Rechtliche Hinweise
-      text_html: |-
-        <p>
-        Diese Webseite wurde mit größtmöglicher Sorgfalt erstellt. Die clarat gGmbH („clarat“ oder „wir“) übernimmt jedoch keine Gewähr in
-        Bezug auf die Vollständigkeit, die Aktualität, die Verfügbarkeit sowie
-        die Richtigkeit der auf dieser Webseite angebotenen Informationen und
-        Links. Die Webseite ist ausschließlich für den privaten Gebrauch
-        bestimmt, eine Nutzung zu eigenen kommerziellen Zwecken ist unzulässig.
-        </p>
-        <p>
-        Wir weisen vorsorglich darauf hin, dass die Informationen auf der
-        Webseite Ungenauigkeiten und Fehler enthalten können und dass eine
-        Haftung für solche Ungenauigkeiten oder Fehler grundsätzlich
-        ausgeschlossen ist. Wir weisen ferner ausdrücklich darauf hin, dass es
-        in Ihrer eigenen Verantwortung liegt, sicherzustellen, dass die
-        Serviceleistungen oder Informationen, die Sie über unsere Webseite
-        beziehen, Ihren speziellen Anforderungen genügen. Die Informationen auf
-        unserer Webseite stellen keine rechtlichen Zusicherungen dar und es
-        können aus ihnen keine Rechtsansprüche abgeleitet werden.
-        </p>
-        <p>
-        Die Webseite kann jederzeit ohne Benachrichtigung geändert werden.
-        </p>
-        <p>
-        Die Inhalte der Webseite wurden von oder für clarat erstellt. Das
-        Urheberrecht und sonstige Schutzrechte an den Inhalten unserer Webseite
-        stehen clarat oder demjenigen zu, der uns daran Nutzungsrechte
-        eingeräumt hat. Dies bezieht sich unter anderem, aber nicht
-        ausschließlich, auf das Design, das Layout, die Texte sowie Abbildungen,
-        Bilder und Grafiken. Wir widersprechen einer vollständigen oder
-        teilweisen Speicherung, Vervielfältigung und/oder Veröffentlichung und
-        behalten uns rechtliche Schritte vor, sofern eine solche ohne unsere
-        Genehmigung erfolgt.
-        </p>
-        <p>
-        Soweit auf andere Domains oder Webseiten hingewiesen oder mittels eines
-        Hyperlinks verlinkt wird, sind wir für den Inhalt solcher Webseiten
-        nicht verantwortlich, übernehmen dafür keine Gewähr und machen uns den
-        Inhalt solcher Webseiten nicht zu Eigen.
-        </p>
-        <p>
-        Die rechtlichen Hinweise auf dieser Webseite sowie alle Fragen und
-        Streitigkeiten im Zusammenhang mit dieser Webseite unterliegen dem Recht
-        der Bundesrepublik Deutschland.
-        </p>
-      title: Rechtliche Hinweise
     home:
       explaination:
-        headline: صفحه clarat.org در دو دقیقه توضیح داده می شود.
+        headline: صفحه handbook germany local در دو دقیقه توضیح داده می شود.
       how:
         heading: نحوه عملکرد handbook germany local چگونه است؟
         text: مشکلی را که نیاز به کمک در حل آن داری و یا چیزی که تو را آزار می دهد را در اینجا وارد کن و یا اینکه از موضوعات انتخابی ما استفاده کن.سپس تمام پیشنهاد های حمایتی را در نزدیکی محل سکونت خود مشاهده می کنی.ما به تو نیز می گوییم که چگونه کمک دریافت کنی.اینکه آیا از طریق تلفن یا ایمیل ارتباط برقرار کنی و یا اینکه حضوری می توانی مراجعه کنی.
@@ -596,87 +549,27 @@ fa:
         family: کمک برای کودکان،جوانان و خانواده ها
         refugees: کمک برای پناهندگان
       whom:
-        heading: چه کسانی می توانند از clarat استفاده کنند؟
-        text: clarat برای استفاده همه افراد است.clarat family برای کودکان و جوانان و خانواده‌ها می باشد و clarat refugees برای پناهندگان.در صورت داشتن سوالات یا مشکلات در اینجا می توانی برای خود یا خانواده خود و دوستانت و یا برای افراد دیگری که آنها را می شناسی و احتیاج به کمک دارند حمایت دریافت می کنی.
+        heading: چه کسانی می توانند از handbook germany local استفاده کنند؟
+        text: handbook germany local برای استفاده همه افراد است.Elternleben برای کودکان و جوانان و خانواده‌ها می باشد و handbook germany local برای پناهندگان.در صورت داشتن سوالات یا مشکلات در اینجا می توانی برای خود یا خانواده خود و دوستانت و یا برای افراد دیگری که آنها را می شناسی و احتیاج به کمک دارند حمایت دریافت می کنی.
       why:
-        heading: چرا  clarat وجود دارد؟
+        heading: چرا  handbook germany local وجود دارد؟
         text: |-
-          با clarat پیدا کردن کمک آسانتر می شود.در آلمان پیشنهاد های زیادی وجود دارند که از کودکان و جوانان و خانواده ها حمایت می کنند و همچنین پیشنهاد های زیادی برای پناهندگان.اما اغلب پیدا کردن آنها سخت می باشد.اگر در مورد موضوع خانواده باشد در clarat family و اگر در مورد موضوع پناهندگی در  clarat
+          با handbook germany local پیدا کردن کمک آسانتر می شود.در آلمان پیشنهاد های زیادی وجود دارند که از کودکان و جوانان و خانواده ها حمایت می کنند و همچنین پیشنهاد های زیادی برای پناهندگان.اما اغلب پیدا کردن آنها سخت می باشد.اگر در مورد موضوع خانواده باشد در Elternleben و اگر در مورد موضوع پناهندگی در  handbook germany local
           refugees جستجو کن.
     impressum:
       heading: اطلاعات کلی سازمان
-      notice: clarat یک  ماشین جستجو است و به تو می گوید که کجا کمک دریافت می کنی.بطور مثال کجا کارشناسانی را پیدا می کنی که تو را با مشکی که داری کمک کنند.clarat تو را فقط در جستجوی کمک یاری می دهد.
+      notice: handbook germany local یک  ماشین جستجو است و به تو می گوید که کجا کمک دریافت می کنی.بطور مثال کجا کارشناسانی را پیدا می کنی که تو را با مشکی که داری کمک کنند.handbook germany local تو را فقط در جستجوی کمک یاری می دهد.
       responsible_html: "مدیر عامل <br/> \nAnne Schulze و Mathias Barth<br/>\n(مسئول محتوای وب سایت)<br/><br/>\nHandelsregister: AG Charlottenburg<br/>\nHRB 174379 B"
       title: اطلاعات کلی سازمان
     not_found:
-      description: در خانه خالی جستجو٬ هرگونه کمکی و یا مشکلی که به آن احتیاج داری را وارد کن.clarat سپس پیشنهاد های نزدیک محل سکونت تو را نشان می دهد و یا اینکه برو به صفحه اصلی %{start_page}.در اینجا با توجه به عکسها می توانی کمک درخواستی خود را جستجو کنی.
+      description: در خانه خالی جستجو٬ هرگونه کمکی و یا مشکلی که به آن احتیاج داری را وارد کن.handbook germany local سپس پیشنهاد های نزدیک محل سکونت تو را نشان می دهد و یا اینکه برو به صفحه اصلی %{start_page}.در اینجا با توجه به عکسها می توانی کمک درخواستی خود را جستجو کنی.
       heading: متاسفانه نتوانستیم این صفحه را پیدا کنیم
       link_text: اینجا
       title: 404
-    privacy:
-      chapter_eight:
-        heading: 8. Recht auf Widerspruch und Ansprechpartner
-        nested_text_first_paragraph: 'Um der Verwendung des Webanalysedienstes von Optimizely zu widersprechen, können Sie folgendem Link folgen: %{optimizely_optout}.'
-        nested_text_second_paragraph: 'Ihre Fragen zum Datenschutz, Widersprüche, Auskunfts- oder Löschungsbegehren, Beschwerden oder Ähnliches richten Sie bitte an:'
-        text: 'Sie haben jederzeit das Recht der oben beschriebenen Verwendung Ihrer Daten zu widersprechen und/oder Ihre erteilte Einwilligung mit Wirkung für die Zukunft zu widerrufen. Außerdem haben Sie die Möglichkeit der Verwendung von Google Analytics zu widersprechen, indem Sie auf den folgenden Link klicken: %{google_optout}.'
-      chapter_five:
-        heading: 5. Social Media Plugins
-        nested_text_four: Wir setzen auf unserer Website zudem eine Schaltfläche der WhatsApp Inc. 650 Castro Street, Suite 120-219, Mountain View, CA 94041, USA („WhatsApp“) ein. Mit Hilfe dieser Schaltfläche können Sie Inhalte unserer Website an Dritte kommunizieren. Die Schaltfläche entspricht in ihrer Funktion einem regulären Weblink (HTML-Hyperlink). Das bedeutet, dass beim Aufruf der Schaltfläche noch keine Daten von Ihnen an WhatsApp übermittelt werden. Erst wenn Sie die Schaltfläche aktivieren, erfährt WhatsApp welchen Inhalt Sie über WhatsApp teilen möchte und dass die Schaltfläche von unserer Website aus aufgerufen wurde.
-        nested_text_one: ما Pluginsهایی از  شبکه اجتمایی فیسبوک ("Facebook") که در Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA واقع شده است٬استفاده می کنیم.به این طریق که در ابتدا با دکمه درخواستی و باز شدن صفحه دیگری که شما باید مشخصات فیسبوک خود را وارد کنید تا بتوانید مطالب صفحه ما را برای دوستان خود به اشتراک بگذارید.همزمان در سیستم شما Facebook-Cookie فعال شده و فیسبوک از این طریق اطلاعاتی از قبیل IP-Adresse و Cookie-ID شما را بدست می آورد.این امکان فقط در صورت کلیک کردن دکمه به اشتراک گذاشتن در فیسبوک می افتد.در این صورت اطلاعات به فیسبوک انتقال داده می شود و دیگران مشاهده خواهند کرد که شما به آنها ما را پیشنهاد می کنید.جه کسانی این اطلاعات را بدست می آورند بستگی به آن دارد که در قسمت تنظیمات فیسبوک خود چه تغییراتی را داده اید.برای کسب اطلاعات بیشتر و استفاده اطلاعات توسط فیسبوک و همچنین حقوق شما در مورد حفاظت از اطلاعات می توانید به اطلاعات داده شده توسط فیسبوک مراجعه کنید(%{facebook}).
-        nested_text_three: ما Pluginsهایی از  شبکه اجتمایی توییتر  (Inc., 795 Folsom St., Suite 600, San Franscisco, CA 94107, USA („Twitter“) استفاده میکنیم که اگر یر روی Twitter  کلیک کنید٬پنجره های باز می شود که از شما می خواهد آدرس و مشخصات توییتر خو را وارد کنید.در این صورت Twitter-Cookie ها در کامپیوتر شما فعال می شوند و این در صورتی است که شما با پس ورد و نام کاربری خود در توییتر logg in شده باشید و آن را وارد کرده باشید که در اینصورت اطلاعات شما مانند IP-Adresse und die Cookie-ID به توییتر انتقال داده می شود.برای اطلاعات بیشتر در مورد نحوه استفاده از به اشتراک گذاشتن و حقوق قانونی و حفاظت از اطلاعات شخصی می توانید به اطلاعات داده شده توسط Twitter مراجعه کنید.(%{twitter}).
-        nested_text_two: ما Pluginsهایی از  شبکه اجتمایی گوگل استفاده میکنیم که اگر بر رویGoogle+1 کلیک کنید٬ پنجره های باز می شود که از شما می خواهد آدرس و مشخصات گوگل خو را وارد کنید.در این صورت Google-Cookie ها در کامپیوتر شما فعال می شوند و این در صورتی است که شما با پس ورد و نام کاربری خود در گوگل logg in شده باشید و آن را وارد کرده باشید که در اینصورت اطلاعات شما مانند IP-Adresse und die Cookie-ID به گوگل انتقال داده می شود.برای اطلاعات بیشتر در مورد نحوه استفاده از به اشتراک گذاشتن و حقوق قانونی و حفاظت از اطلاعات شخصی می توانید به اطلاعات داده شده توسط گوگل مراجعه کنید(%{google}).
-        nested_title_four: واتس آپ
-        nested_title_one: فیسبوک
-        nested_title_three: تویتر
-        nested_title_two: گوگل
-        text: در این وبسایت از افزایه های شبکه های اجتمایی مربوطه استفاده شده است.
-      chapter_four:
-        heading: دربرگیری خدمات شخص ثالث
-        text: تا زمانی که ما به شما خدمات شرکت ثالثی را ارائه می دهیم و شما را به آنها پیوند می دهیم مثل Google Maps٬ استفاده از آن بستگی به آن دارد که شرکت ثالث ارتباط با کامپیوتر شما برقرار کند و IP-Adresse شما را دریافت می کند.برای کسب اطلاعات بیشتر و طرز استفاده از اطلاعات توسط شخص ثالث می توانید به اطلاعات ارائه شده توسط آنها مراجعه کنید.
-      chapter_one:
-        heading: مقدور ساختن حق مطالبه پیشنهاد های اینترنتی ما
-        text: هنگامی که شما از از پیشنهاد های ما وبسایت ما استفاده می کنید٬ ما اطلاعات و مشخصات شما را ثبت و ذخیره تا اینکه شما بتوانید از آنها استفاده کنید.مشخصاتی از ID شما مثل ,Username und Passwod وIP-Adress‌. اطلاعاتی از قبیل شروع٬پایان٬طرز استفاده شما و عملکرد سیستم عامل.پخش این اطلاعات ضروری است از نظر فنی برای امکان برقراری مطالبه حقوق در وبسایت ما.و همچنین برای دسترسی به مجله اطلاعاتی همین شرایط نیز وجود دارد و ارسال این اطلاعات از طریق ایمیل به شما با توجه به خواست و موافقت شما انجام می شود.
-      chapter_seven:
-        heading: اطمینان و کنترل اطلاعات شما.خدمات خارجی
-        nested_text_one: برای فرستادن مجله اطلاعاتی از سیستم „MailChimp“The Rocket Science Group LLC aus den USA (%{mailchimp}) وSendGrid, einen Service der Sendgrid Inc., USA (%{sendgrid}). استفاده می کنیم.طبق توافقی که با شرکت های مذکور و با توجه به قوانین اتحادیه اروپا که به عنوان شخص ثالث مسئولیت از حفظ اطلاعات و موظف به آن می باشند.این بدان منظور است که اطلاعات در جهت و چارچوب خاص خود مورد استفاده قرار می گیرد و این توافقی است که ما با The Rocket Science Group LLC و Sendgrid Inc برای اینکه از اطلاعات شخصی شما محافظت کنیم انجام داده ایم .
-        nested_text_two: ما برای ارائه خدمات و اجرای درخواست های خدماتی از یک سرویس خارجی به نام Freshdesk Inc, 311 California street, San Francisco, CA 94104, USA.استفاده می کنیم که با توجه به توافق صورت گرفته با قوانین اساسی اتحادیه اروپا و آمریکا برای حفاظت از اطلاعات شما استفاده می شود.بدبن منظور لطفا به اطلاعات و توصیه های  (%{freshdesk})توجه کرده و برای استفاده از آن حداقل دادن آدرس ایمیل شما ضروری است.استفاده از نام مستعار مجاز می باشد.در ادامه جهت رسیدگی به سوالات خدماتی شما امکان ارسال آدرس خود و یا مدارک یا اطلاعات دیگر مانند نام و آدرس ضروری می باشد.استفاده از این سرویس اختیاری می باشد و جهت ارائه و بالا بردن سرعت خدمات به مشتری می باشد.اگر شما مخالف استفاده از این اطلاعات و یا ذخیره آن در سیستم خارجی Freshdesk هستید٬از شما می خواهیم که از امکان تماس جایگزین برای دسترسی به سوالات خدماتی ما مثل تلفن زدن باشید.
-        nested_title_one: MailChimp/Sendgrid
-        nested_title_two: Freshdesk
-        text: 'حفاظت از اطلاعات شما برای ما بسیار مهم می باشد.برای اینکه از دسترسی غیر مجاز افراد به اطلاعات جلوگیری کنیم از سیستم های الکرونیکی به خصوصی که از اطلاعات آنلاین ما حفاظت کرده استفاده می کنیم.ما اطلاعات شما را به شخص ثالثی نمی فروشیم و یا اجاره نمی دهیم مگر فقط در مواردی که شریک خدماتی ما با توجه به قوانین خود و ما برای اجرا خدمات خود احتیاج به آن داریم. '
-      chapter_six:
-        heading: حذف اطلاعات
-        text: به محض اینکه حفاظت از اطلاعات شما تذکری داده نشده است و مورد خاصی نباشد٬اطلاعات شما ظرف ۳ ماه پاک خواهد شد و این در صورتی است که از نظر قانونی موظف به ذخیره اطلاعات شما نباشیم.
-      chapter_three:
-        heading: اطلاعات در مورد نحوه رفتار و استفاده شما
-        nested_text_one: Cookies فایل های نوشتاری هستند که اگر از وبسایتی بازدید کنید در هارد سیستم شما ذخیره می شوند.این فایل های نوشتاری از طریق Web-Server که تماس از طریق Browsers ها مثل Internet Explorer برقرار می کنند و برای آنها می فرستند انجام می شوند.همچنین ما از Cookies ها برای اینکه استفاده از وبسایت ما راحتتر شود استفاده می کنیم بطور مثال ذخیره محل سکونت مکان هایی که شما در آنجا بدنبال کمک هستید.به همین منظور ما از Session-Cookies“که در طول بازدید شما از وبسایت و تا زمانی که Browser شما فعال است استفاده می کنیم و هنگامی که شما آنها را بستید Cookie ها خود بخود حذف می شوند.تنها جستجوی شما در نزدیکی محل سکونت شما بعد از مدت ۳ ماه بطور کلی حذف می شوند.همچنین ما از Cookies ها برای ساختن پروفایل های مور استفاده ناشناس استفاده می کنیم.برای اطلاعات بیشتر در مورد این Cookies ها به بخش آنالیز مراجعه کنید.
-        nested_text_one_second_paragraph: وقتی که برای اولین بار از صفحه ما بازدید کنید٬به شما در صفحه ورودی اطلاعات در مورد حفاظت از اطلاعات و متن موافقت استفاده از Cookies ها به شما نشان داده می شود.پس  از استفاده فعال از وبسایت و اینکه اعتراضی به استفاده از Cookies از طرف شما انجام نشود٬موافقت استفاده از طرف شما و ذخیره در Browser داده می شود و ما بدین ترتیب دوباره در صفحات دیگر آن را به شما یاد آوری نخواهیم کرد.اگر این اطلاعات در Browser قابل رویت نبود٬ای هشدار و لطلاعات را در صورت بازدید مجدد به شما داده می شود.
-        nested_text_one_third_paragraph: نحوه کارکرد Browser:اغلب آنها طوری تنظیم شده اند که Cookies ها را اتوماتیک بپذیرند ولی با این حال شما می توانید از ذخیره شدن آنها جلوگیری کنید و یا اینکه Browser خود را طوری تنظیم کنید که به شما اطلاع دهد به محض اینکه Cookies ها فرستاده شوند.همچنین شما می توانید هر لحظه از سیستم خود حذف کنید به طور مثال در Windows Explorer.اگر می خواهید این کار را انجام دهید وارد عملکرد کمکی Web-Browser سیستم خود شوید.به همین منظور باید به اطلاع شما برسانیم که با این کارنحوه عملکرد وبسایت را تحت تاثیر قرار می دهید.اگر می خواهید از استفادهCookies ها برای ساخت پروفایل ناشناخته جلوگیری کنید٬می توانید در بخش بعدی آنالیز از فرصت های فنی موجود بهره ببرید.
-        nested_text_two: این وبسایت از Google Analytics استفاده می کند.این یک خدماتی است از شرکت آنالیز گوگل با توجه به اینکه این سرور IP-Adresse شما را نزد خود در آمریکا ذخیره میکند و با کمک Cookieها اطلاعات شما را در هنگام بازدید از وبسایت امکان دسترسی به آنها را بوجود می آورد.اگر شما IP-Anonymisierung فعال کنید امکان دسترسی آن را فقط به اتحادیه اروپا محدود کرده و یا اینکه به کشورهای تحت قرارداد اقتصادی با این اتحادیه محدود می شود.فقط در مواقع ضروری IP-Adresse شما به سرور گوگل و مرکز آن در آمریکا محدود می شود.اگر مالک وبسایت ماموریت و اجازه آن را به گوگل دهد٬در این صورت گوگل می تواند از آن استفاده کند جهت دادن اطلاعاتی از قبیل نحوه استفاده از وبسایت و فعالیت آن و ارئه آمار کلی برای اینکه بر عملکرد وبسایت بتوان بهتر نظارت کرد.شما می توانید با محدود کردن ذخیره شدن Cookies ها که در با توجه به آن کارایی بعضی از خدمات وبسایت  از دست می روند و به طور کامل در اختیار شما قرار نمی گیرند تغییراتی را بوجود آورید.برای این منظور با دانلود و نصب %{google_optout} باعث می شوید که گوگل نتواند از این اطلاعات مانند IP-Adresse استفاده و پیگیری کند.اطلاعات بیشتر را در مورد نحوه استفاده صحیح حفاظت از اطلاعات و داده ها را می توانید در %{analytics_terms} مشاهده کنید.با توجه به ای مباحث مربوط به عمل کردن ابزار آنالیز با مشخصات کامل  IP-Adressen باید توجه داشت که این وبسایت Google Analytics با توسعه “_anonymizeIp()” و استفاده از آن  IP-Adressen ها را می توان در اینصورت مورد استفاده قرار داد و یا آنها را کوتاه کرد تا اینکه بتوان از شناسایی و  ارتباط اشخاص جلوگیری کرد.این وبسایت از گزارشات Google-Analytics استفاده می کند تا از مشخصات کاربر ها از قبیل سن٬جنسیت و اینکه چه موضوعاتی برای افراد جالب است استفاده می کند.این اطلاعات در مورد شخص خاصی هدایت نمی شود و می توان هر لحضه از طریق تنظیم شکایت  (%{ads}) غیر فعال شود.
-        nested_text_two_second_paragraph: این وبسایت نیز از خدمات Webanalys از شرکت  Optimizely Inc. که برای تست A/B بکار می رود٬استفاده می کند.این سرویس از Cookies استفاده می کند تا از Browser بازدید کننده را شناسایی کند و استفاده از وبسایت را آنالیز کند.Cookies ها اطلاعات شخصی را جمع آوری نمی کنند.برای دریافت اطلاعات بیشتر که چگونه Optimizely چگونه از اطلاعات شما استفاده می کند می توانید در لینک %{optimizely_privacy}مشاهده کنید و می توانید هر لحضه Optimizely-Tracking را غیر فعال کنید در صورتی که اینجا را دنبال کنید. %{optimizely_optout}
-        nested_title_one: Cookies
-        nested_title_two: آنالیز
-        text: از آنجایی که ما پیشنهاد های خود را با توجه به نیازهای کاربران خود وفق می دهیم٬احتیاج به اطلاعات و رفتارهای کلی استفاده از آن را داریم.به همین دلیل از هر گونه اطلاعات کاربردی که برای استفاده از پیشنهاد های وبسایت ما مفید باشد حتی کاربرانی که گمنام هستند استفاده می شود بدین منظور که اطلاعاتی از قبیل  IP-Adresse وUsernameو Password که لازم به توضیح است که اینها در جهت موارد دیگر استفاده از آنها نخواهد شد.شما همچنین می توانید به استفاده از آنها هر لحضه اعتراض کرده و مخالف آن باشید.
-      chapter_two:
-        heading: اطلاعات شخصی داده و در اختیار گذاشته شده توسط شما
-        nested_text_one: استفاده و کاربرد از Live-Chat و یا فرم ثبت نامی در مورد شخصی که دریافت کننده کمک می باشد را فقط در صورت ارائه خدمات از آنها استفاده خواهیم کرد.
-        nested_text_three: اگر از امکان و اجازه دادن به جای خالی پرسش از محل سکونت خود از وبسایت ما استفاده کنید این سرویس دهنده اطلاعات محل سکونت شما را جستجو کرده و آن را در اختیار ما می گذارد.ما از این اطلاعات در این ضمینه استفاده می کنیم که نزدیکترین پیشنهاد ها را به محل سکونت به شما ارائه دهیم.جهت اطلاعات از اینکه چه مواردی تبادل می شود و عملکرد آن چگونه است و چگونه می توانید آن را غیر فعال کنید به Browser مربوطه متوان رجوع کرد.
-        nested_text_two: ثبت نام در مجله اطلاعاتی بدین صورت می باشد که ما از اطلاعاتی که شما از طریق پر کردن فرم ها در اختیار ما می گذارید و ما با استفاده از آن در صورت امکان برای شما از طریق ایمیل پیشنهاد هایی را می فرستیم.
-        nested_title_one: فرم های تماس
-        nested_title_three: 'اطلاعات موقعیتی '
-        nested_title_two: ثبت نام در مجله اطلاعاتی
-        text: اگر اطلاعات خود را از طریق ثبت نام در مجله اطلاعاتی ما و یا از طریق  Live-Chat بصورت دلخواه مانند نام٬آدرس محل سکونت٬تلفن٬ایمیل٬کدپستی به ما داده باشید٬ما از آنها جهت ارسال با توجه به موضوعی که شما درخواست کمک دارید خدمات خود را برای پاسخگویی به شما و یا فرستادن مجله اطلاعاتی از طریق ایمیل استفاده میکنیم.
-      heading: Datenschutzhinweise
-      intro_first_part: Wir freuen uns über Ihr Interesse an unserer Webseite www.clarat.org und an der clarat gGmbH. Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Selbstverständlich werden wir personenbezogene Daten ausschließlich im Rahmen der geltenden Bestimmungen des deutschen Datenschutzrechts erheben und verwenden.
-      intro_second_part: Im Folgenden möchten wir Sie über Art, Umfang und Zweck der Erhebung und Verwendung personenbezogener Daten unterrichten. Sie können diese Unterrichtung jederzeit auf unserer Webseite abrufen. Die clarat gGmbH behält sich Änderungen dieser Datenschutzhinweise vor. Es empfiehlt sich daher, die Datenschutzweise erneut aufzurufen, wenn Sie unsere Webseite nach längerer Zeit wieder besuchen.
-      title: Datenschutz
     shared:
       address:
         email: "%{mailto}"
         fax: فاکس:۰۰۴۹۰۳۰۵۵۵۷۹۶۰۹۹
-        name: clarat gGmbH
-        street: Französische Straße 47
-        telephone: تلفن:۰۰۴۹۰۳۰۵۵۵۷۹۶۰۰
-        zip_city: 10117 Berlin
   routes:
     '404': "'404'"
     contacts: تماس
@@ -689,13 +582,13 @@ fa:
     impressum: 'اطلاعات کلی '
     kontakt: تماس
     liste: لیست
-    liste-de-services: 
+    liste-de-services:
     new: جدید
     offers: پیشنهادها
     organizations: سازمان ها
     preview: بازگشت
     rechtliche-hinweise: نکات حقوقی
-    refugees: 
+    refugees:
     search_locations: جستجوی مکان ها
     subscribe: مشترک
     subscriptions: اشتراک ها
@@ -703,11 +596,11 @@ fa:
     unsubscribe: بدون شرح
     update_requests: update_requests
     users: کاربر
-    widget: 
-    widget-handbook-germany: 
-    widget-hg: 
-    widget-start-with-a-friend: 
-    widget-swaf: 
+    widget:
+    widget-handbook-germany:
+    widget-hg:
+    widget-start-with-a-friend:
+    widget-swaf:
   shareds:
     forms:
       fill_field: لطفا اینجا را پر کن
@@ -718,8 +611,8 @@ fa:
       welcome:
         advanced_search: آیا می خواهی جستجوی دقیق تری داشته باشی؟اینجا را کلیک کن.یک باکس با امکان انتخابهای بیشتری در اینجا باز می شود
         world_switch:
-          family: اگر اینجا را کلیک کنید٬به clarat Family وارد می شوی.در clarat Family می توانی بدنبال کمک برای کودکان٬جوانان و خانواده ها باشی.
-          refugees: اگر اینجا را کلیک کنید٬به clarat Refugees وارد می شوید.در clarat Refugees می توانی بدنبال کمک برای پناهندگان باشی.
+          family: اگر اینجا را کلیک کنید٬به Elternleben وارد می شوی.در Elternleben می توانی بدنبال کمک برای کودکان٬جوانان و خانواده ها باشی.
+          refugees: اگر اینجا را کلیک کنید٬به handbook germany local وارد می شوید.در handbook germany local می توانی بدنبال کمک برای پناهندگان باشی.
   simple_form:
     required:
       html: <abbr title="required">*</abbr>
