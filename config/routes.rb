@@ -26,6 +26,7 @@ Clarat::Application.routes.draw do
     get 'preview/organizations/:id' => 'previews#show_organization'
 
     get 'widget-start-with-a-friend' => 'pages#widget_swaf', as: 'home'
+    get 'widget-handbook-germany' => 'pages#widget_hg', as: 'home'
     get 'widget-handbook-germany-:city' => 'pages#widget_hg', as: 'home'
 
     # unscoped RESTful resources (only POST and non-HTML GET)

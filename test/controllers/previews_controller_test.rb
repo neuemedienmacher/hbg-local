@@ -15,7 +15,7 @@ describe PreviewsController do
       get :show_offer, params: { id: @offer.slug, locale: 'de',
                                  section: @offer.section.identifier }
       assert_response :success
-      assert_select 'title', 'basicOfferName | clarat'
+      assert_select 'title', 'basicOfferName | Handbook Germany'
     end
 
     it 'should not allow access without http auth' do
@@ -41,7 +41,7 @@ describe PreviewsController do
                                         locale: 'de',
                                         section: 'refugees' }
       assert_response :success
-      assert_select 'title', 'foobar | clarat'
+      assert_select 'title', 'foobar | Handbook Germany'
     end
 
     it 'should not allow access without http auth' do
