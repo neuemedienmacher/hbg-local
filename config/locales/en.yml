@@ -34,6 +34,19 @@ en:
         name_placeholder: Name (obligatory)
         send: Send
         send_us_a_message: Write us a message
+  emails:
+    offers_index:
+      button_accept: 
+      button_deny: 
+      explanation_1: 
+      explanation_2: 
+      explanation_3: 
+      heading: 
+      info: 
+      tos: 
+      tos_label: 
+      tos_were_accepted: 
+      tos_were_denied: 
   js:
     ajax_error:
       error: Search error
@@ -144,19 +157,19 @@ en:
         other: "%{count} local offers"
         zero: No local offers found
       personal_offers_new:
-        _query:
-        category:
-        category_query:
-        default:
+        _query: 
+        category: 
+        category_query: 
+        default: 
       remote_anchor:
         one: One remote offer
         other: "%{count} remote offers"
         zero: No remote offers
       remote_offers_new:
-        _query:
-        category:
-        category_query:
-        default:
+        _query: 
+        category: 
+        category_query: 
+        default: 
       show_personal: Show local offers
     shared:
       current_and_original_locale:
@@ -574,6 +587,10 @@ en:
       address:
         email: "%{mailto}\n"
         fax: Fax +49 (0)30 55 57 96 09 9
+        name: 
+        street: 
+        telephone: 
+        zip_city: 
   routes:
     '404': "'404'"
     contacts: contact
@@ -586,13 +603,13 @@ en:
     impressum: impressum
     kontakt: contact
     liste: liste
-    liste-de-services:
+    liste-de-services: 
     new: new
     offers: offers
     organizations: organizations
     preview: preview
     rechtliche-hinweise: legal-information
-    refugees:
+    refugees: 
     search_locations: search_locations
     subscribe: subscribe
     subscriptions: subscriptions
@@ -600,11 +617,11 @@ en:
     unsubscribe: unsubscribe
     update_requests: update_requests
     users: users
-    widget:
-    widget-handbook-germany:
-    widget-hg:
-    widget-start-with-a-friend:
-    widget-swaf:
+    widget: 
+    widget-handbook-germany: 
+    widget-hg: 
+    widget-start-with-a-friend: 
+    widget-swaf: 
   shareds:
     forms:
       fill_field: Please fill out this field

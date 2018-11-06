@@ -33,6 +33,26 @@ de:
         name_placeholder: Name (Pflicht)
         send: Abschicken
         send_us_a_message: Schreibe uns eine Nachricht
+  emails:
+    offers_index:
+      button_accept: Ich bin einverstanden
+      button_deny: Ich bin nicht einverstanden
+      explanation_1: |-
+        Hier siehst du auf einen Blick alle deine Angebote bei HBG local. Das sind
+        Angebote, bei denen wir deine E-Mail-Adresse als Kontaktadresse gefunden
+        haben.
+      explanation_2: |-
+        Wenn wir in Zukunft neue Angebote von dir finden, siehst du die Links zu
+        diesen neuen Angeboten auch hier.
+      explanation_3: |-
+        Du kannst dazu diese Seite in deinen Favoriten speichern und so schnell
+        auf einen Blick sehen, was es von dir bei HBG local gibt.
+      heading: Angebote von %{email}
+      info: Info
+      tos: Datenschutz
+      tos_label: Hiermit akzeptiere ich die Datenschutzbedingungen.
+      tos_were_accepted: Datenschutzbedingen wurden akzeptiert.
+      tos_were_denied: Datenschutzbedingen wurden nicht akzeptiert.
   js:
     ajax_error:
       error: Suchfehler
@@ -342,7 +362,7 @@ de:
         faq: Häufige Fragen
         fb:
           anchor: Facebook
-          href: https://www.facebook.com/HandbookGermany
+          href: https://www.facebook.com/claratpunktorg
         gplus:
           anchor: Google+
           href: https://plus.google.com/110429028641743127592/about
@@ -352,7 +372,7 @@ de:
         tos: Rechtliche Hinweise
         twitter:
           anchor: Twitter
-          href: https://twitter.com/handbookgermany
+          href: https://twitter.com/claratpunktorg
       header:
         about: Über uns
         blog: Blog

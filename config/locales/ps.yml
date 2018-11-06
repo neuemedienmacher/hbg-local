@@ -31,6 +31,19 @@ ps:
         name_placeholder: 
         send: 
         send_us_a_message: 
+  emails:
+    offers_index:
+      button_accept: 
+      button_deny: 
+      explanation_1: 
+      explanation_2: 
+      explanation_3: 
+      heading: 
+      info: 
+      tos: 
+      tos_label: 
+      tos_were_accepted: 
+      tos_were_denied: 
   js:
     ajax_error:
       error: 
@@ -479,10 +492,6 @@ ps:
       where: 
       who: 
   pages:
-    agb:
-      heading: 
-      text_html: 
-      title: 
     home:
       explaination:
         headline: 
@@ -511,62 +520,6 @@ ps:
       description: 
       heading: 
       link_text: 
-      title: 
-    privacy:
-      chapter_eight:
-        heading: 
-        nested_text_first_paragraph: 
-        nested_text_second_paragraph: 
-        text: 
-      chapter_five:
-        heading: 
-        nested_text_four: 
-        nested_text_one: 
-        nested_text_three: 
-        nested_text_two: 
-        nested_title_four: 
-        nested_title_one: 
-        nested_title_three: 
-        nested_title_two: 
-        text: 
-      chapter_four:
-        heading: 
-        text: 
-      chapter_one:
-        heading: 
-        text: 
-      chapter_seven:
-        heading: 
-        nested_text_one: 
-        nested_text_two: 
-        nested_title_one: 
-        nested_title_two: 
-        text: 
-      chapter_six:
-        heading: 
-        text: 
-      chapter_three:
-        heading: 
-        nested_text_one: 
-        nested_text_one_second_paragraph: 
-        nested_text_one_third_paragraph: 
-        nested_text_two: 
-        nested_text_two_second_paragraph: 
-        nested_title_one: 
-        nested_title_two: 
-        text: 
-      chapter_two:
-        heading: 
-        nested_text_one: 
-        nested_text_three: 
-        nested_text_two: 
-        nested_title_one: 
-        nested_title_three: 
-        nested_title_two: 
-        text: 
-      heading: 
-      intro_first_part: 
-      intro_second_part: 
       title: 
     shared:
       address:
