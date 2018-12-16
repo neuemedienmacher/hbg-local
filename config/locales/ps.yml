@@ -1,60 +1,65 @@
 ps:
   cells:
     contact_people:
-      dr: 
-      email: 
-      fax: 
-      female: 
-      heading: 
-      male: 
-      obfuscated_email: 
-      phone: 
-      prof_dr: 
+      dr: ډاکټر
+      email: برېښناليک
+      fax: فکس
+      female: مېرمن
+      heading: له چا سره اړيکه نيولای شئ؟
+      male: ښاغلی
+      obfuscated_email: دا برېښناليک د سپم د مخنیوي لپاره د جاواسکريپټ له لوري قلف شوی دی. د خلاصولو لپاره جاواسکرېپټ فعال کړئ.
+      phone: ټیليفون
+      prof_dr: پروفیسور ډاکټر
   conf:
-    current_location: 
-    default_latlng: 
-    default_location: 
+    current_location: زما ښار
+    default_latlng: 52.520007,13.404954
+    default_location: برلين
   contacts:
     create:
-      success: 
+      success: پيغام په برياليتوب ولېږل شو.
     new:
-      contact_heading: 
+      contact_heading: غواړئ څه ووايئ؟
     shared:
       new:
-        back_to_hp: 
-        city_placeholder: 
+        back_to_hp: بېرته لومړي مخ ته
+        city_placeholder: 'د اوسېدو ځای '
         email_placeholder:
           required:
-            'false': 
-            'true': 
-        message_placeholder: 
-        name_placeholder: 
-        send: 
-        send_us_a_message: 
+            'false': برېښناليک پته
+            'true': برېښناليک پته (ضروري)
+        message_placeholder: پيغام وليکئ
+        name_placeholder: نوم (ضروري)
+        send: لېږل
+        send_us_a_message: موږ ته يو پيغام وليکئ.
   emails:
     offers_index:
-      button_accept: 
-      button_deny: 
-      explanation_1: 
-      explanation_2: 
-      explanation_3: 
+      button_accept: وپوهېدم
+      button_deny: ونه پوهېدم
+      explanation_1: دلته د هنډبوک جرمني په سيمه‌ييزه پاڼه ټول وړانديزونه وينئ. دا هغه وړانديزونه دي چې موږ يې په مرسته ستاسې برېښناليک د اړيکې په توګه موندلی دی.
+      explanation_2: په راتلونکي کې زموږ نوي وړانديزونه هم دلته ليدلای شئ.
+      explanation_3: کولای شئ دا پاڼه په د خپلې خوښې پاڼو ته ورزياته کړئ او د سترګو په رپ کې يې خلاصه کړئ څو ووينئ چې د هنډبوک جرمني پرسيمه‌ييزه پاڼه څه شته.
       heading: 
-      info: 
+      info: مالومات
       tos: 
-      tos_label: 
-      tos_were_accepted: 
-      tos_were_denied: 
+      tos_acceptance_headline: 
+      tos_acceptance_text: 
+      tos_denial_headline: 
+      tos_denial_text: 
+      tos_explanation: 
+      tos_were_accepted: د خصوصي حريم مالوماتو خوندي کولو پاليسي منل کيږي.
+      tos_were_denied: د خصوصي حريم مالوماتو خوندي کولو پاليسي نه منل کيږي.
+      tos_were_denied_explanation: 
   js:
     ajax_error:
-      error: 
+      error: د لټون خطا
       message: 
     autocomplete_footer: 
     categories_sidebar:
-      all_categories: 
+      all_categories: ټولې ډلبندۍ
     cookie_warning_html: 
     geolocation:
       error: 
-      fallback: 
+      fallback: الکساندرپلتز برلين
       fallback_clarification:
         code1: 
         code2: 
@@ -63,14 +68,14 @@ ps:
       get: 
       waiting: 
     lang_list_toggle:
-      less: 
-      more: 
+      less: لږ ژبې ښکاره کړئ
+      more: "‌ډېرې ژبې ښکاره کړئ"
     less_filter_options: 
     location_required: 
     map_info_window_multiple:
       anchor: 
       text: 
-      title: 
+      title: بېلابېل وړانديزونه
     mobile_filter: 
     more_filter_options: 
     query_field:
@@ -84,37 +89,37 @@ ps:
       form_less_label: 
       form_more_label: 
       headlines:
-        age: 
-        approach: 
-        gender: 
-        language: 
-        main: 
-        residency_status: 
+        age: د ماشوم عمر
+        approach: له کومې لارې؟
+        gender: جنسيت
+        language: ژبه
+        main: د لټون پایلې
+        residency_status: د استوګنې حالت
         sort: 
         target_audience: 
-      option_any: 
+      option_any: پروا نه لري
       pagination:
-        back: 
-        gap: 
-        next: 
+        back: شا ته
+        gap: "..."
+        next: وړاندې
       reset_label: 
       sort:
-        nearby: 
+        nearby: په نږدې شاوخوا کې
         relevance: 
       tabs:
-        categories: 
-        filter: 
-        map: 
+        categories: ډلبندۍ
+        filter: فلتر
+        map: کښنده
     search_results:
       bridge: 
-      enclosing: 
-      faq_anchor: 
+      enclosing: موندل شوي
+      faq_anchor: دلته
       faq_text: 
       language_explanation:
-        connector: 
+        connector: او
         text: 
       map:
-        cooperation: 
+        cooperation: د همکارۍ پروژه
         enlarge_map: 
         headline_small_map: 
       more: 
@@ -135,11 +140,11 @@ ps:
       show_personal: 
     shared:
       current_and_original_locale:
-        "'150'": 
+        "'150'": د جرمني د نښو ژبه
         "'326'": 
         "'568'": 
         "'639'": 
-        '150': 
+        '150': د جرمني د نښو ژبه
         '326': 
         '568': 
         '639': 
@@ -267,37 +272,37 @@ ps:
         callout:
           how:
             refugees:
-              heading: 
+              heading: د هنډبوک جرمني سيمه‌‌ييز لټون څنګه کار کوي؟
               text: 
           what:
             refugees:
-              heading: 
+              heading: دلته څه موندلای شئ؟
               text: 
           who:
             refugees:
-              heading: 
+              heading: څوک دلته مرسته موندلای شي؟
               text: 
         callout_neutral:
           how:
-            heading: 
+            heading: څه ډول مرسته کولای شو؟
             text: 
           what:
-            heading: 
+            heading: څه غواړو؟
             text: 
           who:
-            heading: 
+            heading: موږ څوک يو؟
             text: 
       footer:
-        about: 
-        blog: 
-        contact: 
+        about: زموږ په اړه
+        blog: بلاګ
+        contact: اړيکه
         facebook_refugees: Handbook Germany
-        faq: 
+        faq: ډېر پوښتل شوي
         fb:
-          anchor: 
+          anchor: فېسبوک
           href: 
         gplus:
-          anchor: 
+          anchor: ګوګل پلس
           href: 
         impressum: 
         plus: 
@@ -307,24 +312,24 @@ ps:
           anchor: 
           href: 
       header:
-        about: 
-        blog: 
-        contact: 
-        faq: 
+        about: زموږ په اړه
+        blog: بلاګ
+        contact: اړيکه
+        faq: ډېر پوښتل شوي
         languages:
           ar: عربي
-          de: Deutsch
-          en: English
-          fa: فارسی
-          fr: Français
-          pl: Polski
+          de: جرمني
+          en: انګليسي
+          fa: پارسي
+          fr: فرانسوي
+          pl: پولنډي
           ps: پښتو
-          tr: Türkçe
+          tr: ترکي
       hero:
         claim:
-          family: 
+          family: د ماشومانو، ځوانانو او کورنيو لپاره مرسته
         hero:
-          button_label: 
+          button_label: نور مالومات
           logline: 
       modal:
         beta_modal:
@@ -341,13 +346,13 @@ ps:
         german_content_warning: 
         languages:
           ar: عربي
-          de: Deutsch
-          en: English
-          fa: فارسی
-          fr: Français
-          pl: Polski
+          de: جرمني
+          en: انګليسي
+          fa: پارسي
+          fr: فرانسوي
+          pl: پولنډي
           ps: پښتو
-          tr: Türkçe
+          tr: ترکي
         title: 
   offers:
     index:
@@ -358,13 +363,13 @@ ps:
             personal: 
             remote: 
           encounter:
-            chat: 
-            email: 
-            fax: 
-            forum: 
+            chat: چت
+            email: برېښناليک
+            fax: فکس
+            forum: فورم
             hotline: 
-            letter: 
-            online-course: 
+            letter: ليک
+            online-course: پر ليکه کورس
             portal: 
           exclusive_gender:
             boys_only: 
@@ -375,12 +380,12 @@ ps:
             before_the_asylum_decision: 
             with_a_residence_permit: 
             with_deportation_decision: 
-            with_temporary_suspension_of_deportation: 
+            with_temporary_suspension_of_deportation: له ډولډونګ سره
           target_audience:
             children: 
             family_children: 
-            family_nuclear_family: 
-            family_parents: 
+            family_nuclear_family: د کورنيو لپاره
+            family_parents: د ميندو او پلرونو لپاره
             family_parents_to_be: 
             family_pregnant_woman: 
             family_relatives: 
@@ -404,12 +409,12 @@ ps:
       title: 
     shared:
       search_form:
-        button: 
-        loc_label: 
+        button: لټول
+        loc_label: څه؟
         loc_placeholder:
-          long: 
-          short: 
-        query_label: 
+          long: پته، سيمه، ښار يا پوستي پته
+          short: پته، سيمه يا پوستي پته
+        query_label: څه؟
         query_placeholder:
           long: 
           short: 
@@ -420,14 +425,14 @@ ps:
         heading: 
       opening_section:
         days:
-          fri: 
-          mon: 
-          sat: 
-          sun: 
-          thu: 
-          tue: 
-          wed: 
-        heading: 
+          fri: جمعه
+          mon: دوه‌نۍ
+          sat: پیلنۍ
+          sun: يووه‌نۍ
+          thu: پنځنۍ
+          tue: منځنۍ
+          wed: څلورنۍ
+        heading: کله کولای شئ؟
       speaking: 
       trait_filters:
         explanation:
@@ -457,7 +462,7 @@ ps:
           own: 
           pinterest: 
           twitter: 
-          youtube: 
+          youtube: یوټيوب
       what:
         code_word: 
         heading: 
@@ -524,7 +529,7 @@ ps:
     shared:
       address:
         email: 
-        fax: Fax +49 (0)30 55 57 96 09 9
+        fax: 'فکس: +49 (0)30 55 57 96 09 9'
         name: 
         street: 
         telephone: 
@@ -576,7 +581,7 @@ ps:
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"
-      text: required
+      text: ضروري
   subscriptions:
     create:
       error: 

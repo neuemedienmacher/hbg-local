@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 Clarat::Application.routes.draw do
+  # rubocop:disable Metrics/LineLength
   get '/.well-known/acme-challenge/FqBLJjfCsodOPbKO1-imj268kqP_NXzPYu4vuUOasJA' => 'pages#letsencrypt'
+  # rubocop:enable Metrics/LineLength
 
   # Sitemap path
   mount DynamicSitemaps::Engine => '/sitemaps/'

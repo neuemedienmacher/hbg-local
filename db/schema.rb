@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180918145429) do
+ActiveRecord::Schema.define(version: 20181202082818) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -185,7 +185,7 @@ ActiveRecord::Schema.define(version: 20180918145429) do
     t.string "security_code", limit: 36
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean "tos_accepted"
+    t.string "tos", default: "uninformed", null: false
   end
 
   create_table "federal_states", id: :serial, force: :cascade do |t|

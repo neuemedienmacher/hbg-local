@@ -41,9 +41,14 @@ fa:
       heading: 
       info: 
       tos: 
-      tos_label: 
+      tos_acceptance_headline: 
+      tos_acceptance_text: 
+      tos_denial_headline: 
+      tos_denial_text: 
+      tos_explanation: 
       tos_were_accepted: 
       tos_were_denied: 
+      tos_were_denied_explanation: 
   js:
     ajax_error:
       error: اشتباه در جستجو

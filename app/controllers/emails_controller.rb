@@ -13,14 +13,17 @@ class EmailsController < ApplicationController
   # Non-RESTful resources, mostly for dev speed
   def update
     find_email
-    @email.update_column(:tos_accepted, params[:tos_accepted])
+    if !params[:tos].nil? && Email.tos.values.include?(params[:tos])
+      @email.update_column(:tos, params[:tos])
+    end
     redirect_to emails_offers_path(@email)
   end
 
-
   private
+
   def find_email
     @email = Email.find params[:id]
+    raise ActiveRecord::RecordNotFound unless @email
   end
 
   def visible_offers_of_email email

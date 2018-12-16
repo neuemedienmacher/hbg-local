@@ -4,6 +4,7 @@ require 'simplecov'
 SimpleCov.start 'rails' do
   add_filter "/test/"
   add_filter "/app/policies/application_policy.rb"
+  add_filter "/app/helpers/email_obfuscation_helper.rb"
   minimum_coverage 100
 end
 
