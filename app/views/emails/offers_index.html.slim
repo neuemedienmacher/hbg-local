@@ -4,7 +4,7 @@
 .wrapper-inner
   h2.headline--emails == t ".heading", email: @email.address
   .section-wrapper-major
-    - if @email.tos != 'uninformed'
+    - if @email.tos != 'uninformed' && @email.tos == 'declined'
       .emailinfo
         - if @email.tos == 'pending'
           h3.emailinfo__headline = t '.tos'
@@ -21,11 +21,6 @@
               = button_to t('.button_deny'), update_email_path(@email), method: :put, params: { tos: 'declined' }, form: { style: 'display:inline-block;' }
         - elsif @email.tos == 'accepted'
           h3.emailinfo__headline = t '.tos_were_accepted'
-        - else
-          h3.emailinfo__headline = t '.tos_were_denied'
-          .emailinfo__body
-            b
-              p = t('.tos_were_denied_explanation')
 
     .emailinfo
       h3.emailinfo__headline = t '.info'
