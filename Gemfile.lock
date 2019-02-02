@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/handbook-germany/hbg-base.git
-  revision: cb15bdc9addff43102e7da33502c04eae8c04b7b
+  revision: 90a6fa66bb8dd6f7dd62a88282817952f93b79c9
   branch: feature/tos-mailings
   specs:
     clarat_base (0.1.4)
@@ -74,10 +74,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    algoliasearch (1.24.0)
+    algoliasearch (1.25.2)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
-    algoliasearch-rails (1.20.4)
+    algoliasearch-rails (1.20.6)
       algoliasearch (>= 1.17.0, < 2.0.0)
       json (>= 1.5.1)
     arel (8.0.0)
@@ -564,7 +564,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.3)
+    concurrent-ruby (1.1.4)
     connection_pool (2.2.2)
     coveralls (0.8.21)
       json (>= 1.8, < 3)
@@ -598,7 +598,7 @@ GEM
     enumerize (2.1.2)
       activesupport (>= 3.2)
     equalizer (0.0.11)
-    erubi (1.7.1)
+    erubi (1.8.0)
     erubis (2.7.0)
     eventmachine (1.2.5)
     execjs (2.7.0)
@@ -616,14 +616,14 @@ GEM
       railties (>= 3.2, < 5.2)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
-    friendly_id (5.2.4)
+    friendly_id (5.2.5)
       activerecord (>= 4.0.0)
-    geocoder (1.5.0)
+    geocoder (1.5.1)
     gibbon (1.2.1)
       httparty
       multi_json (>= 1.9.0)
     gli (2.18.0)
-    globalid (0.4.1)
+    globalid (0.4.2)
       activesupport (>= 4.2.0)
     haml (5.0.3)
       temple (>= 0.8.0)
@@ -683,7 +683,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    localeapp (3.1.0)
+    localeapp (3.1.1)
       gli
       i18n (>= 0.7, < 2)
       json (>= 1.7.7)
@@ -744,8 +744,8 @@ GEM
       mini_portile2 (~> 2.0.0.rc2)
     nokogumbo (1.4.11)
       nokogiri
-    paper_trail (10.1.0)
-      activerecord (>= 4.2, < 6.0)
+    paper_trail (10.2.0)
+      activerecord (>= 4.2, < 6.1)
       request_store (~> 1.1)
     parallel (1.12.0)
     parser (2.4.0.0)
@@ -780,7 +780,7 @@ GEM
       rack (>= 0.4)
     rack-contrib (1.2.0)
       rack (>= 0.9.1)
-    rack-protection (2.0.4)
+    rack-protection (2.0.5)
       rack
     rack-rewrite (1.5.1)
     rack-test (1.1.0)
@@ -829,7 +829,7 @@ GEM
       ruby-graphviz (~> 1.2)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
-    rails-i18n (5.1.2)
+    rails-i18n (5.1.3)
       i18n (>= 0.7, < 2)
       railties (>= 5.0, < 6)
     rails-observers (0.1.5)
@@ -925,10 +925,10 @@ GEM
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.2)
-    sinatra (2.0.4)
+    sinatra (2.0.5)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.4)
+      rack-protection (= 2.0.5)
       tilt (~> 2.0)
     slim (3.0.8)
       temple (>= 0.7.6, < 0.9)

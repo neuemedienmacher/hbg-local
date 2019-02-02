@@ -16,13 +16,13 @@ class EmailsController < ApplicationController
     if !params[:tos].nil? && Email.tos.values.include?(params[:tos])
       @email.update_column(:tos, params[:tos])
     end
-    redirect_to emails_offers_path(@email)
+    redirect_to action: 'offers_index', token: @email.token
   end
 
   private
 
   def find_email
-    @email = Email.find params[:id]
+    @email = Email.find_by token: params[:token]
     raise ActiveRecord::RecordNotFound unless @email
   end
 

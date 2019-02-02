@@ -32,7 +32,7 @@ Clarat::Application.routes.draw do
     get 'widget-handbook-germany-:city' => 'pages#widget_hg', as: 'home'
 
     # Email overviews
-    get 'emails/:id/offers' => 'emails#offers_index', as: 'emails_offers'
+    get 'emails/:token/offers' => 'emails#offers_index', as: 'emails_offers'
     put 'emails/:id' => 'emails#update', as: 'update_email'
 
     # unscoped RESTful resources (only POST and non-HTML GET)

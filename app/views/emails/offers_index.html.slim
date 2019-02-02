@@ -4,7 +4,7 @@
 .wrapper-inner
   h2.headline--emails == t ".heading", email: @email.address
   .section-wrapper-major
-    - if @email.tos != 'uninformed' && @email.tos == 'declined'
+    - if @email.tos != 'uninformed' && @email.tos != 'declined'
       .emailinfo
         - if @email.tos == 'pending'
           h3.emailinfo__headline = t '.tos'
@@ -14,11 +14,11 @@
             p
               b = t('.tos_acceptance_headline')
               p = t('.tos_acceptance_text')
-              = button_to t('.button_accept'), update_email_path(@email), method: :put, params: { tos: 'accepted' }, form: { style: 'display:inline-block;' }
+              = button_to t('.button_accept'), update_email_path(@email), method: :put, params: { tos: 'accepted', token: @email.token }, form: { style: 'display:inline-block;' }
             p
               b = t('.tos_denial_headline')
               p = t('.tos_denial_text')
-              = button_to t('.button_deny'), update_email_path(@email), method: :put, params: { tos: 'declined' }, form: { style: 'display:inline-block;' }
+              = button_to t('.button_deny'), update_email_path(@email), method: :put, params: { tos: 'declined', token: @email.token }, form: { style: 'display:inline-block;' }
         - elsif @email.tos == 'accepted'
           h3.emailinfo__headline = t '.tos_were_accepted'
 

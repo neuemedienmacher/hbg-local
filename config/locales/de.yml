@@ -37,16 +37,9 @@ de:
     offers_index:
       button_accept: Ich bin einverstanden
       button_deny: Ich bin nicht einverstanden
-      explanation_1: |-
-        Hier siehst du auf einen Blick alle deine Angebote bei HBG local. Das sind
-        Angebote, bei denen wir deine E-Mail-Adresse als Kontaktadresse gefunden
-        haben.
-      explanation_2: |-
-        Wenn wir in Zukunft neue Angebote von dir finden, siehst du die Links zu
-        diesen neuen Angeboten auch hier.
-      explanation_3: |-
-        Du kannst dazu diese Seite in deinen Favoriten speichern und so schnell
-        auf einen Blick sehen, was es von dir bei HBG local gibt.
+      explanation_1: Hier sehen Sie all Ihre Angebote, die aktuell auf Handbook Germany local search gelistet sind. Das sind Angebote, bei denen wir Ihre Email-Adresse als Kontaktadresse gefunden haben.
+      explanation_2: Wenn Sie mit Ihrer Aufnahme in unserer Datenbank einverstanden sind und wir in Zukunft neue Angebote von Ihnen finden, sehen Sie die Links zu diesen Angeboten auch hier.
+      explanation_3: Sie können diese Seite in Ihren Favoriten speichern und so jederzeit und auf einen Blick überprüfen, welche Angebote von Ihnen aktuell auf Handbook Germany local search zu finden sind.
       heading: Angebote von %{email}
       info: Info
       tos: Einwilligung in die Datennutzung zu weiteren Zwecken
