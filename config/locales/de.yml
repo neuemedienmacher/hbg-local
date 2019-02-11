@@ -48,9 +48,9 @@ de:
       tos_denial_headline: Ablehnung
       tos_denial_text: Ich möchte nicht, dass meine Angebote in der Local Search-Datenbank von Handbook Germany / Neue deutsche Medienmacher angezeigt werden und bitte um die Löschung meiner Angebote.
       tos_explanation: 'Aufgrund der aktuellen Datenschutzbestimmungen möchten wir Ihre Einwilligung einholen, dass wir Informationen zu Ihren Angeboten sowie die Namen von Kontaktpersonen und deren Email-Adressen in unsere Datenbank aufnehmen dürfen. '
-      tos_were_accepted: Datenschutzbedingen wurden akzeptiert.
-      tos_were_denied: Datenschutzrichtlinien wurden abgelehnt.
-      tos_were_denied_explanation: Wir werden die mit Ihrer Emailadresse verknüpften Daten schnellstmöglich löschen.
+      tos_were_accepted: Datenschutzbestimmungen wurden akzeptiert.
+      tos_were_denied: Datenschutzbestimmungen wurden abgelehnt.
+      tos_were_denied_explanation: Ihre Angebote werden aus der Datenbank entfernt.
   js:
     ajax_error:
       error: Suchfehler
