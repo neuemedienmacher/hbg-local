@@ -16,7 +16,7 @@ ul.section-content--contact-person-list
               = contact.area_code_2
               =< tel_format contact.local_number_2
             br
-          - if false # temporarily removing email: contact.email_address?
+          - if contact.email_address? && contact.email.tos == 'accepted'
             = t '.email'
             span[id="secure-email-#{index}"]
               ==< secure_email_to contact.email_address, index
