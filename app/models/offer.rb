@@ -12,6 +12,7 @@ class Offer < ApplicationRecord
 
   def visible_contact_people?
     return false unless contact_people.any?
+    # NOTE maybe use offers_helper.display_contacts? here
     contact_people.each do |contact|
       return true if contact.spoc
     end

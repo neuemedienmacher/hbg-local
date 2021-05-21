@@ -18,7 +18,7 @@ module OffersHelper
     (!offer.hide_contact_people || contact.spoc) && (
       !contact.local_number_1.nil? ||
       !contact.local_number_2.nil? ||
-      !contact.email_address.nil?
+      (!contact.email_address.nil? && contact.email.tos == 'accepted')
     )
   end
 

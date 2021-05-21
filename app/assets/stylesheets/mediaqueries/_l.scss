@@ -406,6 +406,11 @@
 
   .result-order {
     position: relative;
+    top: 0;
+
+    .filter-form__fieldset__headline {
+      float: left;
+    }
 
     .filter-form__fieldset {
       padding: 0;

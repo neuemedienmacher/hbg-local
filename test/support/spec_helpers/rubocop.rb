@@ -18,7 +18,7 @@ def rubocop
     puts 'Code styled well.'.green
   else
     puts "Offenses: #{offense_count}".red
-    puts 'Suite failing due to code styling issues.'.red.underline
+    puts 'Suite failing due to code styling issues.'.red
     exit 1
   end
 end

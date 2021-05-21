@@ -11,7 +11,7 @@ describe OrganizationsController do
         orga.update_columns name: 'bazfuz'
         get :show, params: { id: orga.slug, locale: 'de' }
         assert_response :success
-        assert_select 'title', 'bazfuz | clarat'
+        assert_select 'title', 'bazfuz | Handbook Germany'
       end
 
       it 'should use the correct canonical URL' do
@@ -43,7 +43,7 @@ describe OrganizationsController do
         orga.update_columns name: 'bazfuz'
         get :show, params: { id: orga.slug, locale: 'de' }
         assert_response :success
-        assert_select 'title', 'bazfuz | clarat'
+        assert_select 'title', 'bazfuz | Handbook Germany'
       end
 
       # it 'should use the correct canonical URL' do

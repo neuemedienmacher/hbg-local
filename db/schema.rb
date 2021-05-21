@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180201100104) do
+ActiveRecord::Schema.define(version: 20181202082818) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -56,6 +56,13 @@ ActiveRecord::Schema.define(version: 20180201100104) do
     t.index ["parent_id"], name: "index_assignments_on_parent_id"
     t.index ["receiver_id"], name: "index_assignments_on_receiver_id"
     t.index ["receiver_team_id"], name: "index_assignments_on_receiver_team_id"
+  end
+
+  create_table "categories_section_filters", id: :serial, force: :cascade do |t|
+    t.integer "category_id"
+    t.integer "section_filter_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "cities", id: :serial, force: :cascade do |t|
@@ -178,6 +185,7 @@ ActiveRecord::Schema.define(version: 20180201100104) do
     t.string "security_code", limit: 36
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string "tos", default: "uninformed", null: false
   end
 
   create_table "federal_states", id: :serial, force: :cascade do |t|
