@@ -75,7 +75,7 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-qtip2', '2.2.1'
   gem 'rails-assets-shariff', '1.26.2'
   gem 'rails-assets-sticky-kit'
-  gem 'rails-assets-algoliasearch' # search client
+  gem 'rails-assets-algoliasearch', '3.24.4'# search client
   gem 'rails-assets-isInViewport'
   gem 'rails-assets-iCheck'
   gem 'rails-assets-hammerjs'
