@@ -49,7 +49,7 @@ GEM
     rails-assets-qtip2 (2.2.1)
       rails-assets-imagesloaded (>= 3.0.0)
       rails-assets-jquery (>= 1.6.0)
-    rails-assets-shariff (3.2.0)
+    rails-assets-shariff (1.26.2)
     rails-assets-sticky-kit (1.1.2)
 
 GEM
@@ -1311,7 +1311,7 @@ GEM
     haml (5.0.3)
       temple (>= 0.8.0)
       tilt
-    handlebars_assets (0.23.9)
+    handlebars_assets (0.23.2)
       execjs (~> 2.0)
       sprockets (>= 2.0.0)
       tilt (>= 1.2)
@@ -1699,7 +1699,7 @@ DEPENDENCIES
   gibbon (~> 1.2.0)
   glob (~> 0.2.0)
   haml (= 5.0.3)
-  handlebars_assets
+  handlebars_assets (= 0.23.2)
   heroku-deflater
   hirb
   hogan_assets
@@ -1746,8 +1746,8 @@ DEPENDENCIES
   rails-assets-jquery (= 3.2.1)!
   rails-assets-jquery-cookie (= 1.4.1)!
   rails-assets-lodash!
-  rails-assets-qtip2!
-  rails-assets-shariff!
+  rails-assets-qtip2 (= 2.2.1)!
+  rails-assets-shariff (= 1.26.2)!
   rails-assets-sticky-kit!
   rails-controller-testing
   rails-erd

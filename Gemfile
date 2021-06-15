@@ -65,15 +65,15 @@ gem 'i18n-js', '3.0.1' # JS translations
 # Templating for JS
 gem 'haml', '5.0.3'
 
-gem 'handlebars_assets'
+gem 'handlebars_assets', '0.23.2'
 gem 'hogan_assets'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-lodash' # (aka underscore) diverse js methods
   gem 'rails-assets-jquery', '3.2.1'
   gem 'rails-assets-jquery-cookie', '1.4.1'
-  gem 'rails-assets-qtip2'
-  gem 'rails-assets-shariff'
+  gem 'rails-assets-qtip2', '2.2.1'
+  gem 'rails-assets-shariff', '1.26.2'
   gem 'rails-assets-sticky-kit'
   gem 'rails-assets-algoliasearch' # search client
   gem 'rails-assets-isInViewport'
