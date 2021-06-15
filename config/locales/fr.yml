@@ -21,8 +21,8 @@ fr:
       contact_heading: Tu voudrais nous dire quoi?
     shared:
       new:
-        back_to_hp: 
-        city_placeholder: 
+        back_to_hp: retour à la page d'accueil
+        city_placeholder: Lieu de résidence (facultatif)
         email_placeholder:
           required:
             'false': adresse électronique (facultatif)
@@ -61,12 +61,12 @@ fr:
       <a href="/fr/refugees/protection-des-données">Plus</a>.
     geolocation:
       error: La localisation n'a pas été trouvée. Donnez-là manuellement , s'il vous plaît.
-      fallback: 
+      fallback: Alexanderplatz, Berlin, Allemagne
       fallback_clarification:
-        code1: 
-        code2: 
-        code3: 
-        code4: 
+        code1: Alexanderplatz à Berlin n'est pas près de chez vous ? Veuillez alors saisir ici votre adresse, votre code postal ou votre ville.
+        code2: Malheureusement, nous n'avons pas été en mesure de déterminer votre emplacement. C'est pourquoi nous effectuons des recherches sur Alexanderplatz à Berlin. Si ce n'est pas près de chez vous, veuillez entrer votre adresse, votre code postal ou votre ville ici.
+        code3: Malheureusement, nous n'avons pas été en mesure de déterminer votre emplacement. C'est pourquoi nous effectuons des recherches sur Alexanderplatz à Berlin. Si ce n'est pas près de chez vous, veuillez entrer votre adresse, votre code postal ou votre ville ici.
+        code4: Malheureusement, nous n'avons pas été en mesure de déterminer votre emplacement. C'est pourquoi nous effectuons des recherches sur Alexanderplatz à Berlin. Si ce n'est pas près de chez vous, veuillez entrer votre adresse, votre code postal ou votre ville ici.
       get: J'utlise ma localisation!
       waiting: Recherche localisation...... éventuellement, tu dois en premier lieu l'autoriser.
     lang_list_toggle:
@@ -116,8 +116,8 @@ fr:
         approach: De quelle Manière?
         gender: Sexe
         language: Langue
-        main: 
-        residency_status: 
+        main: Résultats de la recherche
+        residency_status: Statut de résidence
         sort: Trier par
         target_audience: De l'aide pour qui?
       option_any: égal
@@ -125,7 +125,7 @@ fr:
         back: Retour
         gap: "..."
         next: de nouveau
-      reset_label: 
+      reset_label: Réinitialiser tout
       sort:
         nearby: À proximité
         relevance: Meilleurs résultats
@@ -439,7 +439,7 @@ fr:
             relatives: pour les connaissances ou la parenté
       map_sidebar:
         map_output_searchresults: émission de cartes des résultats de recherches
-      noscript_warning: Nous sommes désolés, mais pour pouvoir utiliser nos recherches, tu dois avoir activé ton Bowser JavaScript.
+      noscript_warning: Nous sommes désolés, mais pour pouvoir utiliser nos recherches, tu dois avoir activé ton navigateur JavaScript.
       pending_ajax:
         searching: recherche
     invalid_location:
@@ -474,17 +474,17 @@ fr:
       speaking: On peut t'aider dans quelle langue?
       trait_filters:
         explanation:
-          accessibility: 
-          anonymous: 
-          confidential: 
+          accessibility: Cela signifie que vous pouvez facilement vous déplacer en fauteuil roulant ici. Ou avec une poussette.
+          anonymous: Cela signifie que vous n'avez pas à dire votre nom.
+          confidential: Cela signifie que le personnel garde tout ce que vous vous dites.
         title:
-          accessibility: 
-          anonymous: 
-          charged: 
-          confidential: 
-          day_and_night: 
-          free: 
-      trait_filters_headline: 
+          accessibility: sans barrières
+          anonymous: anonyme
+          charged: Payant
+          confidential: Confidentiel
+          day_and_night: Jour et nuit
+          free: Gratuit
+      trait_filters_headline: Plus d'informations
       website_section:
         internet_presence: Tu peux en apprendre plus sur internet où?
         websites:
@@ -505,7 +505,7 @@ fr:
         code_word: 'Chez ce fournisseur, l''aide s’appelle :'
         heading: De quoi s'agit-il?
         offertaxonomy:
-          heading: 
+          heading: 'Les employés sont familiarisés avec ces sujets :'
       who: Qui propose cette aide ?
       who_contact_people:
         dr: Dr.
