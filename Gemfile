@@ -10,16 +10,18 @@ gem 'nokogumbo', '1.4.11' # 1.4.12 causes problems on heroku (see https://github
 # General #
 ###########
 
-gem 'clarat_base', github: 'handbook-germany/hbg-base'
+gem 'clarat_base', :git => 'https://github.com/neuemedienmacher/hbg-base.git', :ref => '83847bbf08215ea49a3903d65e898d8b963d652b'
 
 gem 'bundler', '2.2.18'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1'
+gem 'rails', '5.1.6.1'
 gem 'rails-observers', '~> 0.1'
+gem 'activerecord', '5.1.6.1'
+gem 'actionpack', '5.1.6.1'
 
 # Translations
-gem 'rails-i18n'
+gem 'rails-i18n', '5.1.3'
 
 # Platforms Ruby
 platforms :ruby do
@@ -32,16 +34,17 @@ platforms :ruby do
   gem 'equalizer', '0.0.11'
   gem 'ice_nine', '~> 0.0'
   gem 'glob', '~> 0.2.0'
+  gem 'i18n', '0.9.5'
 end
 
 #######################
 # Front-End Specifics #
 #######################
 
-gem 'localeapp'
+gem 'localeapp', '3.1.1'
 
 # Puma server
-gem 'puma'
+gem 'puma', '3.10.0'
 
 ##############
 # JavaScript #
@@ -57,10 +60,10 @@ gem 'coffee-rails', '~> 4.2.0'
 gem 'jquery-rails', '4.3.1'
 # gem 'qtip2-jquery-rails'
 
-gem 'i18n-js', '~> 3.0.0' # JS translations
+gem 'i18n-js', '3.0.1' # JS translations
 
 # Templating for JS
-gem 'haml'
+gem 'haml', '5.0.3'
 
 gem 'handlebars_assets'
 gem 'hogan_assets'
@@ -133,7 +136,7 @@ gem 'rack-rewrite' # securing malicious requests
 # gem 'devise'
 # gem 'omniauth-facebook'
 # gem 'omniauth-google-oauth2'
-gem 'pundit'
+gem 'pundit', '1.1.0'
 gem 'kaminari' # pagination
 
 gem 'route_translator'
@@ -143,8 +146,8 @@ gem 'responders', '~> 2.0'
 # Model enhancements
 
 gem 'virtus', '~> 1.0.5' # form objects
-gem 'formtastic'
-gem 'simple_form'
+gem 'formtastic', '3.1.5'
+gem 'simple_form', '3.5.0'
 
 ########################
 # For Heroku & Add-Ons #
