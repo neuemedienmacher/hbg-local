@@ -34,6 +34,24 @@ en:
         name_placeholder: Name (obligatory)
         send: Send
         send_us_a_message: Write us a message
+  emails:
+    offers_index:
+      button_accept: I accept
+      button_deny: I do not accept
+      explanation_1: 
+      explanation_2: 
+      explanation_3: 
+      heading: Offers from %{email}
+      info: Info
+      tos: Consent to the use of data for further purposes
+      tos_acceptance_headline: 
+      tos_acceptance_text: 
+      tos_denial_headline: 
+      tos_denial_text: 
+      tos_explanation: 
+      tos_were_accepted: 
+      tos_were_denied: 
+      tos_were_denied_explanation: 
   js:
     ajax_error:
       error: Search error
@@ -144,19 +162,19 @@ en:
         other: "%{count} local offers"
         zero: No local offers found
       personal_offers_new:
-        _query:
-        category:
-        category_query:
-        default:
+        _query: 
+        category: 
+        category_query: 
+        default: 
       remote_anchor:
         one: One remote offer
         other: "%{count} remote offers"
         zero: No remote offers
       remote_offers_new:
-        _query:
-        category:
-        category_query:
-        default:
+        _query: 
+        category: 
+        category_query: 
+        default: 
       show_personal: Show local offers
     shared:
       current_and_original_locale:
@@ -286,13 +304,13 @@ en:
       banner:
         teaser:
           link: Find out more
-          refugees: Soon with support services for refugees
-          text: handbook germany local is currently under construction
+          refugees: Soon with support services for newcomers
+          text: Handbook Germany local search is currently under construction
       callout:
         callout:
           how:
             refugees:
-              heading: How does handbook germany local work?
+              heading: How does Handbook Germany local search work?
               text: Enter your problem into the search field and the area where you are looking. Click on the magnifying glass. The support services in your area will show up instantly.
           what:
             refugees:
@@ -301,14 +319,14 @@ en:
           who:
             refugees:
               heading: Who can find help here?
-              text: Everyone who has come to Germany as a refugee. Refugee children and young people, too. And people who are looking for help for refugees.
+              text: Everyone who has come to Germany as a newcomer. Refugee children and young people, too. And people who are looking for help for refugees.
         callout_neutral:
           how:
             heading: How do we help?
             text: We help you find the right help near you. We sort all the support services and make them understandable through simple language.
           what:
             heading: What do we want?
-            text: handbook germany local explains - about support services in Germany. Because we want everyone to find the help they need.
+            text: Handbook Germany local search explains - about support services in Germany. Because we want everyone to find the help they need.
           who:
             heading: Who are we?
             text: We are a non-profit project of the Benckiser Stiftung Zukunft. The foundation aims to help children, young people and families in difficult situations.
@@ -325,7 +343,7 @@ en:
           anchor: Google+
           href: https://plus.google.com/110429028641743127592/about
         impressum: Imprint
-        plus: handbook germany local plus
+        plus: Handbook Germany local search plus
         privacy: Privacy
         tos: Legal
         twitter:
@@ -355,7 +373,7 @@ en:
         beta_modal:
           link: write us a message.
           text: |-
-            Our website handbook germany local is just getting started. You can already find
+            Our website Handbook Germany local search is just getting started. You can already find
             many support services and programmes in Berlin. Soon we will be collecting support services for other
             cities as well. And we appreciate your help: is there anything you think we could do better?
             Or is something not working? Simply
@@ -365,7 +383,7 @@ en:
         claim:
           family: Support services for children, teenagers and families
           main: Find help easily
-          refugees: Support services for refugees
+          refugees: Support services for newcomers
       top_bar:
         german_content_warning: Legal information can only be viewed in German
         languages:
@@ -532,30 +550,30 @@ en:
   pages:
     home:
       explaination:
-        headline: handbook germany local explained in 2 minutes
+        headline: Handbook Germany local search explained in 2 minutes
       how:
-        heading: How does handbook germany local work?
+        heading: How does Handbook Germany local search work?
         text: "First of all, just enter the problem you need help with. Or whatever\nit is that's worrying you. Or choose from our categories. And we'll show \nyou all the relevant support services offers in your neighbourhood. \nWe'll also tell you how to get this support. For example, if you should \ncall or write an email. Or, just stop by."
       meta_description:
-        refugees: With Handbook Germany local, you can easily find help for refugees. Clear and understandable. In many languages. Near you. And all over Germany.
+        refugees: With Handbook Germany local search, you can easily find help for refugees. Clear and understandable. In many languages. Near you. And all over Germany.
       meta_title:
         refugees: Handbook Germany
       title:
         family: Help and support services for children, teenagers and families
         refugees: Help and support services for refugees
       whom:
-        heading: Who is handbook germany local for?
+        heading: Who is Handbook Germany local search for?
         text: |-
-          handbook germany local is for everyone. Elternleben for children, teenagers and
-          families. handbook germany local for refugees. Here you'll find the right
+          Handbook Germany local search is for everyone. Elternleben for children, teenagers and
+          families. Handbook Germany local search for refugees. Here you'll find the right
           support if you're looking for help. For yourself, your family or your
           friends. Or for any other people you know who need help.
       why:
-        heading: Why does handbook germany local exist?
-        text: "It's easy to find help with handbook germany local. In Germany, there are a lot of\nsupport services for children, teenagers and families. As well as\nfor refugees. But they're often very hard to find. We want to help \nyou find the help you need. You should search on Elternleben if \nyou're looking for help for your family. And on handbook germany local if \nyou're looking for help for refugees."
+        heading: Why does Handbook Germany local search exist?
+        text: "It's easy to find help with Handbook Germany local search. In Germany, there are a lot of\nsupport services for children, teenagers and families. As well as\nfor refugees. But they're often very hard to find. We want to help \nyou find the help you need. You should search on Elternleben if \nyou're looking for help for your family. And on Handbook Germany local search if \nyou're looking for help for refugees."
     impressum:
       heading: Impressum
-      notice: handbook germany local ist a search engine. handbook germany local tells you where to get help. For example, where you can find an expert to help you with your problem. handbook germany local can only help you to find help.
+      notice: Handbook Germany local search ist a search engine. Handbook Germany local search tells you where to get help. For example, where you can find an expert to help you with your problem. Handbook Germany local search can only help you to find help.
       responsible_html: |-
         Vertreten durch die Geschäftsführerin Konstantina Vassiliou-Enz<br/></br>
         Amtsgericht Charlottenburg</br>
@@ -564,7 +582,7 @@ en:
     not_found:
       description: |
         Enter a term in the search field describing the help you're looking for.
-        Or the problem you're facing. handbook germany local will then show you further help and
+        Or the problem you're facing. Handbook Germany local search will then show you further help and
         support offerings in your area. Or go %{start_page} to the main page.
         Here you can search for offers of help via the icons.
       heading: Unfortunately we could not find that page.
@@ -574,6 +592,10 @@ en:
       address:
         email: "%{mailto}\n"
         fax: Fax +49 (0)30 55 57 96 09 9
+        name: 
+        street: 
+        telephone: 
+        zip_city: 
   routes:
     '404': "'404'"
     contacts: contact
@@ -586,13 +608,13 @@ en:
     impressum: impressum
     kontakt: contact
     liste: liste
-    liste-de-services:
+    liste-de-services: 
     new: new
     offers: offers
     organizations: organizations
     preview: preview
     rechtliche-hinweise: legal-information
-    refugees:
+    refugees: 
     search_locations: search_locations
     subscribe: subscribe
     subscriptions: subscriptions
@@ -600,11 +622,11 @@ en:
     unsubscribe: unsubscribe
     update_requests: update_requests
     users: users
-    widget:
-    widget-handbook-germany:
-    widget-hg:
-    widget-start-with-a-friend:
-    widget-swaf:
+    widget: 
+    widget-handbook-germany: 
+    widget-hg: 
+    widget-start-with-a-friend: 
+    widget-swaf: 
   shareds:
     forms:
       fill_field: Please fill out this field
@@ -612,13 +634,13 @@ en:
       cta_report_errors: 'Did you find an error?
 
 '
-      google_translate_explanation: Above on the page, you can click on your language. Then you can read handbook germany local in your language. The Google Translate API did part of the translation. Unfortunately, that sometimes causes grammatical errors. It is also possible that a given sentence sounds a bit funny.
+      google_translate_explanation: Above on the page, you can click on your language. Then you can read Handbook Germany local search in your language. The Google Translate API did part of the translation. Unfortunately, that sometimes causes grammatical errors. It is also possible that a given sentence sounds a bit funny.
     tooltips:
       welcome:
         advanced_search: Do you want to refine your search? Click here. Advanced search options will open up automatically.
         world_switch:
           family: Click here to get to Elternleben. In Elternleben, you can search for help and support services for children, teenagers and families.
-          refugees: Click here to get to handbook germany local. In handbook germany local, you can search for help and support services for refugees.
+          refugees: Click here to get to Handbook Germany local search. In Handbook Germany local search, you can search for help and support services for refugees.
   simple_form:
     required:
       html: <abbr title="required">*</abbr>

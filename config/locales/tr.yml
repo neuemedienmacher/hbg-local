@@ -24,7 +24,7 @@ tr:
     shared:
       new:
         back_to_hp: ana sayfaya geri
-        city_placeholder:
+        city_placeholder: 
         email_placeholder:
           required:
             'false': E-Mail adresi (opsiyonel)
@@ -33,6 +33,24 @@ tr:
         name_placeholder: İsim (zorunlu)
         send: gönder
         send_us_a_message: Bize mesaj gönder
+  emails:
+    offers_index:
+      button_accept: 
+      button_deny: 
+      explanation_1: 
+      explanation_2: 
+      explanation_3: 
+      heading: 
+      info: 
+      tos: 
+      tos_acceptance_headline: 
+      tos_acceptance_text: 
+      tos_denial_headline: 
+      tos_denial_text: 
+      tos_explanation: 
+      tos_were_accepted: 
+      tos_were_denied: 
+      tos_were_denied_explanation: 
   js:
     ajax_error:
       error: Arama hatası
@@ -48,12 +66,12 @@ tr:
       <a href="/tr/refugees/Gizlilik-Politikası">daha fazla</a>.
     geolocation:
       error: konumun bulunamamıştır. Lütfen manüel giriş yap.
-      fallback:
+      fallback: 
       fallback_clarification:
-        code1:
-        code2:
-        code3:
-        code4:
+        code1: 
+        code2: 
+        code3: 
+        code4: 
       get: Konumumu kullan!
       waiting: Konumumu ara... Konumunun kullanılmasına izin vermelisin.
     lang_list_toggle:
@@ -105,8 +123,8 @@ tr:
         approach: Nasıl?
         gender: Cinsiyet
         language: Dil
-        main:
-        residency_status:
+        main: 
+        residency_status: 
         sort: Göre sırala
         target_audience: Kim için destek?
       option_any: fark etmez
@@ -114,7 +132,7 @@ tr:
         back: geri
         gap: "..."
         next: ileri
-      reset_label:
+      reset_label: 
       sort:
         nearby: Yakınlardaki
         relevance: En iyi maçlar
@@ -142,19 +160,19 @@ tr:
         other: "%{count} Bulunduğun yerde bir hizmet"
         zero: Maalesef hizmet bulunmamaktadır
       personal_offers_new:
-        _query:
-        category:
-        category_query:
-        default:
+        _query: 
+        category: 
+        category_query: 
+        default: 
       remote_anchor:
         one: Telefon ve online hizmetleri
         other: "%{count} Telefon ve online hizmetleri"
         zero: Telefon veya online hizmet bulunmamaktadır
       remote_offers_new:
-        _query:
-        category:
-        category_query:
-        default:
+        _query: 
+        category: 
+        category_query: 
+        default: 
       show_personal: Yerel hizmetleri göster
     shared:
       current_and_original_locale:
@@ -265,7 +283,7 @@ tr:
         zho: Çince - 普通话 / 普通話
         zza: Zazaca - Zazaki / Kırmancki
     shariff:
-      share_label:
+      share_label: 
     single_search_result:
       encounters:
         chat: Sohbet
@@ -279,7 +297,7 @@ tr:
     modal_create:
       js:
         erb:
-          success:
+          success: 
     partials:
       banner:
         teaser:
@@ -290,26 +308,26 @@ tr:
         callout:
           how:
             refugees:
-              heading:
-              text:
+              heading: 
+              text: 
           what:
             refugees:
-              heading:
-              text:
+              heading: 
+              text: 
           who:
             refugees:
-              heading:
-              text:
+              heading: 
+              text: 
         callout_neutral:
           how:
-            heading:
-            text:
+            heading: 
+            text: 
           what:
-            heading:
-            text:
+            heading: 
+            text: 
           who:
-            heading:
-            text:
+            heading: 
+            text: 
       footer:
         about: Hakkımızda
         blog: Blog
@@ -347,8 +365,8 @@ tr:
         claim:
           family: Çocuklar, gençler ve aileler için yardıum çeşitleri
         hero:
-          button_label:
-          logline:
+          button_label: 
+          logline: 
       modal:
         beta_modal:
           link: bize mesaj gönder.
@@ -372,7 +390,7 @@ tr:
 
 '
       top_bar:
-        german_content_warning:
+        german_content_warning: 
         languages:
           ar: عربي
           de: Deutsch
@@ -397,10 +415,10 @@ tr:
           encounter:
             chat: Sohbet
             email: E-Mail
-            fax:
+            fax: 
             forum: Forum
             hotline: Telefon
-            letter:
+            letter: 
             online-course: Online kurs
             portal: Adres listesi
           exclusive_gender:
@@ -472,17 +490,17 @@ tr:
       speaking: Sana hangi dilde yardımcı olunuyor?
       trait_filters:
         explanation:
-          accessibility:
-          anonymous:
-          confidential:
+          accessibility: 
+          anonymous: 
+          confidential: 
         title:
-          accessibility:
-          anonymous:
-          charged:
-          confidential:
-          day_and_night:
-          free:
-      trait_filters_headline:
+          accessibility: 
+          anonymous: 
+          charged: 
+          confidential: 
+          day_and_night: 
+          free: 
+      trait_filters_headline: 
       website_section:
         internet_presence: İnternette nerede daha fazla bilgi bulabilirim?
         websites:
@@ -503,7 +521,7 @@ tr:
         code_word: Ne sorman gerekir veya sitede neyi araman gerekir?
         heading: Konu nedir?
         offertaxonomy:
-          heading:
+          heading: 
       who: Nerede yardım bulabilirim?
       who_contact_people:
         dr: Dr.
@@ -537,12 +555,12 @@ tr:
   pages:
     home:
       explaination:
-        headline:
+        headline: 
       how:
         heading: Handbook germany local nasıl çalışıyor?
         text: Hangi problem için yardıma ihtiyacın olduğunu ya da hangi konunun seni rahatsız ettiğini belirle. Ayrıca menümüzdeki kategorilerden de seçebilirsin. Bu sayede sana en yakın destek önerilerini göreceksin. Sana nasıl yardım alabileceğini de anlatıyoruz. Yardım almak için telefon açabilir, mail atabilir veya şahsen ofisimize gelebilirsin.
       meta_description:
-        refugees:
+        refugees: 
       meta_title:
         refugees: Handbook Germany
       title:
@@ -576,6 +594,10 @@ tr:
       address:
         email: "%{mailto}\n"
         fax: Fax +49 (0)30 55 57 96 09 9
+        name: 
+        street: 
+        telephone: 
+        zip_city: 
   routes:
     '404': "'404'"
     contacts: iletişim
@@ -588,13 +610,13 @@ tr:
     impressum: künye
     kontakt: contact
     liste: liste
-    liste-de-services:
+    liste-de-services: 
     new: yeni
     offers: hizmetlerimiz
     organizations: organizasyonlar
     preview: ön-izleme
     rechtliche-hinweise: hukuki-uyarılar
-    refugees:
+    refugees: 
     search_locations: search_locations
     subscribe: subscribe
     subscriptions: supsciptions
@@ -602,11 +624,11 @@ tr:
     unsubscribe: unsubscribe
     update_requests: update_request
     users: kullanıcılar
-    widget:
-    widget-handbook-germany:
-    widget-hg:
-    widget-start-with-a-friend:
-    widget-swaf:
+    widget: 
+    widget-handbook-germany: 
+    widget-hg: 
+    widget-start-with-a-friend: 
+    widget-swaf: 
   shareds:
     forms:
       fill_field: Lütfen bu alanı doldur

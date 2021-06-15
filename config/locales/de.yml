@@ -33,6 +33,24 @@ de:
         name_placeholder: Name (Pflicht)
         send: Abschicken
         send_us_a_message: Schreibe uns eine Nachricht
+  emails:
+    offers_index:
+      button_accept: Ich bin einverstanden
+      button_deny: Ich bin nicht einverstanden
+      explanation_1: Hier sehen Sie all Ihre Angebote, die aktuell auf Handbook Germany local search gelistet sind. Das sind Angebote, bei denen wir Ihre Email-Adresse als Kontaktadresse gefunden haben.
+      explanation_2: Wenn Sie mit Ihrer Aufnahme in unserer Datenbank einverstanden sind und wir in Zukunft neue Angebote von Ihnen finden, sehen Sie die Links zu diesen Angeboten auch hier.
+      explanation_3: Sie können diese Seite in Ihren Favoriten speichern und so jederzeit auf einen Blick überprüfen, welche Angebote von Ihnen aktuell auf Handbook Germany local search zu finden sind.
+      heading: Angebote von %{email}
+      info: Info
+      tos: Einwilligung in die Datennutzung zu weiteren Zwecken
+      tos_acceptance_headline: Zustimmung
+      tos_acceptance_text: Hiermit willige ich zum Zweck der Bereitstellung meiner Angebote in der Local Search-Datenbank von Handbook Germany / Neue deutsche Medienmacher e.V. in die Verarbeitung und Verwendung meiner Daten ein. Ich kann diese Erklärung jederzeit widerrufen. Die Neuen deutschen Medienmacher werden die Daten dann unverzüglich aus der Datenbank löschen. Zusätzlich willige ich ein, dass mir Handbook Germany regelmäßig (1 Mal pro Jahr) Updates zu meinen Angeboten schickt, um die Aktualität meiner Daten zu überprüfen. Ich kann diese Erklärung jederzeit widerrufen. Die Neuen deutschen Medienmacher werden mich dann nicht weiter kontaktieren.
+      tos_denial_headline: Ablehnung
+      tos_denial_text: Ich möchte nicht, dass meine Angebote in der Local Search-Datenbank von Handbook Germany / Neue deutsche Medienmacher angezeigt werden und bitte um die Löschung meiner Angebote.
+      tos_explanation: 'Aufgrund der aktuellen Datenschutzbestimmungen möchten wir Ihre Einwilligung einholen, dass wir Informationen zu Ihren Angeboten sowie die Namen von Kontaktpersonen und deren Email-Adressen in unsere Datenbank aufnehmen dürfen. '
+      tos_were_accepted: Datenschutzbestimmungen wurden akzeptiert.
+      tos_were_denied: Datenschutzbestimmungen wurden abgelehnt.
+      tos_were_denied_explanation: Ihre Angebote werden aus der Datenbank entfernt.
   js:
     ajax_error:
       error: Suchfehler
@@ -308,13 +326,13 @@ de:
       banner:
         teaser:
           link: Hier erfährst du mehr
-          refugees: Bald auch Angebote für Flüchtlinge
-          text: handbook germany local wird gerade aufgebaut
+          refugees: Bald auch Angebote für Geflüchtete
+          text: Handbook Germany local search wird gerade aufgebaut
       callout:
         callout:
           how:
             refugees:
-              heading: Wie funktioniert handbook germany local?
+              heading: Wie funktioniert Handbook Germany local search?
               text: Gib dein Problem in das Suchfeld ein und den Ort, an dem du suchst. Klicke auf die Lupe. Du bekommst die Hilfen in deiner Nähe auf einen Blick angezeigt.
           what:
             refugees:
@@ -323,14 +341,14 @@ de:
           who:
             refugees:
               heading: Wer findet hier Hilfe?
-              text: Alle Menschen, die nach Deutschland geflüchtet sind. Auch geflüchtete Kinder und Jugendliche. Und Menschen, die Hilfe für Flüchtlinge suchen.
+              text: Alle Menschen, die nach Deutschland geflüchtet sind. Auch geflüchtete Kinder und Jugendliche. Und Menschen, die Hilfe für Geflüchtete suchen.
         callout_neutral:
           how:
             heading: Wie helfen wir?
             text: Wir helfen dir, die passende Hilfe in deiner Nähe zu finden. Wir ordnen alle Hilfen und machen sie durch einfache Sprache verständlich.
           what:
             heading: Was wollen wir?
-            text: handbook germany local klärt auf – über Hilfsangebote in Deutschland. Denn wir wollen, dass jeder die Hilfe findet, die er braucht.
+            text: Handbook Germany local search klärt auf – über Hilfsangebote in Deutschland. Denn wir wollen, dass jeder die Hilfe findet, die er braucht.
           who:
             heading: Wer sind wir?
             text: Wir sind ein gemeinnütziges Projekt der Benckiser Stiftung Zukunft. Die Stiftung möchte Kindern, Jugendlichen und Familien in schwierigen Situationen helfen.
@@ -342,12 +360,12 @@ de:
         faq: Häufige Fragen
         fb:
           anchor: Facebook
-          href: https://www.facebook.com/HandbookGermany
+          href: https://www.facebook.com/HandbookGermany/
         gplus:
           anchor: Google+
           href: https://plus.google.com/110429028641743127592/about
         impressum: Impressum
-        plus: handbook germany local plus
+        plus: Handbook Germany local search plus
         privacy: Datenschutzhinweise
         tos: Rechtliche Hinweise
         twitter:
@@ -377,23 +395,23 @@ de:
         beta_modal:
           link: schreibe uns einfach eine Nachricht.
           text: |
-            Unsere Internetseite handbook germany local ist noch ganz neu. Für Berlin kannst
+            Unsere Internetseite Handbook Germany local search ist noch ganz neu. Für Berlin kannst
             du schon viele Hilfsangebote finden. Bald sammeln wir auch
             Hilfsangebote für andere Städte. Über deine Hilfe freuen wir uns:
             Hast du etwas gesehen, das wir besser machen können? Oder
             funktioniert etwas nicht richtig? Dann
         unavailable_location_modal: |
-          Für deinen Standort gibt es bei handbook germany local aktuell nur Telefon-Angebote
+          Für deinen Standort gibt es bei Handbook Germany local search aktuell nur Telefon-Angebote
           oder Online-Angebote. Das heißt, man hilft dir am Telefon oder online.
           Zum Beispiel per E-Mail oder in einem Chat. Wir geben dir gerne
-          Bescheid, sobald es bei handbook germany local auch Hilfe in deiner Nähe gibt.
+          Bescheid, sobald es bei Handbook Germany local search auch Hilfe in deiner Nähe gibt.
           Trage dazu deine E-Mail-Adresse hier ein.
       navigation:
         category_headline: Oder suche nach Kategorien
         claim:
           family: Hilfe für Kinder, Jugendliche und Familien
           main: Einfach Hilfe finden
-          refugees: Hilfe für Flüchtlinge
+          refugees: Hilfe für Geflüchtete
       top_bar:
         german_content_warning: Wähle deine Sprache
         languages:
@@ -449,10 +467,10 @@ de:
             pregnant_woman: für Schwangere
             refugees_children: für geflüchtete Kinder
             refugees_families: für geflüchtete Familien
-            refugees_general: für Flüchtlinge
+            refugees_general: für Geflüchtete
             refugees_parents: für geflüchtete Eltern
             refugees_parents_to_be: für geflüchtete werdende Eltern
-            refugees_uf: für unbegleitete Flüchtlinge
+            refugees_uf: für unbegleitete Geflüchtete
             relatives: für Bekannte und Verwandte
       map_sidebar:
         map_output_searchresults: Kartenausgabe der Suchergebnisse
@@ -554,16 +572,16 @@ de:
   organizations:
     show:
       headline-offers--family: Hilfe für Kinder, Jugendliche und Familien
-      headline-offers--refugees: Hilfe für Flüchtlinge
+      headline-offers--refugees: Hilfe für Geflüchtete
       offers_all: Welche Hilfe bietet diese Organisation?
       where: Wo findest du die Organisation?
       who: Was macht die Organisation?
   pages:
     home:
       explaination:
-        headline: handbook germany local in 2 Minuten erklärt
+        headline: Handbook Germany local search in 2 Minuten erklärt
       how:
-        heading: Wie funktioniert handbook germany local?
+        heading: Wie funktioniert Handbook Germany local search?
         text: |
           Gib ein, bei welchem Problem du Hilfe brauchst. Oder was dich
           bedrückt. Oder wähle aus unseren Themen aus. Schon siehst du alle
@@ -571,32 +589,31 @@ de:
           Hilfe bekommst. Also ob du anrufen oder eine E-Mail schreiben sollst.
           Oder einfach vorbeigehen kannst.
       meta_description:
-        refugees: Mit Handbook Germany local findest Du einfach Hilfe für Flüchtlinge. Übersichtlich. Mehrsprachig. In deiner Nähe. Und in ganz Deutschland.
+        refugees: Mit Handbook Germany local search findest Du einfach Hilfe für Geflüchtete. Übersichtlich. Mehrsprachig. In deiner Nähe. Und in ganz Deutschland.
       meta_title:
         refugees: Handbook Germany
       title:
         family: Hilfe für Kinder, Jugendliche und Familien
-        refugees: Hilfe für Flüchtlinge
+        refugees: Hilfe für Geflüchtete
       whom:
-        heading: Für wen ist handbook germany local?
-        text: |
-          handbook germany local ist für alle da. Elternleben für Kinder, Jugendliche und
-          Familien. handbook germany local für Flüchtlinge. Hier findest du
+        heading: Für wen ist Handbook Germany local search?
+        text: |-
+          Handbook Germany local search ist für alle da. Elternleben für Kinder, Jugendliche und
+          Familien. Handbook Germany local search für Geflüchtete. Hier findest du
           Unterstützung bei Fragen und bei Problemen. Für dich, deine Familie
           und deine Freunde. Oder auch für andere Menschen, die du kennst und
           die Hilfe brauchen.
       why:
-        heading: Warum gibt es handbook germany local?
-        text: |
-          Mit handbook germany local lässt sich einfach Hilfe finden. In Deutschland gibt es
+        heading: Warum gibt es Handbook Germany local search?
+        text: |-
+          Mit Handbook Germany local search lässt sich einfach Hilfe finden. In Deutschland gibt es
           viele Angebote, die Kinder, Jugendliche und Familien unterstützen.
-          Und auch ganz viele Angebote für Flüchtlinge. Sie sind aber oft schwer
+          Und auch ganz viele Angebote für Geflüchtete. Sie sind aber oft schwer
           zu finden. Wir helfen dir dabei. Wenn es um Familienthemen geht, suche
-          auf Elternleben. Wenn es um Flüchtlingsthemen geht, suche auf handbook germany local
-          refugees.
+          auf Elternleben.
     impressum:
       heading: Impressum
-      notice: handbook germany local ist eine Suchmaschine. handbook germany local sagt dir, wo du Hilfe bekommst. Zum Beispiel, wo du einen Experten findest, der dir bei deinem Problem hilft. handbook germany local selber kann dir nur beim Suchen helfen.
+      notice: Handbook Germany local search ist eine Suchmaschine. Handbook Germany local search sagt dir, wo du Hilfe bekommst. Zum Beispiel, wo du einen Experten findest, der dir bei deinem Problem hilft. Handbook Germany local search selber kann dir nur beim Suchen helfen.
       responsible_html: |+
         <p>Vertreten durch die Geschäftsführerin Konstantina Vassiliou-Enz<br/></br>
         Amtsgericht Charlottenburg</br>
@@ -661,7 +678,7 @@ de:
       cta_report_errors: 'Hast du einen Fehler entdeckt?
 
 '
-      google_translate_explanation: Oben auf der Seite kannst du deine Sprache anklicken. Dann kannst du handbook germany local in deiner Sprache lesen. Einen Teil der Übersetzung hat die Google Translate API gemacht. Leider gibt es deshalb manchmal sprachliche Fehler. Es kann also sein, dass etwas komisch klingt.
+      google_translate_explanation: Oben auf der Seite kannst du deine Sprache anklicken. Dann kannst du Handbook Germany local search in deiner Sprache lesen. Einen Teil der Übersetzung hat die Google Translate API gemacht. Leider gibt es deshalb manchmal sprachliche Fehler. Es kann also sein, dass etwas komisch klingt.
     tooltips:
       welcome:
         advanced_search: 'Willst du deine Suche genauer machen? Dann klicke hier. Es öffnet sich eine Box mit Auswahl-Möglichkeiten.
@@ -669,7 +686,7 @@ de:
 '
         world_switch:
           family: Wenn du hier klickst, kommst du zu Elternleben. In Elternleben kannst du nach Hilfe für Kinder, Jugendliche und Familien suchen.
-          refugees: Wenn du hier klickst, kommst du zu handbook germany local. In handbook germany local kannst du nach Hilfe für Flüchtlinge suchen.
+          refugees: Wenn du hier klickst, kommst du zu Handbook Germany local search. Auf Handbook Germany local search kannst du nach Hilfe für Geflüchtete suchen.
   simple_form:
     required:
       html: <abbr title="required">*</abbr>

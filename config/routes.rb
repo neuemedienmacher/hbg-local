@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 Clarat::Application.routes.draw do
+  # rubocop:disable Metrics/LineLength
   get '/.well-known/acme-challenge/FqBLJjfCsodOPbKO1-imj268kqP_NXzPYu4vuUOasJA' => 'pages#letsencrypt'
+  # rubocop:enable Metrics/LineLength
 
   # Sitemap path
   mount DynamicSitemaps::Engine => '/sitemaps/'
@@ -28,6 +30,10 @@ Clarat::Application.routes.draw do
     get 'widget-start-with-a-friend' => 'pages#widget_swaf', as: 'home'
     get 'widget-handbook-germany' => 'pages#widget_hg', as: 'home'
     get 'widget-handbook-germany-:city' => 'pages#widget_hg', as: 'home'
+
+    # Email overviews
+    get 'emails/:token/offers' => 'emails#offers_index', as: 'emails_offers'
+    put 'emails/:id' => 'emails#update', as: 'update_email'
 
     # unscoped RESTful resources (only POST and non-HTML GET)
     resources :search_locations, only: [:show]
