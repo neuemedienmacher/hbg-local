@@ -10,7 +10,7 @@
   position: absolute;
   right: 0;
   width: auto;
-  top: 0;
+  top: -26px;
 }
 
 .result-order__select {
@@ -22,7 +22,6 @@
   &::-ms-expand {
     display: none;
   }
-
 }
 
 .result-order__label {
