@@ -70,24 +70,20 @@
   var isArray = function(val) {
     if (Array.isArray) {
       return Array.isArray(val);
-    }
+    };
     return Object.prototype.toString.call(val) === '[object Array]';
   };
 
   var isString = function(val) {
-    return typeof val === 'string' || Object.prototype.toString.call(val) === '[object String]';
+    return typeof value == 'string' || Object.prototype.toString.call(val) === '[object String]';
   };
 
   var isNumber = function(val) {
-    return typeof val === 'number' || Object.prototype.toString.call(val) === '[object Number]';
+    return typeof val == 'number' || Object.prototype.toString.call(val) === '[object Number]';
   };
 
   var isBoolean = function(val) {
     return val === true || val === false;
-  };
-
-  var isNull = function(val) {
-    return val === null;
   };
 
   var decimalAdjust = function(type, value, exp) {
@@ -121,7 +117,7 @@
     var key, value;
     for (key in obj) if (obj.hasOwnProperty(key)) {
       value = obj[key];
-      if (isString(value) || isNumber(value) || isBoolean(value) || isArray(value) || isNull(value)) {
+      if (isString(value) || isNumber(value) || isBoolean(value)) {
         dest[key] = value;
       } else {
         if (dest[key] == null) dest[key] = {};
@@ -313,11 +309,11 @@
       var firstFallback = null;
       var secondFallback = null;
       if (localeParts.length === 3) {
-        firstFallback = [
+        firstFallback = localeParts[0];
+        secondFallback = [
           localeParts[0],
           localeParts[1]
         ].join("-");
-        secondFallback = localeParts[0];
       }
       else if (localeParts.length === 2) {
         firstFallback = localeParts[0];
@@ -392,6 +388,7 @@
     options = options || {}
 
     var locales = this.locales.get(options.locale).slice()
+      , requestedLocale = locales[0]
       , locale
       , scopes
       , fullScope
@@ -450,6 +447,7 @@
   I18n.pluralizationLookup = function(count, scope, options) {
     options = options || {}
     var locales = this.locales.get(options.locale).slice()
+      , requestedLocale = locales[0]
       , locale
       , scopes
       , translations
@@ -600,10 +598,6 @@
 
     if (typeof(translation) === "string") {
       translation = this.interpolate(translation, options);
-    } else if (isArray(translation)) {
-      translation = translation.map(function(t) {
-        return (typeof(t) === "string" ? this.interpolate(t, options) : t);
-      }, this);
     } else if (isObject(translation) && isSet(options.count)) {
       translation = this.pluralize(options.count, scope, options);
     }
@@ -613,10 +607,6 @@
 
   // This function interpolates the all variables in the given message.
   I18n.interpolate = function(message, options) {
-    if (message === null) {
-      return message;
-    }
-
     options = options || {}
     var matches = message.match(this.placeholder)
       , placeholder
