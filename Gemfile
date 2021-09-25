@@ -139,7 +139,7 @@ gem 'rack-rewrite' # securing malicious requests
 gem 'pundit', '1.1.0'
 gem 'kaminari' # pagination
 
-gem 'route_translator'
+gem 'route_translator', '5.5.0'
 
 gem 'responders', '~> 2.0'
 
