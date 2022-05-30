@@ -272,6 +272,7 @@ ar:
         tuk: لغة تركمانية - Türkmençe / Tүркменче
         tur: لغة تركية - Türkçe
         twi: التوي - Twi
+        ukr: Ukrainian - Українська
         urd: لغة أردوية - اردو
         uzb: لغة أوزبكية - Oʻzbek tili
         vie: لغة فيتنامية - tiếng Việt
@@ -356,8 +357,9 @@ ar:
           fa: فارسی
           fr: Français
           pl: Polski
-          ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
       hero:
         claim:
           family: مساعدة للأطفال والمراهقين و الأسرة
@@ -396,6 +398,8 @@ ar:
           pl: Polski
           ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
         title: ترجمة فورية
   offers:
     index:

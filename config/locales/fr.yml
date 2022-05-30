@@ -270,6 +270,7 @@ fr:
         tuk: Turkmène - Türkmençe / Tүркменче
         tur: Turc - Türkçe
         twi: Twi - Twi
+        ukr: Ukrainian - Українська
         urd: Ourdou - اردو
         uzb: Ouzbek - Oʻzbek tili
         vie: Vietnamien - tiếng Việt
@@ -350,16 +351,15 @@ fr:
         contact: Contact
         faq: Questions fréquentes
         languages:
-          ar: 'عربي
-
-'
+          ar: 'عربي'
           de: Deutsch
           en: English
           fa: فارسی
           fr: Français
           pl: Polski
-          ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
       hero:
         claim:
           family: Offres d'aide pour les enfants, les ados et les familles
@@ -388,6 +388,8 @@ fr:
           pl: Polski
           ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
         title: Traductions automatiques
   offers:
     index:

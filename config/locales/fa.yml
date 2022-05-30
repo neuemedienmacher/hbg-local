@@ -292,6 +292,7 @@ fa:
         tuk: ترکمنی - Türkmençe / Tүркменче
         tur: ترکی - Türkçe
         twi: تیوی - Twi
+        ukr: Ukrainian - Українська
         urd: اردو - اردو
         uzb: ازبکی - Oʻzbek tili
         vie: ویتنامی - tiếng Việt
@@ -376,8 +377,9 @@ fa:
           fa: فارسی
           fr: Français
           pl: Polski
-          ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
       hero:
         claim:
           family: کمک برای کودکان،جوانان و خانواده ها
@@ -406,6 +408,8 @@ fa:
           pl: Polski
           ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
         title: زبان خود را انتخاب کنید
   offers:
     index:

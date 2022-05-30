@@ -299,6 +299,7 @@ de:
         tuk: Turkmenisch - Türkmençe / Tүркменче
         tur: Türkisch - Türkçe
         twi: Twi - Twi
+        ukr: Ukrainisch - Українська
         urd: Urdu - اردو
         uzb: Usbekisch - Oʻzbek tili
         vie: Vietnamesisch - tiếng Việt
@@ -383,8 +384,9 @@ de:
           fa: فارسی
           fr: Français
           pl: Polski
-          ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
       hero:
         claim:
           family: Hilfe für Kinder, Jugendliche und Familien
@@ -423,6 +425,8 @@ de:
           pl: Polski
           ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
         title: Wähle deine Sprache
   offers:
     index:

@@ -275,6 +275,7 @@ tr:
         tuk: Türkmence - Türkmençe / Tүркменче
         tur: Türkçe - Türkçe
         twi: Twi - Twi
+        ukr: Ukrainian - Українська
         urd: Urduca - اردو
         uzb: Özbekçe - Oʻzbek tili
         vie: Vietnamca - tiếng Việt
@@ -359,8 +360,9 @@ tr:
           fa: فارسی
           fr: Français
           pl: Polski
-          ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
       hero:
         claim:
           family: Çocuklar, gençler ve aileler için yardıum çeşitleri
@@ -400,6 +402,8 @@ tr:
           pl: Polski
           ps: پښتو
           tr: Türkçe
+          uk: Українська
+          ru: Pусский
         title: Otomatik çeviriler
   offers:
     index:
