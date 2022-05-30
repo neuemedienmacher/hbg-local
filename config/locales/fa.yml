@@ -33,22 +33,22 @@ fa:
         send_us_a_message: برای ما پیغام بفرست
   emails:
     offers_index:
-      button_accept: 
-      button_deny: 
-      explanation_1: 
-      explanation_2: 
-      explanation_3: 
-      heading: 
-      info: 
-      tos: 
-      tos_acceptance_headline: 
-      tos_acceptance_text: 
-      tos_denial_headline: 
-      tos_denial_text: 
-      tos_explanation: 
-      tos_were_accepted: 
-      tos_were_denied: 
-      tos_were_denied_explanation: 
+      button_accept:
+      button_deny:
+      explanation_1:
+      explanation_2:
+      explanation_3:
+      heading:
+      info:
+      tos:
+      tos_acceptance_headline:
+      tos_acceptance_text:
+      tos_denial_headline:
+      tos_denial_text:
+      tos_explanation:
+      tos_were_accepted:
+      tos_were_denied:
+      tos_were_denied_explanation:
   js:
     ajax_error:
       error: اشتباه در جستجو
@@ -116,7 +116,7 @@ fa:
         approach: از چه راهی؟
         gender: جنسیت
         language: زبان
-        main: 
+        main:
         residency_status: وضعیت اقامت
         sort: 'فیلتر کردن با توجه '
         target_audience: کمک برای چه کسی؟
@@ -455,6 +455,9 @@ fa:
             refugees_parents_to_be: برای والدین پناهنده چشم به راه کودک
             refugees_uf: برای پناهندگان بدون همراه
             relatives: برای آشنایان و فامیل
+            immigrants_general: for immigrants
+            immigrants_adults: for adult immigrants
+            immigrants_children: for immigrant children and teenager
       map_sidebar:
         map_output_searchresults: نمایش آدرس های پیشنهادی در نقشه
       noscript_warning: 'متاسفیم.برای استفاده از جستجو باید مرورگر JavaScript را فعال کنید. '
@@ -588,10 +591,10 @@ fa:
       address:
         email: "%{mailto}"
         fax: فاکس:۰۰۴۹۰۳۰۵۵۵۷۹۶۰۹۹
-        name: 
-        street: 
-        telephone: 
-        zip_city: 
+        name:
+        street:
+        telephone:
+        zip_city:
   routes:
     '404': "'404'"
     contacts: تماس
@@ -604,13 +607,13 @@ fa:
     impressum: 'اطلاعات کلی '
     kontakt: تماس
     liste: لیست
-    liste-de-services: 
+    liste-de-services:
     new: جدید
     offers: پیشنهادها
     organizations: سازمان ها
     preview: بازگشت
     rechtliche-hinweise: نکات حقوقی
-    refugees: 
+    refugees:
     search_locations: جستجوی مکان ها
     subscribe: مشترک
     subscriptions: اشتراک ها
@@ -618,11 +621,11 @@ fa:
     unsubscribe: بدون شرح
     update_requests: update_requests
     users: کاربر
-    widget: 
-    widget-handbook-germany: 
-    widget-hg: 
-    widget-start-with-a-friend: 
-    widget-swaf: 
+    widget:
+    widget-handbook-germany:
+    widget-hg:
+    widget-start-with-a-friend:
+    widget-swaf:
   shareds:
     forms:
       fill_field: لطفا اینجا را پر کن

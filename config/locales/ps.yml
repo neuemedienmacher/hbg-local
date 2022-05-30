@@ -38,11 +38,11 @@ ps:
       explanation_1: دلته د هنډبوک جرمني په سيمه‌ييزه پاڼه ټول وړانديزونه وينئ. دا هغه وړانديزونه دي چې موږ يې په مرسته ستاسې برېښناليک د اړيکې په توګه موندلی دی.
       explanation_2: په راتلونکي کې زموږ نوي وړانديزونه هم دلته ليدلای شئ.
       explanation_3: کولای شئ دا پاڼه په د خپلې خوښې پاڼو ته ورزياته کړئ او د سترګو په رپ کې يې خلاصه کړئ څو ووينئ چې د هنډبوک جرمني پرسيمه‌ييزه پاڼه څه شته.
-      heading: 
+      heading:
       info: مالومات
       tos: د نورو موخو لپاره د ډاټا د کارونې لپاره رضايت
       tos_acceptance_headline: تصويب
-      tos_acceptance_text: 
+      tos_acceptance_text:
       tos_denial_headline: ردول
       tos_denial_text: زه نه غواړم چې ما وړانديزونه دې د هنډبوک جرمني / نيوډوچه ميډين مخر د سيمه‌ييز لټون په ډاټا بانک کې ښکاره شي. زه يې د پاکولو غوښتنه کوم.
       tos_explanation: " د خصوصي حريم د خونديتوب د اوسنۍ پاليسې له مخې موږ د خپل ډاټا بانک لپاره د اړيکوال کس د نوم او برېښناليک پتې په شان د ځينې مالوماتو د خوندي کولو غوښتنه کوو."
@@ -53,10 +53,10 @@ ps:
     ajax_error:
       error: د لټون خطا
       message: په بښنه چې په لټون کې تېروتنه رامنځته شوه. که دا ستونزه بيا تکرار شي؛ هیله ده موږ خبر کړئ.
-    autocomplete_footer: 
+    autocomplete_footer:
     categories_sidebar:
       all_categories: ټولې ډلبندۍ
-    cookie_warning_html: 
+    cookie_warning_html:
     geolocation:
       error: دا سيمه ونه موندل شوه. هیله ده خپله يې وليکئ.
       fallback: الکساندرپلتز برلين
@@ -66,23 +66,23 @@ ps:
         code3: په خواشينۍ چې موږ ستاسې ښار نه شو مالومولای. ځکه موږ د برلين په الکساندرپلتز کې پلټنه کوو. که دا ځای له تاسې لرې وي نو هیله ده خپله پته، پوستي کوډ او يا د ښار نوم وليکئ.
         code4: په خواشينۍ چې موږ ستاسې ښار نه شو مالومولای. ځکه موږ د برلين په الکساندرپلتز کې پلټنه کوو. که دا ځای له تاسې لرې وي نو هیله ده خپله پته، پوستي کوډ او يا د ښار نوم وليکئ.
       get: "!زما ځای وکاروئ"
-      waiting: 
+      waiting:
     lang_list_toggle:
       less: لږ ژبې ښکاره کړئ
       more: "‌ډېرې ژبې ښکاره کړئ"
     less_filter_options: لږ فلترونه ښکاره کړئ
     location_required: د هغې سيمې نوم وليکئ چې غواړئ مرسته پکې ترلاسه کړئ.
     map_info_window_multiple:
-      anchor: 
+      anchor:
       text: په دې پته ډېرې پایلې وموندل شوې.
       title: بېلابېل وړانديزونه
     mobile_filter: پایلې فلتر کړئ
     more_filter_options: نور فلترونه ښکار کړئ
     query_field:
-      example_placeholder: 
+      example_placeholder:
       placeholder_words:
-        family: 
-        refugees: 
+        family:
+        refugees:
     routes:
       faq: ډېر پوښتل شوي
     search:
@@ -114,29 +114,29 @@ ps:
       bridge: د لټون توری د ننه کړئ
       enclosing: موندل شوي
       faq_anchor: دلته
-      faq_text: 
+      faq_text:
       language_explanation:
         connector: او
-        text: 
+        text:
       map:
         cooperation: د همکارۍ پروژه
         enlarge_map: کښنده (نقشه) غټه کړئ
-        headline_small_map: 
-      more: 
+        headline_small_map:
+      more:
       off_canvas:
-        result_text: 
-      personal_anchor: 
+        result_text:
+      personal_anchor:
       personal_offers_new:
-        _query: 
-        category: 
-        category_query: 
-        default: 
-      remote_anchor: 
+        _query:
+        category:
+        category_query:
+        default:
+      remote_anchor:
       remote_offers_new:
-        _query: 
-        category: 
-        category_query: 
-        default: 
+        _query:
+        category:
+        category_query:
+        default:
       show_personal: سيمه‌ييز وړانديزونه ښکاره کړئ
     shared:
       current_and_original_locale:
@@ -149,46 +149,46 @@ ps:
         '568': هالنډي
         '639': دري
         aar: عفر
-        abk: 
-        amh: 
+        abk:
+        amh:
         ara: عربي
-        arc: 
+        arc:
         arm: ارمنيايي
-        aze: 
-        bam: 
-        ban: 
-        bel: 
+        aze:
+        bam:
+        ban:
+        bel:
         ben: بنګالي
-        ber: 
+        ber:
         bos: بوسنيايي
         bul: بلغاريايي
-        bur: 
-        cau: 
-        che: 
-        ckb: 
-        cpe: 
-        cus: 
-        cze: 
+        bur:
+        cau:
+        che:
+        ckb:
+        cpe:
+        cus:
+        cze:
         dan: ډنمارکي
         deu: جرمني
         dje: زرما
-        dyu: 
+        dyu:
         ell: يوناني
         eng: انګليسي - انګليسي
-        est: 
-        ewe: 
-        ewo: 
+        est:
+        ewe:
+        ewo:
         fas: فارسي - پارسي
         fil: فلپيني
         fin: فنلنډي
         fra: فرانسوي
         fuf: پولار
-        ful: 
-        gej: 
+        ful:
+        gej:
         geo: جورجيايي
-        hau: 
-        hbs: 
-        heb: 
+        hau:
+        hbs:
+        heb:
         hin: هندي
         hrv: کرواسيايي
         hun: هنګريايي
@@ -199,14 +199,14 @@ ps:
         kor: کوريايي
         kur: کوردي
         lav: لاتويايي
-        lin: 
+        lin:
         lit: لېتوانيايي
         ltz: لوکزامبورګي
-        luo: 
+        luo:
         man: منينکا
         mkd: مقدونيايي
-        mos: 
-        msa: 
+        mos:
+        msa:
         mul: د غو‍‍ښتنې پر مهال نورې ژبې
         nor: نارويژي
         pan: پنجابي
@@ -215,19 +215,19 @@ ps:
         pus: پښتو
         rom: رومانيايي
         ron: رومانيايي
-        run: 
+        run:
         rus: روسي
         sdh: کورمانجي
-        skr: 
+        skr:
         slo: سلواکي
         slv: سلووېنيايي
-        snk: 
+        snk:
         som: سوماليايي
         spa: اسپانوي
         sqi: البانيايي
         srp: سربي
-        sus: 
-        swa: 
+        sus:
+        swa:
         swe: سويډني
         tam: تاميل
         tel: تيلګو
@@ -238,16 +238,16 @@ ps:
         tir: تيجري
         tuk: ترکمني
         tur: ترکي
-        twi: 
+        twi:
         urd: اردو
         uzb: ازبکي
         vie: ويتنامي
-        wol: 
-        xxx: 
+        wol:
+        xxx:
         zho: چينايي
         zza: کرمانچي
     shariff:
-      share_label: 
+      share_label:
     single_search_result:
       encounters:
         chat: چټ
@@ -291,7 +291,7 @@ ps:
             text: د هنډبوک جرمني د سيمه‌ييز لټون ماشين په جرمني کې د مرستې وړانديزونه راپه ګوته کوي. موږ غواړو ټول کسان هغه مالومات ترلاسه کړي چې دوی اړتيا ورته لري.
           who:
             heading: موږ څوک يو؟
-            text: 
+            text:
       footer:
         about: زموږ په اړه
         blog: بلاګ
@@ -303,14 +303,14 @@ ps:
           href: https://www.facebook.com/HandbookGermany/
         gplus:
           anchor: ګوګل پلس
-          href: 
+          href:
         impressum: خاپونه
         plus: د هنډبوک جرمني سيمه‌ييزه پلټنه پلس
-        privacy: 
-        tos: 
+        privacy:
+        tos:
         twitter:
-          anchor: 
-          href: 
+          anchor:
+          href:
       header:
         about: زموږ په اړه
         blog: بلاګ
@@ -330,12 +330,12 @@ ps:
           family: د ماشومانو، ځوانانو او کورنيو لپاره مرسته
         hero:
           button_label: نور مالومات
-          logline: 
+          logline:
       modal:
         beta_modal:
           link: موږ ته يو پيغام وليکئ.
-          text: 
-        unavailable_location_modal: 
+          text:
+        unavailable_location_modal:
       navigation:
         category_headline: او يا ډلبندۍ وګورئ
         claim:
@@ -358,7 +358,7 @@ ps:
     index:
       filters:
         json:
-          age: 
+          age:
           contact_type:
             personal: شاوخوا
             remote: انلاين يا د ټليفون له لارې
@@ -386,27 +386,30 @@ ps:
             family_children: د ماشومانو او ځوانانو لپاره
             family_nuclear_family: د کورنيو لپاره
             family_parents: د ميندو او پلرونو لپاره
-            family_parents_to_be: 
-            family_pregnant_woman: 
-            family_relatives: 
-            nuclear_family: 
-            parents: 
-            pregnant_woman: 
-            refugees_children: 
-            refugees_families: 
-            refugees_general: 
-            refugees_parents: 
-            refugees_parents_to_be: 
-            refugees_uf: 
-            relatives: 
+            family_parents_to_be:
+            family_pregnant_woman:
+            family_relatives:
+            nuclear_family:
+            parents:
+            pregnant_woman:
+            refugees_children:
+            refugees_families:
+            refugees_general:
+            refugees_parents:
+            refugees_parents_to_be:
+            refugees_uf:
+            relatives:
+            immigrants_general: for immigrants
+            immigrants_adults: for adult immigrants
+            immigrants_children: for immigrant children and teenager
       map_sidebar:
-        map_output_searchresults: 
-      noscript_warning: 
+        map_output_searchresults:
+      noscript_warning:
       pending_ajax:
-        searching: 
+        searching:
     invalid_location:
-      text: 
-      title: 
+      text:
+      title:
     shared:
       search_form:
         button: لټول
@@ -416,13 +419,13 @@ ps:
           short: پته، سيمه يا پوستي پته
         query_label: څه؟
         query_placeholder:
-          long: 
-          short: 
+          long:
+          short:
     show:
-      last_update: 
+      last_update:
       next_steps:
-        code_word: 
-        heading: 
+        code_word:
+        heading:
       opening_section:
         days:
           fri: جمعه
@@ -433,29 +436,29 @@ ps:
           tue: منځنۍ
           wed: څلورنۍ
         heading: کله کولای شئ؟
-      speaking: 
+      speaking:
       trait_filters:
         explanation:
-          accessibility: 
-          anonymous: 
-          confidential: 
+          accessibility:
+          anonymous:
+          confidential:
         title:
-          accessibility: 
-          anonymous: 
-          charged: 
-          confidential: 
-          day_and_night: 
-          free: 
-      trait_filters_headline: 
+          accessibility:
+          anonymous:
+          charged:
+          confidential:
+          day_and_night:
+          free:
+      trait_filters_headline:
       website_section:
-        internet_presence: 
+        internet_presence:
         websites:
-          application_form: 
-          chat: 
-          contact_form: 
-          document: 
-          facebook: 
-          forum: 
+          application_form:
+          chat:
+          contact_form:
+          document:
+          facebook:
+          forum:
           gplus: ګوګل پلس
           online_consulting: انلاين مشوره
           online_course: انلاين کورس
@@ -464,119 +467,119 @@ ps:
           twitter: ټويټر
           youtube: یوټيوب
       what:
-        code_word: 
-        heading: 
+        code_word:
+        heading:
         offertaxonomy:
-          heading: 
-      who: 
+          heading:
+      who:
       who_contact_people:
         dr: ډاکټر
         email: برېښناليک
         fax: فکس
-        female: 
-        male: 
-        obfuscated_email: 
-        phone: 
-        prof_dr: 
+        female:
+        male:
+        obfuscated_email:
+        phone:
+        prof_dr:
       who_location:
-        organizations: 
+        organizations:
       who_section:
         heading: چېرته ځان ثبتولای شئ؟
   opening:
     display_string:
       appointment: د توافق له مخې
       midnight_exception: د شپې ۱۲ بجې
-      time_format_close: 
-      time_format_open: 
-      time_frame: 
+      time_format_close:
+      time_format_open:
+      time_frame:
   organizations:
     show:
-      headline-offers--family: 
-      headline-offers--refugees: 
-      offers_all: 
-      where: 
-      who: 
+      headline-offers--family:
+      headline-offers--refugees:
+      offers_all:
+      where:
+      who:
   pages:
     home:
       explaination:
-        headline: 
+        headline:
       how:
-        heading: 
-        text: 
+        heading:
+        text:
       meta_description:
-        refugees: 
+        refugees:
       meta_title:
         refugees: Handbook Germany
       title:
-        family: 
-        refugees: 
+        family:
+        refugees:
       whom:
-        heading: 
-        text: 
+        heading:
+        text:
       why:
-        heading: 
-        text: 
+        heading:
+        text:
     impressum:
-      heading: 
-      notice: 
-      responsible_html: 
-      title: 
+      heading:
+      notice:
+      responsible_html:
+      title:
     not_found:
-      description: 
-      heading: 
-      link_text: 
-      title: 
+      description:
+      heading:
+      link_text:
+      title:
     shared:
       address:
-        email: 
+        email:
         fax: 'فکس: +49 (0)30 55 57 96 09 9'
-        name: 
-        street: 
-        telephone: 
-        zip_city: 
+        name:
+        street:
+        telephone:
+        zip_city:
   routes:
-    '404': 
-    contacts: 
-    datenschutzhinweise: 
-    definitions: 
-    emails: 
-    faq: 
-    haeufige-fragen: 
-    home: 
-    impressum: 
-    kontakt: 
-    liste: 
-    liste-de-services: 
-    new: 
-    offers: 
-    organizations: 
-    preview: 
-    rechtliche-hinweise: 
-    refugees: 
-    search_locations: 
-    subscribe: 
-    subscriptions: 
-    ueber-uns: 
-    unsubscribe: 
-    update_requests: 
-    users: 
-    widget: 
-    widget-handbook-germany: 
-    widget-hg: 
-    widget-start-with-a-friend: 
-    widget-swaf: 
+    '404':
+    contacts:
+    datenschutzhinweise:
+    definitions:
+    emails:
+    faq:
+    haeufige-fragen:
+    home:
+    impressum:
+    kontakt:
+    liste:
+    liste-de-services:
+    new:
+    offers:
+    organizations:
+    preview:
+    rechtliche-hinweise:
+    refugees:
+    search_locations:
+    subscribe:
+    subscriptions:
+    ueber-uns:
+    unsubscribe:
+    update_requests:
+    users:
+    widget:
+    widget-handbook-germany:
+    widget-hg:
+    widget-start-with-a-friend:
+    widget-swaf:
   shareds:
     forms:
-      fill_field: 
+      fill_field:
     show:
-      cta_report_errors: 
-      google_translate_explanation: 
+      cta_report_errors:
+      google_translate_explanation:
     tooltips:
       welcome:
-        advanced_search: 
+        advanced_search:
         world_switch:
-          family: 
-          refugees: 
+          family:
+          refugees:
   simple_form:
     required:
       html: <abbr title="required">*</abbr>
@@ -584,15 +587,15 @@ ps:
       text: ضروري
   subscriptions:
     create:
-      error: 
-      success: 
+      error:
+      success:
     shared:
       new:
-        button: 
-        placeholder: 
+        button:
+        placeholder:
   update_requests:
     create:
-      success: 
+      success:
     new:
-      button: 
-      email_placeholder: 
+      button:
+      email_placeholder:

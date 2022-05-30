@@ -38,20 +38,20 @@ en:
     offers_index:
       button_accept: I accept
       button_deny: I do not accept
-      explanation_1: 
-      explanation_2: 
-      explanation_3: 
+      explanation_1:
+      explanation_2:
+      explanation_3:
       heading: Offers from %{email}
       info: Info
       tos: Consent to the use of data for further purposes
-      tos_acceptance_headline: 
-      tos_acceptance_text: 
-      tos_denial_headline: 
-      tos_denial_text: 
-      tos_explanation: 
-      tos_were_accepted: 
-      tos_were_denied: 
-      tos_were_denied_explanation: 
+      tos_acceptance_headline:
+      tos_acceptance_text:
+      tos_denial_headline:
+      tos_denial_text:
+      tos_explanation:
+      tos_were_accepted:
+      tos_were_denied:
+      tos_were_denied_explanation:
   js:
     ajax_error:
       error: Search error
@@ -162,19 +162,19 @@ en:
         other: "%{count} local offers"
         zero: No local offers found
       personal_offers_new:
-        _query: 
-        category: 
-        category_query: 
-        default: 
+        _query:
+        category:
+        category_query:
+        default:
       remote_anchor:
         one: One remote offer
         other: "%{count} remote offers"
         zero: No remote offers
       remote_offers_new:
-        _query: 
-        category: 
-        category_query: 
-        default: 
+        _query:
+        category:
+        category_query:
+        default:
       show_personal: Show local offers
     shared:
       current_and_original_locale:
@@ -444,6 +444,9 @@ en:
             refugees_parents_to_be: for refugee expectant parents
             refugees_uf: for unaccompanied refugees
             relatives: for friends and family
+            immigrants_general: for immigrants
+            immigrants_adults: for adult immigrants
+            immigrants_children: for immigrant children and teenager
       map_sidebar:
         map_output_searchresults: map output of the search results
       noscript_warning: |
@@ -592,10 +595,10 @@ en:
       address:
         email: "%{mailto}\n"
         fax: Fax +49 (0)30 55 57 96 09 9
-        name: 
-        street: 
-        telephone: 
-        zip_city: 
+        name:
+        street:
+        telephone:
+        zip_city:
   routes:
     '404': "'404'"
     contacts: contact
@@ -608,13 +611,13 @@ en:
     impressum: impressum
     kontakt: contact
     liste: liste
-    liste-de-services: 
+    liste-de-services:
     new: new
     offers: offers
     organizations: organizations
     preview: preview
     rechtliche-hinweise: legal-information
-    refugees: 
+    refugees:
     search_locations: search_locations
     subscribe: subscribe
     subscriptions: subscriptions
@@ -622,11 +625,11 @@ en:
     unsubscribe: unsubscribe
     update_requests: update_requests
     users: users
-    widget: 
-    widget-handbook-germany: 
-    widget-hg: 
-    widget-start-with-a-friend: 
-    widget-swaf: 
+    widget:
+    widget-handbook-germany:
+    widget-hg:
+    widget-start-with-a-friend:
+    widget-swaf:
   shareds:
     forms:
       fill_field: Please fill out this field

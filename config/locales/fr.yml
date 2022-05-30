@@ -33,22 +33,22 @@ fr:
         send_us_a_message: Écris-nous un message
   emails:
     offers_index:
-      button_accept: 
-      button_deny: 
-      explanation_1: 
-      explanation_2: 
-      explanation_3: 
-      heading: 
-      info: 
-      tos: 
-      tos_acceptance_headline: 
-      tos_acceptance_text: 
-      tos_denial_headline: 
-      tos_denial_text: 
-      tos_explanation: 
-      tos_were_accepted: 
-      tos_were_denied: 
-      tos_were_denied_explanation: 
+      button_accept:
+      button_deny:
+      explanation_1:
+      explanation_2:
+      explanation_3:
+      heading:
+      info:
+      tos:
+      tos_acceptance_headline:
+      tos_acceptance_text:
+      tos_denial_headline:
+      tos_denial_text:
+      tos_explanation:
+      tos_were_accepted:
+      tos_were_denied:
+      tos_were_denied_explanation:
   js:
     ajax_error:
       error: erreur de recherche
@@ -155,19 +155,19 @@ fr:
         other: "%{count} services sur place"
         zero: malheureusement pas de service
       personal_offers_new:
-        _query: 
-        category: 
-        category_query: 
-        default: 
+        _query:
+        category:
+        category_query:
+        default:
       remote_anchor:
         one: Une assistance téléphonique ou un service en ligne
         other: "%{count} Assistances téléphoniques ou services en ligne"
         zero: pas d'assistance téléphonique ni de service en ligne
       remote_offers_new:
-        _query: 
-        category: 
-        category_query: 
-        default: 
+        _query:
+        category:
+        category_query:
+        default:
       show_personal: Montre les services locaux
     shared:
       current_and_original_locale:
@@ -294,7 +294,7 @@ fr:
     modal_create:
       js:
         erb:
-          success: 
+          success:
     partials:
       banner:
         teaser:
@@ -305,26 +305,26 @@ fr:
         callout:
           how:
             refugees:
-              heading: 
-              text: 
+              heading:
+              text:
           what:
             refugees:
-              heading: 
-              text: 
+              heading:
+              text:
           who:
             refugees:
-              heading: 
-              text: 
+              heading:
+              text:
         callout_neutral:
           how:
-            heading: 
-            text: 
+            heading:
+            text:
           what:
-            heading: 
-            text: 
+            heading:
+            text:
           who:
-            heading: 
-            text: 
+            heading:
+            text:
       footer:
         about: À propos de nous
         blog: Blog
@@ -364,8 +364,8 @@ fr:
         claim:
           family: Offres d'aide pour les enfants, les ados et les familles
         hero:
-          button_label: 
-          logline: 
+          button_label:
+          logline:
       modal:
         beta_modal:
           link: écris-nous tout simplement un message
@@ -437,6 +437,9 @@ fr:
             refugees_parents_to_be: pour des futurs parents réfugiés
             refugees_uf: pour des réfugiés non-accompagnés
             relatives: pour les connaissances ou la parenté
+            immigrants_general: for immigrants
+            immigrants_adults: for adult immigrants
+            immigrants_children: for immigrant children and teenager
       map_sidebar:
         map_output_searchresults: émission de cartes des résultats de recherches
       noscript_warning: Nous sommes désolés, mais pour pouvoir utiliser nos recherches, tu dois avoir activé ton navigateur JavaScript.
@@ -537,12 +540,12 @@ fr:
   pages:
     home:
       explaination:
-        headline: 
+        headline:
       how:
         heading: Handbook germany local, comment ça fonctionne?
         text: Tape dans le champ de recherche le problème pour lequel tu as besoin d’aide. Ou ce qui t’inquiète. Ou choisis parmi nos thèmes. Tu verras toutes les offres d’aide près de chez toi. On t’explique aussi comment tu peux recevoir de l’aide. C’est-à-dire, s’il faut appeler quelqu’un ou s’il faut écrire un courriel. Ou si tu peux tout simplement passer.
       meta_description:
-        refugees: 
+        refugees:
       meta_title:
         refugees: Handbook Germany
       title:
@@ -577,10 +580,10 @@ fr:
       address:
         email: "%{mailto}\n"
         fax: Fax +49 (0)30 55 57 96 09 9
-        name: 
-        street: 
-        telephone: 
-        zip_city: 
+        name:
+        street:
+        telephone:
+        zip_city:
   routes:
     '404': "'404'"
     contacts: contact
@@ -593,13 +596,13 @@ fr:
     impressum: impression
     kontakt: contact
     liste: liste
-    liste-de-services: 
+    liste-de-services:
     new: nouveau
     offers: offres-d-aide
     organizations: organisations
     preview: preview
     rechtliche-hinweise: informations-juridiques
-    refugees: 
+    refugees:
     search_locations: search_locations
     subscribe: subscribe
     subscriptions: subscriptions
@@ -607,11 +610,11 @@ fr:
     unsubscribe: unsubscribe
     update_requests: update_requests
     users: utilisateur
-    widget: 
-    widget-handbook-germany: 
-    widget-hg: 
-    widget-start-with-a-friend: 
-    widget-swaf: 
+    widget:
+    widget-handbook-germany:
+    widget-hg:
+    widget-start-with-a-friend:
+    widget-swaf:
   shareds:
     forms:
       fill_field: veuillez remplir ce champ

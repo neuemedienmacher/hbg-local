@@ -472,6 +472,9 @@ de:
             refugees_parents_to_be: für geflüchtete werdende Eltern
             refugees_uf: für unbegleitete Geflüchtete
             relatives: für Bekannte und Verwandte
+            immigrants_general: für Zugewanderte
+            immigrants_adults: für zugewanderte Erwachsene
+            immigrants_children: für zugewanderte Kinder und Jugendliche
       map_sidebar:
         map_output_searchresults: Kartenausgabe der Suchergebnisse
       noscript_warning: |

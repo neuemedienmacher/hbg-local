@@ -35,22 +35,22 @@ ar:
         send_us_a_message: اكتب لنا رسالة
   emails:
     offers_index:
-      button_accept: 
-      button_deny: 
-      explanation_1: 
-      explanation_2: 
-      explanation_3: 
-      heading: 
-      info: 
-      tos: 
-      tos_acceptance_headline: 
-      tos_acceptance_text: 
-      tos_denial_headline: 
-      tos_denial_text: 
-      tos_explanation: 
-      tos_were_accepted: 
-      tos_were_denied: 
-      tos_were_denied_explanation: 
+      button_accept:
+      button_deny:
+      explanation_1:
+      explanation_2:
+      explanation_3:
+      heading:
+      info:
+      tos:
+      tos_acceptance_headline:
+      tos_acceptance_text:
+      tos_denial_headline:
+      tos_denial_text:
+      tos_explanation:
+      tos_were_accepted:
+      tos_were_denied:
+      tos_were_denied_explanation:
   js:
     ajax_error:
       error: خطأ في البحث
@@ -120,7 +120,7 @@ ar:
         approach: كيف تقدم المساعدة؟
         gender: النوع
         language: اللغة
-        main: 
+        main:
         residency_status: وضع الإقامة
         sort: رتب حسب
         target_audience: المساعدة لمن؟
@@ -129,7 +129,7 @@ ar:
         back: للخلف
         gap: "..."
         next: لاحقا
-      reset_label: 
+      reset_label:
       sort:
         nearby: بالقرب
         relevance: أفضل النتائج
@@ -157,19 +157,19 @@ ar:
         other: "%{count} عروض محلية"
         zero: 'للأسف لا توجد عروض  '
       personal_offers_new:
-        _query: 
-        category: 
-        category_query: 
-        default: 
+        _query:
+        category:
+        category_query:
+        default:
       remote_anchor:
         one: " استشارة  هاتفية أو عرض مساعدة عن طريق الإنترنت"
         other: "%{count} استشارات  هاتفية و عروض مساعدة عن طريق الإنترنت"
         zero: لا توجد استشارات  هاتفية أو عروض مساعدة عن طريق الإنترنت
       remote_offers_new:
-        _query: 
-        category: 
-        category_query: 
-        default: 
+        _query:
+        category:
+        category_query:
+        default:
       show_personal: عرض عروض مكانية أكثر
     shared:
       current_and_original_locale:
@@ -448,6 +448,9 @@ ar:
             refugees_parents_to_be: للاجئين الذين سيصيرون قريباً آباء
             refugees_uf: للاجئين غير المصحوبين
             relatives: للمعارف والأقارب
+            immigrants_general: for immigrants
+            immigrants_adults: for adult immigrants
+            immigrants_children: for immigrant children and teenager
       map_sidebar:
         map_output_searchresults: إظهار بطاقة نتائج البحث
       noscript_warning: |
@@ -554,7 +557,7 @@ ar:
   pages:
     home:
       explaination:
-        headline: 
+        headline:
       how:
         heading: كيف يعمل هذا؟
         text: أكتب المشكلة التي تحتاح مساعدة في حلها, او التي تقلقك. يمكنك أيضا أن تختار من الموضوعات الموجودة لدينا, فتري في الحال كل العروض التي تقدم الدعم بالقرب منك. وكذلك تعرف أيضا, كيف تحصل على المساعدة و بأي  وسيلة إتصال, سواء عن طريق التليفون أو إرسال إيميل أو الذهاب الي عنوان ما
@@ -608,13 +611,13 @@ ar:
     impressum: هيئة التحرير
     kontakt: إتصال
     liste: القائمة
-    liste-de-services: 
+    liste-de-services:
     new: جديد
     offers: عروض
     organizations: منظمة
     preview: عرض
     rechtliche-hinweise: إرشادات-قانونية
-    refugees: 
+    refugees:
     search_locations: بحث_المواقع
     subscribe: subscribe
     subscriptions: إشتراكات
@@ -622,11 +625,11 @@ ar:
     unsubscribe: unsubscribe
     update_requests: طلبات-تحديث
     users: مستخدم
-    widget: 
-    widget-handbook-germany: 
-    widget-hg: 
-    widget-start-with-a-friend: 
-    widget-swaf: 
+    widget:
+    widget-handbook-germany:
+    widget-hg:
+    widget-start-with-a-friend:
+    widget-swaf:
   shareds:
     forms:
       fill_field: من فضلك إملأ هذه الخانة
