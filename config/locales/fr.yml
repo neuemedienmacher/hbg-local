@@ -442,6 +442,7 @@ fr:
             immigrants_general: for immigrants
             immigrants_adults: for adult immigrants
             immigrants_children: for immigrant children and teenager
+            immigrants_families: for immigrant families
       map_sidebar:
         map_output_searchresults: émission de cartes des résultats de recherches
       noscript_warning: Nous sommes désolés, mais pour pouvoir utiliser nos recherches, tu dois avoir activé ton navigateur JavaScript.

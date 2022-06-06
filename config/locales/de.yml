@@ -479,6 +479,7 @@ de:
             immigrants_general: für Zugewanderte
             immigrants_adults: für zugewanderte Erwachsene
             immigrants_children: für zugewanderte Kinder und Jugendliche
+            immigrants_families: für zugewanderte Familien
       map_sidebar:
         map_output_searchresults: Kartenausgabe der Suchergebnisse
       noscript_warning: |
