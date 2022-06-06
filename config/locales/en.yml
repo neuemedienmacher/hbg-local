@@ -451,6 +451,7 @@ en:
             immigrants_general: for immigrants
             immigrants_adults: for adult immigrants
             immigrants_children: for immigrant children and teenager
+            immigrants_families: for immigrant families
       map_sidebar:
         map_output_searchresults: map output of the search results
       noscript_warning: |

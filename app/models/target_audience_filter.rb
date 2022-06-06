@@ -15,12 +15,14 @@ class TargetAudienceFilter < Filter
     if section == 'family'
       FAMILY_IDENTIFIER.reject { |ident| ident == "#{section}_everyone" }
     else
-      [REFUGEES_IDENTIFIER, IMMIGRANTS_IDENTIFIER].reduce([], :concat).reject { |ident|
-        ids = ident.split("_")
-        ids[1] == "general"
-      }
+      #[REFUGEES_IDENTIFIER, IMMIGRANTS_IDENTIFIER].reduce([], :concat).reject { |ident|
+      #  ids = ident.split("_")
+      #  ids[1] == "general"
+      #}
 
-      #[REFUGEES_IDENTIFIER, IMMIGRANTS_IDENTIFIER].reduce([], :concat)
+      [REFUGEES_IDENTIFIER, IMMIGRANTS_IDENTIFIER].reduce([], :concat).reject { |ident|
+        ident == "refugees_parents" || ident == "refugees_parents_to_be"
+      }
     end
   end
 end
