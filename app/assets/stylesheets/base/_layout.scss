@@ -149,3 +149,17 @@
 %layout-col-29 {
   width: 28.7%;
 }
+
+.template--pages-widget_hg {
+  background-color: #ECECEE;
+  .main-search__submit {
+    background-color: #D3B629;
+  };
+  .main-search {
+    background-color: #003259;
+    label.string {
+      color: #003259!important;
+    }
+
+  };
+}

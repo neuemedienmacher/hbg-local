@@ -1,7 +1,7 @@
 .wrapper-inner
-  .Logo itemscope="" itemtype="http://schema.org/Organization"
-    = image_tag "logo-hbg.svg",
-                {itemprop: 'logo', alt: 'Logo Handbook Germany local'}
+  / .Logo itemscope="" itemtype="http://schema.org/Organization"
+  /   = image_tag "hbg-tig-logo.svg",
+  /               {itemprop: 'logo', alt: 'Logo Handbook Germany local'}
   br
   .widget-hg
     - search_form = @search_form || SearchForm.new(cookies)
