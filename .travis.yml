@@ -1,9 +1,9 @@
 language: ruby
 rvm:
-  - 2.3.3
+  - 2.6.7
 notifications:
   email:
-    - dev@clarat.org
+    - damrau@neuemedienmacher.de
 script:
   - RAILS_ENV=test bundle exec rake db:test:prepare && bundle exec rails test
 sudo: false
