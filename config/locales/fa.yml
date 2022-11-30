@@ -1,151 +1,151 @@
 fa:
   cells:
     contact_people:
-      dr: 'دکتر:'
-      email: 'ایمیل:'
-      fax: 'فاکس:'
-      female: خانم
-      heading: به کجا می توانی مراجعه کنی؟
-      male: آقای
-      obfuscated_email: این ایمیل آدرس برای جلوگیری و حفاظت از Spam قفل می باشد.لطفا JavaScript را فعال کن.
-      phone: 'تلفن:'
-      prof_dr: پروفسور
+      dr: "دکتر:"
+      email: "ایمیل:"
+      fax: "فاکس:"
+      female: "خانم"
+      heading: "به کجا می توانی مراجعه کنی؟"
+      male: "آقای"
+      obfuscated_email: "این ایمیل آدرس برای جلوگیری و حفاظت از Spam قفل می باشد.لطفا JavaScript را فعال کن."
+      phone: "تلفن:"
+      prof_dr: "پروفسور"
   conf:
-    current_location: محل سکونت من
+    current_location: "محل سکونت من"
     default_latlng: 52.520007,13.404954
-    default_location: برلین
+    default_location: "برلین"
   contacts:
     create:
-      success: پیام شما با موفقیت فرستاده شد.
+      success: "پیام شما با موفقیت فرستاده شد."
     new:
-      contact_heading: جه جیزی را می خواهی با ما در میان بگذاری؟
+      contact_heading: "جه جیزی را می خواهی با ما در میان بگذاری؟"
     shared:
       new:
-        back_to_hp: بازگشت به صفحه اول وبسایت
-        city_placeholder: محل زندگی (اختیاری)
+        back_to_hp: "بازگشت به صفحه اول وبسایت"
+        city_placeholder: "محل زندگی (اختیاری)"
         email_placeholder:
           required:
-            'false': آدرس ایمیل اختیاری
-            'true': آدرس ایمیل(اجباری)
-        message_placeholder: 'وارد کردن پیغام(اجباری) '
-        name_placeholder: نام(اجباری)
-        send: فرستادن
-        send_us_a_message: برای ما پیغام بفرست
+            'false': "آدرس ایمیل اختیاری"
+            'true': "آدرس ایمیل(اجباری)"
+        message_placeholder: "وارد کردن پیغام(اجباری) "
+        name_placeholder: "نام(اجباری)"
+        send: "فرستادن"
+        send_us_a_message: "برای ما پیغام بفرست"
   emails:
     offers_index:
-      button_accept:
-      button_deny:
-      explanation_1:
-      explanation_2:
-      explanation_3:
-      heading:
-      info:
-      tos:
-      tos_acceptance_headline:
-      tos_acceptance_text:
-      tos_denial_headline:
-      tos_denial_text:
-      tos_explanation:
-      tos_were_accepted:
-      tos_were_denied:
-      tos_were_denied_explanation:
+      button_accept: 
+      button_deny: 
+      explanation_1: 
+      explanation_2: 
+      explanation_3: 
+      heading: 
+      info: 
+      tos: 
+      tos_acceptance_headline: 
+      tos_acceptance_text: 
+      tos_denial_headline: 
+      tos_denial_text: 
+      tos_explanation: 
+      tos_were_accepted: 
+      tos_were_denied: 
+      tos_were_denied_explanation: 
   js:
     ajax_error:
-      error: اشتباه در جستجو
-      message: متاسفیم.یک اشتباه در جستجو پیش آمده است.اگر این اشتباه دوباره تکرار شد٬ با ما تماس بگیرید لطفا
-    autocomplete_footer: همه%{results} Suchergebnisse für „%{query}“
+      error: "اشتباه در جستجو"
+      message: "متاسفیم.یک اشتباه در جستجو پیش آمده است.اگر این اشتباه دوباره تکرار شد٬ با ما تماس بگیرید لطفا"
+    autocomplete_footer: "همه%{results} Suchergebnisse für „%{query}“"
     categories_sidebar:
-      all_categories: همه طبقات
+      all_categories: "همه طبقات"
     cookie_warning_html: |-
       Cookies به ما در راه اندازی و آماده سازی صفحه کمک می کنند.با استفاده کردن از وب‌سایت موافقت خود از اینکه ما Cookies ها را قرار داده ایم اعلام می کنی.
       <a href="/refugees/datenschutzhinweise">Mehr</a>.
     geolocation:
-      error: موقعیت جغرافیایی شما را نتوانستیم پیدا کنیم.لطفا آن را تایپ کنید
+      error: "موقعیت جغرافیایی شما را نتوانستیم پیدا کنیم.لطفا آن را تایپ کنید"
       fallback: " آلمان٬ برلین٬ Alexanderplatz"
       fallback_clarification:
         code1: Alexanderplatz در برلین در نزدیکی تو نمی باشد؟ پس لطفا آدرس٬ کد پستی یا شهر خود را وارد کن.
-        code2: متاسفانه نتوانستیم محل زندگی تو را پیدا کنیم.به همین دلیل ما در Alexanderplatz در برلین جستجو می کنیم.اگر اینجا نزدیک محل سکونت تو نمی باشد پس لطفا آدرس٬ کد پستی یا شهر خود را وارد کن.
-        code3: متاسفانه نتوانستیم محل زندگی تو را پیدا کنیم.به همین دلیل ما در Alexanderplatz در برلین جستجو می کنیم.اگر اینجا نزدیک محل سکونت تو نمی باشد پس لطفا آدرس٬ کد پستی یا شهر خود را وارد کن.
-        code4: متاسفانه نتوانستیم محل زندگی تو را پیدا کنیم.به همین دلیل ما در Alexanderplatz در برلین جستجو می کنیم.اگر اینجا نزدیک محل سکونت تو نمی باشد پس لطفا آدرس٬ کد پستی یا شهر خود را وارد کن.
-      get: از موقعیت جغرافیایی من استفاده کن!
-      waiting: جستجوی موقعیت جغرافیایی...در صورت امکان باید ابتدا اجازه آن را بدهی
+        code2: "متاسفانه نتوانستیم محل زندگی تو را پیدا کنیم.به همین دلیل ما در Alexanderplatz در برلین جستجو می کنیم.اگر اینجا نزدیک محل سکونت تو نمی باشد پس لطفا آدرس٬ کد پستی یا شهر خود را وارد کن."
+        code3: "متاسفانه نتوانستیم محل زندگی تو را پیدا کنیم.به همین دلیل ما در Alexanderplatz در برلین جستجو می کنیم.اگر اینجا نزدیک محل سکونت تو نمی باشد پس لطفا آدرس٬ کد پستی یا شهر خود را وارد کن."
+        code4: "متاسفانه نتوانستیم محل زندگی تو را پیدا کنیم.به همین دلیل ما در Alexanderplatz در برلین جستجو می کنیم.اگر اینجا نزدیک محل سکونت تو نمی باشد پس لطفا آدرس٬ کد پستی یا شهر خود را وارد کن."
+      get: "از موقعیت جغرافیایی من استفاده کن!"
+      waiting: "جستجوی موقعیت جغرافیایی...در صورت امکان باید ابتدا اجازه آن را بدهی"
     lang_list_toggle:
-      less: زبانهای کمتر را نشان دادن
-      more: نشان دادن به زبانهای بیشتر
-    less_filter_options: نشان دادن فیلتر های کمتر
-    location_required: لطفا محل مورد نظر خود را که در آنجا بدنبال کمک هستی را وارد کن
+      less: "زبانهای کمتر را نشان دادن"
+      more: "نشان دادن به زبانهای بیشتر"
+    less_filter_options: "نشان دادن فیلتر های کمتر"
+    location_required: "لطفا محل مورد نظر خود را که در آنجا بدنبال کمک هستی را وارد کن"
     map_info_window_multiple:
-      anchor: مشاهده همه >>
-      text: با توجه به این نشانی نتایج بسیاری یافت شد
-      title: پیشنهادهای بسیاری
-    mobile_filter: فیلتر کردن نتایج
-    more_filter_options: نشان دادن فیلتر بیشتر
+      anchor: "مشاهده همه >>"
+      text: "با توجه به این نشانی نتایج بسیاری یافت شد"
+      title: "پیشنهادهای بسیاری"
+    mobile_filter: "فیلتر کردن نتایج"
+    more_filter_options: "نشان دادن فیلتر بیشتر"
     query_field:
-      example_placeholder: بطور مثال %{word}…
+      example_placeholder: "بطور مثال %{word}…"
       placeholder_words:
         family:
-        - مواد مخدر
-        - خشونت
-        - تدریس خصوصی
-        - اضطراری
-        - حقوق
-        - بیکاری
-        - مشکلات تعلیم و تربیت
-        - اختلال در تغذیه
-        - بی خانمانی
-        - مشکلات خانوادگی
-        - بارداری
-        - اختلافات و دعوا
-        - زندگی کردن
+        - "مواد مخدر"
+        - "خشونت"
+        - "تدریس خصوصی"
+        - "اضطراری"
+        - "حقوق"
+        - "بیکاری"
+        - "مشکلات تعلیم و تربیت"
+        - "اختلال در تغذیه"
+        - "بی خانمانی"
+        - "مشکلات خانوادگی"
+        - "بارداری"
+        - "اختلافات و دعوا"
+        - "زندگی کردن"
         refugees:
-        - ملیت
-        - دوره آموزشی زبان آلمانی
-        - معادل سازی
-        - آسیب روحی جنگی
-        - روند رسیدگی به پناهندگی
-        - تامین سلامتی
-        - ادارات
-        - حق اقامت
+        - "ملیت"
+        - "دوره آموزشی زبان آلمانی"
+        - "معادل سازی"
+        - "آسیب روحی جنگی"
+        - "روند رسیدگی به پناهندگی"
+        - "تامین سلامتی"
+        - "ادارات"
+        - "حق اقامت"
     routes:
-      faq: سوالات رایج
+      faq: "سوالات رایج"
     search:
-      form_less_label: خارج شدن از انتخاب جستجو
-      form_more_label: وارد کردن انتخاب جستجو
+      form_less_label: "خارج شدن از انتخاب جستجو"
+      form_more_label: "وارد کردن انتخاب جستجو"
       headlines:
-        age: سن کودک
-        approach: از چه راهی؟
-        gender: جنسیت
-        language: زبان
-        main:
-        residency_status: وضعیت اقامت
-        sort: 'فیلتر کردن با توجه '
-        target_audience: کمک برای چه کسی؟
-      option_any: اهمیت ندارد
+        age: "سن کودک"
+        approach: "از چه راهی؟"
+        gender: "جنسیت"
+        language: "زبان"
+        main: 
+        residency_status: "وضعیت اقامت"
+        sort: "فیلتر کردن با توجه "
+        target_audience: "کمک برای چه کسی؟"
+      option_any: "اهمیت ندارد"
       pagination:
-        back: بازگشت
+        back: "بازگشت"
         gap: "..."
-        next: ادامه
-      reset_label: بازگرداندن همه تنظیمات به قبل
+        next: "ادامه"
+      reset_label: "بازگرداندن همه تنظیمات به قبل"
       sort:
-        nearby: در نزدیکی
-        relevance: بهترین هدف
+        nearby: "در نزدیکی"
+        relevance: "بهترین هدف"
       tabs:
-        categories: طبقه بندی ها
-        filter: فیلتر
-        map: نقشه
+        categories: "طبقه بندی ها"
+        filter: "فیلتر"
+        map: "نقشه"
     search_results:
-      bridge: برای جستجوی عبارت
-      enclosing: پیدا کردن
-      faq_anchor: اینجا
-      faq_text: سوالات رایج و پاسخ های مربوط آن را پیدا می کنی
+      bridge: "برای جستجوی عبارت"
+      enclosing: "پیدا کردن"
+      faq_anchor: "اینجا"
+      faq_text: "سوالات رایج و پاسخ های مربوط آن را پیدا می کنی"
       language_explanation:
-        connector: و
-        text: ای پیشنهاد موجود می باشد در %{language_list}.
+        connector: "و"
+        text: "ای پیشنهاد موجود می باشد در %{language_list}."
       map:
-        cooperation: پروژه همکاری
-        enlarge_map: بزرگ کردن نقشه
-        headline_small_map: پیشنهاد های موجود در محل روی نقشه
-      more: پیشنهاد های دیگر تلفنی و آنلاین
+        cooperation: "پروژه همکاری"
+        enlarge_map: "بزرگ کردن نقشه"
+        headline_small_map: "پیشنهاد های موجود در محل روی نقشه"
+      more: "پیشنهاد های دیگر تلفنی و آنلاین"
       off_canvas:
         result_text: "%{result_count} نشان دادن نتایج جستجو"
       personal_anchor: |-
@@ -190,227 +190,228 @@ fa:
           یک مشاوره تلفنی یا آنلاین
           %{count} مشاوره تلفنی و پیشنهاد آنلاین
           بدون مشاوره تلفنی یا پیشنهاد آنلاین
-      show_personal: پیشنهاد های محلی را نشان بده
+      show_personal: "پیشنهاد های محلی را نشان بده"
     shared:
       current_and_original_locale:
-        "'150'": زبان اشاره آلمانی
-        "'326'": اوکراینی - українська
-        "'568'": هلندی - Nederlands
-        "'639'": دری
-        '150': زبان اشاره آلمانی
-        '326': اوکراینی - українська
-        '568': هلندی - Nederlands
-        '639': دری
-        aar: 'زبان عفار - Qafar-áf '
-        abk: زبان آبخازی - аҧсуа бызшәа
-        amh: امهری - አማርኛ
-        ara: عربی
-        arc: زبان آرامی - ארמית / Arāmît
-        arm: زبان ارمنی - Հայերեն / Hajeren
-        aze: آذری - Azərbaycan
-        bam: بامبارایی - Bamanankan
-        ban: زبان بالی- Basa Bali
-        bel: روسی - беларуская мова
-        ben: بنگالی - বাংলা
+        "'150'": "زبان اشاره آلمانی"
+        "'326'": "اوکراینی - українська"
+        "'568'": "هلندی - Nederlands"
+        "'639'": "دری"
+        '150': "زبان اشاره آلمانی"
+        '326': "اوکراینی - українська"
+        '568': "هلندی - Nederlands"
+        '639': "دری"
+        aar: "زبان عفار - Qafar-áf "
+        abk: "زبان آبخازی - аҧсуа бызшәа"
+        amh: "امهری - አማርኛ"
+        ara: "عربی"
+        arc: "زبان آرامی - ארמית / Arāmît"
+        arm: "زبان ارمنی - Հայերեն / Hajeren"
+        aze: "آذری - Azərbaycan"
+        bam: "بامبارایی - Bamanankan"
+        ban: "زبان بالی- Basa Bali"
+        bel: "روسی - беларуская мова"
+        ben: "بنگالی - বাংলা"
         ber: " بربری - Tamaziɣt"
-        bos: بوسنیایی - bosanski
-        bul: بلغاری - български
-        bur: برمهای - မြန်မာစာ
-        cau: زبان آبازی - абаза бызшва
-        che: زبان چچنی - Noxčiyn mott/Нохчийн мотт
-        ckb: 'سورانی - سۆرانی '
-        cpe: کامرونی - Pidgin
+        bos: "بوسنیایی - bosanski"
+        bul: "بلغاری - български"
+        bur: "برمهای - မြန်မာစာ"
+        cau: "زبان آبازی - абаза бызшва"
+        che: "زبان چچنی - Noxčiyn mott/Нохчийн мотт"
+        ckb: "سورانی - سۆرانی "
+        cpe: "کامرونی - Pidgin"
         cus: Saho - ሳሆኛ
-        cze: چکی - čeština
-        dan: زبان دانمارکی - Dansk
+        cze: "چکی - čeština"
+        dan: "زبان دانمارکی - Dansk"
         deu: Deutsch
-        dje: زارما - Djerma
-        dyu: دیولا - Julakan
-        ell: یونانی -  ελληνικά
-        eng: انگلیسی -  English
-        est: استونیایی - eesti keel
-        ewe: إيفي - Eʋegbe
-        ewo: اووندو - Ewondo
-        fas: فارسی
-        fil: زبان فیلیپینی - Wikang Filipino
-        fin: فنلاندی - suomi
-        fra: فرانسوی - Français
+        dje: "زارما - Djerma"
+        dyu: "دیولا - Julakan"
+        ell: "یونانی -  ελληνικά"
+        eng: "انگلیسی -  English"
+        est: "استونیایی - eesti keel"
+        ewe: "إيفي - Eʋegbe"
+        ewo: "اووندو - Ewondo"
+        fas: "فارسی"
+        fil: "زبان فیلیپینی - Wikang Filipino"
+        fin: "فنلاندی - suomi"
+        fra: "فرانسوی - Français"
         fuf: Pular - Pular
         ful: Ful - Fulfulde
-        gej: جين - Mina
-        geo: گرجی - ქართული
-        hau: هوسى - Hausanci
-        hbs: مونتنگرایی - Crnogorski jezik / Црногорски језик
-        heb: عبری - עברית
-        hin: هندی - हिन्दी
-        hrv: کروات - Kroatisch
-        hun: مجاری - magyar
-        ita: ایتالیایی -  italiano
-        jpn: زبان ژاپنی - 日本語
-        kik: کیکویو - Gĩkũyũ
-        kin: رواندایی - kinyaRwanda
-        kor: کره ای -  한국말 / 조선말
-        kur: کردی - کوردی
-        lav: لاتویایی - latviešu
-        lin: زبان لينغالا - Ngála
-        lit: لیتوانی - lietuvių
-        ltz: لوکزامبورگی - Lëtzebuergesch
-        luo: لوآیی - Dholuo
-        man: مانینکایی -  Maninka
-        mkd: مقدونیه ای - македонски
+        gej: "جين - Mina"
+        geo: "گرجی - ქართული"
+        hau: "هوسى - Hausanci"
+        hbs: "مونتنگرایی - Crnogorski jezik / Црногорски језик"
+        heb: "عبری - עברית"
+        hin: "هندی - हिन्दी"
+        hrv: "کروات - Kroatisch"
+        hun: "مجاری - magyar"
+        ita: "ایتالیایی -  italiano"
+        jpn: "زبان ژاپنی - 日本語"
+        kik: "کیکویو - Gĩkũyũ"
+        kin: "رواندایی - kinyaRwanda"
+        kor: "کره ای -  한국말 / 조선말"
+        kur: "کردی - کوردی"
+        lav: "لاتویایی - latviešu"
+        lin: "زبان لينغالا - Ngála"
+        lit: "لیتوانی - lietuvių"
+        ltz: "لوکزامبورگی - Lëtzebuergesch"
+        luo: "لوآیی - Dholuo"
+        man: "مانینکایی -  Maninka"
+        mkd: "مقدونیه ای - македонски"
         mos: Mossi - Moose
-        msa: زبان مالایی – بهاس ملايو
-        mul: بقیه زبانها با توجه به درخواست
-        nor: نروژی - Norsk
-        pan: زبان پنجابی - پنجابی /ਪੰਜਾਬੀ
-        pol: لهستانی -  polski
-        por: پرتغالی - português
-        pus: پشتو -  پښتو‎
-        rom: رومانی - Romani
-        ron: رومانیایی -  Romani
-        run: كيروندي
-        rus: روسی - русский
-        sdh: كورمانجى - كورمانجى / Kurmancî
-        skr: صربستانی -  српскохрватски / hrvatskosrpski
-        slo: اسلواکی - slovenský jazyk
-        slv: اسلوونیایی - Slovenščina
-        snk: سنینکه -  Soninkanxaane
-        som: سومالیایی - Soomaali
-        spa: اسپانیایی - español
-        sqi: آلبانی - Shqipja
-        srp: صربستانی -  српски
+        msa: "زبان مالایی – بهاس ملايو"
+        mul: "بقیه زبانها با توجه به درخواست"
+        nor: "نروژی - Norsk"
+        pan: "زبان پنجابی - پنجابی /ਪੰਜਾਬੀ"
+        pol: "لهستانی -  polski"
+        por: "پرتغالی - português"
+        pus: "پشتو -  پښتو‎"
+        rom: "رومانی - Romani"
+        ron: "رومانیایی -  Romani"
+        run: "كيروندي"
+        rus: "روسی - русский"
+        sdh: "كورمانجى - كورمانجى / Kurmancî"
+        skr: "صربستانی -  српскохрватски / hrvatskosrpski"
+        slo: "اسلواکی - slovenský jazyk"
+        slv: "اسلوونیایی - Slovenščina"
+        snk: "سنینکه -  Soninkanxaane"
+        som: "سومالیایی - Soomaali"
+        spa: "اسپانیایی - español"
+        sqi: "آلبانی - Shqipja"
+        srp: "صربستانی -  српски"
         sus: Susu - Sosoxui
-        swa: سواحیلی -  Kiswahili
-        swe: سوئدی - svenska
+        swa: "سواحیلی -  Kiswahili"
+        swe: "سوئدی - svenska"
         tam: " تامیلی - தமிழ்"
         tel: " تلوگو - తెలుగు"
-        tgk: تاجیکی - тоҷикӣ / تاجیکی
-        tgl: تاگالوگ -  Tagálog
-        tha: تایلندی - ภาษาไทย
-        tig: زبان تیگره - ትግሬ
+        tgk: "تاجیکی - тоҷикӣ / تاجیکی"
+        tgl: "تاگالوگ -  Tagálog"
+        tha: "تایلندی - ภาษาไทย"
+        tig: "زبان تیگره - ትግሬ"
         tir: " تیگرینیا - ትግርኛ"
-        tuk: ترکمنی - Türkmençe / Tүркменче
-        tur: ترکی - Türkçe
-        twi: تیوی - Twi
-        ukr: Ukrainian - Українська
-        urd: اردو - اردو
-        uzb: ازبکی - Oʻzbek tili
-        vie: ویتنامی - tiếng Việt
-        wol: ولفی - wɔlɔf
-        xxx: زبان اشاره همراه - speech-acc. gestures
-        zho: چینی - 普通话 / 普通話
-        zza: دیملی -  Zazaki / Kırmancki
+        tuk: "ترکمنی - Türkmençe / Tүркменче"
+        tur: "ترکی - Türkçe"
+        twi: "تیوی - Twi"
+        ukr: 
+        urd: "اردو - اردو"
+        uzb: "ازبکی - Oʻzbek tili"
+        vie: "ویتنامی - tiếng Việt"
+        wol: "ولفی - wɔlɔf"
+        xxx: "زبان اشاره همراه - speech-acc. gestures"
+        zho: "چینی - 普通话 / 普通話"
+        zza: "دیملی -  Zazaki / Kırmancki"
     shariff:
-      share_label: تقسیم کردن
+      share_label: "تقسیم کردن"
     single_search_result:
       encounters:
-        chat: چت
-        email: ایمیل
-        forum: 'تالار گفتگو '
-        hotline: تلفن
-        online-course: کورس آنلاین
-        personal: شخصی
-        portal: لیست آدرس
+        chat: "چت"
+        email: "ایمیل"
+        forum: "تالار گفتگو "
+        hotline: "تلفن"
+        online-course: "کورس آنلاین"
+        personal: "شخصی"
+        portal: "لیست آدرس"
   layouts:
     modal_create:
       js:
         erb:
-          success: آدرس ایمیل با موفقیت ثبت شد!
+          success: "آدرس ایمیل با موفقیت ثبت شد!"
     partials:
       banner:
         teaser:
-          link: اطلاعات بیشتر در اینجا
-          refugees: به زودی پیشنهاد هایی برای پناهندگان
+          link: "اطلاعات بیشتر در اینجا"
+          refugees: "به زودی پیشنهاد هایی برای پناهندگان"
           text: handbook germany local در حال بازسازی است
       callout:
         callout:
           how:
             refugees:
-              heading: نحوه عملکرد صفحه handbook germany local به چه صورت است؟
-              text: مشکلی را که به دنبال حل آن هستی و همچنین محل زندگی خود را در قسمت جستجو وارد کن.سپس روی ذره بین کلیک کن.بدین ترتیب کمکهای نزدیک خود را در یک نگاه مشاهده می کنی.
+              heading: "نحوه عملکرد صفحه handbook germany local به چه صورت است؟"
+              text: "مشکلی را که به دنبال حل آن هستی و همچنین محل زندگی خود را در قسمت جستجو وارد کن.سپس روی ذره بین کلیک کن.بدین ترتیب کمکهای نزدیک خود را در یک نگاه مشاهده می کنی."
           what:
             refugees:
-              heading: چه چیزی را در اینجا پیدا می کنی؟
-              text: همه اطلاعات کمکی در نزدیک خود را که شامل بخش های مذکور می باشند:پناهندگی و قانون،خانواده،بهداشت،آموزش و کار و خشونت و جرایم.
+              heading: "چه چیزی را در اینجا پیدا می کنی؟"
+              text: "همه اطلاعات کمکی در نزدیک خود را که شامل بخش های مذکور می باشند:پناهندگی و قانون،خانواده،بهداشت،آموزش و کار و خشونت و جرایم."
           who:
             refugees:
-              heading: چه کسانی در اینجا کمک پیدا می کنند؟
-              text: همه افرادی که به آلمان پناه آورده‌اند.حتی کودکان و جوانان پناهنده و افرادی که در جستجوی کمک برای پناهندگان هستند.
+              heading: "چه کسانی در اینجا کمک پیدا می کنند؟"
+              text: "همه افرادی که به آلمان پناه آورده‌اند.حتی کودکان و جوانان پناهنده و افرادی که در جستجوی کمک برای پناهندگان هستند."
         callout_neutral:
           how:
-            heading: ما چگونه کمک می کنیم؟
-            text: ما تو را در پیدا کردن کمک مناسب،یاری می کنیم.ما به تمام کمکها نظم می دهیم و از طریق یک زبان ساده آنها را قابل درک می کنیم.
+            heading: "ما چگونه کمک می کنیم؟"
+            text: "ما تو را در پیدا کردن کمک مناسب،یاری می کنیم.ما به تمام کمکها نظم می دهیم و از طریق یک زبان ساده آنها را قابل درک می کنیم."
           what:
-            heading: هدف ما چیست؟
-            text: صفحه handbook germany local پیشنهادهای کمکی در آلمان را به صورت شفاف نشان می دهد.ما می خواهیم هر کسی که نیاز به کمک دارد آن را پیدا کند.
+            heading: "هدف ما چیست؟"
+            text: "صفحه handbook germany local پیشنهادهای کمکی در آلمان را به صورت شفاف نشان می دهد.ما می خواهیم هر کسی که نیاز به کمک دارد آن را پیدا کند."
           who:
-            heading: ما کی هستیم؟
-            text: ما یک پروژه عام‌المنفعه وابسته به بنیاد Benckiser Stiftung Zukunft هستیم.هدف این بنیاد کمک به کودکان،جوانان و خانواده های دارای شرایط سخت در زندگی است.
+            heading: "ما کی هستیم؟"
+            text: "ما یک پروژه عام‌المنفعه وابسته به بنیاد Benckiser Stiftung Zukunft هستیم.هدف این بنیاد کمک به کودکان،جوانان و خانواده های دارای شرایط سخت در زندگی است."
       footer:
-        about: در مورد ما
-        blog: بلاگ
-        contact: تماس
+        about: "در مورد ما"
+        blog: "بلاگ"
+        contact: "تماس"
         facebook_refugees: Handbook Germany
-        faq: سوالات رایج
+        faq: "سوالات رایج"
         fb:
-          anchor: فیسبوک
+          anchor: "فیسبوک"
           href: https://www.facebook.com/HandbookGermany
         gplus:
-          anchor: گوگل پلاس
+          anchor: "گوگل پلاس"
           href: https://plus.google.com/110429028641743127592/about
-        impressum: اطلاعات کلی شرکت
+        impressum: "اطلاعات کلی شرکت"
         plus: handbook germany local plus
-        privacy: نکات حفاظت از اطلاعات
-        tos: نکات حقوقی
+        privacy: "نکات حفاظت از اطلاعات"
+        tos: "نکات حقوقی"
         twitter:
-          anchor: توییتر
+          anchor: "توییتر"
           href: https://twitter.com/handbookgermany
       header:
-        about: در مورد ما
-        blog: بلاگ
-        contact: تماس
-        faq: سوالات رایج
+        about: "در مورد ما"
+        blog: "بلاگ"
+        contact: "تماس"
+        faq: "سوالات رایج"
         languages:
-          ar: عربی
+          ar: "عربی"
           de: Deutsch
           en: English
-          fa: فارسی
+          fa: "فارسی"
           fr: Français
           pl: Polski
+          ps: "پښتو"
+          ru: 
           tr: Türkçe
-          uk: Українська
-          ru: Pусский
+          uk: 
       hero:
         claim:
-          family: کمک برای کودکان،جوانان و خانواده ها
+          family: "کمک برای کودکان،جوانان و خانواده ها"
         hero:
-          button_label: کسب اطلاعات بیشتر
-          logline: کمک مناسب خود را پیدا کن-با توضیحات کامل و قابل مشاهده به آسانی
+          button_label: "کسب اطلاعات بیشتر"
+          logline: "کمک مناسب خود را پیدا کن-با توضیحات کامل و قابل مشاهده به آسانی"
       modal:
         beta_modal:
-          link: برای ما پیغام بنویسید
-          text: صفحه اینترنتی ما handbook germany local جدید می باشد.در برلین می توانی پیشنهاد های کمکی زیادی را جستجو کنی.به زودی پیشنهاد های کمکی برای شهرهای دیگر را نیز جمع آوری می کنیم.از کمک شما استقبال می کنیم:آیا چیزی را دیدی که ما بهتر می توانیم آن را ارائه دهیم یا اینکه چیزی به درستی انجام نمی شود؟پس
-        unavailable_location_modal: در محل زندگی تو و حال حاضر در handbook germany local فقط پیشنهادهای تلفنی یا آنلاین موجود می باشد.این بدین معنی است که به تو کمک تلفنی یا آنلاین می شود.بطور مثال از طریق ایمیل و یا در چت.به محض اینکه در در اینجا و در نزدیکی محل سکونت تو کمکی وجود داشت با کمال میل به تو اطلاع می دهیم.اطفا آدرس ایمیل خود را وارد کنید.
+          link: "برای ما پیغام بنویسید"
+          text: "صفحه اینترنتی ما handbook germany local جدید می باشد.در برلین می توانی پیشنهاد های کمکی زیادی را جستجو کنی.به زودی پیشنهاد های کمکی برای شهرهای دیگر را نیز جمع آوری می کنیم.از کمک شما استقبال می کنیم:آیا چیزی را دیدی که ما بهتر می توانیم آن را ارائه دهیم یا اینکه چیزی به درستی انجام نمی شود؟پس"
+        unavailable_location_modal: "در محل زندگی تو و حال حاضر در handbook germany local فقط پیشنهادهای تلفنی یا آنلاین موجود می باشد.این بدین معنی است که به تو کمک تلفنی یا آنلاین می شود.بطور مثال از طریق ایمیل و یا در چت.به محض اینکه در در اینجا و در نزدیکی محل سکونت تو کمکی وجود داشت با کمال میل به تو اطلاع می دهیم.اطفا آدرس ایمیل خود را وارد کنید."
       navigation:
         category_headline: " جستجو از طریق طبقه بندی ها"
         claim:
-          family: کمک برای کودکان،جوانان و خانواده ها
-          main: یافتن کمک به آسانی
-          refugees: کمک برای پناهندگان
+          family: "کمک برای کودکان،جوانان و خانواده ها"
+          main: "یافتن کمک به آسانی"
+          refugees: "کمک برای پناهندگان"
       top_bar:
-        german_content_warning: زبان خود را انتخاب کن
+        german_content_warning: "زبان خود را انتخاب کن"
         languages:
-          ar: عربي
+          ar: "عربي"
           de: Deutsch
           en: English
-          fa: فارسی
+          fa: "فارسی"
           fr: Français
           pl: Polski
-          ps: پښتو
+          ps: "پښتو"
+          ru: 
           tr: Türkçe
-          uk: Українська
-          ru: Pусский
-        title: زبان خود را انتخاب کنید
+          uk: 
+        title: "زبان خود را انتخاب کنید"
   offers:
     index:
       filters:
@@ -420,245 +421,245 @@ fa:
             %{count} سال
             > ۱ سال
           contact_type:
-            personal: در محل
-            remote: تلفنی یا آنلاین
+            personal: "در محل"
+            remote: "تلفنی یا آنلاین"
           encounter:
-            chat: چت
-            email: ایمیل
-            fax: فاکس
-            forum: تالار گفتگو مجازی
-            hotline: تلفن
-            letter: نامه
-            online-course: کورس آنلاین
-            portal: لیست آدرس
+            chat: "چت"
+            email: "ایمیل"
+            fax: "فاکس"
+            forum: "تالار گفتگو مجازی"
+            hotline: "تلفن"
+            letter: "نامه"
+            online-course: "کورس آنلاین"
+            portal: "لیست آدرس"
           exclusive_gender:
-            boys_only: فقط برای پسرها و مردان
-            female: فقط برای دختران و بانوان
-            girls_only: فقط برای دختران و بانوان
-            male: فقط برای پسرها و مردان
+            boys_only: "فقط برای پسرها و مردان"
+            female: "فقط برای دختران و بانوان"
+            girls_only: "فقط برای دختران و بانوان"
+            male: "فقط برای پسرها و مردان"
           residency_status:
-            before_the_asylum_decision: در طول پروسه روند رسیدگی به پناهندگی
-            with_a_residence_permit: با اجازه اقامت
-            with_deportation_decision: با برگه ترک خاک
-            with_temporary_suspension_of_deportation: با دولدونگ
+            before_the_asylum_decision: "در طول پروسه روند رسیدگی به پناهندگی"
+            with_a_residence_permit: "با اجازه اقامت"
+            with_deportation_decision: "با برگه ترک خاک"
+            with_temporary_suspension_of_deportation: "با دولدونگ"
           target_audience:
-            children: برای بچه ها و جوانان
-            family_children: برای بچه ها و جوانان
-            family_nuclear_family: برای خانواده ها
-            family_parents: برای والدین
-            family_parents_to_be: برای پدر و مادران آینده
-            family_pregnant_woman: برای زنان باردار
-            family_relatives: برای آشنایان و فامیل
-            nuclear_family: برای خانواده ها
-            parents: برای والدین
-            pregnant_woman: برای زنان باردار
-            refugees_children: برای کودکان پناهنده
-            refugees_families: برای خانواده های پناهنده
-            refugees_general: برای پناهندگان
-            refugees_parents: برای والدین پناهنده
-            refugees_parents_to_be: برای والدین پناهنده چشم به راه کودک
-            refugees_uf: برای پناهندگان بدون همراه
-            relatives: برای آشنایان و فامیل
-            immigrants_general: for immigrants
-            immigrants_adults: for adult immigrants
-            immigrants_children: for immigrant children and teenager
-            immigrants_families: for immigrant families
+            children: "برای بچه ها و جوانان"
+            family_children: "برای بچه ها و جوانان"
+            family_nuclear_family: "برای خانواده ها"
+            family_parents: "برای والدین"
+            family_parents_to_be: "برای پدر و مادران آینده"
+            family_pregnant_woman: "برای زنان باردار"
+            family_relatives: "برای آشنایان و فامیل"
+            immigrants_adults: 
+            immigrants_children: 
+            immigrants_families: 
+            immigrants_general: 
+            nuclear_family: "برای خانواده ها"
+            parents: "برای والدین"
+            pregnant_woman: "برای زنان باردار"
+            refugees_children: "برای کودکان پناهنده"
+            refugees_families: "برای خانواده های پناهنده"
+            refugees_general: "برای پناهندگان"
+            refugees_parents: "برای والدین پناهنده"
+            refugees_parents_to_be: "برای والدین پناهنده چشم به راه کودک"
+            refugees_uf: "برای پناهندگان بدون همراه"
+            relatives: "برای آشنایان و فامیل"
       map_sidebar:
-        map_output_searchresults: نمایش آدرس های پیشنهادی در نقشه
-      noscript_warning: 'متاسفیم.برای استفاده از جستجو باید مرورگر JavaScript را فعال کنید. '
+        map_output_searchresults: "نمایش آدرس های پیشنهادی در نقشه"
+      noscript_warning: "متاسفیم.برای استفاده از جستجو باید مرورگر JavaScript را فعال کنید. "
       pending_ajax:
-        searching: جستجو...
+        searching: "جستجو..."
     invalid_location:
-      text: لطفا مشخصات آدرس خود را دوباره چک کن و یا اینکه سعی کن با جایگزین کردن مثل( کد پستی محل سکونت) وارد شوی.
-      title: متاسفانه محل داده شده را نتوانستیم پیدا کنیم
+      text: "لطفا مشخصات آدرس خود را دوباره چک کن و یا اینکه سعی کن با جایگزین کردن مثل( کد پستی محل سکونت) وارد شوی."
+      title: "متاسفانه محل داده شده را نتوانستیم پیدا کنیم"
     shared:
       search_form:
-        button: جستجو کردن
+        button: "جستجو کردن"
         loc_label: " کجا"
         loc_placeholder:
-          long: آدرس،منطقه،شهر یا کدپستی
-          short: آدرس،منطقه،شهر یا کدپستی
-        query_label: چه چیزی
+          long: "آدرس،منطقه،شهر یا کدپستی"
+          short: "آدرس،منطقه،شهر یا کدپستی"
+        query_label: "چه چیزی"
         query_placeholder:
-          long: پیشنهاد مربوط به موضوع...
-          short: پیشنهاد در مورد...
+          long: "پیشنهاد مربوط به موضوع..."
+          short: "پیشنهاد در مورد..."
     show:
-      last_update: رسیدگی به موارد ثبت شده آخرین بار در
+      last_update: "رسیدگی به موارد ثبت شده آخرین بار در"
       next_steps:
-        code_word: 'نام این کمک نزد عرضه کننده:'
-        heading: چه کاری باید انجام دهی؟
+        code_word: "نام این کمک نزد عرضه کننده:"
+        heading: "چه کاری باید انجام دهی؟"
       opening_section:
         days:
-          fri: جمعه
-          mon: دوشنبه
-          sat: شنبه
-          sun: یک شنبه
-          thu: پنج شنبه
-          tue: سه شنبه
-          wed: چهارشنبه
-        heading: چه زمانی می توانی مراجعه کنی؟
-      speaking: به چه زبانی به تو کمک می شود؟
+          fri: "جمعه"
+          mon: "دوشنبه"
+          sat: "شنبه"
+          sun: "یک شنبه"
+          thu: "پنج شنبه"
+          tue: "سه شنبه"
+          wed: "چهارشنبه"
+        heading: "چه زمانی می توانی مراجعه کنی؟"
+      speaking: "به چه زبانی به تو کمک می شود؟"
       trait_filters:
         explanation:
-          accessibility: این بدین معنی است که تو در اینجا می توانی به آرامی با صندلی چرخ دار خود را حرکت بدهی و یا با یک کالسکه کودک
-          anonymous: این بدین معنی است که تو نباید نام خود را اعلام کنی.
-          confidential: این بدین معنی است که صحبتهای تو با کارمندان اینجا محرمانه باقی می ماند.
+          accessibility: "این بدین معنی است که تو در اینجا می توانی به آرامی با صندلی چرخ دار خود را حرکت بدهی و یا با یک کالسکه کودک"
+          anonymous: "این بدین معنی است که تو نباید نام خود را اعلام کنی."
+          confidential: "این بدین معنی است که صحبتهای تو با کارمندان اینجا محرمانه باقی می ماند."
         title:
-          accessibility: دسترس‌پذیری
-          anonymous: گمنام
-          charged: هزینه الزامی
-          confidential: محرمانه
-          day_and_night: شبانه روزی
-          free: رایگان
-      trait_filters_headline: اطلاعات بعدی
+          accessibility: "دسترس‌پذیری"
+          anonymous: "گمنام"
+          charged: "هزینه الزامی"
+          confidential: "محرمانه"
+          day_and_night: "شبانه روزی"
+          free: "رایگان"
+      trait_filters_headline: "اطلاعات بعدی"
       website_section:
-        internet_presence: اطلاعات بیشتر را کجا در اینترنت پیدا می کنی؟
+        internet_presence: "اطلاعات بیشتر را کجا در اینترنت پیدا می کنی؟"
         websites:
-          application_form: فرم ثبت نام
-          chat: چت
-          contact_form: 'فرم تماس '
-          document: اطلاعات دیگر
-          facebook: فیسبوک
-          forum: تالار گفتگو مجازی
-          gplus: گوگل پلاس
-          online_consulting: مشاوره آنلاین
-          online_course: کورس آنلاین
-          own: وبسایت
-          pinterest: پین‌ترست
-          twitter: توییتر
-          youtube: یوتیوب
+          application_form: "فرم ثبت نام"
+          chat: "چت"
+          contact_form: "فرم تماس "
+          document: "اطلاعات دیگر"
+          facebook: "فیسبوک"
+          forum: "تالار گفتگو مجازی"
+          gplus: "گوگل پلاس"
+          online_consulting: "مشاوره آنلاین"
+          online_course: "کورس آنلاین"
+          own: "وبسایت"
+          pinterest: "پین‌ترست"
+          twitter: "توییتر"
+          youtube: "یوتیوب"
       what:
-        code_word: 'نام کمک نزد عرضه کننده:'
-        heading: موضوع چیست؟
+        code_word: "نام کمک نزد عرضه کننده:"
+        heading: "موضوع چیست؟"
         offertaxonomy:
-          heading: 'با این موضوعات کارمندان اینجا آشنایی دارند:'
-      who: کجا این کمک را دریافت می کنی؟
+          heading: "با این موضوعات کارمندان اینجا آشنایی دارند:"
+      who: "کجا این کمک را دریافت می کنی؟"
       who_contact_people:
-        dr: دکتر
-        email: 'ایمیل:'
-        fax: 'فاکس:'
-        female: خانم
-        male: آقای
-        obfuscated_email: این ایمیل آدرس بمنظور حفاظت از Spam توسط  JavaScript قفل می باشد.لطفا JavaScript را فعال کرده تا بتوان آن را باز کرد و خواند.
-        phone: 'تلفن:'
-        prof_dr: پروفسور
+        dr: "دکتر"
+        email: "ایمیل:"
+        fax: "فاکس:"
+        female: "خانم"
+        male: "آقای"
+        obfuscated_email: "این ایمیل آدرس بمنظور حفاظت از Spam توسط  JavaScript قفل می باشد.لطفا JavaScript را فعال کرده تا بتوان آن را باز کرد و خواند."
+        phone: "تلفن:"
+        prof_dr: "پروفسور"
       who_location:
-        organizations: 'یک پیشنهاد از:'
+        organizations: "یک پیشنهاد از:"
       who_section:
-        heading: به کجا می توانی مراجعه کنی؟
+        heading: "به کجا می توانی مراجعه کنی؟"
   opening:
     display_string:
-      appointment: طبق توافق انجام شده
-      midnight_exception: ساعت ۱۲.۰۰ شب
+      appointment: "طبق توافق انجام شده"
+      midnight_exception: "ساعت ۱۲.۰۰ شب"
       time_format_close: "%H:%M Uhr"
       time_format_open: "%H:%M"
       time_frame: "%{open} - %{close}"
   organizations:
     show:
-      headline-offers--family: کمک برای کودکان،جوانان و خانواده‌ها
-      headline-offers--refugees: کمک برای پناهندگان
+      headline-offers--family: "کمک برای کودکان،جوانان و خانواده‌ها"
+      headline-offers--refugees: "کمک برای پناهندگان"
       offers_all: " این سازمان چه نوع کمکی را ارائه می دهد؟"
-      where: کجا سازمان مربوطه را پیدا می کنی؟
-      who: این سازمان وظایفش چیست؟
+      where: "کجا سازمان مربوطه را پیدا می کنی؟"
+      who: "این سازمان وظایفش چیست؟"
   pages:
     home:
       explaination:
-        headline: صفحه handbook germany local در دو دقیقه توضیح داده می شود.
+        headline: "صفحه handbook germany local در دو دقیقه توضیح داده می شود."
       how:
-        heading: نحوه عملکرد handbook germany local چگونه است؟
-        text: مشکلی را که نیاز به کمک در حل آن داری و یا چیزی که تو را آزار می دهد را در اینجا وارد کن و یا اینکه از موضوعات انتخابی ما استفاده کن.سپس تمام پیشنهاد های حمایتی را در نزدیکی محل سکونت خود مشاهده می کنی.ما به تو نیز می گوییم که چگونه کمک دریافت کنی.اینکه آیا از طریق تلفن یا ایمیل ارتباط برقرار کنی و یا اینکه حضوری می توانی مراجعه کنی.
+        heading: "نحوه عملکرد handbook germany local چگونه است؟"
+        text: "مشکلی را که نیاز به کمک در حل آن داری و یا چیزی که تو را آزار می دهد را در اینجا وارد کن و یا اینکه از موضوعات انتخابی ما استفاده کن.سپس تمام پیشنهاد های حمایتی را در نزدیکی محل سکونت خود مشاهده می کنی.ما به تو نیز می گوییم که چگونه کمک دریافت کنی.اینکه آیا از طریق تلفن یا ایمیل ارتباط برقرار کنی و یا اینکه حضوری می توانی مراجعه کنی."
       meta_description:
-        refugees: از طریق Handbook Germany local به آسانی برای پناهندگان کمک پیدا می کنی.به صورت واضح، با زبانهای مختلف و در سراسر برلین و آلمان.
+        refugees: "از طریق Handbook Germany local به آسانی برای پناهندگان کمک پیدا می کنی.به صورت واضح، با زبانهای مختلف و در سراسر برلین و آلمان."
       meta_title:
         refugees: Handbook Germany
       title:
-        family: کمک برای کودکان،جوانان و خانواده ها
-        refugees: کمک برای پناهندگان
+        family: "کمک برای کودکان،جوانان و خانواده ها"
+        refugees: "کمک برای پناهندگان"
       whom:
-        heading: چه کسانی می توانند از handbook germany local استفاده کنند؟
+        heading: "چه کسانی می توانند از handbook germany local استفاده کنند؟"
         text: handbook germany local برای استفاده همه افراد است.Elternleben برای کودکان و جوانان و خانواده‌ها می باشد و handbook germany local برای پناهندگان.در صورت داشتن سوالات یا مشکلات در اینجا می توانی برای خود یا خانواده خود و دوستانت و یا برای افراد دیگری که آنها را می شناسی و احتیاج به کمک دارند حمایت دریافت می کنی.
       why:
-        heading: چرا  handbook germany local وجود دارد؟
+        heading: "چرا  handbook germany local وجود دارد؟"
         text: |-
           با handbook germany local پیدا کردن کمک آسانتر می شود.در آلمان پیشنهاد های زیادی وجود دارند که از کودکان و جوانان و خانواده ها حمایت می کنند و همچنین پیشنهاد های زیادی برای پناهندگان.اما اغلب پیدا کردن آنها سخت می باشد.اگر در مورد موضوع خانواده باشد در Elternleben و اگر در مورد موضوع پناهندگی در  handbook germany local
           refugees جستجو کن.
     impressum:
-      heading: اطلاعات کلی سازمان
+      heading: "اطلاعات کلی سازمان"
       notice: handbook germany local یک  ماشین جستجو است و به تو می گوید که کجا کمک دریافت می کنی.بطور مثال کجا کارشناسانی را پیدا می کنی که تو را با مشکی که داری کمک کنند.handbook germany local تو را فقط در جستجوی کمک یاری می دهد.
       responsible_html: "مدیر عامل <br/> \nAnne Schulze و Mathias Barth<br/>\n(مسئول محتوای وب سایت)<br/><br/>\nHandelsregister: AG Charlottenburg<br/>\nHRB 174379 B"
-      title: اطلاعات کلی سازمان
+      title: "اطلاعات کلی سازمان"
     not_found:
-      description: در خانه خالی جستجو٬ هرگونه کمکی و یا مشکلی که به آن احتیاج داری را وارد کن.handbook germany local سپس پیشنهاد های نزدیک محل سکونت تو را نشان می دهد و یا اینکه برو به صفحه اصلی %{start_page}.در اینجا با توجه به عکسها می توانی کمک درخواستی خود را جستجو کنی.
-      heading: متاسفانه نتوانستیم این صفحه را پیدا کنیم
-      link_text: اینجا
+      description: "در خانه خالی جستجو٬ هرگونه کمکی و یا مشکلی که به آن احتیاج داری را وارد کن.handbook germany local سپس پیشنهاد های نزدیک محل سکونت تو را نشان می دهد و یا اینکه برو به صفحه اصلی %{start_page}.در اینجا با توجه به عکسها می توانی کمک درخواستی خود را جستجو کنی."
+      heading: "متاسفانه نتوانستیم این صفحه را پیدا کنیم"
+      link_text: "اینجا"
       title: 404
     shared:
       address:
         email: "%{mailto}"
-        fax: فاکس:۰۰۴۹۰۳۰۵۵۵۷۹۶۰۹۹
-        name:
-        street:
-        telephone:
-        zip_city:
+        fax: "فاکس:۰۰۴۹۰۳۰۵۵۵۷۹۶۰۹۹"
+        name: 
+        street: 
+        telephone: 
+        zip_city: 
   routes:
     '404': "'404'"
-    contacts: تماس
-    datenschutzhinweise: نکات حفاظت از اطلاعات
-    definitions: توضیحات
-    emails: ایمیل ها
-    faq: سوالات رایج
-    haeufige-fragen: سوالات رایج
-    home: خانه
-    impressum: 'اطلاعات کلی '
-    kontakt: تماس
-    liste: لیست
-    liste-de-services:
-    new: جدید
-    offers: پیشنهادها
-    organizations: سازمان ها
-    preview: بازگشت
-    rechtliche-hinweise: نکات حقوقی
-    refugees:
-    search_locations: جستجوی مکان ها
-    subscribe: مشترک
-    subscriptions: اشتراک ها
-    ueber-uns: در مورد ما
-    unsubscribe: بدون شرح
+    contacts: "تماس"
+    datenschutzhinweise: "نکات حفاظت از اطلاعات"
+    definitions: "توضیحات"
+    emails: "ایمیل ها"
+    faq: "سوالات رایج"
+    haeufige-fragen: "سوالات رایج"
+    home: "خانه"
+    impressum: "اطلاعات کلی "
+    kontakt: "تماس"
+    liste: "لیست"
+    liste-de-services: 
+    new: "جدید"
+    offers: "پیشنهادها"
+    organizations: "سازمان ها"
+    preview: "بازگشت"
+    rechtliche-hinweise: "نکات حقوقی"
+    refugees: 
+    search_locations: "جستجوی مکان ها"
+    subscribe: "مشترک"
+    subscriptions: "اشتراک ها"
+    ueber-uns: "در مورد ما"
+    unsubscribe: "بدون شرح"
     update_requests: update_requests
-    users: کاربر
-    widget:
-    widget-handbook-germany:
-    widget-hg:
-    widget-start-with-a-friend:
-    widget-swaf:
+    users: "کاربر"
+    widget: 
+    widget-handbook-germany: 
+    widget-hg: 
+    widget-start-with-a-friend: 
+    widget-swaf: 
   shareds:
     forms:
-      fill_field: لطفا اینجا را پر کن
+      fill_field: "لطفا اینجا را پر کن"
     show:
-      cta_report_errors: آیا اشتباهی را پیدا کردی؟
+      cta_report_errors: "آیا اشتباهی را پیدا کردی؟"
       google_translate_explanation: NOTRANSLATION
     tooltips:
       welcome:
-        advanced_search: آیا می خواهی جستجوی دقیق تری داشته باشی؟اینجا را کلیک کن.یک باکس با امکان انتخابهای بیشتری در اینجا باز می شود
+        advanced_search: "آیا می خواهی جستجوی دقیق تری داشته باشی؟اینجا را کلیک کن.یک باکس با امکان انتخابهای بیشتری در اینجا باز می شود"
         world_switch:
-          family: اگر اینجا را کلیک کنید٬به Elternleben وارد می شوی.در Elternleben می توانی بدنبال کمک برای کودکان٬جوانان و خانواده ها باشی.
-          refugees: اگر اینجا را کلیک کنید٬به handbook germany local وارد می شوید.در handbook germany local می توانی بدنبال کمک برای پناهندگان باشی.
+          family: "اگر اینجا را کلیک کنید٬به Elternleben وارد می شوی.در Elternleben می توانی بدنبال کمک برای کودکان٬جوانان و خانواده ها باشی."
+          refugees: "اگر اینجا را کلیک کنید٬به handbook germany local وارد می شوید.در handbook germany local می توانی بدنبال کمک برای پناهندگان باشی."
   simple_form:
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"
-      text: ضروری
+      text: "ضروری"
   subscriptions:
     create:
-      error: لطفا آدرس ایمیل دقیق خود را بدهید.
-      success: با تشکر.ما لینک تاییدی را به آدرس ایمیل تو فرستادیم.
+      error: "لطفا آدرس ایمیل دقیق خود را بدهید."
+      success: "با تشکر.ما لینک تاییدی را به آدرس ایمیل تو فرستادیم."
     shared:
       new:
-        button: آبونمان مجله اطلاعاتی
-        placeholder: آدرس ایمیل
+        button: "آبونمان مجله اطلاعاتی"
+        placeholder: "آدرس ایمیل"
   update_requests:
     create:
-      success: با تشکر.ما پیغام تو را دریافت کردیم.یه محض اینکه در نزدیکی تو فعال شویم تو را در جریان می گذاریم.
+      success: "با تشکر.ما پیغام تو را دریافت کردیم.یه محض اینکه در نزدیکی تو فعال شویم تو را در جریان می گذاریم."
     new:
-      button: پیغام دریافت شد
-      email_placeholder: آدرس ایمیل
+      button: "پیغام دریافت شد"
+      email_placeholder: "آدرس ایمیل"

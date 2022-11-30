@@ -78,9 +78,7 @@ de:
       less: Weniger Sprachen zeigen
       more: Mehr Sprachen zeigen
     less_filter_options: Weniger Filter anzeigen
-    location_required: 'Bitte gib einen Ort an wo du nach einem Hilfsangebot suchen möchtest.
-
-'
+    location_required: Bitte gib einen Ort an, wo du nach einem Hilfsangebot suchen möchtest.
     map_info_window_multiple:
       anchor: Alle ansehen >>
       text: Es wurden mehrere Ergebnisse an dieser Adresse gefunden.
@@ -354,7 +352,7 @@ de:
             heading: Wer sind wir?
             text: Wir sind ein gemeinnütziges Projekt der Benckiser Stiftung Zukunft. Die Stiftung möchte Kindern, Jugendlichen und Familien in schwierigen Situationen helfen.
       footer:
-        about: Über uns
+        about: "Über uns"
         blog: Blog
         contact: Kontakt
         facebook_refugees: Handbook Germany
@@ -373,20 +371,21 @@ de:
           anchor: Twitter
           href: https://twitter.com/handbookgermany
       header:
-        about: Über uns
+        about: "Über uns"
         blog: Blog
         contact: Kontakt
         faq: Häufige Fragen
         languages:
-          ar: عربي
+          ar: "عربي"
           de: Deutsch
           en: English
-          fa: فارسی
+          fa: "فارسی"
           fr: Français
           pl: Polski
-          tr: Türkçe
-          uk: Українська
+          ps: "پښتو"
           ru: Pусский
+          tr: Türkçe
+          uk: "Українська"
       hero:
         claim:
           family: Hilfe für Kinder, Jugendliche und Familien
@@ -417,16 +416,16 @@ de:
       top_bar:
         german_content_warning: Wähle deine Sprache
         languages:
-          ar: عربي
+          ar: "عربي"
           de: Deutsch
           en: English
-          fa: فارسی
+          fa: "فارسی"
           fr: Français
           pl: Polski
-          ps: پښتو
-          tr: Türkçe
-          uk: Українська
+          ps: "پښتو"
           ru: Pусский
+          tr: Türkçe
+          uk: "Українська"
         title: Wähle deine Sprache
   offers:
     index:
@@ -466,6 +465,10 @@ de:
             family_parents_to_be: für werdende Eltern
             family_pregnant_woman: für Schwangere
             family_relatives: für Bekannte und Verwandte
+            immigrants_adults: für zugewanderte Erwachsene
+            immigrants_children: für zugewanderte Kinder und Jugendliche
+            immigrants_families: für zugewanderte Familien
+            immigrants_general: für Zugewanderte
             nuclear_family: für Familien
             parents: für Eltern
             pregnant_woman: für Schwangere
@@ -476,10 +479,6 @@ de:
             refugees_parents_to_be: für geflüchtete werdende Eltern
             refugees_uf: für unbegleitete Geflüchtete
             relatives: für Bekannte und Verwandte
-            immigrants_general: für Zugewanderte
-            immigrants_adults: für zugewanderte Erwachsene
-            immigrants_children: für zugewanderte Kinder und Jugendliche
-            immigrants_families: für zugewanderte Familien
       map_sidebar:
         map_output_searchresults: Kartenausgabe der Suchergebnisse
       noscript_warning: |
@@ -622,15 +621,14 @@ de:
     impressum:
       heading: Impressum
       notice: Handbook Germany local search ist eine Suchmaschine. Handbook Germany local search sagt dir, wo du Hilfe bekommst. Zum Beispiel, wo du einen Experten findest, der dir bei deinem Problem hilft. Handbook Germany local search selber kann dir nur beim Suchen helfen.
-      responsible_html: |+
-        <p>Vertreten durch die Geschäftsführerin Konstantina Vassiliou-Enz<br/></br>
+      responsible_html: |-
+        <p>Neue deutsche Medienmacher*innen e.V.<br/></br>
         Amtsgericht Charlottenburg</br>
         Registernummer: VR28575</p>
         <h3>Redaktion</h3><p>
         Handbook Germany<br/>
         Prinzenstr. 103, 10969 Berlin<br/><br/>
         Tel. +49 (0)30 355 271 24</p>
-
       title: Impressum
     not_found:
       description: |-
@@ -642,7 +640,8 @@ de:
       title: 404
     shared:
       address:
-        email: "%{mailto}\n"
+        email: |
+          %{mailto}
         fax: Fax +49 (0)30 55 57 96 09 9
         name: Neue deutsche Medienmacher e.V.
         street: Potsdamer Str. 99
@@ -683,15 +682,13 @@ de:
     forms:
       fill_field: Bitte fülle dieses Feld aus
     show:
-      cta_report_errors: 'Hast du einen Fehler entdeckt?
-
-'
+      cta_report_errors: |
+        Hast du einen Fehler entdeckt?
       google_translate_explanation: Oben auf der Seite kannst du deine Sprache anklicken. Dann kannst du Handbook Germany local search in deiner Sprache lesen. Einen Teil der Übersetzung hat die Google Translate API gemacht. Leider gibt es deshalb manchmal sprachliche Fehler. Es kann also sein, dass etwas komisch klingt.
     tooltips:
       welcome:
-        advanced_search: 'Willst du deine Suche genauer machen? Dann klicke hier. Es öffnet sich eine Box mit Auswahl-Möglichkeiten.
-
-'
+        advanced_search: |
+          Willst du deine Suche genauer machen? Dann klicke hier. Es öffnet sich eine Box mit Auswahl-Möglichkeiten.
         world_switch:
           family: Wenn du hier klickst, kommst du zu Elternleben. In Elternleben kannst du nach Hilfe für Kinder, Jugendliche und Familien suchen.
           refugees: Wenn du hier klickst, kommst du zu Handbook Germany local search. Auf Handbook Germany local search kannst du nach Hilfe für Geflüchtete suchen.
@@ -702,9 +699,8 @@ de:
       text: required
   subscriptions:
     create:
-      error: 'Bitte gib eine korrekte E-Mail Adresse ein.
-
-'
+      error: |
+        Bitte gib eine korrekte E-Mail Adresse ein.
       success: |
         Vielen Dank, wir haben soeben einen Bestätigungslink an deine E-Mail
         Adresse gesendet.

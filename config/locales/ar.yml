@@ -2,373 +2,372 @@ ar:
   cells:
     contact_people:
       dr: ".د"
-      email: 'البريد الإليكتروني:'
+      email: "البريد الإليكتروني:"
       fax: ":فاكس"
-      female: السيدة
-      heading: أين يمكنك الإتصال؟
-      male: السيد
+      female: "السيدة"
+      heading: "أين يمكنك الإتصال؟"
+      male: "السيد"
       obfuscated_email: |-
         هذا البريد الإليكتروني مشفر للحماية من الأيميل المزعج من خلال برنامج جافا سكربت.
         من فضلك ثم بتفعيل جافا سكربت لكي تتمكن من تتمكن من قراءتها
       phone: ":تليفون"
-      prof_dr: أ.د.
+      prof_dr: "أ.د."
   conf:
-    current_location: موقعي
+    current_location: "موقعي"
     default_latlng: 52.520007,13.404954
-    default_location: برلين
+    default_location: "برلين"
   contacts:
     create:
-      success: تم إرسال الرسالة بنجاح
+      success: "تم إرسال الرسالة بنجاح"
     new:
-      contact_heading: ماذا تريد أن تخبرنا؟
+      contact_heading: "ماذا تريد أن تخبرنا؟"
     shared:
       new:
-        back_to_hp: العودة للصفحة الرئيسية
-        city_placeholder: مكان السكن (إختياري)
+        back_to_hp: "العودة للصفحة الرئيسية"
+        city_placeholder: "مكان السكن (إختياري)"
         email_placeholder:
           required:
-            'false': البريد الإليكتروني (إختياري)
-            'true': البريد الإليكتروني (فرض)
-        message_placeholder: اكتب رسالة (فرض)
-        name_placeholder: الإسم (فرض)
-        send: ارسال
-        send_us_a_message: اكتب لنا رسالة
+            'false': "البريد الإليكتروني (إختياري)"
+            'true': "البريد الإليكتروني (فرض)"
+        message_placeholder: "اكتب رسالة (فرض)"
+        name_placeholder: "الإسم (فرض)"
+        send: "ارسال"
+        send_us_a_message: "اكتب لنا رسالة"
   emails:
     offers_index:
-      button_accept:
-      button_deny:
-      explanation_1:
-      explanation_2:
-      explanation_3:
-      heading:
-      info:
-      tos:
-      tos_acceptance_headline:
-      tos_acceptance_text:
-      tos_denial_headline:
-      tos_denial_text:
-      tos_explanation:
-      tos_were_accepted:
-      tos_were_denied:
-      tos_were_denied_explanation:
+      button_accept: 
+      button_deny: 
+      explanation_1: 
+      explanation_2: 
+      explanation_3: 
+      heading: 
+      info: 
+      tos: 
+      tos_acceptance_headline: 
+      tos_acceptance_text: 
+      tos_denial_headline: 
+      tos_denial_text: 
+      tos_explanation: 
+      tos_were_accepted: 
+      tos_were_denied: 
+      tos_were_denied_explanation: 
   js:
     ajax_error:
-      error: خطأ في البحث
-      message: 'نأسف لحدوث خطأ في البحث. في حالة تكرار هذه المشكلة, اتصل بنا من فضلك
-
-'
-    autocomplete_footer: كل %{results} نتائج البحث ل „%{query}“
+      error: "خطأ في البحث"
+      message: |
+        نأسف لحدوث خطأ في البحث. في حالة تكرار هذه المشكلة, اتصل بنا من فضلك
+    autocomplete_footer: "كل %{results} نتائج البحث ل „%{query}“"
     categories_sidebar:
-      all_categories: جميع الفئات
+      all_categories: "جميع الفئات"
     cookie_warning_html: الكوكيز تساعدنا على أن تظل صفحتنا متاحة. من خلال استخدامك للصفحة فأنت تبين تفهمك لأننا وضعنا كوكيز. <a href="/refugees/datenschutzhinweise">Mehr</a>
     geolocation:
-      error: لم يتم العثور على موقع، من فضلك أدخل اسم الموقع ذاتيا.
-      fallback: أليكسندربلاتس؛ برلين؛ ألمانيا
+      error: "لم يتم العثور على موقع، من فضلك أدخل اسم الموقع ذاتيا."
+      fallback: "أليكسندربلاتس؛ برلين؛ ألمانيا"
       fallback_clarification:
-        code1: إذا كان أليكسندربلاتس غير قريب منك؛ إذاً فأكتب من فضلك عنوانك ورقمك البريدي ومدينتك هنا.
-        code2: للأسف لم نستطيع أن نحدد عنوانك. ولذلك فسوف نبحث في أليكسندربلاتس برلين. إذا كان أليكسندربلاتس غير قريب منك؛ إذاً فأكتب من فضلك عنوانك ورقمك البريدي ومدينتك هنا.
-        code3: للأسف لم نستطيع أن نحدد عنوانك. ولذلك فسوف نبحث في أليكسندربلاتس برلين. إذا كان أليكسندربلاتس غير قريب منك؛ إذاً فأكتب من فضلك عنوانك ورقمك البريدي ومدينتك هنا.
-        code4: للأسف لم نستطيع أن نحدد عنوانك. ولذلك فسوف نبحث في أليكسندربلاتس برلين. إذا كان أليكسندربلاتس غير قريب منك؛ إذاً فأكتب من فضلك عنوانك ورقمك البريدي ومدينتك هنا.
-      get: استخدم موقعي !
-      waiting: البحث عن موقع. ربما عليك أن تسمح بهذا أولا
+        code1: "إذا كان أليكسندربلاتس غير قريب منك؛ إذاً فأكتب من فضلك عنوانك ورقمك البريدي ومدينتك هنا."
+        code2: "للأسف لم نستطيع أن نحدد عنوانك. ولذلك فسوف نبحث في أليكسندربلاتس برلين. إذا كان أليكسندربلاتس غير قريب منك؛ إذاً فأكتب من فضلك عنوانك ورقمك البريدي ومدينتك هنا."
+        code3: "للأسف لم نستطيع أن نحدد عنوانك. ولذلك فسوف نبحث في أليكسندربلاتس برلين. إذا كان أليكسندربلاتس غير قريب منك؛ إذاً فأكتب من فضلك عنوانك ورقمك البريدي ومدينتك هنا."
+        code4: "للأسف لم نستطيع أن نحدد عنوانك. ولذلك فسوف نبحث في أليكسندربلاتس برلين. إذا كان أليكسندربلاتس غير قريب منك؛ إذاً فأكتب من فضلك عنوانك ورقمك البريدي ومدينتك هنا."
+      get: "استخدم موقعي !"
+      waiting: "البحث عن موقع. ربما عليك أن تسمح بهذا أولا"
     lang_list_toggle:
-      less: عرض لغات أقل
-      more: عرض لغات أكثر
-    less_filter_options: عرض فلاتر أقل
-    location_required: 'من فضلك أدخل اسم المكان الذي تريد أن تبحث فيه عن مساعدة
-
-'
+      less: "عرض لغات أقل"
+      more: "عرض لغات أكثر"
+    less_filter_options: "عرض فلاتر أقل"
+    location_required: |
+      من فضلك أدخل اسم المكان الذي تريد أن تبحث فيه عن مساعدة
     map_info_window_multiple:
-      anchor: مشاهدة الكل >>
-      text: تم العثور على العديد من النتائج لهذه الماركة
-      title: عروض أكثر
-    mobile_filter: تنقية النتائج
-    more_filter_options: عرض فلاتر أكثر
+      anchor: "مشاهدة الكل >>"
+      text: "تم العثور على العديد من النتائج لهذه الماركة"
+      title: "عروض أكثر"
+    mobile_filter: "تنقية النتائج"
+    more_filter_options: "عرض فلاتر أكثر"
     query_field:
-      example_placeholder: 'مثلا: %{word}…'
+      example_placeholder: "مثلا: %{word}…"
       placeholder_words:
         family:
-        - المخدرات
-        - العنف
-        - دروس خصوصية
-        - حالة طوارئ
-        - حق
-        - عاطل
-        - مشاكل التربية
-        - إضطرابات في الأكل
-        - بلا مأوى
-        - مشكلات أسرية
-        - حامل
-        - شجار
-        - السكن
+        - "المخدرات"
+        - "العنف"
+        - "دروس خصوصية"
+        - "حالة طوارئ"
+        - "حق"
+        - "عاطل"
+        - "مشاكل التربية"
+        - "إضطرابات في الأكل"
+        - "بلا مأوى"
+        - "مشكلات أسرية"
+        - "حامل"
+        - "شجار"
+        - "السكن"
         refugees:
-        - التجنيس
-        - دورة لغة ألمانية
-        - إعتراف
-        - صدمة الحرب
-        - إجراءات اللجوء
-        - رعاية صحية
-        - سلطات
-        - حق الإقامة
+        - "التجنيس"
+        - "دورة لغة ألمانية"
+        - "إعتراف"
+        - "صدمة الحرب"
+        - "إجراءات اللجوء"
+        - "رعاية صحية"
+        - "سلطات"
+        - "حق الإقامة"
     routes:
-      faq: أسئلة-شائعة
+      faq: "أسئلة-شائعة"
     search:
-      form_less_label: اخفاء خيارات البحث
-      form_more_label: عرض خيارات البحث
+      form_less_label: "اخفاء خيارات البحث"
+      form_more_label: "عرض خيارات البحث"
       headlines:
-        age: عمر الطفل
-        approach: كيف تقدم المساعدة؟
-        gender: النوع
-        language: اللغة
-        main:
-        residency_status: وضع الإقامة
-        sort: رتب حسب
-        target_audience: المساعدة لمن؟
-      option_any: سواء
+        age: "عمر الطفل"
+        approach: "كيف تقدم المساعدة؟"
+        gender: "النوع"
+        language: "اللغة"
+        main: 
+        residency_status: "وضع الإقامة"
+        sort: "رتب حسب"
+        target_audience: "المساعدة لمن؟"
+      option_any: "سواء"
       pagination:
-        back: للخلف
+        back: "للخلف"
         gap: "..."
-        next: لاحقا
-      reset_label:
+        next: "لاحقا"
+      reset_label: 
       sort:
-        nearby: بالقرب
-        relevance: أفضل النتائج
+        nearby: "بالقرب"
+        relevance: "أفضل النتائج"
       tabs:
-        categories: الفئات
-        filter: فلتر
-        map: خريطة
+        categories: "الفئات"
+        filter: "فلتر"
+        map: "خريطة"
     search_results:
-      bridge: من أجل
-      enclosing: تم العثور على
-      faq_anchor: هنا
-      faq_text: 'تجد الأسئلة الشائعة حول البحث وكذلك الإجابات '
+      bridge: "من أجل"
+      enclosing: "تم العثور على"
+      faq_anchor: "هنا"
+      faq_text: "تجد الأسئلة الشائعة حول البحث وكذلك الإجابات "
       language_explanation:
-        connector: و
-        text: هذا العرض يوجد في  %{language_list}.
+        connector: "و"
+        text: "هذا العرض يوجد في  %{language_list}."
       map:
-        cooperation: مشروع تعاون
-        enlarge_map: تكبير الخريطة
-        headline_small_map: عروض محلية على الخريطة
-      more: عروض أخرى عن طريق التليفون أو الأنترنت
+        cooperation: "مشروع تعاون"
+        enlarge_map: "تكبير الخريطة"
+        headline_small_map: "عروض محلية على الخريطة"
+      more: "عروض أخرى عن طريق التليفون أو الأنترنت"
       off_canvas:
-        result_text: عرض النتائج %{result_count}
+        result_text: "عرض النتائج %{result_count}"
       personal_anchor:
-        one: عرض محلي
+        one: "عرض محلي"
         other: "%{count} عروض محلية"
-        zero: 'للأسف لا توجد عروض  '
+        zero: "للأسف لا توجد عروض  "
       personal_offers_new:
-        _query:
-        category:
-        category_query:
-        default:
+        _query: 
+        category: 
+        category_query: 
+        default: 
       remote_anchor:
         one: " استشارة  هاتفية أو عرض مساعدة عن طريق الإنترنت"
         other: "%{count} استشارات  هاتفية و عروض مساعدة عن طريق الإنترنت"
-        zero: لا توجد استشارات  هاتفية أو عروض مساعدة عن طريق الإنترنت
+        zero: "لا توجد استشارات  هاتفية أو عروض مساعدة عن طريق الإنترنت"
       remote_offers_new:
-        _query:
-        category:
-        category_query:
-        default:
-      show_personal: عرض عروض مكانية أكثر
+        _query: 
+        category: 
+        category_query: 
+        default: 
+      show_personal: "عرض عروض مكانية أكثر"
     shared:
       current_and_original_locale:
-        "'150'": لغة الإشارة الألمانية
+        "'150'": "لغة الإشارة الألمانية"
         "'326'": " لغة أوكرانية - українська"
         "'568'": " لغة هولندية - Nederlands"
         "'639'": " لغة فارسية - دری"
-        '150': لغة الإشارة الألمانية
+        '150': "لغة الإشارة الألمانية"
         '326': " لغة أوكرانية - українська"
         '568': " لغة هولندية - Nederlands"
         '639': " لغة فارسية - دری"
-        aar: 'لغة عفارية - Qafar-áf '
-        abk: لغة أبخازية - аҧсуа бызшәа
-        amh: لغة أمهرية - አማርኛ
+        aar: "لغة عفارية - Qafar-áf "
+        abk: "لغة أبخازية - аҧсуа бызшәа"
+        amh: "لغة أمهرية - አማርኛ"
         ara: " لغة عربية - عربي"
-        arc: لغة آرامية - ארמית / Arāmît
-        arm: لغة أرمنية - Հայերեն / Hajeren
-        aze: لغة أذرية - Azərbaycan
-        bam: البامبارا - Bamanankan
-        ban: لغة بالية - Basa Bali
-        bel: لغة بيلاروسية - беларуская мова
+        arc: "لغة آرامية - ארמית / Arāmît"
+        arm: "لغة أرمنية - Հայերեն / Hajeren"
+        aze: "لغة أذرية - Azərbaycan"
+        bam: "البامبارا - Bamanankan"
+        ban: "لغة بالية - Basa Bali"
+        bel: "لغة بيلاروسية - беларуская мова"
         ben: " لغة بنغالية - বাংলা"
-        ber: لغة أمازيغية - Tamaziɣt
-        bos: لغة بوسنوية - bosanski
-        bul: لغة بلغارية - български
-        bur: البورمية - မြန်မာစာ
-        cau: لغة أباظية - абаза бызшва
-        che: لغة شيشانية - Noxčiyn mott/Нохчийн мотт
-        ckb: لهجة كردية سورانية - سۆرانی
-        cpe: الكاميروني - Pidgin
-        cus: لغة ساهو - ሳሆኛ
-        cze: لغة تشيكية - čeština
-        dan: لغة دنماركية - Dansk
-        deu: لغة ألمانية - Deutsch
-        dje: زارما - Djerma
-        dyu: الديولا - Julakan
-        ell: لغة يونانية - ελληνικά
-        eng: لغة إنجليزية - English
-        est: الإستونية - eesti keel
-        ewe: إيفي - Eʋegbe
-        ewo: إيفوندو - Ewondo
-        fas: لغة فارسية - فارسی
-        fil: لغة فلبينية - Wikang Filipino
-        fin: لغة فنلندية - suomi
-        fra: لغة فرنسية - Français
+        ber: "لغة أمازيغية - Tamaziɣt"
+        bos: "لغة بوسنوية - bosanski"
+        bul: "لغة بلغارية - български"
+        bur: "البورمية - မြန်မာစာ"
+        cau: "لغة أباظية - абаза бызшва"
+        che: "لغة شيشانية - Noxčiyn mott/Нохчийн мотт"
+        ckb: "لهجة كردية سورانية - سۆرانی"
+        cpe: "الكاميروني - Pidgin"
+        cus: "لغة ساهو - ሳሆኛ"
+        cze: "لغة تشيكية - čeština"
+        dan: "لغة دنماركية - Dansk"
+        deu: "لغة ألمانية - Deutsch"
+        dje: "زارما - Djerma"
+        dyu: "الديولا - Julakan"
+        ell: "لغة يونانية - ελληνικά"
+        eng: "لغة إنجليزية - English"
+        est: "الإستونية - eesti keel"
+        ewe: "إيفي - Eʋegbe"
+        ewo: "إيفوندو - Ewondo"
+        fas: "لغة فارسية - فارسی"
+        fil: "لغة فلبينية - Wikang Filipino"
+        fin: "لغة فنلندية - suomi"
+        fra: "لغة فرنسية - Français"
         fuf: Pular - Pular
         ful: Ful - Fulfulde
-        gej: جين - Mina
-        geo: الجورجية - ქართული
-        hau: لغة هوسية - Hausanci
-        hbs: لغة مونتنغرية - Crnogorski jezik / Црногорски језик
+        gej: "جين - Mina"
+        geo: "الجورجية - ქართული"
+        hau: "لغة هوسية - Hausanci"
+        hbs: "لغة مونتنغرية - Crnogorski jezik / Црногорски језик"
         heb: " لغة عبرية - עברית"
-        hin: لغة هندية - हिन्दी
-        hrv: لغة كرواتية - hrvatski
-        hun: لغة مجرية - magyar
-        ita: لغة إيطالية - italiano
-        jpn: لغة يابانية - 日本語
-        kik: زبان کیکویو - Gĩkũyũ
-        kin: لغة كينيارواندا - kinyaRwanda
-        kor: لغة كورية - 한국말 / 조선말
+        hin: "لغة هندية - हिन्दी"
+        hrv: "لغة كرواتية - hrvatski"
+        hun: "لغة مجرية - magyar"
+        ita: "لغة إيطالية - italiano"
+        jpn: "لغة يابانية - 日本語"
+        kik: "زبان کیکویو - Gĩkũyũ"
+        kin: "لغة كينيارواندا - kinyaRwanda"
+        kor: "لغة كورية - 한국말 / 조선말"
         kur: " لغة كردية - کوردی"
-        lav: لغة لاتفية - latviešu
-        lin: لغة لينغالا - Ngála
-        lit: لغة ليتوانية - lietuvių
-        ltz: لغة لوكسمبورغية - Lëtzebuergesch
-        luo: لوو - Dholuo
+        lav: "لغة لاتفية - latviešu"
+        lin: "لغة لينغالا - Ngála"
+        lit: "لغة ليتوانية - lietuvių"
+        ltz: "لغة لوكسمبورغية - Lëtzebuergesch"
+        luo: "لوو - Dholuo"
         man: " الغيلية - Maninka"
-        mkd: لغة مقدونية - македонски
-        mos: لغة موريه - Moose
-        msa: لغة ملايو – بهاس ملايو
-        mul: لغات أخرى عند الطلب
-        nor: لغة نرويجية - Norsk
-        pan: لغة بنجابية - پنجابی / ਪੰਜਾਬੀ
-        pol: لغة بولندية - polski
-        por: لغة برتغالية - português
-        pus: لغة بشتوية - پښتو‎
-        rom: لغة رومنية - Romani
-        ron: لغة رومانية - română
-        run: كيروندي
-        rus: لغة روسية - русский
-        sdh: الكورمانجية - كورمانجى / Kurmancî
-        skr: لغة صربية كرواتية - српскохрватски / hrvatskosrpski
-        slo: لغة سلوفاكية - slovenský jazyk
-        slv: سلوفيني - Slovenščina
-        snk: لغة سوننكية - Soninkanxaane
-        som: لغة صومالية - Soomaali
-        spa: لغة إسبانية - español
-        sqi: لغة ألبانية - Shqipja
-        srp: لغة صربية - српски
+        mkd: "لغة مقدونية - македонски"
+        mos: "لغة موريه - Moose"
+        msa: "لغة ملايو – بهاس ملايو"
+        mul: "لغات أخرى عند الطلب"
+        nor: "لغة نرويجية - Norsk"
+        pan: "لغة بنجابية - پنجابی / ਪੰਜਾਬੀ"
+        pol: "لغة بولندية - polski"
+        por: "لغة برتغالية - português"
+        pus: "لغة بشتوية - پښتو‎"
+        rom: "لغة رومنية - Romani"
+        ron: "لغة رومانية - română"
+        run: "كيروندي"
+        rus: "لغة روسية - русский"
+        sdh: "الكورمانجية - كورمانجى / Kurmancî"
+        skr: "لغة صربية كرواتية - српскохрватски / hrvatskosrpski"
+        slo: "لغة سلوفاكية - slovenský jazyk"
+        slv: "سلوفيني - Slovenščina"
+        snk: "لغة سوننكية - Soninkanxaane"
+        som: "لغة صومالية - Soomaali"
+        spa: "لغة إسبانية - español"
+        sqi: "لغة ألبانية - Shqipja"
+        srp: "لغة صربية - српски"
         sus: Susu - Sosoxui
-        swa: لغة سواحلية - Kiswahili
-        swe: لغة سويدية - svenska
-        tam: لغة تاميلية - தமிழ்
-        tel: لغة تيلوغوية - తెలుగు
-        tgk: لغة طاجيكية - тоҷикӣ / تاجیکی
-        tgl: لغة تاغالوغية - Tagálog
-        tha: لغة تايلندية - ภาษาไทย
-        tig: لغة تجرية - ትግሬ
-        tir: لغة تغرينية - ትግርኛ
-        tuk: لغة تركمانية - Türkmençe / Tүркменче
-        tur: لغة تركية - Türkçe
-        twi: التوي - Twi
-        ukr: Ukrainian - Українська
-        urd: لغة أردوية - اردو
-        uzb: لغة أوزبكية - Oʻzbek tili
-        vie: لغة فيتنامية - tiếng Việt
-        wol: لغة ولوفية - wɔlɔf
-        xxx: لغة الإشارة المرافقة - speech-acc. gestures
-        zho: لغة صينية - 普通话 / 普通話
-        zza: لغة زازاكية - Zazaki / Kırmancki
+        swa: "لغة سواحلية - Kiswahili"
+        swe: "لغة سويدية - svenska"
+        tam: "لغة تاميلية - தமிழ்"
+        tel: "لغة تيلوغوية - తెలుగు"
+        tgk: "لغة طاجيكية - тоҷикӣ / تاجیکی"
+        tgl: "لغة تاغالوغية - Tagálog"
+        tha: "لغة تايلندية - ภาษาไทย"
+        tig: "لغة تجرية - ትግሬ"
+        tir: "لغة تغرينية - ትግርኛ"
+        tuk: "لغة تركمانية - Türkmençe / Tүркменче"
+        tur: "لغة تركية - Türkçe"
+        twi: "التوي - Twi"
+        ukr: 
+        urd: "لغة أردوية - اردو"
+        uzb: "لغة أوزبكية - Oʻzbek tili"
+        vie: "لغة فيتنامية - tiếng Việt"
+        wol: "لغة ولوفية - wɔlɔf"
+        xxx: "لغة الإشارة المرافقة - speech-acc. gestures"
+        zho: "لغة صينية - 普通话 / 普通話"
+        zza: "لغة زازاكية - Zazaki / Kırmancki"
     shariff:
-      share_label: مشاركة
+      share_label: "مشاركة"
     single_search_result:
       encounters:
-        chat: دردشة
-        email: بريد اليكتروني
-        forum: منتدى
-        hotline: تليفون
-        online-course: دورة بالإنترنت
-        personal: ذاتيا
-        portal: قائمة العناوين
+        chat: "دردشة"
+        email: "بريد اليكتروني"
+        forum: "منتدى"
+        hotline: "تليفون"
+        online-course: "دورة بالإنترنت"
+        personal: "ذاتيا"
+        portal: "قائمة العناوين"
   layouts:
     modal_create:
       js:
         erb:
-          success: تم إدخال الإيميل بنجاح!
+          success: "تم إدخال الإيميل بنجاح!"
     partials:
       banner:
         teaser:
-          link: هنا يمكنك معرفة المزيد
-          refugees: قريبا سيكون هناك عروضا للأجئين أيضا
+          link: "هنا يمكنك معرفة المزيد"
+          refugees: "قريبا سيكون هناك عروضا للأجئين أيضا"
           text: handbook germany local يتم إنشائها
       callout:
         callout:
           how:
             refugees:
-              heading: كيف يعمل هذا؟
-              text: إكتب اسم الموضوع أو المشكلة في خانة البحث وادخل المكان الذي تبحث فيه. ثم اضغط على عدسة البحث فتحصل على قائمة مجمعة للمساعدات التي توجد بالقرب منك.
+              heading: "كيف يعمل هذا؟"
+              text: "إكتب اسم الموضوع أو المشكلة في خانة البحث وادخل المكان الذي تبحث فيه. ثم اضغط على عدسة البحث فتحصل على قائمة مجمعة للمساعدات التي توجد بالقرب منك."
           what:
             refugees:
-              heading: ما الذي ستجده هنا؟
-              text: 'كل المعلومات عن المساعدات المقدمة بالقرب منك. وعند وجود مشاكل تتعلق بالمجالات التالية: اللجوء والقانون؛ الأسرة؛ الصحة؛ التعليم والعمل؛ العنف والجريمة. '
+              heading: "ما الذي ستجده هنا؟"
+              text: "كل المعلومات عن المساعدات المقدمة بالقرب منك. وعند وجود مشاكل تتعلق بالمجالات التالية: اللجوء والقانون؛ الأسرة؛ الصحة؛ التعليم والعمل؛ العنف والجريمة. "
           who:
             refugees:
-              heading: من الذي يجد مساعدة هنا؟
-              text: 'كل من لجأ إلى ألمانيا. وكذلك الأطفال والمراهقين اللاجئين. وكذلك الناس الذين يبحثون عن مساعدات للاجئين. '
+              heading: "من الذي يجد مساعدة هنا؟"
+              text: "كل من لجأ إلى ألمانيا. وكذلك الأطفال والمراهقين اللاجئين. وكذلك الناس الذين يبحثون عن مساعدات للاجئين. "
         callout_neutral:
           how:
-            heading: كيف نساعدك؟
-            text: نحن نساعدك على إيجاد المساعدات المناسبة بالقرب منك. فنحن نقوم بترتيب عروض المساعدات ونصيغها بلغة سهلة الفهم.
+            heading: "كيف نساعدك؟"
+            text: "نحن نساعدك على إيجاد المساعدات المناسبة بالقرب منك. فنحن نقوم بترتيب عروض المساعدات ونصيغها بلغة سهلة الفهم."
           what:
-            heading: ما الذي نريده؟
-            text: كلارات ترشد - إلى عروض المساعدات في ألمانيا. لأننا نريد أن يجد كل فرد المساعدة التي يحتاجها.
+            heading: "ما الذي نريده؟"
+            text: "كلارات ترشد - إلى عروض المساعدات في ألمانيا. لأننا نريد أن يجد كل فرد المساعدة التي يحتاجها."
           who:
-            heading: من نحن؟
-            text: نحن مشروع خيري تابع لمؤسسة بنكيزر. المؤسسة تهدف لمساعدة الأطفال والمراهقين والأسر في المواقف الصعبة
+            heading: "من نحن؟"
+            text: "نحن مشروع خيري تابع لمؤسسة بنكيزر. المؤسسة تهدف لمساعدة الأطفال والمراهقين والأسر في المواقف الصعبة"
       footer:
-        about: معلومات عنا
-        blog: مدونة
-        contact: الإتصال
+        about: "معلومات عنا"
+        blog: "مدونة"
+        contact: "الإتصال"
         facebook_refugees: Handbook Germany
         faq: " الأسئلة الشائعة"
         fb:
-          anchor: فيس بوك
+          anchor: "فيس بوك"
           href: https://www.facebook.com/HandbookGermany
         gplus:
-          anchor: جوجل بلس
+          anchor: "جوجل بلس"
           href: https://plus.google.com/110429028641743127592/about
-        impressum: هيئة التحرير
+        impressum: "هيئة التحرير"
         plus: handbook germany local plus
-        privacy: إرشادات حماية البيانات الشخصية
-        tos: إرشادات قانونية
+        privacy: "إرشادات حماية البيانات الشخصية"
+        tos: "إرشادات قانونية"
         twitter:
-          anchor: تويتر
+          anchor: "تويتر"
           href: https://twitter.com/handbookgermany
       header:
-        about: معلومات عنا
-        blog: مدونة
-        contact: الإتصال
-        faq: الأسئلة الشائعة
+        about: "معلومات عنا"
+        blog: "مدونة"
+        contact: "الإتصال"
+        faq: "الأسئلة الشائعة"
         languages:
-          ar: عربي
+          ar: "عربي"
           de: Deutsch
           en: English
-          fa: فارسی
+          fa: "فارسی"
           fr: Français
           pl: Polski
+          ps: "پښتو"
+          ru: 
           tr: Türkçe
-          uk: Українська
-          ru: Pусский
+          uk: 
       hero:
         claim:
-          family: مساعدة للأطفال والمراهقين و الأسرة
+          family: "مساعدة للأطفال والمراهقين و الأسرة"
         hero:
-          button_label: لمعرفة المزيد
-          logline: ستجد المساعدة المناسبة لك - بشرح مبسط وبشكل مُجَمع
+          button_label: "لمعرفة المزيد"
+          logline: "ستجد المساعدة المناسبة لك - بشرح مبسط وبشكل مُجَمع"
       modal:
         beta_modal:
-          link: ارسل لنا ببساطة رسالة بريد إليكتروني
+          link: "ارسل لنا ببساطة رسالة بريد إليكتروني"
           text: |
             صفحة الإنترنت الخاصة بكلارات. أورج لاتزال جديدة جدا.
             في برلين يمكنك أن تجد بالفعل العديد من عروض المساعدة.
@@ -382,190 +381,190 @@ ar:
           سوف نخبرك بكل سرور بمجرد أن يكون في كلارات مساعدات بالقرب منك
           لذلك سجل عنوان بريدك الإليكتروني هنا
       navigation:
-        category_headline: أو البحث عن طريق التصنيف
+        category_headline: "أو البحث عن طريق التصنيف"
         claim:
-          family: مساعدة للأطفال والمراهقين و الأسرة
-          main: الحصول على المساعدة ببساطة
-          refugees: مساعدة للآجئين
+          family: "مساعدة للأطفال والمراهقين و الأسرة"
+          main: "الحصول على المساعدة ببساطة"
+          refugees: "مساعدة للآجئين"
       top_bar:
-        german_content_warning: إختر لغتك
+        german_content_warning: "إختر لغتك"
         languages:
-          ar: عربي
+          ar: "عربي"
           de: Deutsch
           en: English
-          fa: فارسی
+          fa: "فارسی"
           fr: Français
           pl: Polski
-          ps: پښتو
+          ps: "پښتو"
+          ru: 
           tr: Türkçe
-          uk: Українська
-          ru: Pусский
-        title: ترجمة فورية
+          uk: 
+        title: "ترجمة فورية"
   offers:
     index:
       filters:
         json:
           age:
-            few: سنوات %{count}
+            few: "سنوات %{count}"
             many: "%{count} سنوات"
-            one: سنة واحدة
+            one: "سنة واحدة"
             other: "%{count} سنوات"
-            two: سنتان
-            zero: أقل من سنة واحدة
+            two: "سنتان"
+            zero: "أقل من سنة واحدة"
           contact_type:
-            personal: محلياّ
-            remote: بالتليفون أو الإنترنت
+            personal: "محلياّ"
+            remote: "بالتليفون أو الإنترنت"
           encounter:
-            chat: دردشة
-            email: إيميل
-            fax: فاكس
-            forum: منتدى
-            hotline: تليفون
-            letter: بريد
-            online-course: دورة بالإنترنت
-            portal: قائمة العناوين
+            chat: "دردشة"
+            email: "إيميل"
+            fax: "فاكس"
+            forum: "منتدى"
+            hotline: "تليفون"
+            letter: "بريد"
+            online-course: "دورة بالإنترنت"
+            portal: "قائمة العناوين"
           exclusive_gender:
-            boys_only: فقط للصبيان والرجال
-            female: فقط للبنات والسيدات
-            girls_only: فقط للبنات والسيدات
-            male: فقط للصبيان والرجال
+            boys_only: "فقط للصبيان والرجال"
+            female: "فقط للبنات والسيدات"
+            girls_only: "فقط للبنات والسيدات"
+            male: "فقط للصبيان والرجال"
           residency_status:
-            before_the_asylum_decision: في قضية اللجوء
-            with_a_residence_permit: بتصريح إقامة
-            with_deportation_decision: بقرار الترحيل
-            with_temporary_suspension_of_deportation: بإذن إقامة مؤقت (دولدونج)
+            before_the_asylum_decision: "في قضية اللجوء"
+            with_a_residence_permit: "بتصريح إقامة"
+            with_deportation_decision: "بقرار الترحيل"
+            with_temporary_suspension_of_deportation: "بإذن إقامة مؤقت (دولدونج)"
           target_audience:
-            children: للأطفال والشباب
-            family_children: للأطفال والشبان
-            family_nuclear_family: للأسر
-            family_parents: للآباء
-            family_parents_to_be: لمن سوف يصيرون والدين
-            family_pregnant_woman: للحوامل
-            family_relatives: من أجل المعارف والأقارب
-            nuclear_family: للأسر
-            parents: للآباء
-            pregnant_woman: للحوامل
-            refugees_children: للأجئين الأطفال
-            refugees_families: للأسرة اللاجئة
-            refugees_general: للاجئين
-            refugees_parents: للاجئين من الآباء
-            refugees_parents_to_be: للاجئين الذين سيصيرون قريباً آباء
-            refugees_uf: للاجئين غير المصحوبين
-            relatives: للمعارف والأقارب
-            immigrants_general: for immigrants
-            immigrants_adults: for adult immigrants
-            immigrants_children: for immigrant children and teenager
-            immigrants_families: for immigrant families
+            children: "للأطفال والشباب"
+            family_children: "للأطفال والشبان"
+            family_nuclear_family: "للأسر"
+            family_parents: "للآباء"
+            family_parents_to_be: "لمن سوف يصيرون والدين"
+            family_pregnant_woman: "للحوامل"
+            family_relatives: "من أجل المعارف والأقارب"
+            immigrants_adults: 
+            immigrants_children: 
+            immigrants_families: 
+            immigrants_general: 
+            nuclear_family: "للأسر"
+            parents: "للآباء"
+            pregnant_woman: "للحوامل"
+            refugees_children: "للأجئين الأطفال"
+            refugees_families: "للأسرة اللاجئة"
+            refugees_general: "للاجئين"
+            refugees_parents: "للاجئين من الآباء"
+            refugees_parents_to_be: "للاجئين الذين سيصيرون قريباً آباء"
+            refugees_uf: "للاجئين غير المصحوبين"
+            relatives: "للمعارف والأقارب"
       map_sidebar:
-        map_output_searchresults: إظهار بطاقة نتائج البحث
+        map_output_searchresults: "إظهار بطاقة نتائج البحث"
       noscript_warning: |
         المعذرة، لكن لكي يمكنك إستخدام البحث الخاص بنا ؛
         لابد أن يكون جافا سكربت على المحرك البحثي الخاص بك فعالا
       pending_ajax:
-        searching: بحث…
+        searching: "بحث…"
     invalid_location:
       text: |
         من فضلك راجع بيانات العنوان الذي قمت بإدخاله وحاول مرة أخرى عن طريق إدخال بيانات بديلة
         (على سبيل المثال الرقم البريدي والمكان)
-      title: 'للأسف لم نتمكن من العثور على الموقع الذي تم إدخاله بمعرفتك '
+      title: "للأسف لم نتمكن من العثور على الموقع الذي تم إدخاله بمعرفتك "
     shared:
       search_form:
-        button: بحث
-        loc_label: أين
+        button: "بحث"
+        loc_label: "أين"
         loc_placeholder:
           long: Berlin, Deutschland
           short: Berlin
-        query_label: ماذا
+        query_label: "ماذا"
         query_placeholder:
-          long: عروض خاصة بموضوع ....
-          short: عروض  مساعدة ل..
+          long: "عروض خاصة بموضوع ...."
+          short: "عروض  مساعدة ل.."
     show:
-      last_update: آخر إدخال
+      last_update: "آخر إدخال"
       next_steps:
-        code_word: هكذا تسمى المساعدة لدى مقدم الدعم.
-        heading: ماذا يجب عليك أن تفعل؟
+        code_word: "هكذا تسمى المساعدة لدى مقدم الدعم."
+        heading: "ماذا يجب عليك أن تفعل؟"
       opening_section:
         days:
-          fri: الجمعة
-          mon: الإثنين
-          sat: السبت
-          sun: الأحد
-          thu: الخميس
-          tue: الثلاثاء
-          wed: الأربعاء
-        heading: متى يمكنك فعل هذا؟
-      speaking: في أي لغة تقدم لك المساعدة؟
+          fri: "الجمعة"
+          mon: "الإثنين"
+          sat: "السبت"
+          sun: "الأحد"
+          thu: "الخميس"
+          tue: "الثلاثاء"
+          wed: "الأربعاء"
+        heading: "متى يمكنك فعل هذا؟"
+      speaking: "في أي لغة تقدم لك المساعدة؟"
       trait_filters:
         explanation:
-          accessibility: هذا يعني أنه يمكنك هنا التنقل بسهولة بالكرسي المتحرك أو بعربة الأطفال.
-          anonymous: هذا يعني أنه لا يجب عليك ذكر إسمك.
-          confidential: هذا يعني أن الموظفون سوف يحتفظون بكل ما تقوله سراً.
+          accessibility: "هذا يعني أنه يمكنك هنا التنقل بسهولة بالكرسي المتحرك أو بعربة الأطفال."
+          anonymous: "هذا يعني أنه لا يجب عليك ذكر إسمك."
+          confidential: "هذا يعني أن الموظفون سوف يحتفظون بكل ما تقوله سراً."
         title:
-          accessibility: خالي من العوائق مناسب للكراسي المتحركة
-          anonymous: مجهول
-          charged: ذو تكلفة
-          confidential: سري
-          day_and_night: ليلاً ونهاراً
-          free: مجاني
-      trait_filters_headline: مزيد من المعلومات
+          accessibility: "خالي من العوائق مناسب للكراسي المتحركة"
+          anonymous: "مجهول"
+          charged: "ذو تكلفة"
+          confidential: "سري"
+          day_and_night: "ليلاً ونهاراً"
+          free: "مجاني"
+      trait_filters_headline: "مزيد من المعلومات"
       website_section:
-        internet_presence: أين تجد المزيد من المعلومات في النت؟
+        internet_presence: "أين تجد المزيد من المعلومات في النت؟"
         websites:
-          application_form: إستمارة التسجيل
-          chat: الدردشة
-          contact_form: إستمارة الإتصال
-          document: المزيد من المعلومات
-          facebook: الفيس بوك
-          forum: منتدى
-          gplus: جوجل بلس
-          online_consulting: إستشارات إون لاين
-          online_course: دورة أون لاين
-          own: صفحة النت
-          pinterest: بيترست
-          twitter: تويتر
-          youtube: اليوتيوب
+          application_form: "إستمارة التسجيل"
+          chat: "الدردشة"
+          contact_form: "إستمارة الإتصال"
+          document: "المزيد من المعلومات"
+          facebook: "الفيس بوك"
+          forum: "منتدى"
+          gplus: "جوجل بلس"
+          online_consulting: "إستشارات إون لاين"
+          online_course: "دورة أون لاين"
+          own: "صفحة النت"
+          pinterest: "بيترست"
+          twitter: "تويتر"
+          youtube: "اليوتيوب"
       what:
-        code_word: هكذا تسمى المساعدة لدى مقدم الدعم.
-        heading: ما هو الموضوع؟
+        code_word: "هكذا تسمى المساعدة لدى مقدم الدعم."
+        heading: "ما هو الموضوع؟"
         offertaxonomy:
-          heading: الموظفون على دراية بهذه الموضوعات
-      who: أين يمكنك أن تحصل على هذه المساعدة؟
+          heading: "الموظفون على دراية بهذه الموضوعات"
+      who: "أين يمكنك أن تحصل على هذه المساعدة؟"
       who_contact_people:
         dr: ".د"
-        email: 'البريد الإليكتروني:'
+        email: "البريد الإليكتروني:"
         fax: " :فاكس "
-        female: السيدة
-        male: السيد
+        female: "السيدة"
+        male: "السيد"
         obfuscated_email: |
           هذا البريد الإليكتروني مشفر للحماية من الأيميل المزعج من خلال برنامج جافا سكربت.
           من فضلك ثم بتفعيل جافا سكربت لكي تتمكن من تتمكن من قراءتها
         phone: ":تليفون"
-        prof_dr: أ.د.
+        prof_dr: "أ.د."
       who_location:
         organizations: " :.عرض من"
       who_section:
-        heading: أين يمكنك الإتصال؟
+        heading: "أين يمكنك الإتصال؟"
   opening:
     display_string:
-      appointment: حسب الإتفاق
+      appointment: "حسب الإتفاق"
       midnight_exception: 24:00 ساعة
       time_format_close: "%H:%M ساعة"
       time_format_open: " %H:%M ساعة "
       time_frame: "%{open} - %{close}"
   organizations:
     show:
-      headline-offers--family: مساعدة للأطفال والمراهقين و الأسرة
-      headline-offers--refugees: مساعدة للآجئين
-      offers_all: ما هي المساعدة التي تقدمها المنظمة؟
-      where: أين تجد المنظمة؟
-      who: ماذا تفعل المنظمة؟
+      headline-offers--family: "مساعدة للأطفال والمراهقين و الأسرة"
+      headline-offers--refugees: "مساعدة للآجئين"
+      offers_all: "ما هي المساعدة التي تقدمها المنظمة؟"
+      where: "أين تجد المنظمة؟"
+      who: "ماذا تفعل المنظمة؟"
   pages:
     home:
       explaination:
-        headline:
+        headline: 
       how:
-        heading: كيف يعمل هذا؟
-        text: أكتب المشكلة التي تحتاح مساعدة في حلها, او التي تقلقك. يمكنك أيضا أن تختار من الموضوعات الموجودة لدينا, فتري في الحال كل العروض التي تقدم الدعم بالقرب منك. وكذلك تعرف أيضا, كيف تحصل على المساعدة و بأي  وسيلة إتصال, سواء عن طريق التليفون أو إرسال إيميل أو الذهاب الي عنوان ما
+        heading: "كيف يعمل هذا؟"
+        text: "أكتب المشكلة التي تحتاح مساعدة في حلها, او التي تقلقك. يمكنك أيضا أن تختار من الموضوعات الموجودة لدينا, فتري في الحال كل العروض التي تقدم الدعم بالقرب منك. وكذلك تعرف أيضا, كيف تحصل على المساعدة و بأي  وسيلة إتصال, سواء عن طريق التليفون أو إرسال إيميل أو الذهاب الي عنوان ما"
       meta_description:
         refugees: |-
           مع Handbook Germany local  تجد المساعدة بسهولة.
@@ -573,17 +572,17 @@ ar:
       meta_title:
         refugees: Handbook Germany
       title:
-        family: مساعدة للأطفال والمراهقين والأسر
+        family: "مساعدة للأطفال والمراهقين والأسر"
         refugees: " مساعدة للاجئين"
       whom:
-        heading: كلارات من أجل من؟
-        text: 'كلارات للجميع, حيث إن كلارات الأسرة موجهة إلي الأطفال والشباب والأسر و كلارات اللاجئين موجهة للاجئين. فهنا تجد مساعدة إذا كان لديك سؤال أو مشكلة خاصة بك أو بأسرتك أو بأصدقائك أو لأي شخص آخرتعرفه وهو في حاجة لمساعدة '
+        heading: "كلارات من أجل من؟"
+        text: "كلارات للجميع, حيث إن كلارات الأسرة موجهة إلي الأطفال والشباب والأسر و كلارات اللاجئين موجهة للاجئين. فهنا تجد مساعدة إذا كان لديك سؤال أو مشكلة خاصة بك أو بأسرتك أو بأصدقائك أو لأي شخص آخرتعرفه وهو في حاجة لمساعدة "
       why:
-        heading: لماذا توجد كلارات؟
+        heading: "لماذا توجد كلارات؟"
         text: "عن طريق كلارات يمكنك أن تجد مساعدة. \nففي ألمانيا يوجد العديد من العروض التي تدعم الأطفال والشباب والأسرة. \nوكذلك الكثير من العروض للاجئين. ولكن في الغالب يكون من الصعب الوصول الى هذه العروض. \nفنحن هنا  لنساعدك؛ فإذا كان الأمر يتعلق بالأسرة فإبحث في كلارات الأسرة\n أما إذا كان خاص باللاجئين فإبحث في كلارات اللاجئين\n"
     impressum:
       heading: Impressum
-      notice: كلارات عبارة عن محرك بحث. كلارات يبلغك بمكان الحصول على المساعدة. مثلا، أين تجد خبراء يساعدونك في حل مشكلتك. أما كلارات نفسه فبإمكانه مساعدتك في البحث فقط.
+      notice: "كلارات عبارة عن محرك بحث. كلارات يبلغك بمكان الحصول على المساعدة. مثلا، أين تجد خبراء يساعدونك في حل مشكلتك. أما كلارات نفسه فبإمكانه مساعدتك في البحث فقط."
       responsible_html: |-
         Geschäftsführer<br/>
         Anne Schulze und Mathias Barth<br/>
@@ -593,12 +592,13 @@ ar:
       title: Impressum
     not_found:
       description: "اكتب فقط في خانة-بحث ما هي المساعدة التي تبحث عنها أو ما هي مشكلتك.\nوسوف تعرض لك كلارات عروض المساعدة التي بالقرب منك. \nأو اذهب إلى %{start_page} على الصفحة الرئيسية.\nهناك يمكنك عن طريق الصور الدائرية أن تبحث عن المساعدة المناسبة. "
-      heading: للأسف لم نتمكن من العثور على هذه الصفحة
-      link_text: هنا
+      heading: "للأسف لم نتمكن من العثور على هذه الصفحة"
+      link_text: "هنا"
       title: 404
     shared:
       address:
-        email: "%{mailto}\n"
+        email: |
+          %{mailto}
         fax: Fax +49 (0)30 55 57 96 09 9
         name: handbook germany local
         street: Französische Straße 47
@@ -606,49 +606,48 @@ ar:
         zip_city: 10117 Berlin
   routes:
     '404': "'404'"
-    contacts: الإتصال
-    datenschutzhinweise: إرشادات-حماية-البيانات-الشخصية
-    definitions: تعريف
-    emails: رسائل بريد إليكتروني
-    faq: أسئلة-شائعة
-    haeufige-fragen: أسئلة-شائعة
-    home: الصفحة الرئيسية
-    impressum: هيئة التحرير
-    kontakt: إتصال
-    liste: القائمة
-    liste-de-services:
-    new: جديد
-    offers: عروض
-    organizations: منظمة
-    preview: عرض
-    rechtliche-hinweise: إرشادات-قانونية
-    refugees:
-    search_locations: بحث_المواقع
+    contacts: "الإتصال"
+    datenschutzhinweise: "إرشادات-حماية-البيانات-الشخصية"
+    definitions: "تعريف"
+    emails: "رسائل بريد إليكتروني"
+    faq: "أسئلة-شائعة"
+    haeufige-fragen: "أسئلة-شائعة"
+    home: "الصفحة الرئيسية"
+    impressum: "هيئة التحرير"
+    kontakt: "إتصال"
+    liste: "القائمة"
+    liste-de-services: 
+    new: "جديد"
+    offers: "عروض"
+    organizations: "منظمة"
+    preview: "عرض"
+    rechtliche-hinweise: "إرشادات-قانونية"
+    refugees: 
+    search_locations: "بحث_المواقع"
     subscribe: subscribe
-    subscriptions: إشتراكات
-    ueber-uns: نبذة عنا
+    subscriptions: "إشتراكات"
+    ueber-uns: "نبذة عنا"
     unsubscribe: unsubscribe
-    update_requests: طلبات-تحديث
-    users: مستخدم
-    widget:
-    widget-handbook-germany:
-    widget-hg:
-    widget-start-with-a-friend:
-    widget-swaf:
+    update_requests: "طلبات-تحديث"
+    users: "مستخدم"
+    widget: 
+    widget-handbook-germany: 
+    widget-hg: 
+    widget-start-with-a-friend: 
+    widget-swaf: 
   shareds:
     forms:
-      fill_field: من فضلك إملأ هذه الخانة
+      fill_field: "من فضلك إملأ هذه الخانة"
     show:
-      cta_report_errors: 'هل اكتشفت خطأّ؟
-
-'
-      google_translate_explanation: يمكنك بأعلى الصفحة النقر على لغتك. ومن ثم يمكنك قراءة كلارات بلغتك. هناك جزء من الترجمة تم من خلال Google Translate API. لذلك قد يوجد مع الأسف بعد الأخطاء اللغوية. ومن الممكن أن تبدو بعض العبارات مضحكة.
+      cta_report_errors: |
+        هل اكتشفت خطأّ؟
+      google_translate_explanation: "يمكنك بأعلى الصفحة النقر على لغتك. ومن ثم يمكنك قراءة كلارات بلغتك. هناك جزء من الترجمة تم من خلال Google Translate API. لذلك قد يوجد مع الأسف بعد الأخطاء اللغوية. ومن الممكن أن تبدو بعض العبارات مضحكة."
     tooltips:
       welcome:
-        advanced_search: هل تريد جعل البحث محددا أكثر؛ إذا انقر هنا. سيفتح نافذة بها إختيارات
+        advanced_search: "هل تريد جعل البحث محددا أكثر؛ إذا انقر هنا. سيفتح نافذة بها إختيارات"
         world_switch:
-          family: عندما تقوم بالنقر هنا؛ تصل إلى كلارات الأسرة. وفي كلارات الأسرة يمكنك البحث عن مساعدة للأطفال والشبان والأسر.
-          refugees: عندما تقوم بالنقر هنا؛ تصل إلى كلارات اللاجئين. وفي كلارات-اللاجئين يمكنك البحث عن مساعدة للاجئين
+          family: "عندما تقوم بالنقر هنا؛ تصل إلى كلارات الأسرة. وفي كلارات الأسرة يمكنك البحث عن مساعدة للأطفال والشبان والأسر."
+          refugees: "عندما تقوم بالنقر هنا؛ تصل إلى كلارات اللاجئين. وفي كلارات-اللاجئين يمكنك البحث عن مساعدة للاجئين"
   simple_form:
     required:
       html: <abbr title="required">*</abbr>
@@ -656,15 +655,14 @@ ar:
       text: required
   subscriptions:
     create:
-      error: 'من فضلك إدخل عنوان بريد إليكتروني صحيح
-
-'
+      error: |
+        من فضلك إدخل عنوان بريد إليكتروني صحيح
       success: |
         شكرا جزيلا؛ لقد قمنا توا بإرسال رابط تأكيد
         على عنوان البريد الإليكتروني الخاص بك
     shared:
       new:
-        button: الإشتراك في المجموعة الإخبارية
+        button: "الإشتراك في المجموعة الإخبارية"
         placeholder: " البريد الإليكتروني"
   update_requests:
     create:
@@ -672,5 +670,5 @@ ar:
         شكرا؛ لقد وصلتنا رسالتك
         وسوف نتواصل معك بمجرد أن يكون لنا نشاط بالقرب منك
     new:
-      button: الرسالة وصلت
-      email_placeholder: عنوان البريد الإليكتروني
+      button: "الرسالة وصلت"
+      email_placeholder: "عنوان البريد الإليكتروني"

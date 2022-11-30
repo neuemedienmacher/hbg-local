@@ -1,672 +1,665 @@
-en:
+ru:
   cells:
     contact_people:
-      dr: Dr.
-      email: 'E-mail:'
-      fax: 'Fax:'
-      female: Ms.
-      heading: How can you get in touch?
-      male: Mr.
-      obfuscated_email: |+
-        This e-mail address is protected from spam bots. You must enable
-        JavaScript in your browser to view it.
-
-      phone: 'Telephone:'
-      prof_dr: Prof. Dr.
+      dr: "Д-р"
+      email: "Электронная почта:"
+      fax: "Факс:"
+      female: "Ж"
+      heading: "Куда можно обратиться?"
+      male: "М"
+      obfuscated_email: "Эта электронная почта защищена от спама с помощью программы “JavaScript”. Вам нужно активировать программу, чтобы увидеть адрес."
+      phone: "Телефон:"
+      prof_dr: "Проф. д-р."
   conf:
-    current_location: My location
-    default_latlng: 52.520007,13.404954
-    default_location: Berlin
+    current_location: "Мое местоположение"
+    default_latlng: 
+    default_location: "Берлин"
   contacts:
     create:
-      success: Message successfully sent.
+      success: "Сообщение успешно отправлено. "
     new:
-      contact_heading: What would you like to tell us?
+      contact_heading: "О чем вы хотите нам сообщить?"
     shared:
       new:
-        back_to_hp: back to the homepage
-        city_placeholder: place of residence (optional)
+        back_to_hp: "назад на стартовую страницу"
+        city_placeholder: "Место проживания (по желанию)"
         email_placeholder:
           required:
-            'false': Email address (optional)
-            'true': Email address (obligatory)
-        message_placeholder: Enter message (obligatory)
-        name_placeholder: Name (obligatory)
-        send: Send
-        send_us_a_message: Write us a message
+            'false': "Электронная почта (по желанию)"
+            'true': "Электронная почта (обязательно)"
+        message_placeholder: "Сообщение (обязательно)"
+        name_placeholder: "Фамилия (обязательно)"
+        send: "Отправить"
+        send_us_a_message: "Отправьте нам сообщение"
   emails:
     offers_index:
-      button_accept: I accept
-      button_deny: I do not accept
-      explanation_1:
-      explanation_2:
-      explanation_3:
-      heading: Offers from %{email}
-      info: Info
-      tos: Consent to the use of data for further purposes
-      tos_acceptance_headline:
-      tos_acceptance_text:
-      tos_denial_headline:
-      tos_denial_text:
-      tos_explanation:
-      tos_were_accepted:
-      tos_were_denied:
-      tos_were_denied_explanation:
+      button_accept: "Я согласен(-на)"
+      button_deny: "Я не согласен(-на)"
+      explanation_1: "Здесь вы найдете все ваши предложения, которые в настоящий момент доступны в локальном поиске “Handbook Germany”. Это все найденные нами предложения, в которых был указан адрес вашей электронной почты. "
+      explanation_2: "Если вы согласны с тем, чтобы мы включили вас в нашу базу данных, а также и дальше искали новые предложения от вас, то ссылки на них вы найдете здесь."
+      explanation_3: "Вы можете сохранить сайт в закладках и тем самым вы всегда будете в курсе, какие ваши предложения в настоящий момент доступны в локальном поиске “Handbook Germany”."
+      heading: "Предложения от %{email}"
+      info: "Информация"
+      tos: "Разрешение на обработку данных для других целей"
+      tos_acceptance_headline: "Согласие"
+      tos_acceptance_text: "Настоящим я даю согласие на обработку и использование моих данных с целью предоставления моих предложений в базе данных локального поиска “Handbook Germany” (Neue deutsche Medienmacher*innen e.V.). Свое согласие я могу отменить в любой момент. В этом случае Neue deutsche Medienmacher*innen e.V. незамедлительно удалит собранную информацию из своей базы данных. Я также даю свое согласие на то, что “Handbook Germany” раз в год будет присылать информацию о моих предложениях, хранящихся в базе данных, с целью проверить их актуальность. Свое согласие на это я также могу в любой момент отменить. В этом случае я больше не буду получать сообщений от Neuen deutschen Medienmacher*innen e.V."
+      tos_denial_headline: "Отказ"
+      tos_denial_text: "Я не хочу, чтобы мои предложения отображались в локальной поисковой системе “Handbook Germany” (Neue deutsche Medienmacher*innen), и прошу удалить их базы данных."
+      tos_explanation: "В связи с действующими правилами защиты персональных данных мы хотели бы получить ваше согласие на то, чтобы внести в нашу базу данных, как информацию о вашем предложении, так и контактные данные, включая и адрес электронной почты."
+      tos_were_accepted: "Политика конфиденциальности была принята. "
+      tos_were_denied: "Политика конфиденциальности была отклонена. "
+      tos_were_denied_explanation: "Ваши предложения будут удалены из базы данных. "
   js:
     ajax_error:
-      error: Search error
-      message: |
-        We are sorry but an error occurred during the search. Please contact us
-        if this problem reoccurs.
-    autocomplete_footer: All %{results} search results for '%{query}'
+      error: "Ошибка поиска"
+      message: "\nВ процессе поиска, к сожалению, возникла ошибка. Пожалуйста, свяжитесь с нами, если проблема повторится. "
+    autocomplete_footer: "Все %{results} результаты для „%{query}“"
     categories_sidebar:
-      all_categories: All categories
-    cookie_warning_html: |-
-      Cookies help us deliver our services. By using the website you agree to our
-      use of cookies.
-      <a href="/en/refugees/privacy">More</a>.
+      all_categories: "Все категории"
+    cookie_warning_html: "Файлы “cookies” необходимы для работы сайты. Пользуясь им, вы соглашаетесь на использование cookies. \n<a href=\"/refugees/datenschutzhinweise\">Подробнее</a>."
     geolocation:
-      error: Location not found. Please enter it manually.
-      fallback: Alexanderplatz, Berlin, Germany
+      error: "Местоположение не определено. Пожалуйста, введите его вручную. "
+      fallback: "Александерплац, Берлин, Германия"
       fallback_clarification:
-        code1: You're not near Alexanderplatz? Then please enter your address, post code or city here.
-        code2: Sorry, unfortunately we are unable to determine your location. So we're going to use Alexanderplatz in Berlin as your location instead. If this location isn't near where you are, then please enter your address, post code or city here.
-        code3: Sorry, unfortunately we are unable to determine your location. So we're going to use Alexanderplatz in Berlin as your location instead. If this location isn't near where you are, then please enter your address, post code or city here.
-        code4: Sorry, unfortunately we are unable to determine your location. So we're going to use Alexanderplatz in Berlin as your location instead. If this location isn't near where you are, then please enter your address, post code or city here.
-      get: Use my location.
-      waiting: Searching location... You might have to allow this.
+        code1: "Вы не находитесь рядом с Александерплац в Берлине? Тогда, пожалуйста, укажите ваш адрес, почтовый индекс или город. "
+        code2: "К сожалению, нам не удалось определить ваше местоположение. Поэтому мы будем искать на Александерплац в Берлине. Если это не рядом с вами, пожалуйста, укажите ваш адрес, почтовый индекс или город."
+        code3: "К сожалению, нам не удалось определить ваше местоположение. Поэтому мы будем искать на Александерплац в Берлине. Если это не рядом с вами, пожалуйста, укажите ваш адрес, почтовый индекс или город."
+        code4: "К сожалению, нам не удалось определить ваше местоположение. Поэтому мы будем искать на Александерплац в Берлине. Если это не рядом с вами, пожалуйста, укажите ваш адрес, почтовый индекс или город."
+      get: "Разрешить использовать местоположение"
+      waiting: "Определяем местоположение… Возможно, что вам сперва необходимо дать на это свое разрешение. "
     lang_list_toggle:
-      less: Show fewer languages
-      more: Show more languages
-    less_filter_options: Show less filters
-    location_required: 'Please enter a location at which you want to search for help.
-
-'
+      less: "Показать меньшее количество языков"
+      more: "Показать большее количество языков"
+    less_filter_options: "Показать меньшее количество фильтров"
+    location_required: "Укажите город/населенный пункт, где бы вы хотели получить помощь. "
     map_info_window_multiple:
-      anchor: Show all >>
-      text: There are multiple results for this address.
-      title: More support services and programmes
-    mobile_filter: Filter results
-    more_filter_options: Show more filters
+      anchor: "Посмотреть все >>"
+      text: "По указанному адресу было найдено несколько результатов."
+      title: "Дополнительные программы помощи"
+    mobile_filter: "Отсортировать результаты"
+    more_filter_options: "Показать большее количество фильтров"
     query_field:
-      example_placeholder: e.g. %{word}…
+      example_placeholder: "Например, %{word}…"
       placeholder_words:
         family:
-        - adoption
-        - drugs
-        - violence
-        - private lessons
-        - emergency
-        - orphan
-        - unemployed
-        - food
-        - ill
-        - homeless
-        - smoking
-        - pregnant
-        - gay
-        - skipping school
+        - "наркотические вещества"
+        - "насилие"
+        - "репетиторство"
+        - "чрезвычайная ситуация"
+        - "право"
+        - "безработный(-ая)"
+        - "проблемы с воспитанием детей"
+        - "расстройство пищевого поведения"
+        - "бездомный(-ая)"
+        - "проблемы в семье"
+        - "беременность"
+        - "ссора"
+        - "проживание"
         refugees:
-        - citizenship
-        - German course
-        - post-war trauma
-        - PTSD
-        - asylum
-        - health care
-        - authorities
-        - residence
+        - "гражданство"
+        - "курсы немецкого языка"
+        - "признание"
+        - "военная травма"
+        - "процесс рассмотрения заявления о предоставлении убежища"
+        - "медицинское обслуживание"
+        - "ведомства"
+        - "пребывание в Германии и ваши права"
     routes:
-      faq: frequently-asked-questions
+      faq: "Часто задаваемые вопросы"
     search:
-      form_less_label: hide search options
-      form_more_label: show search options
+      form_less_label: "Скрыть параметры поиска"
+      form_more_label: "Показать параметры поиска"
       headlines:
-        age: Age of child
-        approach: By which means?
-        gender: Gender
-        language: Language
-        main: search results
-        residency_status: Residency status
-        sort: Sort by
-        target_audience: For whom?
-      option_any: any
+        age: "Возраст ребенка"
+        approach: "Каким образом?"
+        gender: "Пол"
+        language: "Язык"
+        main: "Результаты поиска"
+        residency_status: "Статус пребывания "
+        sort: "Сортировать по"
+        target_audience: "На кого рассчитана помощь?"
+      option_any: "не имеет значения"
       pagination:
-        back: Previous
-        gap: "…"
-        next: Next
-      reset_label: reset all
+        back: "Назад"
+        gap: "..."
+        next: "Далее"
+      reset_label: "Сбросить все"
       sort:
-        nearby: nearby
-        relevance: Best matches
+        nearby: "Поблизости"
+        relevance: "Лучшее предложение"
       tabs:
-        categories: Categories
-        filter: Filter
-        map: Map
+        categories: "Категории"
+        filter: "Фильтр"
+        map: "Карта"
     search_results:
-      bridge: for the search term
-      enclosing: found
-      faq_anchor: here
-      faq_text: 'If you have questions about our search you can find our FAQ '
+      bridge: "Для поискового запроса"
+      enclosing: "Найдено"
+      faq_anchor: "Здесь"
+      faq_text: "Часто задаваемые вопросы по поиску и ответы на них вы найдете "
       language_explanation:
-        connector: and
-        text: This support service is available in %{language_list}.
+        connector: "и"
+        text: "Это предложение существует на %{language_list}."
       map:
-        cooperation: cooperation project
-        enlarge_map: Enlarge map
-        headline_small_map: Local support services on the map
-      more: More telephone and online support services
+        cooperation: "Совместный проект"
+        enlarge_map: "Увеличить карту "
+        headline_small_map: "Показать местные предложения на карте"
+      more: "Другие телефонные- и онлайн-предложения"
       off_canvas:
-        result_text: Show %{result_count} results
+        result_text: "%{result_count} Показать результаты поиска"
       personal_anchor:
-        one: One local offer
-        other: "%{count} local offers"
-        zero: No local offers found
+        one:
+        other:
+        zero: 
       personal_offers_new:
-        _query:
+        _query: 
         category:
+          one:
+          other:
+          zero:  
         category_query:
+          one:
+          other:
+          zero:  
         default:
+          one:
+          other:
+          zero:  
       remote_anchor:
-        one: One remote offer
-        other: "%{count} remote offers"
-        zero: No remote offers
+        one:
+        other:
+        zero:  
       remote_offers_new:
         _query:
+          one:
+          other:
+          zero:  
         category:
+          one:
+          other:
+          zero:  
         category_query:
+          one:
+          other:
+          zero:  
         default:
-      show_personal: Show local offers
+          one:
+          other:
+          zero:  
+      show_personal: "Показать местные предложения"
     shared:
       current_and_original_locale:
-        "'150'": German Sign Language - Deutsche Gebärdensprache
-        "'326'": Ukrainian - українська
-        "'568'": Dutch - Nederlands
-        "'639'": Dari - دری
-        '150': German Sign Language - Deutsche Gebärdensprache
-        '326': Ukrainian - українська
-        '568': Dutch - Nederlands
-        '639': Dari - دری
-        aar: 'Afar - Qafar-áf '
-        abk: Abkhaz - аҧсуа бызшәа
-        amh: Amharic - አማርኛ
-        ara: Arabic - عربي
-        arc: Aramaic - ארמית / Arāmît
-        arm: Armenian - Հայերեն / Hajeren
-        aze: Azerbaijani - Azərbaycan
-        bam: Bambara - Bamanankan
-        ban: Balinese - Basa Bali
-        bel: Belarusian - беларуская мова
-        ben: Bengalese - বাংলা
-        ber: Berber - Tamaziɣt
-        bos: Bosnian - bosanski
-        bul: Bulgarian - български
-        bur: Burmese - မြန်မာစာ
-        cau: Abaza - абаза бызшва
-        che: Chechen - Noxčiyn mott/Нохчийн мотт
-        ckb: 'Sorani - سۆرانی '
-        cpe: Kamtok - Pidgin
-        cus: Saho - ሳሆኛ
-        cze: Czech - čeština
-        dan: Danish - Dansk
-        deu: German - Deutsch
-        dje: Zarma - Djerma
-        dyu: Jula - Julakan
-        ell: Greek - ελληνικά
-        eng: English
-        est: Estonian - eesti keel
-        ewe: Ewe - Eʋegbe
-        ewo: Ewondo / Kolo - Ewondo
-        fas: Persian (Farsi) - فارسی
-        fil: Filipino - Wikang Filipino
-        fin: Finnish - suomi
-        fra: French - Français
-        fuf: Pular - Pular
-        ful: Ful - Fulfulde
-        gej: Gen - Mina
-        geo: Georgian - ქართული
-        hau: Hausa - Hausanci
-        hbs: Montenegrin - Crnogorski jezik / Црногорски језик
-        heb: Hebrew - עברית
-        hin: Hindi - हिन्दी
-        hrv: Kroatian - hrvatski
-        hun: Hungarian - magyar
-        ita: Italian - italiano
-        jpn: Japanese - 日本語
-        kik: Kikuyu - Gĩkũyũ
-        kin: Kinyarwanda - kinyaRwanda
-        kor: Korean - 한국말 / 조선말
-        kur: Kurdish - کوردی
-        lav: Latvian - latviešu
-        lin: Lingala - Ngála
-        lit: Lithuanian - lietuvių
-        ltz: Luxembourgish - Lëtzebuergesch
-        luo: Luo - Dholuo
-        man: Maninka - Maninka
-        mkd: Macedonian - македонски
-        mos: Mossi - Mòoré
-        msa: Malay – بهاس ملايو
-        mul: more languages upon request
-        nor: Norwegian - Norsk
-        pan: Punjabi - پنجابی / ਪੰਜਾਬੀ
-        pol: Polish - polski
-        por: Portuguese - português
-        pus: Pashto - پښتو‎
-        rom: Romany - Romani
-        ron: Romanian - română
-        run: Kirundi
-        rus: Russian - русский
-        sdh: Kurmanji - كورمانجى / Kurmancî
-        skr: Serbo-Croatian - српскохрватски / hrvatskosrpski
-        slo: Slovak - slovenský jazyk
-        slv: Slovene - Slovenščina
-        snk: Soninke - Soninkanxaane
-        som: Somali - Soomaali
-        spa: Spanish - español
-        sqi: Albanian - Shqipja
-        srp: Serbian - српски
-        sus: Susu - Sosoxui
-        swa: Swahili - Kiswahili
-        swe: Swedish - svenska
-        tam: Tamil - தமிழ்
-        tel: Telugu - తెలుగు
-        tgk: Tadjik - тоҷикӣ / تاجیکی
-        tgl: Tagalog language - Tagálog
-        tha: Thai - ภาษาไทย
-        tig: Tigre - ትግሬ
-        tir: Tigrigna - ትግርኛ
-        tuk: Turkmen - Türkmençe / Tүркменче
-        tur: Turkish - Türkçe
-        twi: Twi - Twi
-        ukr: Ukrainian - Українська
-        urd: Urdu - اردو
-        uzb: Uzbek - Oʻzbek tili
-        vie: Vietnamese - tiếng Việt
-        wol: Wolof - wɔlɔf
-        xxx: speech-acc. gestures
-        zho: Chinese - 普通话 / 普通話
-        zza: Zaza - Zazaki / Kırmancki
+        "'150'": "Немецкий язык жестов"
+        "'326'": "Украинский язык - українська мова"
+        "'568'": "Нидерландский язык - Nederlands"
+        "'639'": "Язык дари - دری"
+        '150': "Немецкий язык жестов"
+        '326': "Украинский язык - українська мова"
+        '568': "Нидерландский язык - Nederlands"
+        '639': "Язык дари - دری"
+        aar: "Афарский язык  - Qafar-áf"
+        abk: "Абхазский язык - аҧсуа бызшәа"
+        amh: "Амхарский язык - አማርኛ"
+        ara: "Арабский язык - عربي"
+        arc: "Арамейский язык - ארמית / Arāmît"
+        arm: "Армянский язык - Հայերեն / Hajeren"
+        aze: "Азербайджанский язык - Azərbaycan"
+        bam: "Язык бамана (бамбара) - Bamanankan"
+        ban: "Балинезийский язык - Basa Bali"
+        bel: "Белорусский язык - беларуская мова"
+        ben: "Бенгальский язык - বাংলা"
+        ber: "Берберский язык - Tamaziɣt"
+        bos: "Боснийский язык - bosanski"
+        bul: "Болгарский язык - български"
+        bur: "Бирманский язык - မြန်မာစာ"
+        cau: "Абазинский язык - абаза бызшва"
+        che: "Чеченский язык - Noxčiyn mott/Нохчийн мотт"
+        ckb: "Язык сорани - سۆرانی"
+        cpe: "Камерунский пиджин - Pidgin"
+        cus: "Язык сахо - ሳሆኛ"
+        cze: "Чешский язык - čeština"
+        dan: "Датский язык - Dansk"
+        deu: "Немецкий язык - Deutsch"
+        dje: "Язык зарма - Djerma"
+        dyu: "Язык дьюла - Julakan"
+        ell: "Греческий язык - ελληνικά"
+        eng: "Английский язык - English"
+        est: "Эстонский язык - eesti keel"
+        ewe: "Язык эве - Eʋegbe"
+        ewo: "Язык эвондо - Ewondo"
+        fas: "Персидский язык (фарси) - فارسی"
+        fil: "Филиппинский язык - Wikang Filipino"
+        fin: "Финский язык - suomi"
+        fra: "Французский язык - Français"
+        fuf: "Язык пулар - Pular"
+        ful: "Язык фула - Fulfulde"
+        gej: "Язык ген - Mina"
+        geo: "Грузинский язык - ქართული"
+        hau: "Язык хауса - Hausanci"
+        hbs: "Черногорский язык - Crnogorski jezik / Црногорски језик"
+        heb: "Иврит - עברית"
+        hin: "Хинди - हिन्दी"
+        hrv: "Хорватский язык - hrvatski"
+        hun: "Венгерский язык - magyar"
+        ita: "Итальянский язык - italiano"
+        jpn: "Японский язык - 日本語"
+        kik: "язык кикуйю - Gĩkũyũ"
+        kin: "Язык киньяруанда - kinyaRwanda"
+        kor: "Корейский язык - 한국말 / 조선말"
+        kur: "Курдский язык - کوردی"
+        lav: "Латышский язык - latviešu"
+        lin: "Язык лингала - Ngála"
+        lit: "Литовский язык - lietuvių"
+        ltz: "Люксембургский язык - Lëtzebuergesch"
+        luo: "Язык луво - Dholuo"
+        man: "Язык манинка - Maninka"
+        mkd: "Македонский язык - македонски"
+        mos: "Язык мооре - Moose"
+        msa: "Малайский язык – بهاس ملايو"
+        mul: "Другие языки по запросу"
+        nor: "Норвежский язык - Norsk"
+        pan: "Язык панджаби - پنجابی / ਪੰਜਾਬੀ"
+        pol: "Польский язык - polski"
+        por: "Португальский язык - português"
+        pus: "Язык пушту - پښتو"
+        rom: "Язык романи - Romani"
+        ron: "Румынский язык - română"
+        run: "Язык рунди (кирунди) - Kirundi"
+        rus: "Русский язык"
+        sdh: "Язык курманджи - كورمانجى / Kurmancî"
+        skr: "Сербохорватский язык - српскохрватски / hrvatskosrpski"
+        slo: "Словацкий язык - slovenský jazyk"
+        slv: "Словенский язык - Slovenščina"
+        snk: "Язык сонинке - Soninkanxaane"
+        som: "Сомалийский язык - Soomaali"
+        spa: "Испанский язык - español"
+        sqi: "Албанский язык - Shqipja"
+        srp: "Сербский язык - српски"
+        sus: "Язык сусу - Sosoxui"
+        swa: "Язык суахили - Kiswahili"
+        swe: "Шведский язык - svenska"
+        tam: "Тамильский язык - தமிழ்"
+        tel: "Язык телугу - తెలుగు"
+        tgk: "Таджикский язык - тоҷикӣ / تاجیکی"
+        tgl: "Тагальский язык - Tagálog"
+        tha: "Тайский язык - ภาษาไทย"
+        tig: "Язык тигре - ትግሬ"
+        tir: "Язык тигринья - ትግርኛ"
+        tuk: "Туркменский язык - Türkmençe / Tүркменче"
+        tur: "Турецкий язык - Türkçe"
+        twi: "Язык чви - Twi"
+        ukr: 
+        urd: "Язык урду - اردو"
+        uzb: "Узбекский язык - Oʻzbek tili"
+        vie: "Вьетнамский язык - tiếng Việt"
+        wol: "Язык волоф - wɔlɔf"
+        xxx: "Маноральная речь - speech-acc. gestures"
+        zho: "Китайский язык - 普通话 / 普通話"
+        zza: "Язык зазаки - Zazaki / Kırmancki"
     shariff:
-      share_label: Share
+      share_label: "Поделиться"
     single_search_result:
       encounters:
-        chat: chat
-        email: email
-        forum: forum
-        hotline: telephone
-        online-course: online course
-        personal: personal
-        portal: address list
+        chat: "Чат"
+        email: "Электронная почта"
+        forum: "Форум"
+        hotline: "Телефон"
+        online-course: "Онлайн-курс"
+        personal: "Персональный"
+        portal: "Список адресов "
   layouts:
     modal_create:
       js:
         erb:
-          success: Email successfully entered!
+          success: "Электронная почта успешно зарегистрирована!"
     partials:
       banner:
         teaser:
-          link: Find out more
-          refugees: Soon with support services for newcomers
-          text: Handbook Germany local search is currently under construction
+          link: "Здесь вы сможете узнать подробнее"
+          refugees: "Скоро появятся и предложения для беженцев"
+          text: "Локальный поиск Handbook Germany в настоящий момент находится в разработке"
       callout:
         callout:
           how:
             refugees:
-              heading: How does Handbook Germany local search work?
-              text: Enter your problem into the search field and the area where you are looking. Click on the magnifying glass. The support services in your area will show up instantly.
+              heading: "Как устроен локальный поиск Handbook Germany?"
+              text: "Укажите в поиске вашу проблему, а также город/населенный пункт. Нажмите на значок лупы. После этого вы узнаете, какие предложения доступны недалеко от вас."
           what:
             refugees:
-              heading: What can you find here?
-              text: 'Information about support services in your area. For problems with: asylum & law, family, health, learning & work and violence & crime.'
+              heading: "Что вы сможете здесь найти?"
+              text: "Информацию о том, какую помощь вы сможете получить поблизости. В следующих категориях: убежище и право, семья, здоровье, работа и учеба, насилие и преступность. "
           who:
             refugees:
-              heading: Who can find help here?
-              text: Everyone who has come to Germany as a newcomer. Refugee children and young people, too. And people who are looking for help for refugees.
+              heading: "Кто может найти здесь помощь?"
+              text: "Все, кто приехали в Германию, включая детей и подростков. А также те, кто помогают другим и ищут предложения помощи для них. "
         callout_neutral:
           how:
-            heading: How do we help?
-            text: We help you find the right help near you. We sort all the support services and make them understandable through simple language.
+            heading: "Как мы можем вам помочь?"
+            text: "Мы помогаем найти подходящую помощь недалеко от вас. Мы систематизируем предложения и переводим их на доступный язык. "
           what:
-            heading: What do we want?
-            text: Handbook Germany local search explains - about support services in Germany. Because we want everyone to find the help they need.
+            heading: "Почему мы это делаем?"
+            text: "Локальный поиск Handbook Germany собирает информацию о доступных предложениях помощи в Германии. Так как мы считаем, что каждый, кому необходима помощь, должен ее получить. "
           who:
-            heading: Who are we?
-            text: We are a non-profit project of the Benckiser Stiftung Zukunft. The foundation aims to help children, young people and families in difficult situations.
+            heading: "Кто мы?"
+            text: 'Handbook Germany – это проект организации "Neue deutsche Medienmacher". Он реализуется при поддержке Bundesbeauftragte für Migration, Flüchtlinge und Integration. '
       footer:
-        about: About us
-        blog: Blog
-        contact: Contact
+        about: "О нас"
+        blog: "Блог"
+        contact: "Контакт"
         facebook_refugees: Handbook Germany
-        faq: FAQ
+        faq: "Часто задаваемые вопросы"
         fb:
           anchor: Facebook
-          href: https://www.facebook.com/HandbookGermany
+          href: https://www.facebook.com/HandbookGermany/
         gplus:
           anchor: Google+
-          href: https://plus.google.com/110429028641743127592/about
-        impressum: Imprint
-        plus: Handbook Germany local search plus
-        privacy: Privacy
-        tos: Legal
+          href: 
+        impressum: "Выходные данные"
+        plus: "Локальный поиск Handbook Germany +"
+        privacy: "Политика конфиденциальности"
+        tos: "Правовая информация"
         twitter:
           anchor: Twitter
           href: https://twitter.com/handbookgermany
       header:
-        about: About us
-        blog: Blog
-        contact: Contact
-        faq: FAQ
+        about: "О нас"
+        blog: "Блог"
+        contact: "Контакт"
+        faq: "Часто задаваемые вопросы"
         languages:
-          ar: عربي
+          ar: "عربي"
           de: Deutsch
           en: English
-          fa: فارسی
+          fa: "فارسی"
           fr: Français
           pl: Polski
+          ps: "پښتو"
+          ru: 
           tr: Türkçe
-          uk: Українська
-          ru: Pусский
+          uk: 
       hero:
         claim:
-          family: Support services for children, teenagers and families
+          family: "Помощь для детей, подростков и семей"
         hero:
-          button_label: Learn more
-          logline: Find the right help for you - simply explained and clear
+          button_label: "Узнать подробнее"
+          logline: "Найдите помощь, которая подойдет именно вам - просто и понятно"
       modal:
         beta_modal:
-          link: write us a message.
-          text: |-
-            Our website Handbook Germany local search is just getting started. You can already find
-            many support services and programmes in Berlin. Soon we will be collecting support services for other
-            cities as well. And we appreciate your help: is there anything you think we could do better?
-            Or is something not working? Simply
-        unavailable_location_modal: At the moment, we only have telephone or online support services for your current location. That means you can get help over the telephone. Or online. For example, via e-mail or over chat. We will let you know as soon as there are support services near you. Please enter your e-mail address here.
+          link: "Напишите нам сообщение."
+          text: "Локальный поиск Handbook Germany был запущен совсем недавно. В нашей базе данных уже много предложений из Берлина. Информация из других городах находится в процессе сбора. Мы будем рады любой помощи. Если вы нашли полезную информацию, ошибку или что-то не работает, тогда"
+        unavailable_location_modal: "По вашему местоположению в базе данных Handbook Germany в настоящий момент были найдены предложения, где получить помощь можно только по телефону или онлайн. Например, при помощи чата или электронной почты. Мы с удовольствием сообщим, когда появятся предложения помощи рядом с вами. Если вы в этом заинтересованы, оставьте свою электронную почту. "
       navigation:
-        category_headline: Search by categories
+        category_headline: "Или поищите по категориям"
         claim:
-          family: Support services for children, teenagers and families
-          main: Find help easily
-          refugees: Support services for newcomers
+          family: "Помощь для детей, подростков и семей"
+          main: "Найти помощь"
+          refugees: "Помощь для беженцев и соискателей убежища"
       top_bar:
-        german_content_warning: Legal information can only be viewed in German
+        german_content_warning: "Выбрать язык"
         languages:
-          ar: عربي
+          ar: "عربي"
           de: Deutsch
           en: English
-          fa: فارسی
+          fa: "فارسی"
           fr: Français
           pl: Polski
-          ps: پښتو
+          ps: "پښتو"
+          ru: 
           tr: Türkçe
-        title: Automated translations!
+          uk: 
+        title: "Выбрать язык"
   offers:
     index:
       filters:
         json:
           age:
-            one: 1 year
-            other: "%{count} years"
-            zero: "< 1 year"
+            one:
+            other:
+            zero:  
           contact_type:
-            personal: personal
-            remote: by telephone or online
+            personal: "на месте"
+            remote: "по телефону или онлайн"
           encounter:
-            chat: Chat
-            email: Email
-            fax: Fax
-            forum: Forum
-            hotline: Telephone
-            letter: Letter
-            online-course: Online-course
-            portal: address list
+            chat: "Чат"
+            email: "Электронная почта"
+            fax: "Факс"
+            forum: "Форум"
+            hotline: "Телефон"
+            letter: "Письмо"
+            online-course: "Онлайн-курс"
+            portal: "Список адресов"
           exclusive_gender:
-            boys_only: boys and men only
-            female: girls and women only
-            girls_only: girls and women only
-            male: boys and men only
+            boys_only: "только для мальчиков и мужчин"
+            female: "только для девочек и женщин"
+            girls_only: "только для девочек и женщин"
+            male: "только для мальчиков и мужчин"
           residency_status:
-            before_the_asylum_decision: during the asylum procedure
-            with_a_residence_permit: with a residence permit
-            with_deportation_decision: with deportation notice
-            with_temporary_suspension_of_deportation: with temporary suspension of deportation
+            before_the_asylum_decision: "в процессе рассмотрения заявления о предоставлении убежища"
+            with_a_residence_permit: "с разрешением на пребывание в Германии"
+            with_deportation_decision: c уведомлением о депортации
+            with_temporary_suspension_of_deportation: "с отсрочкой депортации (Duldung)"
           target_audience:
-            children: for children and teenagers
-            family_children: for children and teenagers
-            family_nuclear_family: for families
-            family_parents: for parents
-            family_parents_to_be: for parents to be
-            family_pregnant_woman: for pregnant women
-            family_relatives: for friends and family
-            nuclear_family: for families
-            parents: for parents
-            pregnant_woman: for pregnant women
-            refugees_children: for refugee children
-            refugees_families: for refugee families
-            refugees_general: for refugees
-            refugees_parents: for refugee parents
-            refugees_parents_to_be: for refugee expectant parents
-            refugees_uf: for unaccompanied refugees
-            relatives: for friends and family
-            immigrants_general: for immigrants
-            immigrants_adults: for adult immigrants
-            immigrants_children: for immigrant children and teenager
-            immigrants_families: for immigrant families
+            children: "для детей и подростков"
+            family_children: "для детей и подростков"
+            family_nuclear_family: "для семей"
+            family_parents: "для родителей"
+            family_parents_to_be: "для будущих родителей"
+            family_pregnant_woman: "для беременных"
+            family_relatives: "для родственников и знакомых"
+            immigrants_adults: 
+            immigrants_children: 
+            immigrants_families: 
+            immigrants_general: 
+            nuclear_family: "для семей"
+            parents: "для родителей"
+            pregnant_woman: "для беременных"
+            refugees_children: "для детей-беженцев"
+            refugees_families: "для семей, запросивших/получивших убежище "
+            refugees_general: "для беженцев и соискателей убежища"
+            refugees_parents: "для родителей, запросивших/получивших убежище "
+            refugees_parents_to_be: "для будущих родителей, запросивших/получивших убежище "
+            refugees_uf: "для несовершеннолетних беженцев без сопровождения "
+            relatives: "для родственников и знакомых"
       map_sidebar:
-        map_output_searchresults: map output of the search results
-      noscript_warning: |
-        We are sorry, but in order to use our search, you need to have
-        JavaScript enabled in your browser.
+        map_output_searchresults: "Карта результатов поиска"
+      noscript_warning: "Чтобы пользоваться нашим поиском, в вашем интернет-браузере должен быть активирован JavaScript."
       pending_ajax:
-        searching: Searching…
+        searching: "Поиск..."
     invalid_location:
-      text: |
-        Please check your entry or try searching for something else.
-        (E.g "ZIP, Location").
-      title: Unfortunately we couldn't find the location you entered
+      text: "Пожалуйста, проверьте указанные вами данные или попробуйте поискать, например, при помощи почтового индекса. "
+      title: "К сожалению, мы не смогли найти указанное вами местоположение"
     shared:
       search_form:
-        button: Search
-        loc_label: Where
+        button: "Искать"
+        loc_label: "Где"
         loc_placeholder:
-          long: Address, district, city or post code
-          short: Address, district, city or post code
-        query_label: What
+          long: "Адрес, район города, город или почтовый индекс"
+          short: "Адрес, район города, населенный пункт или почтовый индекс"
+        query_label: "Что"
         query_placeholder:
-          long: Support services and programmes connected with...
-          short: Support services about  …
+          long: "Предложения по теме…"
+          short: "Предложения к..."
     show:
-      last_update: Entry last modified on
+      last_update: "Последний раз данные были актуализированы"
       next_steps:
-        code_word: 'This is what the service provider calls this support service:'
-        heading: What do you have to do?
+        code_word: "Так это предложение называется у его организатора:"
+        heading: "Что вам следует сделать?"
       opening_section:
         days:
-          fri: Friday
-          mon: Monday
-          sat: Saturday
-          sun: Sunday
-          thu: Thursday
-          tue: Tuesday
-          wed: Wednesday
-        heading: When can you do that?
-      speaking: What languages do they speak?
+          fri: "Пятница"
+          mon: "Понедельник"
+          sat: "Суббота"
+          sun: "Воскресенье"
+          thu: "Четверг "
+          tue: "Вторник"
+          wed: "Среда"
+        heading: "Когда вы сможете это сделать?"
+      speaking: "На каком языке вы сможете получить помощь?"
       trait_filters:
         explanation:
-          accessibility: That means you can come here if you're in a wheelchair. Or if you have a pushchair or a pram.
-          anonymous: That means you won't have to tell anyone your name.
-          confidential: That means the staff won't tell anybody-else anything you tell them.
+          accessibility: "Это означает, что здесь вы можете без проблем передвигаться на кресле-коляске или с детской коляской. "
+          anonymous: "Это означает, что вы не обязаны называть ваше настоящее имя. "
+          confidential: "Это означает, что все сказанное останется между вами и сотрудниками. "
         title:
-          accessibility: disabled and pushchair access
-          anonymous: anonymous
-          charged: for a fee
-          confidential: confidential
-          day_and_night: day and night
-          free: free of charge
-      trait_filters_headline: Additional information
+          accessibility: "безбарьерная среда"
+          anonymous: "анонимно"
+          charged: "платно"
+          confidential: "конфиденциально"
+          day_and_night: "круглосуточно"
+          free: "бесплатно"
+      trait_filters_headline: "Дополнительная информация"
       website_section:
-        internet_presence: Where can you get more information online?
+        internet_presence: "Где можно узнать подробнее онлайн?"
         websites:
-          application_form: Application form
-          chat: Online chat
-          contact_form: Contact Form
-          document: Further information
+          application_form: "Формуляр для регистрации"
+          chat: "Чат"
+          contact_form: "Формуляр обратной связи"
+          document: "Дополнительная информация"
           facebook: Facebook
-          forum: Forum
+          forum: "Форум"
           gplus: Google+
-          online_consulting: Online advising session
-          online_course: Online Course
-          own: Website
+          online_consulting: "Онлайн-консультация"
+          online_course: "Онлайн-курс"
+          own: "Сайт"
           pinterest: Pinterest
           twitter: Twitter
           youtube: Youtube
       what:
-        code_word: 'This is what the service provider calls this support service:'
-        heading: What's this about?
+        code_word: "Так это предложение называется у его организатора:"
+        heading: "О чем идет речь?"
         offertaxonomy:
-          heading: 'The staff here know lots about these topics:'
-      who: Where can you get this help?
+          heading: "Сотрудники могут помочь вам по следующим вопросам: "
+      who: "Где вы сможете получить такую помощь?"
       who_contact_people:
-        dr: Dr.
-        email: 'Email: '
-        fax: 'Fax: '
-        female: Ms.
-        male: Mr.
-        obfuscated_email: |
-          This e-mail address is protected from spam bots, you must enable
-          JavaScript in your browser to view it.
-        phone: 'Telephone: '
-        prof_dr: Prof. Dr.
+        dr: "Д-р"
+        email: "Электронная почта:"
+        fax: "Факс:"
+        female: "Ж"
+        male: "М"
+        obfuscated_email: "Эта электронная почта защищена от спама с помощью программы “JavaScript”. Вам нужно активировать программу, чтобы увидеть адрес."
+        phone: "Телефон:"
+        prof_dr: "Проф. д-р"
       who_location:
-        organizations: 'This is a support service provided by:'
+        organizations: "Предложение от:"
       who_section:
-        heading: How can you get in touch?
+        heading: "Куда можно обратиться?"
   opening:
     display_string:
-      appointment: by appointment
-      midnight_exception: midnight
-      time_format_close: "%l:%M %P"
-      time_format_open: "%l:%M %P"
+      appointment: "по договоренности"
+      midnight_exception: '24:00'
+      time_format_close: "%Ч:%M"
+      time_format_open: "%Ч:%M"
       time_frame: "%{open} - %{close}"
   organizations:
     show:
-      headline-offers--family: Support services for children, teenagers and families
-      headline-offers--refugees: Support services for refugees
-      offers_all: What kind of help does the organization offer?
-      where: Where is the organization located?
-      who: What does this organization do?
+      headline-offers--family: "Помощь для детей, подростков и семей"
+      headline-offers--refugees: "Помощь для беженцев и соискателей убежища"
+      offers_all: "Какую помощь можно получить в этой организации?"
+      where: "Где найти организацию?"
+      who: "Чем занимается организация?"
   pages:
     home:
       explaination:
-        headline: Handbook Germany local search explained in 2 minutes
+        headline: "Коротко о том, что такое локальный поиск Handbook Germany"
       how:
-        heading: How does Handbook Germany local search work?
-        text: "First of all, just enter the problem you need help with. Or whatever\nit is that's worrying you. Or choose from our categories. And we'll show \nyou all the relevant support services offers in your neighbourhood. \nWe'll also tell you how to get this support. For example, if you should \ncall or write an email. Or, just stop by."
+        heading: "Как устроен локальный поиск Handbook Germany?"
+        text: "Сперва укажите, какая помощь вам необходима, либо же выберите одну из предложенных нами тем. После этого вы получите список предложений, которые доступны недалеко от вас. Мы также подскажем вам, каким образом можно будет получить ту или иную помощь - по телефону, электронной почте или же на месте. "
       meta_description:
-        refugees: With Handbook Germany local search, you can easily find help for refugees. Clear and understandable. In many languages. Near you. And all over Germany.
+        refugees: "Локальный поиск Handbook Germany поможет вам найти предложения помощи для беженцев и соискателей убежища на месте. Поиск работает по всей Германии и на многих языках. "
       meta_title:
         refugees: Handbook Germany
       title:
-        family: Help and support services for children, teenagers and families
-        refugees: Help and support services for refugees
+        family: "Помощь для детей, подростков и семей"
+        refugees: "Помощь для беженцев и соискателей убежища"
       whom:
-        heading: Who is Handbook Germany local search for?
-        text: |-
-          Handbook Germany local search is for everyone. Elternleben for children, teenagers and
-          families. Handbook Germany local search for refugees. Here you'll find the right
-          support if you're looking for help. For yourself, your family or your
-          friends. Or for any other people you know who need help.
+        heading: "Кто может пользоваться локальным поиском Handbook Germany?"
+        text: "Локальным поиском Handbook Germany могут пользоваться все желающие. Он предназначен для родителей, детей, подростков, семей, беженцев и соискателей убежища. Если у вас есть вопросы или проблемы, то поиск поможет вам найти необходимую поддержку. Для вас, для членов вашей семьи, друзей или знакомых."
       why:
-        heading: Why does Handbook Germany local search exist?
-        text: "It's easy to find help with Handbook Germany local search. In Germany, there are a lot of\nsupport services for children, teenagers and families. As well as\nfor refugees. But they're often very hard to find. We want to help \nyou find the help you need. You should search on Elternleben if \nyou're looking for help for your family. And on Handbook Germany local search if \nyou're looking for help for refugees."
+        heading: "Для чего необходим локальный поиск Handbook Germany?"
+        text: "Локальный поиск Handbook Germany необходим для того, чтобы быстро найти необходимую помощь. В Германии существуют множество предложений для детей, подростков, семей, беженцев и соискателей убежища. Но, найти их, как правило, не всегда легко. Поэтому мы и создали локальный поиск. "
     impressum:
-      heading: Impressum
-      notice: Handbook Germany local search ist a search engine. Handbook Germany local search tells you where to get help. For example, where you can find an expert to help you with your problem. Handbook Germany local search can only help you to find help.
+      heading: "Выходные данные"
+      notice: "Локальный поиск Handbook Germany - это поисковая система. Благодаря ей вы узнаете, где можно получить ту или иную помощь, или найдете, например, эксперта, который или которая поможет решить вам вашу проблему. Сам поисковик может помочь вам лишь с поиском. "
       responsible_html: |-
-        Vertreten durch die Geschäftsführerin Konstantina Vassiliou-Enz<br/></br>
+        <p>Neue deutsche Medienmacher*innen e.V.<br/></br>
         Amtsgericht Charlottenburg</br>
-        Registernummer: VR28575
-      title: Impressum
+        Номер регистрации: VR28575</p>
+        <h3>Редакция</h3><p>
+        Handbook Germany<br/>
+        Prinzenstr. 103, 10969 Berlin<br/><br/>
+        Tel. +49 (0)30 355 271 24</p>
+      title: "Выходные данные"
     not_found:
-      description: |
-        Enter a term in the search field describing the help you're looking for.
-        Or the problem you're facing. Handbook Germany local search will then show you further help and
-        support offerings in your area. Or go %{start_page} to the main page.
-        Here you can search for offers of help via the icons.
-      heading: Unfortunately we could not find that page.
-      link_text: here
-      title: 404
+      description: "Укажите в поисковике, какую помощь вы ищете или какая у вас проблема. После этого мы покажем вам предложения недалеко от вас. Или перейдите на %{start_page} главную страницу поиска. "
+      heading: "К сожалению, мы не смогли найти эту страницу."
+      link_text: "здесь"
+      title: "Ошибка 404"
     shared:
       address:
-        email: "%{mailto}\n"
-        fax: Fax +49 (0)30 55 57 96 09 9
-        name:
-        street:
-        telephone:
-        zip_city:
+        email: "%{mailto}"
+        fax: "Факс: +49 (0)30 55 57 96 09 9"
+        name: Neue deutsche Medienmacher e.V.
+        street: Potsdamer Str. 99
+        telephone: "Тел: +49 (0)30 219 174 21"
+        zip_city: 10785 Berlin
   routes:
     '404': "'404'"
-    contacts: contact
-    datenschutzhinweise: privacy
-    definitions: definitions
-    emails: emails
-    faq: frequently-asked-questions
-    haeufige-fragen: frequently-asked-questions
-    home: home
-    impressum: impressum
-    kontakt: contact
-    liste: liste
-    liste-de-services:
-    new: new
-    offers: offers
-    organizations: organizations
-    preview: preview
-    rechtliche-hinweise: legal-information
-    refugees:
-    search_locations: search_locations
-    subscribe: subscribe
-    subscriptions: subscriptions
-    ueber-uns: about-us
-    unsubscribe: unsubscribe
-    update_requests: update_requests
-    users: users
-    widget:
-    widget-handbook-germany:
-    widget-hg:
-    widget-start-with-a-friend:
-    widget-swaf:
+    contacts: "контакт"
+    datenschutzhinweise: "политика конфиденциальности"
+    definitions: "определения"
+    emails: "электронная почта"
+    faq: "часто задаваемые вопросы"
+    haeufige-fragen: "часто задаваемые вопросы"
+    home: "домашняя страница"
+    impressum: "выходные данные"
+    kontakt: "контакт"
+    liste: "список"
+    liste-de-services: "список предложений"
+    new: "новый(-ая, -ое)"
+    offers: "предложения"
+    organizations: "организации"
+    preview: "предварительный просмотр"
+    rechtliche-hinweise: "правовая информация"
+    refugees: "беженцы и соискатели убежища"
+    search_locations: "поиск локации"
+    subscribe: "подписаться"
+    subscriptions: "подписки"
+    ueber-uns: "о нас"
+    unsubscribe: "отписаться"
+    update_requests: "обновить запрос"
+    users: "пользователь"
+    widget: "виджет"
+    widget-handbook-germany: "виджет handbook germany"
+    widget-hg: "виджет hg"
+    widget-start-with-a-friend: "виджет начать с другом"
+    widget-swaf: "виджет swaf"
   shareds:
     forms:
-      fill_field: Please fill out this field
+      fill_field: "Пожалуйста, заполните это поле"
     show:
-      cta_report_errors: 'Did you find an error?
-
-'
-      google_translate_explanation: Above on the page, you can click on your language. Then you can read Handbook Germany local search in your language. The Google Translate API did part of the translation. Unfortunately, that sometimes causes grammatical errors. It is also possible that a given sentence sounds a bit funny.
+      cta_report_errors: "Вы обнаружили ошибку?"
+      google_translate_explanation: "На самом верху страницы вы можете выбрать язык, на котором вам будет удобно пользоваться локальным поиском Handbook Germany. Часть перевода будет сделано при помощи Google Translate API, поэтому возможно что-то будет переведено некорректно или даже с ошибками. "
     tooltips:
       welcome:
-        advanced_search: Do you want to refine your search? Click here. Advanced search options will open up automatically.
+        advanced_search: "Вы хотите конкретизировать ваш поиск? Тогда нажмите сюда. Здесь вы сможете выбрать из предложенных вам вариантов."
         world_switch:
-          family: Click here to get to Elternleben. In Elternleben, you can search for help and support services for children, teenagers and families.
-          refugees: Click here to get to Handbook Germany local search. In Handbook Germany local search, you can search for help and support services for refugees.
+          family: "Нажав сюда, вы попадете в раздел, в котором можно поискать помощь для детей, подростков и семей. "
+          refugees: "Нажав сюда, вы попадете в локальный поиск Handbook Germany. Здесь вы сможете поискать помощь для беженцев и соискателей убежища. "
   simple_form:
     required:
       html: <abbr title="required">*</abbr>
       mark: "*"
-      text: required
+      text: "требуется"
   subscriptions:
     create:
-      error: Please enter a valid email address.
-      success: 'Thank you! We just sent a confirmation link to your email address.
-
-'
+      error: "Пожалуйста, правильно укажите адрес электронной почты. "
+      success: "Спасибо, на вашу электронную почту только что была отправлена ссылка для подтверждения."
     shared:
       new:
-        button: Subscribe to our newsletter
-        placeholder: Email address
+        button: "Подписаться на новостную рассылку"
+        placeholder: "Электронная почта"
   update_requests:
     create:
-      success: |-
-        We've received your message, thank you. We will get in touch as soon as we
-        are actively present in your neighbourhood.
+      success: "Спасибо, мы получили ваше сообщение. Когда мы будем активны в вашем регионе, мы обязательно вам об этом сообщим. "
     new:
-      button: Message received
-      email_placeholder: Email address
+      button: "Сообщение доставлено"
+      email_placeholder: "Электронная почта"
