@@ -147,44 +147,44 @@ ru:
       off_canvas:
         result_text: "%{result_count} Показать результаты поиска"
       personal_anchor:
-        one:
-        other:
+        one: 
+        other: 
         zero: 
       personal_offers_new:
         _query: 
         category:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         category_query:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         default:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
       remote_anchor:
-        one:
-        other:
-        zero:  
+        one: 
+        other: 
+        zero: 
       remote_offers_new:
         _query:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         category:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         category_query:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         default:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
       show_personal: "Показать местные предложения"
     shared:
       current_and_original_locale:
@@ -412,9 +412,9 @@ ru:
       filters:
         json:
           age:
-            one:
-            other:
-            zero:  
+            one: 
+            other: 
+            zero: 
           contact_type:
             personal: "на месте"
             remote: "по телефону или онлайн"
@@ -628,10 +628,10 @@ ru:
     update_requests: "обновить запрос"
     users: "пользователь"
     widget: "виджет"
-    widget-handbook-germany: "виджет handbook germany"
-    widget-hg: "виджет hg"
-    widget-start-with-a-friend: "виджет начать с другом"
-    widget-swaf: "виджет swaf"
+    widget-handbook-germany: 
+    widget-hg: 
+    widget-start-with-a-friend: 
+    widget-swaf: 
   shareds:
     forms:
       fill_field: "Пожалуйста, заполните это поле"

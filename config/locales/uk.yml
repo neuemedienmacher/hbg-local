@@ -149,47 +149,47 @@ uk:
       off_canvas:
         result_text: "%{result_count} Показати результати пошуку"
       personal_anchor:
-        one:
-        other:
-        zero:  
+        one: 
+        other: 
+        zero: 
       personal_offers_new:
         _query:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         category:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         category_query:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         default:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
       remote_anchor:
-        one:
-        other:
-        zero:  
+        one: 
+        other: 
+        zero: 
       remote_offers_new:
         _query:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         category:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         category_query:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
         default:
-          one:
-          other:
-          zero:  
+          one: 
+          other: 
+          zero: 
       show_personal: "Показати місцеві пропозиції"
     shared:
       current_and_original_locale:
@@ -417,9 +417,9 @@ uk:
       filters:
         json:
           age:
-            one:
-            other:
-            zero:  
+            one: 
+            other: 
+            zero: 
           contact_type:
             personal: "На місці"
             remote: "По телефону або онлайн"
@@ -633,10 +633,10 @@ uk:
     update_requests: "оновити запит"
     users: "користувач"
     widget: "віджет"
-    widget-handbook-germany: "віджет handbook germany"
-    widget-hg: "віджет-hg"
-    widget-start-with-a-friend: "віджет почати з другом/подругою"
-    widget-swaf: "віджет-swaf"
+    widget-handbook-germany: 
+    widget-hg: 
+    widget-start-with-a-friend: 
+    widget-swaf: 
   shareds:
     forms:
       fill_field: "Будь ласка, заповніть це поле"
